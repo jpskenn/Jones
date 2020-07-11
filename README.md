@@ -15,7 +15,7 @@ GH60互換のケースに対応しており、市販のケースと組み合わ�
 Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
 Jones is a Row-staggered 60% keyboard with gapless R2-R3 row.  
-GH60 compatible PCB and keyplate.
+GH60 case compatible PCB and keyplate.
 
 
 ## コンセプト / Concept
