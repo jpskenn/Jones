@@ -37,8 +37,7 @@ GH60 compatible PCB and keyplate.
 
 キーレイアウトは、[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones") を参照してください。
 
-- 独自のずれ幅をもつ、左右対象のアルファ部。
-
+- 独自のずれ幅をもつ、左右対象のアルファ部。  
 R2とR3ずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
 左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並ぶ、自然なポジションにします。
 
@@ -46,25 +45,22 @@ R2とR3ずれの無い、ロースタガとオルソリニアを組み合わせ�
 
 ![Position:HHKB](./assets/position_hhkb.jpg)
 
-- 右手のホームポジションに近づけたMod
-
+- 右手のホームポジションに近づけたMod  
 BSキーを1行下げ、Enterキーと合わせて、右手のホームポジションのすぐ隣へ移動しました。  
 打鍵しやすい位置に使用頻度の高いModキーを配置したことで、右手の負担を軽減できます。
 
 ![Mod keys at right side](./assets/IMG_1436.jpeg)
 
-- キーレイアウトのバリエーション
+- キーレイアウトのバリエーション  
 スプリット、またはロングスペースキー（※）が選択でき、組み合わせるModキーを数パターンから選択できます。  
 ※ロングスペースキー版のキープレートを使用します。  
 右手側のModは内側へ移動した位置がデフォルトですが、一般的なキーボードと同様の右端へ配置するパターンも選べます。  
 最下行は両端にキーを配置しないHHKB風のレイアウトなども選択でき、キーの無い部分をカバーするためのブロッカーを用意しています。  
-右下にはロータリーエンコーダを搭載できます。
-
-[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones")
+右下にはロータリーエンコーダを搭載できます。  
+[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones")  
 ![key layouts](./assets/layout.png)
 
-- 一般的なキーキャップセットに対応
-
+- 一般的なキーキャップセットに対応  
 104キーのキーキャップで違和感なく埋められるキーレイアウトを選択できます。  
 GMK Coreに相当するセットを用意すれば、すべてのキーを想定サイズで埋めることができます。
 
@@ -72,16 +68,13 @@ GMK Coreに相当するセットを用意すれば、すべてのキーを想定
 
 ### 機能 / Functions
 
-- ロータリーエンコーダを搭載可能
-
+- ロータリーエンコーダを搭載可能  
 右下の銘板との入れ替えで、ロータリーエンコーダを搭載することができます。
 
-- インジケータLED
-
+- インジケータLED  
 R3右端に基板上のLEDが見える切り欠きを設けており、レイヤー等のインジケータLEDとして使用できます。
 
-- アンダーグローLEDへの対応（未完成）
-
+- アンダーグローLEDへの対応（未完成）  
 LEDテープ用端子などは未設置ですが、MCUの余剰ピンを基板上に引き出しているので、配線すれば可能です。
 
 - トラックボールモジュールへの対応（未完成）
@@ -91,8 +84,7 @@ LEDテープ用端子などは未設置ですが、MCUの余剰ピンを基板�
 
 以下に示すケースに対応しています。
 
-- GH60型
-
+- GH60型  
 確認済みのケース：[KBDfans TOFU 60% Aluminum Case](https://kbdfans.com/collections/60-layout-case/products/kbdfans-tofu-60-aluminum-case)
 
 - ケースレス簡易サンドイッチプレート（未完成）
