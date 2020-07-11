@@ -14,7 +14,7 @@ GH60互換のケースに対応しており、市販のケースと組み合わ�
 
 Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
-Jones is a 60% keyboard that has gapless R2-R3 row, the combination of Row-staggerd and Ortholinear.  
+Jones is a Row-staggered 60% keyboard with gapless R2-R3 row.  
 GH60 compatible PCB and keyplate.
 
 
@@ -39,16 +39,13 @@ GH60 compatible PCB and keyplate.
 
 - 独自のずれ幅をもつ、左右対象のアルファ部。  
 R2とR3ずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
-左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並ぶ、自然なポジションにします。
-
-![Position:Jones](./assets/position_jones.jpg)
-
+左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並ぶ、自然なポジションにします。  
+![Position:Jones](./assets/position_jones.jpg)  
 ![Position:HHKB](./assets/position_hhkb.jpg)
 
 - 右手のホームポジションに近づけたMod  
 BSキーを1行下げ、Enterキーと合わせて、右手のホームポジションのすぐ隣へ移動しました。  
-打鍵しやすい位置に使用頻度の高いModキーを配置したことで、右手の負担を軽減できます。
-
+打鍵しやすい位置に使用頻度の高いModキーを配置したことで、右手の負担を軽減できます。  
 ![Mod keys at right side](./assets/IMG_1436.jpeg)
 
 - キーレイアウトのバリエーション  
@@ -62,9 +59,8 @@ BSキーを1行下げ、Enterキーと合わせて、右手のホームポジシ
 
 - 一般的なキーキャップセットに対応  
 104キーのキーキャップで違和感なく埋められるキーレイアウトを選択できます。  
-GMK Coreに相当するセットを用意すれば、すべてのキーを想定サイズで埋めることができます。
-
-〓104な写真〓
+GMK Coreに相当するセットを用意すれば、すべてのキーを想定サイズで埋めることができます。  
+〓104な写真を載せる〓
 
 ### 機能 / Functions
 
@@ -92,7 +88,7 @@ LEDテープ用端子などは未設置ですが、MCUの余剰ピンを基板�
 - オリジナルトップマウントケース（未完成）
 
 
-### 制作例 / Example
+## 制作例 / Example
 
 ![ex.1](./assets/IMG_1412.jpeg)
 Keycap: TEX ADA, Case: KBDfans TOFU 60% Aluminum Black
