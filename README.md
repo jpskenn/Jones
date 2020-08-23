@@ -41,64 +41,66 @@ GH60 case compatible PCB and keyplate.
 
 キーレイアウトは、[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones") を参照してください。
 
-- 主要なキーを、独自のずれ幅で左右対象に配置。  
+#### 主要なキーを、独自のずれ幅で左右対象に配置。  
 R2とR3ずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
 アルファ部の左右対象レイアウトにより、肘、手首、指先が直線上に並ぶ、自然なポジションにします。  
- 
- ![Position:Jones](./assets/position_jones.jpg)  
+
+![Position:Jones](./assets/position_jones.jpg)  
 Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線上に並ぶ
 
- ![Position:HHKB](./assets/position_hhkb.jpg)
+![Position:HHKB](./assets/position_hhkb.jpg)
 一般的なレイアウト: 左手の手首から先、指先が外側へ向く
 
-- 右手のホームポジションに近づけたMod  
+#### 右手のホームポジションに近づけたMod  
 BSキーを1行下げ、Enterキーと合わせて、右手のホームポジションのすぐ隣へ移動しました。  
 打鍵しやすい位置に使用頻度の高いModキーを配置したことで、右手の負担を軽減できます。  
-<!-- 〓v.0.2の写真に差し替え予定〓 -->
+
+<!-- 〓v.0.2の写真に差し替え予定〓 -->  
 ![Mod keys at right side](./assets/IMG_1436.jpeg)
 
-- キーレイアウトのバリエーション  
+#### キーレイアウトのバリエーション  
 主なレイアウトは次の3通り。
-    - Wide：  
-    右手側を2U外側へ移動したレイアウト。Jonesのデフォルト。
-    - Narrow：  
-    右手側アルファ部は通常の位置。右手側Modキーを2U内側へ移動。
-    - Traditional：  
-    右手側アルファ部、Modキーともに通常の位置。
 
- 最下行のレイアウトはスプリット、またはロングスペースキー（※）が選択でき、組み合わせるModキーを数パターンから選択できます。  
+- Wide：  
+右手側を2U外側へ移動したレイアウト。Jonesのデフォルト。
+- Narrow：  
+右手側アルファ部は通常の位置。右手側Modキーを2U内側へ移動。
+- Traditional：  
+右手側アルファ部、Modキーともに通常の位置。  
+
+最下行のレイアウトはスプリット、またはロングスペースキー（※）が選択でき、組み合わせるModキーを数パターンから選択できます。  
 ※ロングスペースキー用のキープレートが別途必要です。  
 
- 最下行は両端にキーを配置しないHHKB風のレイアウトなども選択でき、キーを配置しない部分をカバーするためのブロッカーを用意しています。  
+最下行は両端にキーを配置しないHHKB風のレイアウトなども選択でき、キーを配置しない部分をカバーするためのブロッカーを用意しています。  
 
- 右下にはロータリーエンコーダを搭載できます。  
+右下にはロータリーエンコーダを搭載できます。  
 
- <!-- 〓v.0.2以降のレイアウトに差し替え予定〓 -->
- [Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones")  
+<!-- 〓v.0.2以降のレイアウトに差し替え予定〓 -->
+[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/62a2e13a54e2d129532bc8758cfc1e79 "Keyboard Layout Editor : Jones")  
 ![key layouts](./assets/layout.png)
 
-- 一般的なキーキャップセットに対応  
+#### 一般的なキーキャップセットに対応  
 一般的な104キーのキーキャップ（最下行のModがすべて1.25U）で違和感なく埋められるキーレイアウトを選択できます。  
 GMK Coreに相当するセットを用意すれば、すべてのキーを想定サイズで埋めることができます。  
 
- ![with 104 keycap set](./assets/IMG_1439.jpeg)  
+![with 104 keycap set](./assets/IMG_1439.jpeg)  
 一般的な104キーキャップの装着例  
 Jones v.0.1 w/ Qisan (Magicforce) PBT Keycaps
 
 ### 機能 / Functions
 
-- ロータリーエンコーダを搭載可能  
+#### ロータリーエンコーダを搭載可能  
 右下にロータリーエンコーダを搭載することができます。  
 ALPS EC11, EC12、またはその互換品に対応しています。
 
-- インジケータLEDをオンボードに設置可能  
+#### インジケータLEDをオンボードに設置可能  
 R3右端にレイヤーインジケータLEDを2個設置できます。
 
-- アンダーグローLEDへの対応  
+#### アンダーグローLEDへの対応  
 LEDテープ用端子は未設置ですが、LED用端子を基板上に用意しています。  
 v.0.2からは、オンボードのインジケータLEDと共存できるようになりました。
 
-- トラックボールモジュールへの対応  
+#### トラックボールモジュールへの対応  
 右下にトラックボール用の端子を用意してあります。  
 設置方法やソフトウェア面については準備中です。
 
@@ -108,8 +110,8 @@ v.0.2からは、オンボードのインジケータLEDと共存できるよう
 
 - GH60型  
 確認済みのケースは次の通り。
- - [KBDfans TOFU 60% Aluminum Case](https://kbdfans.com/collections/60-layout-case/products/kbdfans-tofu-60-aluminum-case)
- - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（※ケースの一部加工が必要）
+    - [KBDfans TOFU 60% Aluminum Case](https://kbdfans.com/collections/60-layout-case/products/kbdfans-tofu-60-aluminum-case)
+    - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（※ケースの一部加工が必要）
 
 - ケースレス簡易サンドイッチプレート（未完成）
 
