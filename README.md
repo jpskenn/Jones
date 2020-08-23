@@ -44,7 +44,7 @@ GH60 case compatible PCB and keyplate.
 - 主要なキーを、独自のずれ幅で左右対象に配置。  
 R2とR3ずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
 アルファ部の左右対象レイアウトにより、肘、手首、指先が直線上に並ぶ、自然なポジションにします。  
-
+ 
  ![Position:Jones](./assets/position_jones.jpg)  
 Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線上に並ぶ
 
