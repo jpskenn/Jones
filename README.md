@@ -136,7 +136,7 @@ Case: KBDfans TOFU 60% Aluminum Silver
 
 ## ビルドガイド
 
-- [v.0.1](./assets/BuildGuide_v.0.1_JA.md)
+- [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
 
 ## 制作歴 / Revision
 
