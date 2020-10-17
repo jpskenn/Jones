@@ -214,10 +214,8 @@ Jones v.0 モックアップ
 
 ### Before v.0
 
-[HHKB](https://happyhackingkb.com/jp/)、[Treadstoneシリーズ](https://github.com/marksard/Keyboards)、[Zinc（シンメトリカル版）](http://www.sho-k.co.uk/tech/735.html)、[Katana60](http://xahlee.info/kbd/katana60_keyboard.html)などを参考にしつつ、物理配列を検討。  
-
-[Keyboard Layout Editor](http://www.keyboard-layout-editor.com)を使った机上検討を重ね、キーキャップを並べたモックアップをいくつか作成。  
+物理配列について、[HHKB](https://happyhackingkb.com/jp/)、[Treadstoneシリーズ](https://github.com/marksard/Keyboards)、[Zinc（シンメトリカル版）](http://www.sho-k.co.uk/tech/735.html)、[Katana60](http://xahlee.info/kbd/katana60_keyboard.html)などを参考にしつつ、[Keyboard Layout Editor](http://www.keyboard-layout-editor.com)を使った机上検討を重ね、キーキャップを並べたモックアップをいくつか作成。  
 1行目と2行目のずれをなくしたものや、[QAZの並びでAを一番外側にしたり](http://www.keyboard-layout-editor.com/#/gists/f530b44df7799fa4d14944566bb18dd2)したものを作成するが、いずれも打鍵に不自然さがあったため、ボツ。
 
 ![Jones before v.0](./assets/IMG_1332.jpeg)  
-Jones before v.0 モックアップのひとつ
+Jones before v.0 作成したモックアップのひとつ
