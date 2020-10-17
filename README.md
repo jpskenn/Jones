@@ -75,16 +75,16 @@ Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線�
 最下行はスペースキーのサイズでいくつかバリエーションがあります。
 
 
-[![key layouts](./assets/layout.png)
+[![key layouts](./assets/layout.png)  
 Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
 
 
 基本的なレイアウトは、一般的なキーキャップセットで全て埋められるようになっています。  
 
-[![ANSI Style](./assets/jones_layout_v.3.5.4_ANSI.png)
+[![ANSI Style](./assets/jones_layout_v.3.5.4_ANSI.png)  
 基本的なレイアウト：ANSIスタイル](http://www.keyboard-layout-editor.com/#/gists/4b9d398551fc898d6d766054ebb30884)
 
-[![JP Style](./assets/jones_layout_v.3.5.4_JP.png)
+[![JP Style](./assets/jones_layout_v.3.5.4_JP.png)  
 基本的なレイアウト：JPスタイル](http://www.keyboard-layout-editor.com/#/gists/3bc20c5810c8dc7985cc79059cf4c005)
 
 
