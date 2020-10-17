@@ -60,15 +60,15 @@ You can also use OLED, connection pins for external devices and I2C functions by
 ![Position:Jones](./assets/position_jones.jpg)  
 Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線上に並ぶ
 
-![Position:HHKB](./assets/position_hhkb.jpg)
+![Position:HHKB](./assets/position_hhkb.jpg)  
 一般的なレイアウト: 左手の手首から先、指先が外側へ向く
 
-#### 右手のホームポジションに近づけたMod  
-40%キーボードのレイアウトにならい、BackSpace（写真ではDELキーを装着）とEnterキーを右手のホームポジションのすぐ隣へ移動しました。  
+#### 右手のホームポジションに近づけたModキー  
+40%キーボードのレイアウトにならい、Modキーを右手のホームポジションのすぐ隣へ移動しました。  
 打鍵しやすい位置に使用頻度の高いキーを配置したことで、右手の負担を軽減できます。  
 
-![Mod keys at right side](./assets/DSC_7217.jpeg)
-
+![Mod keys at right side](./assets/DSC_7217.jpeg)  
+右手のホームポジションすぐ隣のModキー
 
 #### キーレイアウトのバリエーション  
 キーレイアウトは、基本的なレイアウトとしてANSIまたはJPスタイルを選択できます。  
@@ -173,7 +173,7 @@ OLEDとはピンアサインの都合で排他使用となりますが、I2C接�
 - ブロッカー、銘板パーツ廃止。  
 [PIMP MY KEYBOARDのSwitch Blocker](https://pimpmykeyboard.com/switch-blocker-pack-of-10/)がブロッカーとして良い出来だった。
 
-![Jones v.0.3](./assets/DSC_7189.jpeg)
+![Jones v.0.3](./assets/DSC_7189.jpeg)  
 Jones v.0.3  
 Keycap: FILCO Majestouch 交換用カラーキーキャップセット 日本語108キー・かななし・ミルキーブルー  
 Case: 60% Plastic Case, Clear
@@ -186,7 +186,7 @@ Case: 60% Plastic Case, Clear
 - SMT Assemblyによる製造。  
 SMTAに対応するため、部品サイズを変更。
 
-![Jones v.0.2](./assets/IMG_1545.jpeg)
+![Jones v.0.2](./assets/IMG_1545.jpeg)  
 Jones v.0.2  
 Keycap: Tai-Hao PBT Backlit The Deep Forest Blue 132 Keys SKU#C22BF301  
 Case: KBDfans TOFU 60% Aluminum, Silver
@@ -197,7 +197,7 @@ Case: KBDfans TOFU 60% Aluminum, Silver
 - ai03氏の[PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)を参考に、基板を設計。  
 - MCUを乗せた基板の組み立て、動作に成功。
 
-![Jones v.0.1](./assets/IMG_1406.jpeg)
+![Jones v.0.1](./assets/IMG_1406.jpeg)  
 Jones v.0.1  
 Keycap: Tai-Hao Sakura Michi PBT  
 Case: KBDfans TOFU 60% Aluminum, Black
@@ -208,7 +208,9 @@ Case: KBDfans TOFU 60% Aluminum, Black
 
 KLEで作成したレイアウトを印刷して段ボールに貼り、両面テープでキーキャップを貼り付けたモックアップ。  
 これをデスクに置いてエアータイプしまくって、違和感なく打鍵できることを確認。
-![Jones v.0](./assets/IMG_1360.jpeg)
+
+![Jones v.0](./assets/IMG_1360.jpeg)  
+Jones v.0 モックアップ
 
 ### Before v.0
 
@@ -217,4 +219,5 @@ KLEで作成したレイアウトを印刷して段ボールに貼り、両面�
 [Keyboard Layout Editor](http://www.keyboard-layout-editor.com)を使った机上検討を重ね、キーキャップを並べたモックアップをいくつか作成。  
 1行目と2行目のずれをなくしたものや、[QAZの並びでAを一番外側にしたり](http://www.keyboard-layout-editor.com/#/gists/f530b44df7799fa4d14944566bb18dd2)したものを作成するが、いずれも打鍵に不自然さがあったため、ボツ。
 
-![Jones before v.0](./assets/IMG_1332.jpeg)
+![Jones before v.0](./assets/IMG_1332.jpeg)  
+Jones before v.0 モックアップのひとつ
