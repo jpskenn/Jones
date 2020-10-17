@@ -1,16 +1,14 @@
-# ジョーンズ / Jones
+# ジョーンズ（Jones）とは
 
-![Jones](./assets/IMG_1429.jpeg)
+![Jones](./assets/DSC_7205.jpeg)
 
-## について / About
+ジョーンズ（Jones）は、2行目と3行目のずれをなくし、ロースタッガードとオルソリニアを組み合わせた60%キーボードです。  
+左右対象のアルファ部と、右手ホームポジションのすぐ隣へ配置されたModキーにより、両手が自然なポジションで打鍵できます。  
 
-ジョーンズ（Jones）とは、2行目と3行目のずれをなくし、ロースタッガードとオルソリニアを組み合わせた60%キーボードです。  
-
-左右対象のアルファ部と、右手のホームポジションのすぐ隣に配置されたModキーにより、両手が自然なポジションで打鍵できます。  
-40%キーボードのコンパクトで軽快な運指の心地良さと、60%キーボードの必要十分なキー数（レイヤーに全部押し込まなくて良い！）を兼ね備えています。  
+40%〜50%のキーボードが60%のケースに収まったような配列になっており、コンパクトで軽快な運指の心地良さと、必要十分なキー数（レイヤーに全部押し込まなくて良い！）を兼ね備えています。  
 ANSIまたはJPスタイルのレイアウトが選択でき、PCBとキープレートはGH60型のケースと組み合わせて使用できます。  
 
-総当たりマトリクスの採用により、スピーカーや複数のロータリーエンコーダを同時に使用したり、OLEDや外部拡張端子、I2C接続などの機能も使用できます。
+2音同時発音のスピーカーと2個のロータリーエンコーダを同時に使用することができ、いくつかの部品を追加してファームウェアを作成すれば、OLEDや外部拡張端子、I2C接続の機能も使用できます。
 
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
@@ -20,31 +18,40 @@ ANSIまたはJPスタイルのレイアウトが選択でき、PCBとキープ�
 
 という具合で、ジョーンズ（Jones）に決まりました。
 
+---
+
 Jones is a 60% keyboard combined with Ortho-Linear and Row-staggered. It has gapless R2-R3 row.  
-GH60 case compatible PCB and keyplate.
+Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
+
+ANSI and JP style layouts are supported.  
+GH60 case compatible PCB and key-plate.
+
+Jones can handle a speaker with two simultaneous audio voices, two rotary encoders and LED lightings together.  
+You can also use OLED, connection pins for external devices and I2C functions by adding two or three parts and write firmware for it.
 
 
-## コンセプト / Concept
+## コンセプト
 
 このキーボードのコンセプトや実現したい要件は次の通りです。
 
-- 基本的には、通常のロースタガレイアウトで十分という気持ち。
+- 基本的には、通常のロースタガレイアウトでそこそこ満足という気持ち。
 - 左手の肘、手首、指先を直線状に並べて、ポジションを改善したい。
-- 通常のロースタガだと、右手のModが遠くてつらい。
-- 左右対称のアルファ部。
+- 右手のModが遠いとつらい。
+- アルファ部が左右対称じゃないと話にならない。
 - サイズは60%。
 - GH60型のケースに対応させ、ケース設計をメイン作業に含めない。
 - HHKB的な何かを目指しつつ、スプリットスペースが使いたい。
 - ProMicroを使わずにキーボードを作る。
-- たまに一般的なキーボードを使うときにも普通に使えるよう、独自要素を盛り込みすぎない。
+- たまに一般的なキーボード（＝通常のロースタガ）を使うときにも普通に使えるような配列にとどめておく。  
+→独自配列にしすぎない。
 - 標準的なキーキャプですべて埋められるレイアウト。
 
 
-## 特徴 / Features
+## 特徴
 
 ### キーレイアウト
 
-キーレイアウトは、Keyboard Layout Editor[Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef) を参照してください。
+
 
 #### 独自のずれ幅をもつ左右対象のアルファ部。  
 2行目と3行目にずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
@@ -57,45 +64,45 @@ Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線�
 一般的なレイアウト: 左手の手首から先、指先が外側へ向く
 
 #### 右手のホームポジションに近づけたMod  
-40%キーボードのレイアウトにならい、BackSpaceとEnterキーを右手のホームポジションのすぐ隣へ移動しました。  
+40%キーボードのレイアウトにならい、BackSpace（写真ではDELキーを装着）とEnterキーを右手のホームポジションのすぐ隣へ移動しました。  
 打鍵しやすい位置に使用頻度の高いキーを配置したことで、右手の負担を軽減できます。  
 
-![Mod keys at right side](./assets/IMG_1436.jpeg)
+![Mod keys at right side](./assets/DSC_7217.jpeg)
+
 
 #### キーレイアウトのバリエーション  
 キーレイアウトは、基本的なレイアウトとしてANSIまたはJPスタイルを選択できます。  
-最下行はスプリットスペースまたはロングスペースのバリエーションがあります。
+最下行はスペースキーのサイズでいくつかバリエーションがあります。
 
-[Keyboard Layout Editor : Jones](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
-![key layouts](./assets/layout.png)
 
-基本的なレイアウトは、一般的なキーキャップセットで全て埋められるようにしています。  
+[![key layouts](./assets/layout.png)
+Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
 
-〓写真　一般的なセットの例、ANSI
-〓写真　一般的なセットの例　JP
 
-〓写真で使ってるキーキャップへのリンク
+基本的なレイアウトは、一般的なキーキャップセットで全て埋められるようになっています。  
 
-[Majestouch 交換用キーキャップセット 英語104キー・US ASCII](https://www.diatec.co.jp/shop/det.php?prod_c=1839)  
-[Majestouch 交換用カラーキーキャップセット 日本語108キー・かななし・ミルキーブルー](https://www.diatec.co.jp/shop/det.php?prod_c=4130)
+[![ANSI Style](./assets/jones_layout_v.3.5.4_ANSI.png)
+基本的なレイアウト：ANSIスタイル](http://www.keyboard-layout-editor.com/#/gists/4b9d398551fc898d6d766054ebb30884)
+
+[![JP Style](./assets/jones_layout_v.3.5.4_JP.png)
+基本的なレイアウト：JPスタイル](http://www.keyboard-layout-editor.com/#/gists/3bc20c5810c8dc7985cc79059cf4c005)
+
 
 
 GMK Coreに相当するセットや40%キーボード向けのセットを用意すれば、基本的なレイアウトから派生した個性的なレイアウトにすることもできます。  
 
-〓写真　個性的なレイアウトの例
 
 
+### 機能
 
+#### スピーカー
+基板上にスピーカーを設置して、レイヤーキーなど特定のキー押下時にメロディを流したり、ピコピコと打鍵音を鳴らしたりできます。
 
-### 機能 / Functions
-
-Jonesに搭載されている機能は次の通りです。  
-なお、書き込めるファームウェアサイズに上限があるため、全ての機能を同時に使うことは困難です。  
-（大きなファームウェアも書き込めるよう、改良を検討中です）
+[QMKの音楽モード](https://docs.qmk.fm/#/ja/feature_audio?id=音楽モード)を使って曲を演奏することもでき、組み立て時の設定で2音同時発音にも対応します。
 
 #### ロータリーエンコーダ  
 右下と左下へ、片方または両方にロータリーエンコーダを設置することができます。  
-ALPS EC11、EC12、またはその互換品を使用できます。
+ALPS ALPINE製のEC11またはEC12と、その互換品が使用できます。
 
 #### LED照明  
 レイヤーインジケータやアンダーグロー照明として、LEDを設置できます。  
@@ -105,27 +112,27 @@ ALPS EC11、EC12、またはその互換品を使用できます。
 - 左側：3行目と4行目にそれぞれ2個。合計4個。  
 - 裏側：テープLED。
 
-#### スピーカー
-基板上にスピーカーを設置して、レイヤーキーなど特定のキー押下時にメロディを流したり、打鍵音を鳴らしたりできます。
+#### 追加使用できる機能
 
-[QMKの音楽モード](https://docs.qmk.fm/#/ja/feature_audio?id=音楽モード)を使って曲を演奏することもでき、組み立て時の設定で2音同時再生にも対応します。
+いくつかの部品を追加してファームウェアを作成すれば、以下の機能も使用できます。  
+なお、書き込めるファームウェアサイズに上限があるため、全ての機能を同時に使うことは困難です。  
+（大きなファームウェアも書き込めるよう、改良を検討中です）
 
-
-#### OLED
+##### OLED
 右上2キーとは設置場所の都合で排他使用となりますが、OLEDを設置し各種情報を表示したりできます。
 
-#### 外部接続用端子
+##### 外部接続用端子
 ピンヘッダやピンソケットを介し、本対外のデバイスへ接続する目的の外部接続用端子を用意しています。
 
 キーマトリクスの未使用部分を含むピンやMCUの未使用ピンなどが含まれており、テンキーやマクロパッドを追加したり、ロータリーエンコーダを増設したりできます。
 
 
-#### I2C接続
+##### I2C接続
 
-OLEDとはピンアサインの都合で排他使用となりますが、I2C接続が使用できます。
-基板上に用意してあるプルアップ抵抗のパターンへ抵抗を追加して使用します。
+OLEDとはピンアサインの都合で排他使用となりますが、I2C接続が使用できます。  
+基板上に用意したプルアップ抵抗のパターンへ抵抗を追加して使用します。
 
-### ケース / Case
+### ケース
 
 以下に示すケースに対応しています。
 
@@ -139,59 +146,75 @@ OLEDとはピンアサインの都合で排他使用となりますが、I2C接�
 - オリジナルトップマウントケース（未完成）
 
 
-## 制作例 / Example
-
-![ex.1](./assets/IMG_1406.jpeg)
-Jones v.0.1  
-Keycap: Tai-Hao Sakura Michi PBT  
-Case: KBDfans TOFU 60% Aluminum Black
-
-![ex.2](./assets/IMG_1546.jpeg)
-Jones v.0.1(above)  
-Keycap: Qisan (Magicforce) PBT Keycaps  
-Case: Plastic case White
-
-v.0.2(below)  
-Keycap: Tai-Hao Sakura Michi PBT  
-Case: KBDfans TOFU 60% Aluminum Silver
-
 ## ビルドガイド
 
-- [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
-- [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
 - [v.0.3.1](./docs/BuildGuide_v.0.3.1_JA.md)
+- [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
+- [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
 
-## 製作歴 / Revision
+## 製作歴
 
 ### v.0.3.1
 
 - v.0.3の課題や不具合解消。
-- オーディオの2音同時再生に対応。
+- オーディオの2音同時発音に対応。
 - テープLEDのみ光らせるパターンを追加。
 
 ### v.0.3
 
-- レイアウト変更（Wide削除、JPスタイル追加）
+- [レイアウト変更](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
+2U-Wide、Traditionalレイアウトを削除。  
+もしかして日本語配列で使いたい人もいたりするの？との思いから、JPスタイルを追加。
 - v.0.2の課題や不具合解消。
-- キーマトリクスを総当たりマトリクスに変更。
-- LED、スピーカーの追加。
+- キーマトリクスを、総当たりマトリクスに変更し、MCUのピン使用数を大幅削減（19 → 11）。  
+余ったピンを、2個目のロータリーエンコーダ、スピーカー、外部接続、OLED、I2Cなどの機能で使用。
+- 左側LED、裏側LEDテープ追加。
 - USB Type-C。
-- 外部接続端子を用意。
+- ブロッカー、銘板パーツ廃止。  
+[PIMP MY KEYBOARDのSwitch Blocker](https://pimpmykeyboard.com/switch-blocker-pack-of-10/)がブロッカーとして良い出来だった。
+
+![Jones v.0.3](./assets/DSC_7189.jpeg)
+Jones v.0.3  
+Keycap: FILCO Majestouch 交換用カラーキーキャップセット 日本語108キー・かななし・ミルキーブルー  
+Case: 60% Plastic Case, Clear
 
 ### v.0.2
 
-- Wideレイアウトをデフォルトとして追加。
+- レイアウトの試行錯誤を続け、[2U-Wideレイアウト](http://www.keyboard-layout-editor.com/#/gists/3f5424e6560f5de6fa7c19e22f219831)を追加。  
+2U-Wideのホームポジションは肩への負担も減るので気にいっていたが、このレイアウトを覚えると普通のキーボードをまともに打鍵できなくなったため、使用を封印。
 - v.0.1の課題や不具合解消
-- キーの配置に沿った配線に変更。
-- SMT Assemblyに対応するため、部品サイズを変更。
+- SMT Assemblyによる製造。  
+SMTAに対応するため、部品サイズを変更。
+
+![Jones v.0.2](./assets/IMG_1545.jpeg)
+Jones v.0.2  
+Keycap: Tai-Hao PBT Backlit The Deep Forest Blue 132 Keys SKU#C22BF301  
+Case: KBDfans TOFU 60% Aluminum, Silver
 
 ### v.0.1
 
-- R2とR3にずれが無いレイアウトが決定。  
-- KLE、基板、キープレートを制作。  
+- v.0のレイアウトを元に、[基板に乗せられるレイアウト](http://www.keyboard-layout-editor.com/#/gists/325aaaab8bd5e87bff89b81d67181bea)に調整。  
+- ai03氏の[PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)を参考に、基板を設計。  
 - MCUを乗せた基板の組み立て、動作に成功。
 
-### v.0.0
+![Jones v.0.1](./assets/IMG_1406.jpeg)
+Jones v.0.1  
+Keycap: Tai-Hao Sakura Michi PBT  
+Case: KBDfans TOFU 60% Aluminum, Black
 
-- 机上でレイアウトを検討したのち、モックアップを作成。  
-QAZのAが一番外側に来るレイアウトだったが、打鍵具合がイマイチだったため、ボツ。
+### v.0
+
+試行錯誤の末、2行目と3行目にずれが無いレイアウトが決定。  
+
+KLEで作成したレイアウトを印刷して段ボールに貼り、両面テープでキーキャップを貼り付けたモックアップ。  
+これをデスクに置いてエアータイプしまくって、違和感なく打鍵できることを確認。
+![Jones v.0](./assets/IMG_1360.jpeg)
+
+### Before v.0
+
+[HHKB](https://happyhackingkb.com/jp/)、[Treadstoneシリーズ](https://github.com/marksard/Keyboards)、[Zinc（シンメトリカル版）](http://www.sho-k.co.uk/tech/735.html)、[Katana60](http://xahlee.info/kbd/katana60_keyboard.html)などを参考にしつつ、物理配列を検討。  
+
+[Keyboard Layout Editor](http://www.keyboard-layout-editor.com)を使った机上検討を重ね、キーキャップを並べたモックアップをいくつか作成。  
+1行目と2行目のずれをなくしたものや、[QAZの並びでAを一番外側にしたり](http://www.keyboard-layout-editor.com/#/gists/f530b44df7799fa4d14944566bb18dd2)したものを作成するが、いずれも打鍵に不自然さがあったため、ボツ。
+
+![Jones before v.0](./assets/IMG_1332.jpeg)
