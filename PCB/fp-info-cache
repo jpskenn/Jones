@@ -1,4 +1,4 @@
-19218950681756479
+19209396815721269
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76502,48 +76502,6 @@ rotary encoder
 0
 5
 4
-SMK_Jones
-HIROSE_UX60SC-MB-5S8
-
-
-0
-9
-9
-SMK_Jones
-UX60-MB-5S8
-
-
-0
-9
-9
-SMK_Jones_logo
-Jones_logo_28.3x10.2_silk
-
-
-0
-0
-0
-SMK_Jones_logo
-Jones_logo_30.1x10.9_F.Cu
-
-
-0
-0
-0
-SMK_Jones_logo
-Jones_logo_30.1x10.9_silk
-
-
-0
-0
-0
-SMK_Jones_logo
-Jones_logo_33.9x12.3_silk
-
-
-0
-0
-0
 SMK_SU120
 1pin_conn
 Resitance 3 pas
@@ -78596,6 +78554,13 @@ RotaryEncoder_EC11-no-legs
 0
 0
 SMK_keebio
+SK6812-MINI-E
+
+
+0
+0
+0
+SMK_keebio
 SM0805D
 
 
@@ -78758,6 +78723,20 @@ TRRS-PJ-320A-no-Fmask
 0
 SMK_keebio
 TRRS-PJ-320D
+
+
+0
+0
+0
+SMK_keebio
+TRRS-PJ-605
+
+
+0
+0
+0
+SMK_keebio
+TRRS-PJ-606
 
 
 0
