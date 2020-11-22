@@ -4,4 +4,5 @@
   (lib (name locallib)(type KiCad)(uri "$(KIPRJMOD)/locallib.pretty")(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri "$(KIPRJMOD)/Type-C.pretty")(options "")(descr ""))
   (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/WS2812B.pretty)(options "")(descr ""))
+  (lib (name Housings_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/Housings_DFN_QFN.pretty)(options "")(descr ""))
 )
