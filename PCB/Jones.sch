@@ -2674,8 +2674,6 @@ Connection ~ 5875 3375
 Connection ~ 6275 4625
 Wire Wire Line
 	6275 4625 6875 4625
-Wire Wire Line
-	8275 3375 8275 3875
 Text GLabel 8750 7800 2    60   Input ~ 0
 ROW1
 Text GLabel 8750 7700 2    60   Input ~ 0
@@ -3661,4 +3659,17 @@ F 3 "~" H 13725 5225 50  0001 C CNN
 	1    13725 5225
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5F156A11
+P 8475 4325
+F 0 "SW5" H 8475 4610 50  0000 C CNN
+F 1 "SW_Push" H 8475 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 8475 4525 50  0001 C CNN
+F 3 "~" H 8475 4525 50  0001 C CNN
+	1    8475 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 3375 8275 4325
 $EndSCHEMATC
