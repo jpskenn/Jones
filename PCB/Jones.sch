@@ -215,15 +215,15 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15275 4850 2    60   Input ~ 0
 pin6
-Text GLabel 15275 4950 2    60   Input ~ 0
+Text GLabel 15275 4750 2    60   Input ~ 0
 pin5
-Text GLabel 15275 5050 2    60   Input ~ 0
+Text GLabel 15275 4650 2    60   Input ~ 0
 pin4
 Text GLabel 15275 3150 2    60   Input ~ 0
 pin3
-Text GLabel 15275 3050 2    60   Input ~ 0
+Text GLabel 15275 4050 2    60   Input ~ 0
 pin2
-Text GLabel 15275 2750 2    60   Input ~ 0
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin1
 Text GLabel 15275 2250 2    60   Input ~ 0
 pin11
@@ -1211,9 +1211,9 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 4650 2    50   Input ~ 0
+Text GLabel 15275 5050 2    50   Input ~ 0
 RE1_A
-Text GLabel 15275 4750 2    50   Input ~ 0
+Text GLabel 15275 4950 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_up1
@@ -1522,7 +1522,7 @@ U 1 1 5EF95D64
 P 10025 10775
 F 0 "J2" H 10105 10817 50  0000 L CNN
 F 1 "Conn_01x04" H 10105 10726 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10025 10775 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 10025 10775 50  0001 C CNN
 F 3 "~" H 10025 10775 50  0001 C CNN
 	1    10025 10775
 	1    0    0    -1  
@@ -2812,7 +2812,6 @@ F 3 "~" H 10225 3525 50  0001 C CNN
 	1    10225 3325
 	1    0    0    -1  
 $EndComp
-Connection ~ 9775 3325
 $Comp
 L Switch:SW_Push SW_@1
 U 1 1 5F65B3CF
@@ -2827,7 +2826,7 @@ $EndComp
 Connection ~ 10425 3325
 Connection ~ 9375 3325
 Wire Wire Line
-	9375 3325 9375 4450
+	9375 3325 9375 4300
 Connection ~ 10025 3175
 Connection ~ 10025 3325
 Wire Wire Line
@@ -3375,10 +3374,6 @@ Text GLabel 2100 10750 0    50   Input ~ 0
 RE2_1
 Text GLabel 2100 10950 0    50   Input ~ 0
 RE2_2
-Text GLabel 10025 6625 2    50   Input ~ 0
-RE1_1
-Text GLabel 10425 7000 1    50   Input ~ 0
-RE1_2
 Text GLabel 925  6525 2    50   Input ~ 0
 RE2_1
 Text GLabel 1325 6825 1    50   Input ~ 0
@@ -3439,7 +3434,7 @@ F 3 "~" V 3925 10850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3925 10750 3775 10750
+	3925 10750 3875 10750
 $Comp
 L Device:R_Small R7
 U 1 1 630A67DA
@@ -3459,7 +3454,7 @@ Connection ~ 3925 10750
 Wire Wire Line
 	3775 10850 3775 10950
 Wire Wire Line
-	3775 10950 3925 10950
+	3775 10950 3825 10950
 Connection ~ 3925 10950
 Wire Wire Line
 	3925 10950 4125 10950
@@ -3568,8 +3563,8 @@ Wire Wire Line
 	5350 9550 5550 9550
 Text GLabel 15275 2550 2    50   Input ~ 0
 Reserve_PB4
-Text GLabel 15275 3950 2    50   Input ~ 0
-Reserve_PD6
+Text GLabel 15275 2750 2    50   Input ~ 0
+Reserve_PB6
 Text GLabel 15275 2650 2    50   Input ~ 0
 Reserve_PB5
 Text GLabel 15275 3550 2    50   Input ~ 0
@@ -3580,7 +3575,7 @@ U 1 1 64137DFF
 P 7675 10425
 F 0 "J4" H 7725 10742 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 7725 10651 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 7675 10425 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Horizontal" H 7675 10425 50  0001 C CNN
 F 3 "~" H 7675 10425 50  0001 C CNN
 	1    7675 10425
 	1    0    0    -1  
@@ -3665,7 +3660,7 @@ Text GLabel 15275 4350 2    60   Input ~ 0
 pin9
 Text GLabel 15275 3850 2    60   Input ~ 0
 pin8
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 3950 2    60   Input ~ 0
 pin7
 Text GLabel 15275 3650 2    50   Input ~ 0
 Reserve_PD3-TX
@@ -3740,8 +3735,6 @@ $EndComp
 Wire Wire Line
 	8725 3175 8725 4125
 Wire Wire Line
-	9775 3025 9775 3325
-Wire Wire Line
 	9375 2075 9375 3325
 Wire Wire Line
 	8725 4125 8725 4275
@@ -3772,8 +3765,8 @@ Wire Wire Line
 Wire Wire Line
 	7175 6925 7175 7075
 Connection ~ 7175 7075
-Text GLabel 15275 4050 2    50   Input ~ 0
-Reserve_PD7
+Text GLabel 15275 3050 2    50   Input ~ 0
+Reserve_PC6
 Text GLabel 7475 10625 0    50   Input ~ 0
 Reserve_PB4
 Text GLabel 7975 10625 2    50   Input ~ 0
@@ -3783,9 +3776,9 @@ Reserve_PD2-RX
 Text GLabel 9825 10975 0    50   Input ~ 0
 Reserve_PD3-TX
 Text GLabel 9825 10675 0    50   Input ~ 0
-Reserve_PD6
+Reserve_PB6
 Text GLabel 9825 10775 0    50   Input ~ 0
-Reserve_PD7
+Reserve_PC6
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED3
 U 1 1 5FA68DEE
@@ -3882,4 +3875,36 @@ Wire Wire Line
 	10025 4275 10025 4575
 Wire Wire Line
 	10425 4275 10425 4575
+Text GLabel 10425 7000 1    50   Input ~ 0
+RE1_2
+Text GLabel 10025 6625 2    50   Input ~ 0
+RE1_1
+Connection ~ 9375 4300
+Wire Wire Line
+	9375 4300 9375 4450
+$Comp
+L Device:Speaker LS2
+U 1 1 601C3A65
+P 3575 10425
+F 0 "LS2" H 3538 10008 50  0000 C CNN
+F 1 "Speaker" H 3538 10099 50  0000 C CNN
+F 2 "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E4000-R1" H 3575 10225 50  0001 C CNN
+F 3 "~" H 3565 10375 50  0001 C CNN
+	1    3575 10425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3775 10325 3875 10325
+Wire Wire Line
+	3875 10325 3875 10750
+Connection ~ 3875 10750
+Wire Wire Line
+	3875 10750 3775 10750
+Wire Wire Line
+	3775 10425 3825 10425
+Wire Wire Line
+	3825 10425 3825 10950
+Connection ~ 3825 10950
+Wire Wire Line
+	3825 10950 3925 10950
 $EndSCHEMATC
