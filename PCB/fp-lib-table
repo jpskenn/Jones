@@ -7,4 +7,5 @@
   (lib (name Housings_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/Housings_DFN_QFN.pretty)(options "")(descr ""))
   (lib (name Jones.local)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
   (lib (name UX60SC-MB-5S8)(type KiCad)(uri ${KIPRJMOD}/UX60SC-MB-5S8.pretty)(options "")(descr ""))
+  (lib (name USB4085-GF-A)(type KiCad)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3)(options "")(descr ""))
 )

@@ -6,4 +6,5 @@
   (lib (name ai03-locallib)(type Legacy)(uri ${KIPRJMOD}/locallib.pretty/schema/ai03-locallib.lib)(options "")(descr ""))
   (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/WS2812B.pretty/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
   (lib (name UX60SC-MB-5S8)(type Legacy)(uri ${KIPRJMOD}/UX60SC-MB-5S8.pretty/UX60SC-MB-5S8.lib)(options "")(descr ""))
+  (lib (name USB4085-GF-A)(type Legacy)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)(options "")(descr ""))
 )
