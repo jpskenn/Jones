@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_002/Jones.sch</source>
-    <date>2020 July 18, Saturday 10:40:48</date>
+    <source>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_005/Jones.sch</source>
+    <date>2020 July 20, Monday 06:24:55</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -146,7 +146,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F61E4EA</tstamp>
     </comp>
-    <comp ref="SW9">
+    <comp ref="SW_1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -165,7 +165,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F621324</tstamp>
     </comp>
-    <comp ref="SW17">
+    <comp ref="SW_2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -184,7 +184,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F626384</tstamp>
     </comp>
-    <comp ref="SW25">
+    <comp ref="SW_3">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -203,7 +203,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F626390</tstamp>
     </comp>
-    <comp ref="SW31">
+    <comp ref="SW_4">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -222,7 +222,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F62D1D2</tstamp>
     </comp>
-    <comp ref="SW35">
+    <comp ref="SW_5">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -241,7 +241,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F62D1DE</tstamp>
     </comp>
-    <comp ref="SW39">
+    <comp ref="SW_6">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -260,7 +260,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F62D1EA</tstamp>
     </comp>
-    <comp ref="SW43">
+    <comp ref="SW_\1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -279,7 +279,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F62D1F6</tstamp>
     </comp>
-    <comp ref="SW47">
+    <comp ref="SW_`1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -298,7 +298,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F633F26</tstamp>
     </comp>
-    <comp ref="SW51">
+    <comp ref="SW_7">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -317,7 +317,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F633F32</tstamp>
     </comp>
-    <comp ref="SW56">
+    <comp ref="SW_8">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -336,7 +336,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F633F3E</tstamp>
     </comp>
-    <comp ref="SW64">
+    <comp ref="SW_9">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -355,7 +355,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F633F4A</tstamp>
     </comp>
-    <comp ref="SW75">
+    <comp ref="SW_0">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -374,7 +374,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F639FBC</tstamp>
     </comp>
-    <comp ref="SW83">
+    <comp ref="SW_-1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -393,9 +393,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F639FC8</tstamp>
     </comp>
-    <comp ref="SW2">
+    <comp ref="SW_TAB1">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -412,7 +412,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B339</tstamp>
     </comp>
-    <comp ref="SW10">
+    <comp ref="SW_Q1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -431,7 +431,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B345</tstamp>
     </comp>
-    <comp ref="SW18">
+    <comp ref="SW_W1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -450,7 +450,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B351</tstamp>
     </comp>
-    <comp ref="SW26">
+    <comp ref="SW_E1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -469,7 +469,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B35D</tstamp>
     </comp>
-    <comp ref="SW32">
+    <comp ref="SW_R1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -488,7 +488,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B369</tstamp>
     </comp>
-    <comp ref="SW36">
+    <comp ref="SW_T1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -507,7 +507,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B375</tstamp>
     </comp>
-    <comp ref="SW40">
+    <comp ref="SW_[2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -526,7 +526,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B38D</tstamp>
     </comp>
-    <comp ref="SW44">
+    <comp ref="SW_]1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -545,7 +545,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B399</tstamp>
     </comp>
-    <comp ref="SW48">
+    <comp ref="SW_Y1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -564,7 +564,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3A5</tstamp>
     </comp>
-    <comp ref="SW52">
+    <comp ref="SW_U1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -583,7 +583,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3B1</tstamp>
     </comp>
-    <comp ref="SW57">
+    <comp ref="SW_I1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -602,9 +602,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3BD</tstamp>
     </comp>
-    <comp ref="SW66">
+    <comp ref="SW_BS1">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1.5U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -621,7 +621,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3C9</tstamp>
     </comp>
-    <comp ref="SW76">
+    <comp ref="SW_BS2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.5U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -640,9 +640,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3D5</tstamp>
     </comp>
-    <comp ref="SW85">
+    <comp ref="SW_BS3">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-2U-ReversedStabilizers-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-2U-Hotswap-ReversedStabilizers</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -659,9 +659,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F65B3E1</tstamp>
     </comp>
-    <comp ref="SW3">
+    <comp ref="SW_CTL1">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -678,7 +678,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665845</tstamp>
     </comp>
-    <comp ref="SW11">
+    <comp ref="SW_A1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -697,7 +697,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665851</tstamp>
     </comp>
-    <comp ref="SW19">
+    <comp ref="SW_S1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -716,7 +716,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F66585D</tstamp>
     </comp>
-    <comp ref="SW27">
+    <comp ref="SW_D1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -735,7 +735,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665869</tstamp>
     </comp>
-    <comp ref="SW33">
+    <comp ref="SW_F1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -754,7 +754,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665875</tstamp>
     </comp>
-    <comp ref="SW37">
+    <comp ref="SW_G1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -773,7 +773,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665881</tstamp>
     </comp>
-    <comp ref="SW41">
+    <comp ref="SW_blank1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -792,7 +792,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F665899</tstamp>
     </comp>
-    <comp ref="SW45">
+    <comp ref="SW_'1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -811,7 +811,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658A5</tstamp>
     </comp>
-    <comp ref="SW49">
+    <comp ref="SW_H1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -830,7 +830,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658B1</tstamp>
     </comp>
-    <comp ref="SW53">
+    <comp ref="SW_J1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -849,7 +849,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658BD</tstamp>
     </comp>
-    <comp ref="SW58">
+    <comp ref="SW_K1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -868,7 +868,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658C9</tstamp>
     </comp>
-    <comp ref="SW68">
+    <comp ref="SW_L1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -887,7 +887,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658D5</tstamp>
     </comp>
-    <comp ref="SW86">
+    <comp ref="SW_BS4">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.5U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -895,9 +895,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6658DB</tstamp>
     </comp>
-    <comp ref="SW87">
+    <comp ref="SW_]2">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -916,7 +916,7 @@
     </comp>
     <comp ref="SW_LSFT2">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1123,7 +1123,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F66BA31</tstamp>
     </comp>
-    <comp ref="SW80">
+    <comp ref="SW_RSFT1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.75U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1142,7 +1142,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F66BA3D</tstamp>
     </comp>
-    <comp ref="SW89">
+    <comp ref="SW_/2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1188,7 +1188,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F678121</tstamp>
     </comp>
-    <comp ref="SW77">
+    <comp ref="SW_;1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1196,7 +1196,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F68651C</tstamp>
     </comp>
-    <comp ref="SW67">
+    <comp ref="SW_ENT1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-2.25U-ReversedStabilizers-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1204,7 +1204,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F69371F</tstamp>
     </comp>
-    <comp ref="SW84">
+    <comp ref="SW_=1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1212,7 +1212,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6B0365</tstamp>
     </comp>
-    <comp ref="SW79">
+    <comp ref="SW_&gt;1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1228,7 +1228,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6C2748</tstamp>
     </comp>
-    <comp ref="SW65">
+    <comp ref="SW_O1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1236,7 +1236,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6AD842</tstamp>
     </comp>
-    <comp ref="SW88">
+    <comp ref="SW_/1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1270,7 +1270,7 @@
     </comp>
     <comp ref="SW_Gr.G5">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-6.25U-ReversedStabilizers-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-6.25U-Hotswap-ReversedStabilizers</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1364,7 +1364,7 @@
     </comp>
     <comp ref="SW_Gr.K3">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1397,7 +1397,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7283A7</tstamp>
     </comp>
-    <comp ref="SW91">
+    <comp ref="SW_P1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1486,18 +1486,6 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6C56F6</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>Molex-0548190519</value>
-      <footprint>SMK_ai03_RandomKeyboardParts:Molex-0548190519</footprint>
-      <fields>
-        <field name="Field4">Hirose</field>
-        <field name="Field5">4.1mm</field>
-        <field name="Field6">Manufacturer recommendations</field>
-      </fields>
-      <libsource lib="UX60SC-MB-5S8" part="UX60SC-MB-5S8" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F11DB3B</tstamp>
     </comp>
     <comp ref="R3">
       <value>22</value>
@@ -1595,7 +1583,7 @@
     </comp>
     <comp ref="SW_Gr.H5">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-2U-ReversedStabilizers-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-2U-Hotswap-ReversedStabilizers</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1706,7 +1694,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F639FD4</tstamp>
     </comp>
-    <comp ref="SW1">
+    <comp ref="SW_ENT3">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
@@ -1714,15 +1702,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F2E70C7</tstamp>
     </comp>
-    <comp ref="SW78">
+    <comp ref="SW_ENT2">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-2.25U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-2.25U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F639FCE</tstamp>
     </comp>
-    <comp ref="SW82">
+    <comp ref="SW_'2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1730,7 +1718,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F320F07</tstamp>
     </comp>
-    <comp ref="SW92">
+    <comp ref="SW_'3">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.25U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1749,7 +1737,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F320F13</tstamp>
     </comp>
-    <comp ref="SW102">
+    <comp ref="SW_Fn2">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1768,15 +1756,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3CB947</tstamp>
     </comp>
-    <comp ref="SW98">
-      <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F3CB950</tstamp>
-    </comp>
-    <comp ref="SW110">
+    <comp ref="SW_Fn4">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1.25U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1784,9 +1764,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3CB957</tstamp>
     </comp>
-    <comp ref="SW107">
+    <comp ref="SW_Fn3">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1821,7 +1801,7 @@
     </comp>
     <comp ref="SW_Gr.E2">
       <value>SW_Push</value>
-      <footprint>MX_Alps_Hybrid:MXOnly-2U-NoLED</footprint>
+      <footprint>MX_Alps_Hybrid:MXOnly-2U-Hotswap</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1867,7 +1847,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F6C2742</tstamp>
     </comp>
-    <comp ref="SW4">
+    <comp ref="SW_[1">
       <value>SW_Push</value>
       <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
       <datasheet>~</datasheet>
@@ -1875,8 +1855,124 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F499D32</tstamp>
     </comp>
+    <comp ref="OL1">
+      <value>OLED/TB</value>
+      <footprint>SMK_foostan:OLED_1side</footprint>
+      <libsource lib="SMK_foostan" part="OLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1613E8</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F213686</tstamp>
+    </comp>
+    <comp ref="JP_LED1">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F261658</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2C6027</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>Molex-0548190519</value>
+      <footprint>SMK_ai03_RandomKeyboardParts:Molex-0548190519</footprint>
+      <libsource lib="Molex-0548190589" part="Molex-0548190589" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F25C75B</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F17C7BB</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F17C7C1</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F193985</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F19398B</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F250D48</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F250D4E</tstamp>
+    </comp>
+    <comp ref="SW_extra1">
+      <value>SW_Push</value>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-NoLED</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F156A11</tstamp>
+    </comp>
+    <comp ref="SW_Fn1">
+      <value>SW_Push</value>
+      <footprint>MX_Alps_Hybrid:MXOnly-1U-Hotswap</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3CB950</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x03">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -2002,6 +2098,22 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="LED" part="SK6812MINI">
       <description>RGB LED with integrated controller</description>
       <docs>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</docs>
@@ -2094,6 +2206,31 @@
         <field name="Value">MountingHole</field>
       </fields>
     </libpart>
+    <libpart lib="Molex-0548190589" part="Molex-0548190589">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">Molex-0548190589</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="ID" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="D-" type="input"/>
+        <pin num="5" name="VBUS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SMK_foostan" part="OLED">
+      <fields>
+        <field name="Reference">OL</field>
+        <field name="Value">OLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="SCL" type="BiDi"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
@@ -2106,27 +2243,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="UX60SC-MB-5S8" part="UX60SC-MB-5S8">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">UX60SC-MB-5S8</field>
-        <field name="Footprint">HIROSE_UX60SC-MB-5S8</field>
-        <field name="Field4">Hirose</field>
-        <field name="Field5">4.1mm</field>
-        <field name="Field6">Manufacturer recommendations</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_in"/>
-        <pin num="2" name="D-" type="BiDi"/>
-        <pin num="3" name="D+" type="BiDi"/>
-        <pin num="4" name="ID" type="BiDi"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="S1" name="SHIELD" type="power_in"/>
-        <pin num="S2" name="SHIELD" type="power_in"/>
-        <pin num="S3" name="SHIELD" type="power_in"/>
-        <pin num="S4" name="SHIELD" type="power_in"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
@@ -2136,7 +2252,10 @@
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="Jones-rescue">
-      <uri>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_002/Jones-rescue.lib</uri>
+      <uri>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_005/Jones-rescue.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
     </library>
     <library logical="LED">
       <uri>/Library/Application Support/kicad/library/LED.lib</uri>
@@ -2147,136 +2266,144 @@
     <library logical="Mechanical">
       <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
     </library>
+    <library logical="Molex-0548190589">
+      <uri>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_005/Molex-0548190589.pretty/Schematic Library/Molex-0548190589.lib</uri>
+    </library>
+    <library logical="SMK_foostan">
+      <uri>/Users/kenn/Git/kbd/library/kbd.lib</uri>
+    </library>
     <library logical="Switch">
       <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
-    </library>
-    <library logical="UX60SC-MB-5S8">
-      <uri>/Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_002/UX60SC-MB-5S8.pretty/UX60SC-MB-5S8.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="ROW4">
-      <node ref="D65" pin="1"/>
-      <node ref="D68" pin="1"/>
-      <node ref="D67" pin="1"/>
-      <node ref="D69" pin="1"/>
       <node ref="D45" pin="1"/>
       <node ref="D60" pin="1"/>
-      <node ref="D70" pin="1"/>
-      <node ref="D50" pin="1"/>
+      <node ref="D65" pin="1"/>
       <node ref="D55" pin="1"/>
       <node ref="D5" pin="1"/>
-      <node ref="U2" pin="10"/>
+      <node ref="D50" pin="1"/>
       <node ref="D10" pin="1"/>
       <node ref="D15" pin="1"/>
       <node ref="D20" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D70" pin="1"/>
       <node ref="D66" pin="1"/>
+      <node ref="U2" pin="10"/>
     </net>
     <net code="2" name="Net-(C6-Pad1)">
       <node ref="U2" pin="6"/>
       <node ref="C6" pin="1"/>
     </net>
     <net code="3" name="GND">
-      <node ref="C5" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="LED2" pin="2"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J1" pin="5"/>
-      <node ref="ResetSW1" pin="1"/>
       <node ref="SW_R.E.1" pin="C"/>
-      <node ref="Y1" pin="4"/>
-      <node ref="J1" pin="S1"/>
-      <node ref="J1" pin="S2"/>
-      <node ref="U2" pin="15"/>
-      <node ref="J1" pin="S3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="OL1" pin="4"/>
       <node ref="C6" pin="2"/>
-      <node ref="U2" pin="23"/>
+      <node ref="ResetSW1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
       <node ref="C7" pin="1"/>
-      <node ref="J1" pin="S4"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="23"/>
       <node ref="U2" pin="5"/>
+      <node ref="C5" pin="1"/>
       <node ref="U2" pin="43"/>
       <node ref="U2" pin="35"/>
-      <node ref="LED1" pin="2"/>
+      <node ref="C4" pin="1"/>
     </net>
     <net code="4" name="+5V">
       <node ref="U2" pin="34"/>
-      <node ref="LED1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="U2" pin="44"/>
-      <node ref="U2" pin="24"/>
+      <node ref="C5" pin="2"/>
       <node ref="U2" pin="7"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U2" pin="14"/>
+      <node ref="J3" pin="1"/>
+      <node ref="OL1" pin="3"/>
       <node ref="F1" pin="1"/>
       <node ref="R5" pin="1"/>
-      <node ref="LED2" pin="4"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="2"/>
       <node ref="C7" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="LED1" pin="4"/>
+      <node ref="LED2" pin="4"/>
     </net>
     <net code="5" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2"/>
-      <node ref="ResetSW1" pin="2"/>
       <node ref="U2" pin="13"/>
+      <node ref="ResetSW1" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
     <net code="6" name="Net-(R6-Pad2)">
       <node ref="U2" pin="33"/>
       <node ref="R6" pin="2"/>
     </net>
     <net code="7" name="LED">
-      <node ref="LED1" pin="3"/>
       <node ref="U2" pin="1"/>
+      <node ref="JP_LED1" pin="2"/>
     </net>
     <net code="8" name="Net-(C3-Pad1)">
-      <node ref="Y1" pin="3"/>
       <node ref="C3" pin="1"/>
       <node ref="U2" pin="16"/>
+      <node ref="Y1" pin="3"/>
     </net>
-    <net code="9" name="Reserve_PD0">
-      <node ref="J2" pin="1"/>
+    <net code="9" name="Reserve_PD0-SCL">
+      <node ref="OL1" pin="2"/>
       <node ref="U2" pin="18"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="10" name="Reserve_PD1">
-      <node ref="J2" pin="2"/>
+    <net code="10" name="Reserve_PD1-SDA">
       <node ref="U2" pin="19"/>
+      <node ref="OL1" pin="1"/>
+      <node ref="J2" pin="2"/>
     </net>
     <net code="11" name="Reserve_PD5">
-      <node ref="J2" pin="3"/>
       <node ref="U2" pin="22"/>
+      <node ref="J2" pin="3"/>
     </net>
     <net code="12" name="D-">
       <node ref="U2" pin="3"/>
       <node ref="R4" pin="1"/>
     </net>
     <net code="13" name="COL10">
-      <node ref="SW_Gr.K2" pin="1"/>
-      <node ref="U2" pin="38"/>
-      <node ref="SW_Gr.K1" pin="1"/>
-      <node ref="SW_Gr.K3" pin="1"/>
-      <node ref="SW_&lt;1" pin="1"/>
-      <node ref="SW56" pin="1"/>
-      <node ref="SW58" pin="1"/>
       <node ref="SW_&lt;2" pin="1"/>
-      <node ref="SW57" pin="1"/>
+      <node ref="U2" pin="38"/>
+      <node ref="SW_8" pin="1"/>
+      <node ref="SW_Gr.K2" pin="1"/>
+      <node ref="SW_I1" pin="1"/>
+      <node ref="SW_Gr.K3" pin="1"/>
+      <node ref="SW_Gr.K1" pin="1"/>
+      <node ref="SW_K1" pin="1"/>
+      <node ref="SW_&lt;1" pin="1"/>
     </net>
     <net code="14" name="D+">
-      <node ref="U2" pin="4"/>
       <node ref="R3" pin="1"/>
+      <node ref="U2" pin="4"/>
     </net>
     <net code="15" name="COL13">
-      <node ref="SW84" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="SW83" pin="1"/>
-      <node ref="SW86" pin="1"/>
-      <node ref="SW82" pin="1"/>
-      <node ref="SW87" pin="1"/>
+      <node ref="SW_Fn1" pin="1"/>
+      <node ref="SW_=1" pin="1"/>
+      <node ref="SW_-1" pin="1"/>
+      <node ref="SW_BS3" pin="1"/>
+      <node ref="SW_]2" pin="1"/>
+      <node ref="SW_BS4" pin="1"/>
+      <node ref="SW_'3" pin="1"/>
       <node ref="U2" pin="41"/>
-      <node ref="SW85" pin="1"/>
-      <node ref="SW92" pin="1"/>
+      <node ref="SW_Fn4" pin="1"/>
+      <node ref="SW_ENT3" pin="1"/>
+      <node ref="SW_Fn2" pin="1"/>
+      <node ref="SW_'2" pin="1"/>
     </net>
     <net code="16" name="Net-(U2-Pad42)">
       <node ref="U2" pin="42"/>
@@ -2286,195 +2413,195 @@
       <node ref="SW_R.E.1" pin="B"/>
     </net>
     <net code="18" name="RE_A">
-      <node ref="SW_R.E.1" pin="A"/>
       <node ref="U2" pin="9"/>
+      <node ref="SW_R.E.1" pin="A"/>
     </net>
     <net code="19" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="SW_ESC1" pin="2"/>
     </net>
     <net code="20" name="Net-(D6-Pad2)">
-      <node ref="SW9" pin="2"/>
       <node ref="D6" pin="2"/>
+      <node ref="SW_1" pin="2"/>
     </net>
     <net code="21" name="Net-(D11-Pad2)">
-      <node ref="SW17" pin="2"/>
       <node ref="D11" pin="2"/>
+      <node ref="SW_2" pin="2"/>
     </net>
     <net code="22" name="Net-(D16-Pad2)">
-      <node ref="SW25" pin="2"/>
       <node ref="D16" pin="2"/>
+      <node ref="SW_3" pin="2"/>
     </net>
     <net code="23" name="Net-(D21-Pad2)">
+      <node ref="SW_4" pin="2"/>
       <node ref="D21" pin="2"/>
-      <node ref="SW31" pin="2"/>
     </net>
     <net code="24" name="Net-(D25-Pad2)">
+      <node ref="SW_5" pin="2"/>
       <node ref="D25" pin="2"/>
-      <node ref="SW35" pin="2"/>
     </net>
     <net code="25" name="Net-(D29-Pad2)">
-      <node ref="SW39" pin="2"/>
       <node ref="D29" pin="2"/>
+      <node ref="SW_6" pin="2"/>
     </net>
     <net code="26" name="Net-(D33-Pad2)">
+      <node ref="SW_\1" pin="2"/>
       <node ref="D33" pin="2"/>
-      <node ref="SW43" pin="2"/>
     </net>
     <net code="27" name="Net-(D37-Pad2)">
       <node ref="D37" pin="2"/>
-      <node ref="SW47" pin="2"/>
+      <node ref="SW_`1" pin="2"/>
     </net>
     <net code="28" name="Net-(D41-Pad2)">
+      <node ref="SW_7" pin="2"/>
       <node ref="D41" pin="2"/>
-      <node ref="SW51" pin="2"/>
     </net>
     <net code="29" name="Net-(D46-Pad2)">
+      <node ref="SW_8" pin="2"/>
       <node ref="D46" pin="2"/>
-      <node ref="SW56" pin="2"/>
     </net>
     <net code="30" name="Net-(D51-Pad2)">
+      <node ref="SW_9" pin="2"/>
       <node ref="D51" pin="2"/>
-      <node ref="SW64" pin="2"/>
     </net>
     <net code="31" name="Net-(D56-Pad2)">
+      <node ref="SW_0" pin="2"/>
       <node ref="D56" pin="2"/>
-      <node ref="SW75" pin="2"/>
     </net>
     <net code="32" name="Net-(D61-Pad2)">
+      <node ref="SW_-1" pin="2"/>
       <node ref="D61" pin="2"/>
-      <node ref="SW83" pin="2"/>
     </net>
     <net code="33" name="ROW0">
-      <node ref="D11" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="D61" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="U2" pin="20"/>
-      <node ref="D33" pin="1"/>
       <node ref="D29" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D25" pin="1"/>
       <node ref="D37" pin="1"/>
       <node ref="D21" pin="1"/>
-      <node ref="D56" pin="1"/>
+      <node ref="U2" pin="20"/>
       <node ref="D51" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D56" pin="1"/>
       <node ref="D46" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="D41" pin="1"/>
+      <node ref="D61" pin="1"/>
     </net>
     <net code="34" name="Net-(D2-Pad2)">
+      <node ref="SW_TAB1" pin="2"/>
       <node ref="D2" pin="2"/>
-      <node ref="SW2" pin="2"/>
     </net>
     <net code="35" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
-      <node ref="SW10" pin="2"/>
+      <node ref="SW_Q1" pin="2"/>
     </net>
     <net code="36" name="Net-(D12-Pad2)">
       <node ref="D12" pin="2"/>
-      <node ref="SW18" pin="2"/>
+      <node ref="SW_W1" pin="2"/>
     </net>
     <net code="37" name="Net-(D17-Pad2)">
       <node ref="D17" pin="2"/>
-      <node ref="SW26" pin="2"/>
+      <node ref="SW_E1" pin="2"/>
     </net>
     <net code="38" name="Net-(D22-Pad2)">
-      <node ref="SW32" pin="2"/>
       <node ref="D22" pin="2"/>
+      <node ref="SW_R1" pin="2"/>
     </net>
     <net code="39" name="Net-(D26-Pad2)">
+      <node ref="SW_T1" pin="2"/>
       <node ref="D26" pin="2"/>
-      <node ref="SW36" pin="2"/>
     </net>
     <net code="40" name="Net-(D30-Pad2)">
-      <node ref="SW40" pin="2"/>
       <node ref="D30" pin="2"/>
+      <node ref="SW_[2" pin="2"/>
     </net>
     <net code="41" name="Net-(D34-Pad2)">
-      <node ref="SW44" pin="2"/>
       <node ref="D34" pin="2"/>
+      <node ref="SW_]1" pin="2"/>
     </net>
     <net code="42" name="Net-(D38-Pad2)">
-      <node ref="SW48" pin="2"/>
       <node ref="D38" pin="2"/>
+      <node ref="SW_Y1" pin="2"/>
     </net>
     <net code="43" name="Net-(D42-Pad2)">
-      <node ref="SW52" pin="2"/>
       <node ref="D42" pin="2"/>
+      <node ref="SW_U1" pin="2"/>
     </net>
     <net code="44" name="Net-(D47-Pad2)">
-      <node ref="SW57" pin="2"/>
       <node ref="D47" pin="2"/>
+      <node ref="SW_I1" pin="2"/>
     </net>
     <net code="45" name="ROW1">
-      <node ref="D47" pin="1"/>
       <node ref="D7" pin="1"/>
-      <node ref="D52" pin="1"/>
+      <node ref="D62" pin="1"/>
       <node ref="D57" pin="1"/>
       <node ref="D2" pin="1"/>
-      <node ref="D62" pin="1"/>
-      <node ref="D34" pin="1"/>
-      <node ref="D17" pin="1"/>
-      <node ref="D38" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="D12" pin="1"/>
       <node ref="D22" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D12" pin="1"/>
       <node ref="D42" pin="1"/>
+      <node ref="D38" pin="1"/>
       <node ref="D30" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D34" pin="1"/>
       <node ref="U2" pin="21"/>
     </net>
     <net code="46" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2"/>
-      <node ref="SW3" pin="2"/>
+      <node ref="SW_CTL1" pin="2"/>
     </net>
     <net code="47" name="Net-(D8-Pad2)">
       <node ref="D8" pin="2"/>
-      <node ref="SW11" pin="2"/>
+      <node ref="SW_A1" pin="2"/>
     </net>
     <net code="48" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2"/>
-      <node ref="SW19" pin="2"/>
+      <node ref="SW_S1" pin="2"/>
     </net>
     <net code="49" name="Net-(D18-Pad2)">
       <node ref="D18" pin="2"/>
-      <node ref="SW27" pin="2"/>
+      <node ref="SW_D1" pin="2"/>
     </net>
     <net code="50" name="Net-(D23-Pad2)">
       <node ref="D23" pin="2"/>
-      <node ref="SW33" pin="2"/>
+      <node ref="SW_F1" pin="2"/>
     </net>
     <net code="51" name="Net-(D27-Pad2)">
       <node ref="D27" pin="2"/>
-      <node ref="SW37" pin="2"/>
+      <node ref="SW_G1" pin="2"/>
     </net>
     <net code="52" name="Net-(D31-Pad2)">
-      <node ref="SW41" pin="2"/>
       <node ref="D31" pin="2"/>
+      <node ref="SW_blank1" pin="2"/>
     </net>
     <net code="53" name="Net-(D35-Pad2)">
-      <node ref="SW45" pin="2"/>
+      <node ref="SW_'1" pin="2"/>
       <node ref="D35" pin="2"/>
     </net>
     <net code="54" name="Net-(D39-Pad2)">
-      <node ref="SW49" pin="2"/>
+      <node ref="SW_H1" pin="2"/>
       <node ref="D39" pin="2"/>
     </net>
     <net code="55" name="Net-(D43-Pad2)">
+      <node ref="SW_J1" pin="2"/>
       <node ref="D43" pin="2"/>
-      <node ref="SW53" pin="2"/>
     </net>
     <net code="56" name="Net-(D48-Pad2)">
+      <node ref="SW_K1" pin="2"/>
       <node ref="D48" pin="2"/>
-      <node ref="SW58" pin="2"/>
     </net>
     <net code="57" name="Net-(D63-Pad2)">
+      <node ref="SW_BS4" pin="2"/>
+      <node ref="SW_]2" pin="2"/>
       <node ref="D63" pin="2"/>
-      <node ref="SW87" pin="2"/>
-      <node ref="SW86" pin="2"/>
     </net>
     <net code="58" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
       <node ref="SW_Z1" pin="2"/>
+      <node ref="D9" pin="2"/>
     </net>
     <net code="59" name="Net-(D14-Pad2)">
       <node ref="D14" pin="2"/>
@@ -2489,150 +2616,150 @@
       <node ref="SW_V1" pin="2"/>
     </net>
     <net code="62" name="Net-(D28-Pad2)">
-      <node ref="D28" pin="2"/>
       <node ref="SW_B1" pin="2"/>
+      <node ref="D28" pin="2"/>
     </net>
     <net code="63" name="Net-(D32-Pad2)">
-      <node ref="D32" pin="2"/>
       <node ref="SW_center1" pin="2"/>
+      <node ref="D32" pin="2"/>
     </net>
     <net code="64" name="Net-(D36-Pad2)">
-      <node ref="D36" pin="2"/>
       <node ref="SW_B2" pin="2"/>
+      <node ref="D36" pin="2"/>
     </net>
     <net code="65" name="Net-(D40-Pad2)">
       <node ref="D40" pin="2"/>
       <node ref="SW_N1" pin="2"/>
     </net>
     <net code="66" name="Net-(D44-Pad2)">
-      <node ref="SW_M1" pin="2"/>
       <node ref="D44" pin="2"/>
+      <node ref="SW_M1" pin="2"/>
     </net>
     <net code="67" name="Net-(D49-Pad2)">
       <node ref="SW_&lt;2" pin="2"/>
-      <node ref="SW_&lt;1" pin="2"/>
       <node ref="D49" pin="2"/>
+      <node ref="SW_&lt;1" pin="2"/>
     </net>
     <net code="68" name="Net-(D45-Pad2)">
-      <node ref="SW_Gr.I1" pin="2"/>
-      <node ref="SW_Gr.I2" pin="2"/>
       <node ref="D45" pin="2"/>
-      <node ref="SW_Gr.I4" pin="2"/>
+      <node ref="SW_Gr.I2" pin="2"/>
+      <node ref="SW_Gr.I1" pin="2"/>
       <node ref="SW_Gr.I3" pin="2"/>
+      <node ref="SW_Gr.I4" pin="2"/>
     </net>
     <net code="69" name="Net-(D60-Pad2)">
       <node ref="D60" pin="2"/>
       <node ref="SW_Gr.L1" pin="2"/>
     </net>
     <net code="70" name="Net-(D53-Pad2)">
-      <node ref="SW67" pin="2"/>
-      <node ref="SW68" pin="2"/>
       <node ref="D53" pin="2"/>
+      <node ref="SW_ENT1" pin="2"/>
+      <node ref="SW_L1" pin="2"/>
     </net>
     <net code="71" name="Net-(D62-Pad2)">
-      <node ref="SW84" pin="2"/>
+      <node ref="SW_BS3" pin="2"/>
       <node ref="D62" pin="2"/>
-      <node ref="SW85" pin="2"/>
+      <node ref="SW_=1" pin="2"/>
     </net>
     <net code="72" name="Net-(D54-Pad2)">
-      <node ref="SW79" pin="2"/>
-      <node ref="SW80" pin="2"/>
+      <node ref="SW_&gt;1" pin="2"/>
       <node ref="D54" pin="2"/>
+      <node ref="SW_RSFT1" pin="2"/>
     </net>
     <net code="73" name="COL5">
       <node ref="SW_B1" pin="1"/>
-      <node ref="SW37" pin="1"/>
+      <node ref="U2" pin="30"/>
+      <node ref="SW_G1" pin="1"/>
       <node ref="SW_Gr.E2" pin="1"/>
       <node ref="SW_Gr.E1" pin="1"/>
-      <node ref="SW36" pin="1"/>
-      <node ref="SW35" pin="1"/>
-      <node ref="U2" pin="30"/>
+      <node ref="SW_5" pin="1"/>
+      <node ref="SW_T1" pin="1"/>
     </net>
     <net code="74" name="COL1">
       <node ref="SW_Z1" pin="1"/>
-      <node ref="SW11" pin="1"/>
-      <node ref="SW10" pin="1"/>
+      <node ref="SW_Q1" pin="1"/>
+      <node ref="SW_A1" pin="1"/>
+      <node ref="SW_1" pin="1"/>
+      <node ref="SW_Gr.A3" pin="1"/>
+      <node ref="U2" pin="26"/>
       <node ref="SW_Gr.A2" pin="1"/>
       <node ref="SW_Gr.A4" pin="1"/>
-      <node ref="SW_Gr.A3" pin="1"/>
-      <node ref="SW9" pin="1"/>
       <node ref="SW_Gr.A1" pin="1"/>
-      <node ref="U2" pin="26"/>
     </net>
     <net code="75" name="Net-(D52-Pad2)">
-      <node ref="SW65" pin="2"/>
-      <node ref="SW66" pin="2"/>
+      <node ref="SW_O1" pin="2"/>
       <node ref="D52" pin="2"/>
+      <node ref="SW_BS1" pin="2"/>
     </net>
     <net code="76" name="Net-(D59-Pad2)">
-      <node ref="SW89" pin="2"/>
-      <node ref="SW88" pin="2"/>
+      <node ref="SW_/1" pin="2"/>
+      <node ref="SW_/2" pin="2"/>
       <node ref="D59" pin="2"/>
     </net>
     <net code="77" name="Net-(D5-Pad2)">
-      <node ref="SW_Gr.A1" pin="2"/>
-      <node ref="SW_Gr.A3" pin="2"/>
-      <node ref="D5" pin="2"/>
       <node ref="SW_Gr.A4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="SW_Gr.A1" pin="2"/>
       <node ref="SW_Gr.A2" pin="2"/>
+      <node ref="SW_Gr.A3" pin="2"/>
     </net>
     <net code="78" name="Net-(D10-Pad2)">
-      <node ref="SW_Gr.C1" pin="2"/>
-      <node ref="SW_Gr.C2" pin="2"/>
       <node ref="D10" pin="2"/>
-      <node ref="SW_Gr.C4" pin="2"/>
+      <node ref="SW_Gr.C2" pin="2"/>
       <node ref="SW_Gr.C3" pin="2"/>
+      <node ref="SW_Gr.C1" pin="2"/>
+      <node ref="SW_Gr.C4" pin="2"/>
     </net>
     <net code="79" name="COL3">
-      <node ref="U2" pin="28"/>
-      <node ref="SW_Gr.C3" pin="1"/>
       <node ref="SW_Gr.C4" pin="1"/>
-      <node ref="SW27" pin="1"/>
+      <node ref="SW_E1" pin="1"/>
       <node ref="SW_C1" pin="1"/>
-      <node ref="SW26" pin="1"/>
+      <node ref="SW_3" pin="1"/>
+      <node ref="SW_Gr.C3" pin="1"/>
       <node ref="SW_Gr.C1" pin="1"/>
+      <node ref="SW_D1" pin="1"/>
       <node ref="SW_Gr.C2" pin="1"/>
-      <node ref="SW25" pin="1"/>
+      <node ref="U2" pin="28"/>
     </net>
     <net code="80" name="Net-(D15-Pad2)">
-      <node ref="SW_Gr.D3" pin="2"/>
-      <node ref="SW_Gr.D2" pin="2"/>
       <node ref="D15" pin="2"/>
+      <node ref="SW_Gr.D2" pin="2"/>
       <node ref="SW_Gr.D1" pin="2"/>
+      <node ref="SW_Gr.D3" pin="2"/>
     </net>
     <net code="81" name="COL4">
+      <node ref="SW_R1" pin="1"/>
       <node ref="SW_V1" pin="1"/>
-      <node ref="SW_Gr.D2" pin="1"/>
-      <node ref="SW32" pin="1"/>
-      <node ref="SW31" pin="1"/>
-      <node ref="SW33" pin="1"/>
-      <node ref="SW_Gr.D3" pin="1"/>
+      <node ref="SW_4" pin="1"/>
+      <node ref="SW_F1" pin="1"/>
       <node ref="U2" pin="29"/>
       <node ref="SW_Gr.D1" pin="1"/>
+      <node ref="SW_Gr.D3" pin="1"/>
+      <node ref="SW_Gr.D2" pin="1"/>
     </net>
     <net code="82" name="Net-(D50-Pad2)">
-      <node ref="SW_Gr.J3" pin="2"/>
       <node ref="SW_Gr.J2" pin="2"/>
       <node ref="D50" pin="2"/>
       <node ref="SW_Gr.J1" pin="2"/>
       <node ref="SW_Gr.J4" pin="2"/>
+      <node ref="SW_Gr.J3" pin="2"/>
     </net>
     <net code="83" name="COL9">
-      <node ref="SW_Gr.J1" pin="1"/>
-      <node ref="SW52" pin="1"/>
-      <node ref="SW_Gr.J4" pin="1"/>
-      <node ref="SW_M1" pin="1"/>
-      <node ref="SW51" pin="1"/>
-      <node ref="SW_Gr.J2" pin="1"/>
-      <node ref="U2" pin="37"/>
-      <node ref="SW53" pin="1"/>
+      <node ref="SW_7" pin="1"/>
       <node ref="SW_Gr.J3" pin="1"/>
+      <node ref="SW_Gr.J4" pin="1"/>
+      <node ref="SW_U1" pin="1"/>
+      <node ref="SW_Gr.J1" pin="1"/>
+      <node ref="SW_Gr.J2" pin="1"/>
+      <node ref="SW_J1" pin="1"/>
+      <node ref="SW_M1" pin="1"/>
+      <node ref="U2" pin="37"/>
     </net>
     <net code="84" name="Net-(D55-Pad2)">
-      <node ref="SW_Gr.K2" pin="2"/>
-      <node ref="D55" pin="2"/>
       <node ref="SW_Gr.K3" pin="2"/>
       <node ref="SW_Gr.K1" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="SW_Gr.K2" pin="2"/>
     </net>
     <net code="85" name="Net-(D20-Pad2)">
       <node ref="SW_Gr.E2" pin="2"/>
@@ -2652,191 +2779,197 @@
       <node ref="LED2" pin="1"/>
     </net>
     <net code="89" name="Net-(D57-Pad2)">
-      <node ref="SW4" pin="2"/>
+      <node ref="SW_P1" pin="2"/>
+      <node ref="SW_[1" pin="2"/>
       <node ref="D57" pin="2"/>
-      <node ref="SW76" pin="2"/>
-      <node ref="SW91" pin="2"/>
+      <node ref="SW_BS2" pin="2"/>
     </net>
     <net code="90" name="COL11">
-      <node ref="SW_Gr.L1" pin="1"/>
-      <node ref="SW64" pin="1"/>
-      <node ref="SW66" pin="1"/>
+      <node ref="SW_RSFT1" pin="1"/>
+      <node ref="SW_ENT1" pin="1"/>
+      <node ref="SW_&gt;1" pin="1"/>
+      <node ref="SW_O1" pin="1"/>
+      <node ref="SW_L1" pin="1"/>
       <node ref="U2" pin="39"/>
-      <node ref="SW68" pin="1"/>
-      <node ref="SW80" pin="1"/>
-      <node ref="SW65" pin="1"/>
-      <node ref="SW67" pin="1"/>
-      <node ref="SW79" pin="1"/>
+      <node ref="SW_Gr.L1" pin="1"/>
+      <node ref="SW_BS1" pin="1"/>
+      <node ref="SW_9" pin="1"/>
     </net>
     <net code="91" name="VCC">
-      <node ref="J1" pin="1"/>
+      <node ref="USB1" pin="5"/>
       <node ref="F1" pin="2"/>
     </net>
     <net code="92" name="Net-(D58-Pad2)">
-      <node ref="SW77" pin="2"/>
       <node ref="D58" pin="2"/>
-      <node ref="SW78" pin="2"/>
+      <node ref="SW_ENT2" pin="2"/>
+      <node ref="SW_;1" pin="2"/>
     </net>
     <net code="93" name="ROW2">
-      <node ref="D63" pin="1"/>
-      <node ref="D58" pin="1"/>
-      <node ref="D53" pin="1"/>
-      <node ref="U2" pin="12"/>
-      <node ref="D48" pin="1"/>
-      <node ref="D43" pin="1"/>
-      <node ref="D39" pin="1"/>
-      <node ref="D35" pin="1"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D27" pin="1"/>
       <node ref="D23" pin="1"/>
       <node ref="D18" pin="1"/>
       <node ref="D13" pin="1"/>
-      <node ref="D8" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D58" pin="1"/>
       <node ref="D3" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D8" pin="1"/>
     </net>
     <net code="94" name="COL12">
-      <node ref="U2" pin="40"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="SW91" pin="1"/>
-      <node ref="SW88" pin="1"/>
-      <node ref="SW77" pin="1"/>
-      <node ref="SW89" pin="1"/>
-      <node ref="SW75" pin="1"/>
-      <node ref="SW78" pin="1"/>
+      <node ref="SW_[1" pin="1"/>
+      <node ref="SW_ENT2" pin="1"/>
+      <node ref="SW_P1" pin="1"/>
       <node ref="SW_R.E.1" pin="S1"/>
-      <node ref="SW76" pin="1"/>
+      <node ref="SW_BS2" pin="1"/>
+      <node ref="SW_/1" pin="1"/>
+      <node ref="SW_0" pin="1"/>
+      <node ref="SW_;1" pin="1"/>
+      <node ref="SW_/2" pin="1"/>
+      <node ref="U2" pin="40"/>
+      <node ref="SW_extra1" pin="1"/>
     </net>
     <net code="95" name="RE_S2">
-      <node ref="SW_R.E.1" pin="S2"/>
+      <node ref="SW_extra1" pin="2"/>
       <node ref="D65" pin="2"/>
+      <node ref="SW_R.E.1" pin="S2"/>
     </net>
-    <net code="96" name="Net-(J1-Pad2)">
-      <node ref="J1" pin="2"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="97" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
+    <net code="96" name="Net-(R3-Pad2)">
+      <node ref="USB1" pin="3"/>
       <node ref="R3" pin="2"/>
     </net>
-    <net code="98" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
+    <net code="97" name="Net-(R4-Pad2)">
+      <node ref="USB1" pin="4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="98" name="Net-(USB1-Pad2)">
+      <node ref="USB1" pin="2"/>
     </net>
     <net code="99" name="COL6">
-      <node ref="SW40" pin="1"/>
-      <node ref="SW41" pin="1"/>
-      <node ref="SW_center1" pin="1"/>
-      <node ref="SW_Gr.G5" pin="1"/>
+      <node ref="SW_[2" pin="1"/>
       <node ref="U2" pin="31"/>
-      <node ref="SW_Gr.G1" pin="1"/>
+      <node ref="SW_Gr.G5" pin="1"/>
+      <node ref="SW_center1" pin="1"/>
       <node ref="SW_Gr.G4" pin="1"/>
-      <node ref="SW_Gr.G2" pin="1"/>
-      <node ref="SW39" pin="1"/>
+      <node ref="SW_Gr.G1" pin="1"/>
+      <node ref="SW_6" pin="1"/>
       <node ref="SW_Gr.G3" pin="1"/>
+      <node ref="SW_blank1" pin="1"/>
+      <node ref="SW_Gr.G2" pin="1"/>
     </net>
     <net code="100" name="Net-(D68-Pad2)">
       <node ref="SW_Gr.G3" pin="2"/>
-      <node ref="SW_Gr.G4" pin="2"/>
       <node ref="SW_Gr.G2" pin="2"/>
-      <node ref="D68" pin="2"/>
       <node ref="SW_Gr.G1" pin="2"/>
+      <node ref="SW_Gr.G4" pin="2"/>
       <node ref="SW_Gr.G5" pin="2"/>
+      <node ref="D68" pin="2"/>
     </net>
     <net code="101" name="COL7">
-      <node ref="U2" pin="32"/>
-      <node ref="SW43" pin="1"/>
-      <node ref="SW44" pin="1"/>
-      <node ref="SW_B2" pin="1"/>
-      <node ref="SW45" pin="1"/>
-      <node ref="SW_Gr.H5" pin="1"/>
-      <node ref="SW_Gr.H4" pin="1"/>
-      <node ref="SW_Gr.H3" pin="1"/>
       <node ref="SW_Gr.H2" pin="1"/>
+      <node ref="SW_]1" pin="1"/>
+      <node ref="SW_'1" pin="1"/>
+      <node ref="U2" pin="32"/>
       <node ref="SW_Gr.H1" pin="1"/>
+      <node ref="SW_B2" pin="1"/>
+      <node ref="SW_Gr.H3" pin="1"/>
+      <node ref="SW_Gr.H4" pin="1"/>
+      <node ref="SW_\1" pin="1"/>
+      <node ref="SW_Gr.H5" pin="1"/>
     </net>
     <net code="102" name="Net-(D69-Pad2)">
-      <node ref="SW_Gr.H1" pin="2"/>
-      <node ref="SW_Gr.H2" pin="2"/>
-      <node ref="SW_Gr.H3" pin="2"/>
-      <node ref="SW_Gr.H4" pin="2"/>
       <node ref="SW_Gr.H5" pin="2"/>
+      <node ref="SW_Gr.H4" pin="2"/>
+      <node ref="SW_Gr.H2" pin="2"/>
       <node ref="D69" pin="2"/>
+      <node ref="SW_Gr.H3" pin="2"/>
+      <node ref="SW_Gr.H1" pin="2"/>
     </net>
     <net code="103" name="COL8">
-      <node ref="SW_Gr.I1" pin="1"/>
-      <node ref="SW_Gr.I3" pin="1"/>
-      <node ref="SW47" pin="1"/>
       <node ref="SW_Gr.I2" pin="1"/>
-      <node ref="SW49" pin="1"/>
+      <node ref="SW_Gr.I1" pin="1"/>
+      <node ref="SW_Y1" pin="1"/>
       <node ref="U2" pin="36"/>
-      <node ref="SW_N1" pin="1"/>
       <node ref="SW_Gr.I4" pin="1"/>
-      <node ref="SW48" pin="1"/>
+      <node ref="SW_Gr.I3" pin="1"/>
+      <node ref="SW_N1" pin="1"/>
+      <node ref="SW_`1" pin="1"/>
+      <node ref="SW_H1" pin="1"/>
     </net>
     <net code="104" name="COL2">
-      <node ref="SW17" pin="1"/>
-      <node ref="SW_Gr.B1" pin="1"/>
-      <node ref="U2" pin="27"/>
-      <node ref="SW_Gr.B2" pin="1"/>
+      <node ref="SW_2" pin="1"/>
       <node ref="SW_X1" pin="1"/>
-      <node ref="SW19" pin="1"/>
-      <node ref="SW18" pin="1"/>
+      <node ref="SW_Gr.B2" pin="1"/>
+      <node ref="SW_S1" pin="1"/>
+      <node ref="SW_Gr.B1" pin="1"/>
+      <node ref="SW_W1" pin="1"/>
+      <node ref="U2" pin="27"/>
     </net>
     <net code="105" name="Net-(D67-Pad2)">
+      <node ref="SW_Gr.B1" pin="2"/>
       <node ref="SW_Gr.B2" pin="2"/>
       <node ref="D67" pin="2"/>
-      <node ref="SW_Gr.B1" pin="2"/>
     </net>
     <net code="106" name="Net-(D64-Pad2)">
-      <node ref="SW82" pin="2"/>
-      <node ref="SW92" pin="2"/>
+      <node ref="SW_ENT3" pin="2"/>
+      <node ref="SW_'2" pin="2"/>
+      <node ref="SW_'3" pin="2"/>
       <node ref="D64" pin="2"/>
-      <node ref="SW1" pin="2"/>
     </net>
     <net code="107" name="ROW3">
-      <node ref="D28" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D59" pin="1"/>
-      <node ref="U2" pin="11"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="D14" pin="1"/>
       <node ref="D9" pin="1"/>
-      <node ref="D64" pin="1"/>
-      <node ref="D32" pin="1"/>
       <node ref="D36" pin="1"/>
+      <node ref="D64" pin="1"/>
       <node ref="D40" pin="1"/>
       <node ref="D44" pin="1"/>
-      <node ref="D49" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="U2" pin="11"/>
       <node ref="D54" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D49" pin="1"/>
     </net>
     <net code="108" name="Net-(D70-Pad2)">
-      <node ref="SW110" pin="2"/>
-      <node ref="SW98" pin="2"/>
+      <node ref="SW_Fn1" pin="2"/>
+      <node ref="SW_Fn4" pin="2"/>
+      <node ref="SW_Fn2" pin="2"/>
       <node ref="D70" pin="2"/>
-      <node ref="SW102" pin="2"/>
     </net>
-    <net code="109" name="Net-(SW102-Pad1)">
-      <node ref="SW110" pin="1"/>
-      <node ref="SW98" pin="1"/>
-      <node ref="SW102" pin="1"/>
-    </net>
-    <net code="110" name="COL0">
-      <node ref="SW_ESC1" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="U2" pin="25"/>
-      <node ref="SW_LSFT1" pin="1"/>
-      <node ref="SW3" pin="1"/>
+    <net code="109" name="COL0">
       <node ref="SW_LSFT2" pin="1"/>
-      <node ref="SW107" pin="1"/>
+      <node ref="SW_TAB1" pin="1"/>
+      <node ref="SW_Fn3" pin="1"/>
+      <node ref="SW_ESC1" pin="1"/>
+      <node ref="SW_LSFT1" pin="1"/>
+      <node ref="U2" pin="25"/>
+      <node ref="SW_CTL1" pin="1"/>
     </net>
-    <net code="111" name="Net-(D66-Pad2)">
+    <net code="110" name="Net-(D66-Pad2)">
       <node ref="D66" pin="2"/>
-      <node ref="SW107" pin="2"/>
+      <node ref="SW_Fn3" pin="2"/>
     </net>
-    <net code="112" name="Net-(D4-Pad2)">
+    <net code="111" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
       <node ref="SW_LSFT1" pin="2"/>
       <node ref="SW_LSFT2" pin="2"/>
-      <node ref="D4" pin="2"/>
+    </net>
+    <net code="112" name="Net-(J4-Pad1)">
+      <node ref="JP_LED1" pin="1"/>
+      <node ref="LED1" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="113" name="LED_TAPE">
+      <node ref="JP_LED1" pin="3"/>
+      <node ref="J3" pin="2"/>
     </net>
   </nets>
 </export>
