@@ -1,9 +1,0 @@
-(fp_lib_table
-  (lib (name Molex-0548190589)(type KiCad)(uri "$(KIPRJMOD)/Molex-0548190589.pretty")(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type KiCad)(uri "$(KIPRJMOD)/MX_Alps_Hybrid.pretty")(options "")(descr ""))
-  (lib (name locallib)(type KiCad)(uri "$(KIPRJMOD)/locallib.pretty")(options "")(descr ""))
-  (lib (name Type-C)(type KiCad)(uri "$(KIPRJMOD)/Type-C.pretty")(options "")(descr ""))
-  (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/WS2812B.pretty)(options "")(descr ""))
-  (lib (name Housings_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/Housings_DFN_QFN.pretty)(options "")(descr ""))
-  (lib (name Jones.local)(type KiCad)(uri /Users/kenn/Git/Jones/PCB/v.0.2/Jones_v.0.2_001/footprints.pretty)(options "")(descr ""))
-)
