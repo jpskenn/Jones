@@ -2943,4 +2943,26 @@ Wire Wire Line
 	5325 6750 5675 6750
 Wire Wire Line
 	5225 7350 5225 7625
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EF49FE1
+P 11600 7225
+F 0 "H1" H 11700 7271 50  0000 L CNN
+F 1 "MountingHole" H 11700 7180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 7225 50  0001 C CNN
+F 3 "~" H 11600 7225 50  0001 C CNN
+	1    11600 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EF67610
+P 11600 7500
+F 0 "H2" H 11700 7546 50  0000 L CNN
+F 1 "MountingHole" H 11700 7455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 7500 50  0001 C CNN
+F 3 "~" H 11600 7500 50  0001 C CNN
+	1    11600 7500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

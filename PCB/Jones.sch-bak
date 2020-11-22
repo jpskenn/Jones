@@ -234,65 +234,6 @@ F 3 "" H 6450 8875 50  0001 C CNN
 	1    6450 8875
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:Polyfuse_Small F1
-U 1 1 5B3392E8
-P 5375 5875
-F 0 "F1" V 5300 5875 50  0000 C CNN
-F 1 "500mA" V 5450 5875 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5425 5675 50  0001 L CNN
-F 3 "" H 5375 5875 50  0001 C CNN
-	1    5375 5875
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR04
-U 1 1 5B33A96C
-P 5675 5875
-F 0 "#PWR04" H 5675 5725 50  0001 C CNN
-F 1 "+5V" H 5675 6015 50  0000 C CNN
-F 2 "" H 5675 5875 50  0001 C CNN
-F 3 "" H 5675 5875 50  0001 C CNN
-	1    5675 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR02
-U 1 1 5B33AEFF
-P 5125 5875
-F 0 "#PWR02" H 5125 5725 50  0001 C CNN
-F 1 "VCC" H 5125 6025 50  0000 C CNN
-F 2 "" H 5125 5875 50  0001 C CNN
-F 3 "" H 5125 5875 50  0001 C CNN
-	1    5125 5875
-	1    0    0    -1  
-$EndComp
-Text GLabel 5500 5975 2    60   Input ~ 0
-D-
-$Comp
-L Device:R_Small R4
-U 1 1 5B33C34D
-P 5300 5975
-F 0 "R4" H 5330 5995 50  0000 L CNN
-F 1 "22" H 5330 5935 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5300 5975 50  0001 C CNN
-F 3 "" H 5300 5975 50  0001 C CNN
-	1    5300 5975
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5B33C7A5
-P 5100 6075
-F 0 "R3" H 5130 6095 50  0000 L CNN
-F 1 "22" H 5130 6035 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5100 6075 50  0001 C CNN
-F 3 "" H 5100 6075 50  0001 C CNN
-	1    5100 6075
-	0    1    1    0   
-$EndComp
-Text GLabel 5500 6075 2    60   Input ~ 0
-D+
 Text GLabel 8750 8700 2    60   Input ~ 0
 COL13
 Text GLabel 8750 8800 2    60   Input ~ 0
@@ -325,17 +266,6 @@ Text GLabel 8750 6600 2    60   Input ~ 0
 ROW3
 Text GLabel 8750 7000 2    60   Input ~ 0
 ROW2
-$Comp
-L power:GND #PWR01
-U 1 1 5B3665A1
-P 5325 6275
-F 0 "#PWR01" H 5325 6025 50  0001 C CNN
-F 1 "GND" H 5325 6125 50  0000 C CNN
-F 2 "" H 5325 6275 50  0001 C CNN
-F 3 "" H 5325 6275 50  0001 C CNN
-	1    5325 6275
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7225 7600 7550 7600
 Wire Wire Line
@@ -378,10 +308,6 @@ Wire Wire Line
 	6450 9075 6450 8975
 Connection ~ 6700 9075
 Wire Wire Line
-	5675 5875 5475 5875
-Wire Wire Line
-	5400 5975 5500 5975
-Wire Wire Line
 	6350 6800 6350 7025
 Wire Wire Line
 	6950 8675 7200 8675
@@ -395,10 +321,6 @@ Wire Wire Line
 	6700 8675 6950 8675
 Wire Wire Line
 	6700 9075 6950 9075
-Wire Wire Line
-	5125 5875 5275 5875
-Wire Wire Line
-	5200 6075 5500 6075
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U2
 U 1 1 5D93C3AA
@@ -2323,14 +2245,6 @@ Wire Wire Line
 Connection ~ 7675 4175
 Wire Wire Line
 	7675 4175 7675 4325
-Wire Wire Line
-	4875 5875 5125 5875
-Connection ~ 5125 5875
-NoConn ~ 4875 6175
-Wire Wire Line
-	4875 5975 5200 5975
-Wire Wire Line
-	4875 6075 5000 6075
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F074A7D
@@ -2908,19 +2822,6 @@ Wire Wire Line
 	1075 3375 1075 3875
 Text GLabel 8750 8900 2    60   Input ~ 0
 COL11
-$Comp
-L Molex-0548190589:Molex-0548190589 USB1
-U 1 1 5F5F267E
-P 4575 6075
-F 0 "USB1" V 5012 5992 60  0000 C CNN
-F 1 "Molex-0548190589" V 4906 5992 60  0000 C CNN
-F 2 "SMK_Jones:UX60-MB-5S8" H 4575 6075 60  0001 C CNN
-F 3 "" H 4575 6075 60  0001 C CNN
-	1    4575 6075
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4875 6275 5325 6275
 Connection ~ 5875 3375
 Connection ~ 6275 4625
 Wire Wire Line
@@ -2931,4 +2832,115 @@ Text GLabel 8750 7800 2    60   Input ~ 0
 ROW1
 Text GLabel 8750 7700 2    60   Input ~ 0
 ROW0
+$Comp
+L SMK_Jones:UX60SC-MB-5S8 J1
+U 1 1 5F11DB3B
+P 4725 7050
+F 0 "J1" H 4617 6485 50  0000 C CNN
+F 1 "UX60SC-MB-5S8" H 4617 6576 50  0000 C CNN
+F 2 "SMK_Jones:HIROSE_UX60SC-MB-5S8" H 4725 7050 50  0001 L BNN
+F 3 "" H 4725 7050 50  0001 L BNN
+F 4 "Hirose" H 4725 7050 50  0001 L BNN "Field4"
+F 5 "4.1mm" H 4725 7050 50  0001 L BNN "Field5"
+F 6 "Manufacturer recommendations" H 4725 7050 50  0001 L BNN "Field6"
+	1    4725 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5225 6750 5325 6750
+Wire Wire Line
+	5225 7150 5350 7150
+Wire Wire Line
+	5225 7250 5550 7250
+NoConn ~ 5225 7050
+Connection ~ 5475 7625
+Wire Wire Line
+	5225 7625 5475 7625
+Wire Wire Line
+	5550 7150 5850 7150
+Wire Wire Line
+	5475 7625 5625 7625
+Wire Wire Line
+	5750 7250 5850 7250
+Wire Wire Line
+	6025 7625 5825 7625
+$Comp
+L power:GND #PWR01
+U 1 1 5B3665A1
+P 5675 6750
+F 0 "#PWR01" H 5675 6500 50  0001 C CNN
+F 1 "GND" H 5675 6600 50  0000 C CNN
+F 2 "" H 5675 6750 50  0001 C CNN
+F 3 "" H 5675 6750 50  0001 C CNN
+	1    5675 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5850 7150 2    60   Input ~ 0
+D+
+$Comp
+L Device:R_Small R3
+U 1 1 5B33C7A5
+P 5450 7150
+F 0 "R3" H 5480 7170 50  0000 L CNN
+F 1 "22" H 5480 7110 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5450 7150 50  0001 C CNN
+F 3 "" H 5450 7150 50  0001 C CNN
+	1    5450 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5B33C34D
+P 5650 7250
+F 0 "R4" H 5680 7270 50  0000 L CNN
+F 1 "22" H 5680 7210 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5650 7250 50  0001 C CNN
+F 3 "" H 5650 7250 50  0001 C CNN
+	1    5650 7250
+	0    1    1    0   
+$EndComp
+Text GLabel 5850 7250 2    60   Input ~ 0
+D-
+$Comp
+L power:VCC #PWR02
+U 1 1 5B33AEFF
+P 5475 7625
+F 0 "#PWR02" H 5475 7475 50  0001 C CNN
+F 1 "VCC" H 5475 7775 50  0000 C CNN
+F 2 "" H 5475 7625 50  0001 C CNN
+F 3 "" H 5475 7625 50  0001 C CNN
+	1    5475 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5B33A96C
+P 6025 7625
+F 0 "#PWR04" H 6025 7475 50  0001 C CNN
+F 1 "+5V" H 6025 7765 50  0000 C CNN
+F 2 "" H 6025 7625 50  0001 C CNN
+F 3 "" H 6025 7625 50  0001 C CNN
+	1    6025 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5B3392E8
+P 5725 7625
+F 0 "F1" V 5650 7625 50  0000 C CNN
+F 1 "500mA" V 5800 7625 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5775 7425 50  0001 L CNN
+F 3 "" H 5725 7625 50  0001 C CNN
+	1    5725 7625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5225 6950 5325 6950
+Wire Wire Line
+	5325 6950 5325 6750
+Connection ~ 5325 6750
+Wire Wire Line
+	5325 6750 5675 6750
+Wire Wire Line
+	5225 7350 5225 7625
 $EndSCHEMATC
