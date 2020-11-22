@@ -1,4 +1,4 @@
-19209396815721269
+19218952255107349
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55670,6 +55670,48 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+Jones.local
+HIROSE_UX60SC-MB-5S8
+
+
+0
+9
+9
+Jones.local
+Jones_logo_28.3x10.2_silk
+
+
+0
+0
+0
+Jones.local
+Jones_logo_30.1x10.9_F.Cu
+
+
+0
+0
+0
+Jones.local
+Jones_logo_30.1x10.9_silk
+
+
+0
+0
+0
+Jones.local
+Jones_logo_33.9x12.3_silk
+
+
+0
+0
+0
+Jones.local
+UX60-MB-5S8
+
+
+0
+9
+9
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -78554,13 +78596,6 @@ RotaryEncoder_EC11-no-legs
 0
 0
 SMK_keebio
-SK6812-MINI-E
-
-
-0
-0
-0
-SMK_keebio
 SM0805D
 
 
@@ -78723,20 +78758,6 @@ TRRS-PJ-320A-no-Fmask
 0
 SMK_keebio
 TRRS-PJ-320D
-
-
-0
-0
-0
-SMK_keebio
-TRRS-PJ-605
-
-
-0
-0
-0
-SMK_keebio
-TRRS-PJ-606
 
 
 0
