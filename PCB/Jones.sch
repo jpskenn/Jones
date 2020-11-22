@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Jones"
 Date ""
-Rev ""
-Comp ""
+Rev "v.0.3"
+Comp "@jpskenn"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -213,21 +213,21 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 	1    12975 4725
 	-1   0    0    1   
 $EndComp
-Text GLabel 15275 2650 2    60   Input ~ 0
+Text GLabel 15275 4850 2    60   Input ~ 0
 pin6
-Text GLabel 15275 2550 2    60   Input ~ 0
+Text GLabel 15275 4950 2    60   Input ~ 0
 pin5
-Text GLabel 15275 4050 2    60   Input ~ 0
+Text GLabel 15275 5050 2    60   Input ~ 0
 pin4
-Text GLabel 15275 3950 2    60   Input ~ 0
+Text GLabel 15275 3150 2    60   Input ~ 0
 pin3
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 3050 2    60   Input ~ 0
 pin2
-Text GLabel 15275 3850 2    60   Input ~ 0
+Text GLabel 15275 2750 2    60   Input ~ 0
 pin1
-Text GLabel 15275 2350 2    60   Input ~ 0
-pin11
 Text GLabel 15275 2250 2    60   Input ~ 0
+pin11
+Text GLabel 15275 2150 2    60   Input ~ 0
 pin10
 Wire Wire Line
 	13750 3450 14075 3450
@@ -961,17 +961,6 @@ F 4 "C81598" H 5225 4725 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_'/:1
-U 1 1 5F6658CF
-P 8925 4275
-F 0 "SW_'/:1" H 8925 4560 50  0000 C CNN
-F 1 "SW_Push" H 8925 4469 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8925 4475 50  0001 C CNN
-F 3 "~" H 8925 4475 50  0001 C CNN
-	1    8925 4275
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D53
 U 1 1 5F6658D5
 P 9125 4725
@@ -1179,12 +1168,12 @@ F 3 "~" H 2425 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_:1
+L Switch:SW_Push SW_'2
 U 1 1 5F68651C
 P 9575 4450
-F 0 "SW_:1" H 9575 4735 50  0000 C CNN
+F 0 "SW_'2" H 9575 4735 50  0000 C CNN
 F 1 "SW_Push" H 9575 4644 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9575 4650 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 9575 4650 50  0001 C CNN
 F 3 "~" H 9575 4650 50  0001 C CNN
 	1    9575 4450
 	1    0    0    -1  
@@ -1222,21 +1211,10 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 3050 2    50   Input ~ 0
+Text GLabel 15275 4650 2    50   Input ~ 0
 RE1_A
-Text GLabel 15275 3150 2    50   Input ~ 0
+Text GLabel 15275 4750 2    50   Input ~ 0
 RE1_B
-$Comp
-L Switch:SW_Push SW_[/@1
-U 1 1 5F6AD842
-P 8925 3325
-F 0 "SW_[/@1" H 8925 3610 50  0000 C CNN
-F 1 "SW_Push" H 8925 3519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8925 3525 50  0001 C CNN
-F 3 "~" H 8925 3525 50  0001 C CNN
-	1    8925 3325
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW_up1
 U 1 1 5EFEDE4B
@@ -1256,8 +1234,6 @@ Wire Wire Line
 	1325 7075 1325 6925
 Wire Wire Line
 	9125 3175 9125 3325
-Wire Wire Line
-	9125 4125 9125 4275
 Wire Wire Line
 	13475 2650 13225 2650
 Connection ~ 12875 2875
@@ -1302,71 +1278,58 @@ Wire Wire Line
 Wire Wire Line
 	13925 2550 13925 2650
 $Comp
-L LED:SK6812MINI LED5
+L LED:SK6812MINI LED1
 U 1 1 5F7267DD
-P 3950 8000
-F 0 "LED5" H 4294 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 4294 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4000 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4050 7625 50  0001 L TNN
-	1    3950 8000
+P 2800 8250
+F 0 "LED1" H 3144 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 3144 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2850 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2900 7875 50  0001 L TNN
+	1    2800 8250
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI LED6
+L LED:SK6812MINI LED2
 U 1 1 5F7283A7
-P 4550 8000
-F 0 "LED6" H 4894 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 4894 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4600 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4650 7625 50  0001 L TNN
-	1    4550 8000
+P 3400 8250
+F 0 "LED2" H 3744 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 3744 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3450 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3500 7875 50  0001 L TNN
+	1    3400 8250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR021
 U 1 1 5F73E329
-P 2100 8300
-F 0 "#PWR021" H 2100 8050 50  0001 C CNN
-F 1 "GND" H 2105 8127 50  0000 C CNN
-F 2 "" H 2100 8300 50  0001 C CNN
-F 3 "" H 2100 8300 50  0001 C CNN
-	1    2100 8300
+P 5350 8550
+F 0 "#PWR021" H 5350 8300 50  0001 C CNN
+F 1 "GND" H 5355 8377 50  0000 C CNN
+F 2 "" H 5350 8550 50  0001 C CNN
+F 3 "" H 5350 8550 50  0001 C CNN
+	1    5350 8550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2000 8000 0    50   Input ~ 0
-LED_R2
+Text GLabel 2200 8550 0    50   Input ~ 0
+LED
 Wire Wire Line
-	3950 7700 4550 7700
+	2800 7950 3400 7950
 Wire Wire Line
-	3750 8300 3950 8300
-Connection ~ 3950 8300
+	2600 8550 2800 8550
+Connection ~ 2800 8550
 Wire Wire Line
-	3950 8300 4550 8300
+	2800 8550 3400 8550
 $Comp
 L power:+5V #PWR020
 U 1 1 5F7AAD1D
-P 2100 7700
-F 0 "#PWR020" H 2100 7550 50  0001 C CNN
-F 1 "+5V" H 2115 7873 50  0000 C CNN
-F 2 "" H 2100 7700 50  0001 C CNN
-F 3 "" H 2100 7700 50  0001 C CNN
-	1    2100 7700
+P 5350 7950
+F 0 "#PWR020" H 5350 7800 50  0001 C CNN
+F 1 "+5V" H 5365 8123 50  0000 C CNN
+F 2 "" H 5350 7950 50  0001 C CNN
+F 3 "" H 5350 7950 50  0001 C CNN
+	1    5350 7950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW_[1
-U 1 1 5F01D0AB
-P 9575 3025
-F 0 "SW_[1" H 9575 3310 50  0000 C CNN
-F 1 "SW_Push" H 9575 3219 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9575 3225 50  0001 C CNN
-F 3 "~" H 9575 3225 50  0001 C CNN
-	1    9575 3025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9775 3025 9775 3175
 Wire Wire Line
 	9125 5300 9125 5475
 $Comp
@@ -1459,7 +1422,6 @@ F 4 "C81598" H 1325 7225 50  0001 C CNN "LCSC"
 	1    1325 7225
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9125 3325
 Text GLabel 2700 10100 2    50   Input ~ 0
 RE1_B
 Text GLabel 2700 9900 2    50   Input ~ 0
@@ -1488,8 +1450,6 @@ F 3 "~" H 2400 10260 50  0001 C CNN
 	1    2400 10000
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8725 3175 8725 3325
 Wire Wire Line
 	13625 7475 13700 7475
 NoConn ~ 13625 7075
@@ -1636,17 +1596,6 @@ F 3 "~" H 10225 4175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW_]3
-U 1 1 5F639FCE
-P 9575 4575
-F 0 "SW_]3" H 9575 4860 50  0000 C CNN
-F 1 "SW_Push" H 9575 4769 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9575 4775 50  0001 C CNN
-F 3 "~" H 9575 4775 50  0001 C CNN
-	1    9575 4575
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_]2
 U 1 1 5F320F07
 P 10225 4275
@@ -1655,17 +1604,6 @@ F 1 "SW_Push" H 10225 4469 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 10225 4475 50  0001 C CNN
 F 3 "~" H 10225 4475 50  0001 C CNN
 	1    10225 4275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_ENT2.25u2
-U 1 1 5F320F0D
-P 10225 4125
-F 0 "SW_ENT2.25u2" H 10225 4410 50  0000 C CNN
-F 1 "SW_Push" H 10225 4319 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-2.25U-ReversedStabilizers-NoLED" H 10225 4325 50  0001 C CNN
-F 3 "~" H 10225 4325 50  0001 C CNN
-	1    10225 4125
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1770,14 +1708,14 @@ $EndComp
 Wire Wire Line
 	14200 9500 13875 9500
 $Comp
-L Connector_Generic:Conn_01x03 J3
+L Connector_Generic:Conn_01x03 LED_PAD1
 U 1 1 5F213686
-P 6400 8300
-F 0 "J3" H 6480 8342 50  0000 L CNN
-F 1 "Conn_01x03" H 6480 8251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6400 8300 50  0001 C CNN
-F 3 "~" H 6400 8300 50  0001 C CNN
-	1    6400 8300
+P 6800 8750
+F 0 "LED_PAD1" H 6880 8792 50  0000 L CNN
+F 1 "Conn_01x03" H 6880 8701 50  0000 L CNN
+F 2 "SMK_hsgw:LED_WS2812_tape_10mm" H 6800 8750 50  0001 C CNN
+F 3 "~" H 6800 8750 50  0001 C CNN
+	1    6800 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2822,7 +2760,7 @@ Wire Wire Line
 	6775 4575 6775 5825
 Connection ~ 6775 5825
 Wire Wire Line
-	6775 5825 6775 7075
+	6775 5825 6775 6925
 Connection ~ 7175 3625
 Wire Wire Line
 	7175 3625 7825 3625
@@ -2856,11 +2794,7 @@ Connection ~ 8075 5825
 Wire Wire Line
 	8075 5825 8075 7075
 Connection ~ 9375 2075
-Wire Wire Line
-	9375 2075 9375 3025
 Connection ~ 8725 2075
-Wire Wire Line
-	8725 2075 8725 3175
 Connection ~ 7425 2075
 Wire Wire Line
 	7425 2075 7425 3325
@@ -2868,41 +2802,16 @@ Connection ~ 10025 2075
 Wire Wire Line
 	10025 2075 10025 3175
 $Comp
-L Switch:SW_Push SW_BS1.5u1
-U 1 1 5F65B3C3
-P 8925 3175
-F 0 "SW_BS1.5u1" H 8925 3460 50  0000 C CNN
-F 1 "SW_Push" H 8925 3369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 8925 3375 50  0001 C CNN
-F 3 "~" H 8925 3375 50  0001 C CNN
-	1    8925 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_]/[1
-U 1 1 6159B1AB
-P 9575 3175
-F 0 "SW_]/[1" H 9575 3460 50  0000 C CNN
-F 1 "SW_Push" H 9575 3369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9575 3375 50  0001 C CNN
-F 3 "~" H 9575 3375 50  0001 C CNN
-	1    9575 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_[1u/BS1.5u1
+L Switch:SW_Push SW_[1
 U 1 1 61629E68
 P 10225 3325
-F 0 "SW_[1u/BS1.5u1" H 10225 3610 50  0000 C CNN
+F 0 "SW_[1" H 10225 3610 50  0000 C CNN
 F 1 "SW_Push" H 10225 3519 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 10225 3525 50  0001 C CNN
 F 3 "~" H 10225 3525 50  0001 C CNN
 	1    10225 3325
 	1    0    0    -1  
 $EndComp
-Connection ~ 9775 3175
-Wire Wire Line
-	9775 3175 9775 3325
 Connection ~ 9775 3325
 $Comp
 L Switch:SW_Push SW_@1
@@ -2916,16 +2825,6 @@ F 3 "~" H 9575 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10425 3325
-Connection ~ 8725 3175
-Connection ~ 8725 3325
-Wire Wire Line
-	8725 3325 8725 4125
-Connection ~ 9375 3025
-Wire Wire Line
-	9375 3025 9375 3175
-Connection ~ 9375 3175
-Wire Wire Line
-	9375 3175 9375 3325
 Connection ~ 9375 3325
 Wire Wire Line
 	9375 3325 9375 4450
@@ -2955,32 +2854,8 @@ F 3 "~" H 8925 4775 50  0001 C CNN
 	1    8925 4575
 	1    0    0    -1  
 $EndComp
-Connection ~ 9775 4575
-$Comp
-L Switch:SW_Push SW_ISO2
-U 1 1 61934AE7
-P 10225 4425
-F 0 "SW_ISO2" H 10225 4710 50  0000 C CNN
-F 1 "SW_Push" H 10225 4619 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 10225 4625 50  0001 C CNN
-F 3 "~" H 10225 4625 50  0001 C CNN
-	1    10225 4425
-	1    0    0    -1  
-$EndComp
 Connection ~ 10425 4275
-Connection ~ 10425 4425
-Wire Wire Line
-	10425 4425 10425 4575
-Wire Wire Line
-	10425 4275 10425 4425
-Wire Wire Line
-	10425 3975 10425 4125
 Connection ~ 8725 4125
-Wire Wire Line
-	8725 4125 8725 4275
-Connection ~ 8725 4275
-Wire Wire Line
-	8725 4275 8725 4425
 Connection ~ 8725 4425
 Wire Wire Line
 	8725 4425 8725 4575
@@ -2989,11 +2864,6 @@ Wire Wire Line
 	8725 4575 8725 5300
 Connection ~ 9125 4575
 Connection ~ 9375 4450
-Wire Wire Line
-	9375 4450 9375 4575
-Connection ~ 9375 4575
-Wire Wire Line
-	9375 4575 9375 5825
 $Comp
 L Switch:SW_Push SW_FN1.75u1
 U 1 1 61BAA342
@@ -3005,21 +2875,8 @@ F 3 "~" H 10225 4775 50  0001 C CNN
 	1    10225 4575
 	1    0    0    -1  
 $EndComp
-Connection ~ 10425 4125
-Wire Wire Line
-	10425 4125 10425 4275
 Connection ~ 10025 3975
-Wire Wire Line
-	10025 3975 10025 4125
-Connection ~ 10025 4125
-Wire Wire Line
-	10025 4125 10025 4275
 Connection ~ 10025 4275
-Wire Wire Line
-	10025 4275 10025 4425
-Connection ~ 10025 4425
-Wire Wire Line
-	10025 4425 10025 4575
 Connection ~ 10025 4575
 Wire Wire Line
 	10025 4575 10025 5475
@@ -3047,18 +2904,6 @@ F 3 "~" H 8925 5850 50  0001 C CNN
 	1    8925 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW_RSFT2u1
-U 1 1 61CE81B9
-P 8925 5825
-F 0 "SW_RSFT2u1" H 8925 6110 50  0000 C CNN
-F 1 "SW_Push" H 8925 6019 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-2U-Hotswap" H 8925 6025 50  0001 C CNN
-F 3 "~" H 8925 6025 50  0001 C CNN
-	1    8925 5825
-	1    0    0    -1  
-$EndComp
-Connection ~ 9125 5825
 Connection ~ 9125 5650
 Wire Wire Line
 	9125 5650 9125 5825
@@ -3066,11 +2911,6 @@ Connection ~ 8725 5475
 Wire Wire Line
 	8725 5475 8725 5650
 Connection ~ 8725 5650
-Wire Wire Line
-	8725 5650 8725 5825
-Connection ~ 8725 5825
-Wire Wire Line
-	8725 5825 8725 7075
 Connection ~ 9375 5825
 $Comp
 L Switch:SW_Push SW_RSFT1u1
@@ -3364,12 +3204,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW_ROPT/KANA1.25u1
 U 1 1 5F6780DF
-P 6975 7075
-F 0 "SW_ROPT/KANA1.25u1" H 6975 7360 50  0000 C CNN
-F 1 "SW_Push" H 6975 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 6975 7275 50  0001 C CNN
-F 3 "~" H 6975 7275 50  0001 C CNN
-	1    6975 7075
+P 6975 6925
+F 0 "SW_ROPT/KANA1.25u1" H 6975 7210 50  0000 C CNN
+F 1 "SW_Push" H 6975 7119 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 6975 7125 50  0001 C CNN
+F 3 "~" H 6975 7125 50  0001 C CNN
+	1    6975 6925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3623,13 +3463,10 @@ Wire Wire Line
 Connection ~ 3925 10950
 Wire Wire Line
 	3925 10950 4125 10950
-Text GLabel 15275 2450 2    50   Input ~ 0
+Text GLabel 15275 2350 2    50   Input ~ 0
 RE2_A
-Text GLabel 15275 5050 2    50   Input ~ 0
+Text GLabel 15275 4550 2    50   Input ~ 0
 AUDIO
-Connection ~ 9125 4275
-Wire Wire Line
-	9125 4275 9125 4425
 Connection ~ 9125 4425
 Wire Wire Line
 	9125 4425 9125 4575
@@ -3653,103 +3490,90 @@ pin3
 Text GLabel 7975 10325 2    60   Input ~ 0
 pin2
 $Comp
-L LED:SK6812MINI LED7
+L LED:SK6812MINI LED3
 U 1 1 6368EC94
-P 5150 8000
-F 0 "LED7" H 5494 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 5494 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5200 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5250 7625 50  0001 L TNN
-	1    5150 8000
+P 4000 8250
+F 0 "LED3" H 4344 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 4344 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4050 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4100 7875 50  0001 L TNN
+	1    4000 8250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3400 7950 4000 7950
+Wire Wire Line
+	3400 8550 4000 8550
+Connection ~ 3400 7950
+Connection ~ 4000 7950
+Wire Wire Line
+	4000 7950 4600 7950
+Connection ~ 3400 8550
+Connection ~ 4000 8550
+Wire Wire Line
+	4000 8550 4600 8550
+$Comp
+L LED:SK6812MINI LED5
+U 1 1 637F924C
+P 5550 8250
+F 0 "LED5" H 5894 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 5894 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5600 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5650 7875 50  0001 L TNN
+	1    5550 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI LED6
+U 1 1 637F9252
+P 6150 8250
+F 0 "LED6" H 6494 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 6494 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6200 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6250 7875 50  0001 L TNN
+	1    6150 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 8250 2500 8250
 $Comp
 L LED:SK6812MINI LED8
-U 1 1 6368EC9A
-P 5750 8000
-F 0 "LED8" H 6094 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 6094 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5800 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5850 7625 50  0001 L TNN
-	1    5750 8000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 7700 5150 7700
-Wire Wire Line
-	4550 8300 5150 8300
-Connection ~ 4550 7700
-Connection ~ 5150 7700
-Wire Wire Line
-	5150 7700 5750 7700
-Connection ~ 4550 8300
-Connection ~ 5150 8300
-Wire Wire Line
-	5150 8300 5750 8300
-$Comp
-L LED:SK6812MINI LED1
-U 1 1 637F924C
-P 2300 8000
-F 0 "LED1" H 2644 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 2644 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2350 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2400 7625 50  0001 L TNN
-	1    2300 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED2
-U 1 1 637F9252
-P 2900 8000
-F 0 "LED2" H 3244 8046 50  0000 L CNN
-F 1 "SK6812MINI" H 3244 7955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2950 7700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3000 7625 50  0001 L TNN
-	1    2900 8000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 8000 3650 8000
-$Comp
-L LED:SK6812MINI LED4
 U 1 1 63AABB7E
-P 2900 9000
-F 0 "LED4" H 3244 9046 50  0000 L CNN
-F 1 "SK6812MINI" H 3244 8955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2950 8700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3000 8625 50  0001 L TNN
-	1    2900 9000
+P 6150 9250
+F 0 "LED8" H 6494 9296 50  0000 L CNN
+F 1 "SK6812MINI" H 6494 9205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6200 8950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6250 8875 50  0001 L TNN
+	1    6150 9250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 8300 2300 8300
+	5350 8550 5550 8550
 $Comp
-L LED:SK6812MINI LED3
+L LED:SK6812MINI LED7
 U 1 1 63AABB78
-P 2300 9000
-F 0 "LED3" H 2644 9046 50  0000 L CNN
-F 1 "SK6812MINI" H 2644 8955 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2350 8700 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2400 8625 50  0001 L TNN
-	1    2300 9000
+P 5550 9250
+F 0 "LED7" H 5894 9296 50  0000 L CNN
+F 1 "SK6812MINI" H 5894 9205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5600 8950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5650 8875 50  0001 L TNN
+	1    5550 9250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 8700 2300 8700
+	6150 8950 5550 8950
 Wire Wire Line
-	2100 7700 2300 7700
+	5350 7950 5550 7950
 Wire Wire Line
-	2100 9300 2300 9300
-Text GLabel 15275 4750 2    50   Input ~ 0
-Reserve_PF4
-Text GLabel 15275 4950 2    50   Input ~ 0
-Reserve_PF6
-Text GLabel 15275 4850 2    50   Input ~ 0
-Reserve_PF5
-Text GLabel 15275 4550 2    50   Input ~ 0
-Reserve_PF0
-Text GLabel 7475 10625 0    50   Input ~ 0
-Reserve_PF0
+	5350 9550 5550 9550
+Text GLabel 15275 2550 2    50   Input ~ 0
+Reserve_PB4
+Text GLabel 15275 3950 2    50   Input ~ 0
+Reserve_PD6
+Text GLabel 15275 2650 2    50   Input ~ 0
+Reserve_PB5
+Text GLabel 15275 3550 2    50   Input ~ 0
+Reserve_PD2-RX
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 64137DFF
@@ -3773,20 +3597,9 @@ U 1 1 5F59B84E
 P 8925 4750
 F 0 "ISO-Stab1" H 9025 4796 50  0000 L CNN
 F 1 "ISO-Stabilizer" H 9025 4705 50  0000 L CNN
-F 2 "MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly" H 8925 4750 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly-Reversed" H 8925 4750 50  0001 C CNN
 F 3 "~" H 8925 4750 50  0001 C CNN
 	1    8925 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole ISO-Stab2
-U 1 1 5F59D7B0
-P 10225 4750
-F 0 "ISO-Stab2" H 10325 4796 50  0000 L CNN
-F 1 "ISO-Stabilizer" H 10325 4705 50  0000 L CNN
-F 2 "MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly-Reversed" H 10225 4750 50  0001 C CNN
-F 3 "~" H 10225 4750 50  0001 C CNN
-	1    10225 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3810,161 +3623,263 @@ $EndComp
 Wire Wire Line
 	5875 4425 5875 4575
 Connection ~ 5875 4575
-Connection ~ 2300 7700
+Connection ~ 5550 7950
 Wire Wire Line
-	2300 7700 2900 7700
-Connection ~ 2300 8300
+	5550 7950 6150 7950
+Connection ~ 5550 8550
 Wire Wire Line
-	2300 8300 2900 8300
+	5550 8550 6150 8550
 $Comp
 L power:+5V #PWR024
 U 1 1 5F935DB7
-P 2100 8700
-F 0 "#PWR024" H 2100 8550 50  0001 C CNN
-F 1 "+5V" H 2115 8873 50  0000 C CNN
-F 2 "" H 2100 8700 50  0001 C CNN
-F 3 "" H 2100 8700 50  0001 C CNN
-	1    2100 8700
+P 5350 8950
+F 0 "#PWR024" H 5350 8800 50  0001 C CNN
+F 1 "+5V" H 5365 9123 50  0000 C CNN
+F 2 "" H 5350 8950 50  0001 C CNN
+F 3 "" H 5350 8950 50  0001 C CNN
+	1    5350 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR027
 U 1 1 5F953850
-P 2100 9300
-F 0 "#PWR027" H 2100 9050 50  0001 C CNN
-F 1 "GND" H 2105 9127 50  0000 C CNN
-F 2 "" H 2100 9300 50  0001 C CNN
-F 3 "" H 2100 9300 50  0001 C CNN
-	1    2100 9300
+P 5350 9550
+F 0 "#PWR027" H 5350 9300 50  0001 C CNN
+F 1 "GND" H 5355 9377 50  0000 C CNN
+F 2 "" H 5350 9550 50  0001 C CNN
+F 3 "" H 5350 9550 50  0001 C CNN
+	1    5350 9550
 	1    0    0    -1  
 $EndComp
-Connection ~ 2300 9300
+Connection ~ 5550 9550
 Wire Wire Line
-	2300 9300 2900 9300
-Connection ~ 2300 8700
+	5550 9550 6150 9550
+Connection ~ 5550 8950
 Wire Wire Line
-	2300 8700 2100 8700
-Text GLabel 15275 2750 2    50   Input ~ 0
-LED_R2
+	5550 8950 5350 8950
 Text GLabel 15275 2850 2    50   Input ~ 0
+LED
+Text GLabel 15275 2450 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 4350 2    50   Input ~ 0
-LED_R3
-Text GLabel 15275 2150 2    60   Input ~ 0
+Text GLabel 15275 4350 2    60   Input ~ 0
 pin9
-Text GLabel 15275 3550 2    60   Input ~ 0
+Text GLabel 15275 3850 2    60   Input ~ 0
 pin8
-Text GLabel 15275 3650 2    60   Input ~ 0
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin7
-Text GLabel 15275 4650 2    50   Input ~ 0
-Reserve_PF1
-Text GLabel 2000 9000 0    50   Input ~ 0
-LED_R3
-Connection ~ 3950 7700
+Text GLabel 15275 3650 2    50   Input ~ 0
+Reserve_PD3-TX
+Connection ~ 2800 7950
 Wire Wire Line
-	3750 7700 3950 7700
+	2600 7950 2800 7950
 $Comp
 L power:+5V #PWR03
 U 1 1 5FE0E1CB
-P 3750 7700
-F 0 "#PWR03" H 3750 7550 50  0001 C CNN
-F 1 "+5V" H 3765 7873 50  0000 C CNN
-F 2 "" H 3750 7700 50  0001 C CNN
-F 3 "" H 3750 7700 50  0001 C CNN
-	1    3750 7700
+P 2600 7950
+F 0 "#PWR03" H 2600 7800 50  0001 C CNN
+F 1 "+5V" H 2615 8123 50  0000 C CNN
+F 2 "" H 2600 7950 50  0001 C CNN
+F 3 "" H 2600 7950 50  0001 C CNN
+	1    2600 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5FE4806A
-P 3750 8300
-F 0 "#PWR05" H 3750 8050 50  0001 C CNN
-F 1 "GND" H 3755 8127 50  0000 C CNN
-F 2 "" H 3750 8300 50  0001 C CNN
-F 3 "" H 3750 8300 50  0001 C CNN
-	1    3750 8300
+P 2600 8550
+F 0 "#PWR05" H 2600 8300 50  0001 C CNN
+F 1 "GND" H 2605 8377 50  0000 C CNN
+F 2 "" H 2600 8550 50  0001 C CNN
+F 3 "" H 2600 8550 50  0001 C CNN
+	1    2600 8550
 	1    0    0    -1  
 $EndComp
-Text Notes 3475 8250 1    50   ~ 0
+Text Notes 2325 8500 1    50   ~ 0
 Use Left LEDs
 $Comp
 L power:+5V #PWR025
 U 1 1 5FEBF83A
-P 6200 8200
-F 0 "#PWR025" H 6200 8050 50  0001 C CNN
-F 1 "+5V" H 6215 8373 50  0000 C CNN
-F 2 "" H 6200 8200 50  0001 C CNN
-F 3 "" H 6200 8200 50  0001 C CNN
-	1    6200 8200
+P 6600 8650
+F 0 "#PWR025" H 6600 8500 50  0001 C CNN
+F 1 "+5V" H 6615 8823 50  0000 C CNN
+F 2 "" H 6600 8650 50  0001 C CNN
+F 3 "" H 6600 8650 50  0001 C CNN
+	1    6600 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR026
 U 1 1 5FEDCA01
-P 6200 8400
-F 0 "#PWR026" H 6200 8150 50  0001 C CNN
-F 1 "GND" H 6205 8227 50  0000 C CNN
-F 2 "" H 6200 8400 50  0001 C CNN
-F 3 "" H 6200 8400 50  0001 C CNN
-	1    6200 8400
+P 6600 8850
+F 0 "#PWR026" H 6600 8600 50  0001 C CNN
+F 1 "GND" H 6605 8677 50  0000 C CNN
+F 2 "" H 6600 8850 50  0001 C CNN
+F 3 "" H 6600 8850 50  0001 C CNN
+	1    6600 8850
 	1    0    0    -1  
 $EndComp
-Text GLabel 9825 10675 0    50   Input ~ 0
-Reserve_PF4
-Text GLabel 9825 10875 0    50   Input ~ 0
-Reserve_PF6
-Text GLabel 9825 10775 0    50   Input ~ 0
-Reserve_PF5
-Text GLabel 7975 10625 2    50   Input ~ 0
-Reserve_PF1
-NoConn ~ 9825 10975
 Connection ~ 5475 4425
 Wire Wire Line
 	5475 4425 5475 4575
 Wire Wire Line
-	3500 8500 6050 8500
+	2350 8350 2350 8250
+Wire Wire Line
+	8725 2075 8725 3175
+Connection ~ 8725 3175
+$Comp
+L Switch:SW_Push SW_BS1.5u1
+U 1 1 5F65B3C3
+P 8925 3175
+F 0 "SW_BS1.5u1" H 8925 3460 50  0000 C CNN
+F 1 "SW_Push" H 8925 3369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 8925 3375 50  0001 C CNN
+F 3 "~" H 8925 3375 50  0001 C CNN
+	1    8925 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8725 3175 8725 4125
+Wire Wire Line
+	9775 3025 9775 3325
+Wire Wire Line
+	9375 2075 9375 3325
+Wire Wire Line
+	8725 4125 8725 4275
+Wire Wire Line
+	9125 4125 9125 4275
+Wire Wire Line
+	9375 4450 9375 5825
+Wire Wire Line
+	10025 3975 10025 4275
+Wire Wire Line
+	10425 3975 10425 4275
+Wire Wire Line
+	8725 5650 8725 7075
+$Comp
+L Switch:SW_Push SW_ROPT/KANA1.25u2
+U 1 1 5F5D094E
+P 6975 7075
+F 0 "SW_ROPT/KANA1.25u2" H 6975 7360 50  0000 C CNN
+F 1 "SW_Push" H 6975 7269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 6975 7275 50  0001 C CNN
+F 3 "~" H 6975 7275 50  0001 C CNN
+	1    6975 7075
+	1    0    0    -1  
+$EndComp
+Connection ~ 6775 6925
+Wire Wire Line
+	6775 6925 6775 7075
+Wire Wire Line
+	7175 6925 7175 7075
+Connection ~ 7175 7075
+Text GLabel 15275 4050 2    50   Input ~ 0
+Reserve_PD7
+Text GLabel 7475 10625 0    50   Input ~ 0
+Reserve_PB4
+Text GLabel 7975 10625 2    50   Input ~ 0
+Reserve_PB5
+Text GLabel 9825 10875 0    50   Input ~ 0
+Reserve_PD2-RX
+Text GLabel 9825 10975 0    50   Input ~ 0
+Reserve_PD3-TX
+Text GLabel 9825 10675 0    50   Input ~ 0
+Reserve_PD6
+Text GLabel 9825 10775 0    50   Input ~ 0
+Reserve_PD7
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED3
-U 1 1 5F261658
-P 6050 8300
-F 0 "JP_LED3" V 6004 8368 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 6095 8368 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 6050 8300 50  0001 C CNN
-F 3 "~" H 6050 8300 50  0001 C CNN
-	1    6050 8300
+U 1 1 5FA68DEE
+P 6450 8750
+F 0 "JP_LED3" V 6404 8818 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 6495 8818 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 6450 8750 50  0001 C CNN
+F 3 "~" H 6450 8750 50  0001 C CNN
+	1    6450 8750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 8700 3200 9000
-Wire Wire Line
-	3200 8000 3200 8300
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED1
-U 1 1 637397CB
-P 3200 8500
-F 0 "JP_LED1" V 3154 8568 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 3245 8568 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 3200 8500 50  0001 C CNN
-F 3 "~" H 3200 8500 50  0001 C CNN
-	1    3200 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP_LED2
-U 1 1 60123167
-P 3500 8350
-F 0 "JP_LED2" V 3454 8418 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 3545 8418 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3500 8350 50  0001 C CNN
-F 3 "~" H 3500 8350 50  0001 C CNN
-	1    3500 8350
+U 1 1 5F261658
+P 2350 8550
+F 0 "JP_LED1" V 2304 8618 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 2395 8618 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2350 8550 50  0001 C CNN
+F 3 "~" H 2350 8550 50  0001 C CNN
+	1    2350 8550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3500 8200 3500 8000
+	6450 8250 6450 8550
 Wire Wire Line
-	3350 8500 3500 8500
-Connection ~ 3500 8500
+	6450 8950 6450 9250
+$Comp
+L LED:SK6812MINI LED4
+U 1 1 6368EC9A
+P 4600 8250
+F 0 "LED4" H 4944 8296 50  0000 L CNN
+F 1 "SK6812MINI" H 4944 8205 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4650 7950 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4700 7875 50  0001 L TNN
+	1    4600 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP_LED2
+U 1 1 5FCEE371
+P 5050 8750
+F 0 "JP_LED2" V 5004 8818 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 5095 8818 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 5050 8750 50  0001 C CNN
+F 3 "~" H 5050 8750 50  0001 C CNN
+	1    5050 8750
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6050 8000 6050 8100
+	2350 8750 4900 8750
+Wire Wire Line
+	4900 8750 4900 8250
+Connection ~ 4900 8750
+Wire Wire Line
+	5250 8250 5050 8250
+Wire Wire Line
+	5050 8250 5050 8550
+Wire Wire Line
+	5050 8950 5050 9250
+Wire Wire Line
+	5050 9250 5250 9250
+$Comp
+L Switch:SW_Push SW_ENT1.25u1
+U 1 1 5FDEE168
+P 8925 4275
+F 0 "SW_ENT1.25u1" H 8925 4560 50  0000 C CNN
+F 1 "SW_Push" H 8925 4469 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 8925 4475 50  0001 C CNN
+F 3 "~" H 8925 4475 50  0001 C CNN
+	1    8925 4275
+	1    0    0    -1  
+$EndComp
+Connection ~ 8725 4275
+Wire Wire Line
+	8725 4275 8725 4425
+Connection ~ 9125 4275
+Wire Wire Line
+	9125 4275 9125 4425
+$Comp
+L Switch:SW_Push SW_:1
+U 1 1 5FE08221
+P 9575 4300
+F 0 "SW_:1" H 9575 4585 50  0000 C CNN
+F 1 "SW_Push" H 9575 4494 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9575 4500 50  0001 C CNN
+F 3 "~" H 9575 4500 50  0001 C CNN
+	1    9575 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 4300 9775 4450
+Connection ~ 9775 4450
+Wire Wire Line
+	10025 4275 10025 4575
+Wire Wire Line
+	10425 4275 10425 4575
 $EndSCHEMATC
