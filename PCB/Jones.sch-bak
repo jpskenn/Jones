@@ -1928,23 +1928,12 @@ F 4 "C81598" H 1325 4725 50  0001 C CNN "LCSC"
 	1    1325 4725
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW_CTL1.5u1
-U 1 1 5F66583F
-P 1125 4375
-F 0 "SW_CTL1.5u1" H 1125 4660 50  0000 C CNN
-F 1 "SW_Push" H 1125 4569 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 1125 4575 50  0001 C CNN
-F 3 "~" H 1125 4575 50  0001 C CNN
-	1    1125 4375
-	1    0    0    -1  
-$EndComp
 Connection ~ 925  4375
 $Comp
-L Switch:SW_Push SW_CTL1.25u1
+L Switch:SW_Push SW_CTL1.5u1
 U 1 1 5FC283A0
 P 1125 4575
-F 0 "SW_CTL1.25u1" H 1125 4860 50  0000 C CNN
+F 0 "SW_CTL1.5u1" H 1125 4860 50  0000 C CNN
 F 1 "SW_Push" H 1125 4769 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 1125 4775 50  0001 C CNN
 F 3 "~" H 1125 4775 50  0001 C CNN
@@ -3355,8 +3344,6 @@ F 4 "C81598" H 3925 10900 50  0001 C CNN "LCSC"
 	1    3925 10900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3925 10750 3875 10750
 $Comp
 L Device:R_Small R7
 U 1 1 630A67DA
@@ -3376,8 +3363,6 @@ Wire Wire Line
 Connection ~ 3925 10750
 Wire Wire Line
 	3775 10850 3775 11050
-Wire Wire Line
-	3775 11050 3825 11050
 Text GLabel 15275 2350 2    50   Input ~ 0
 RE2_A
 Text GLabel 15275 2850 2    50   Input ~ 0
@@ -3792,29 +3777,6 @@ Connection ~ 9375 4300
 Wire Wire Line
 	9375 4300 9375 4450
 $Comp
-L Device:Speaker LS2
-U 1 1 601C3A65
-P 3575 10425
-F 0 "LS2" H 3538 10008 50  0000 C CNN
-F 1 "Speaker" H 3538 10099 50  0000 C CNN
-F 2 "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E4000-R1" H 3575 10225 50  0001 C CNN
-F 3 "~" H 3565 10375 50  0001 C CNN
-	1    3575 10425
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3775 10325 3875 10325
-Wire Wire Line
-	3875 10325 3875 10750
-Connection ~ 3875 10750
-Wire Wire Line
-	3875 10750 3775 10750
-Wire Wire Line
-	3775 10425 3825 10425
-Wire Wire Line
-	3825 10425 3825 11050
-Connection ~ 3825 11050
-$Comp
 L Connector_Generic:Conn_02x05_Odd_Even EXT1
 U 1 1 5F5DDD56
 P 8425 9000
@@ -3951,8 +3913,6 @@ Connection ~ 1325 2075
 Wire Wire Line
 	1975 1925 1975 2075
 Connection ~ 1975 2075
-Wire Wire Line
-	3825 11050 3925 11050
 Connection ~ 3925 11050
 Wire Wire Line
 	3925 11050 4125 11050
@@ -4042,4 +4002,19 @@ Wire Wire Line
 	7250 8750 7250 9800
 Text Notes 4875 9350 1    50   ~ 0
 Use Right LEDs
+$Comp
+L Switch:SW_Push SW_CTL1.25u1
+U 1 1 5F66583F
+P 1125 4375
+F 0 "SW_CTL1.25u1" H 1125 4660 50  0000 C CNN
+F 1 "SW_Push" H 1125 4569 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap" H 1125 4575 50  0001 C CNN
+F 3 "~" H 1125 4575 50  0001 C CNN
+	1    1125 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 10750 3925 10750
+Wire Wire Line
+	3775 11050 3925 11050
 $EndSCHEMATC
