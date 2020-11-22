@@ -702,28 +702,6 @@ F 3 "~" H 9275 1575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW78
-U 1 1 5F639FCE
-P 8475 2725
-F 0 "SW78" H 8475 3010 50  0000 C CNN
-F 1 "SW_Push" H 8475 2919 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-2.25U-NoLED" H 8475 2925 50  0001 C CNN
-F 3 "~" H 8475 2925 50  0001 C CNN
-	1    8475 2725
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D58
-U 1 1 5F639FD4
-P 8675 2875
-F 0 "D58" V 8721 2795 50  0000 R CNN
-F 1 "D" V 8630 2795 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 8675 2875 50  0001 C CNN
-F 3 "~" H 8675 2875 50  0001 C CNN
-	1    8675 2875
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Switch:SW_Push SW2
 U 1 1 5F65B333
 P 1275 2075
@@ -1606,19 +1584,8 @@ $EndComp
 $Comp
 L Switch:SW_Push SW6
 U 1 1 5F67807F
-P 1275 4025
-F 0 "SW6" H 1275 4310 50  0000 C CNN
-F 1 "SW_Push" H 1275 4219 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1275 4225 50  0001 C CNN
-F 3 "~" H 1275 4225 50  0001 C CNN
-	1    1275 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW14
-U 1 1 5F67808B
 P 1875 4025
-F 0 "SW14" H 1875 4310 50  0000 C CNN
+F 0 "SW6" H 1875 4310 50  0000 C CNN
 F 1 "SW_Push" H 1875 4219 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1875 4225 50  0001 C CNN
 F 3 "~" H 1875 4225 50  0001 C CNN
@@ -1626,14 +1593,25 @@ F 3 "~" H 1875 4225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Switch:SW_Push SW14
+U 1 1 5F67808B
+P 3075 4025
+F 0 "SW14" H 3075 4310 50  0000 C CNN
+F 1 "SW_Push" H 3075 4219 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3075 4225 50  0001 C CNN
+F 3 "~" H 3075 4225 50  0001 C CNN
+	1    3075 4025
+	1    0    0    -1  
+$EndComp
+$Comp
 L Switch:SW_Push SW30
 U 1 1 5F6780D3
-P 3075 4325
-F 0 "SW30" H 3075 4610 50  0000 C CNN
-F 1 "SW_Push" H 3075 4519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-6.25U-ReversedStabilizers-NoLED" H 3075 4525 50  0001 C CNN
-F 3 "~" H 3075 4525 50  0001 C CNN
-	1    3075 4325
+P 4275 4325
+F 0 "SW30" H 4275 4610 50  0000 C CNN
+F 1 "SW_Push" H 4275 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-6.25U-ReversedStabilizers-NoLED" H 4275 4525 50  0001 C CNN
+F 3 "~" H 4275 4525 50  0001 C CNN
+	1    4275 4325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1659,17 +1637,6 @@ F 3 "~" H 6275 4475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW82
-U 1 1 5F67811B
-P 7875 4175
-F 0 "SW82" H 7875 4460 50  0000 C CNN
-F 1 "SW_Push" H 7875 4369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 7875 4375 50  0001 C CNN
-F 3 "~" H 7875 4375 50  0001 C CNN
-	1    7875 4175
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D60
 U 1 1 5F678121
 P 8075 4475
@@ -1683,12 +1650,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW77
 U 1 1 5F68651C
-P 8475 2575
-F 0 "SW77" H 8475 2860 50  0000 C CNN
-F 1 "SW_Push" H 8475 2769 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 2775 50  0001 C CNN
-F 3 "~" H 8475 2775 50  0001 C CNN
-	1    8475 2575
+P 8475 2625
+F 0 "SW77" H 8475 2910 50  0000 C CNN
+F 1 "SW_Push" H 8475 2819 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 2825 50  0001 C CNN
+F 3 "~" H 8475 2825 50  0001 C CNN
+	1    8475 2625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1714,17 +1681,6 @@ F 3 "~" H 9075 2125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW69
-U 1 1 5F6B5D0E
-P 7275 3225
-F 0 "SW69" H 7275 3510 50  0000 C CNN
-F 1 "SW_Push" H 7275 3419 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7275 3425 50  0001 C CNN
-F 3 "~" H 7275 3425 50  0001 C CNN
-	1    7275 3225
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW79
 U 1 1 5F6B85A9
 P 7875 3225
@@ -1738,34 +1694,34 @@ $EndComp
 $Comp
 L Switch:SW_Push SW29
 U 1 1 5F6BF154
-P 3075 4175
-F 0 "SW29" H 3075 4460 50  0000 C CNN
-F 1 "SW_Push" H 3075 4369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 3075 4375 50  0001 C CNN
-F 3 "~" H 3075 4375 50  0001 C CNN
-	1    3075 4175
+P 4275 4175
+F 0 "SW29" H 4275 4460 50  0000 C CNN
+F 1 "SW_Push" H 4275 4369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 4275 4375 50  0001 C CNN
+F 3 "~" H 4275 4375 50  0001 C CNN
+	1    4275 4175
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW5
 U 1 1 5F6C2742
-P 1275 3875
-F 0 "SW5" H 1275 4160 50  0000 C CNN
-F 1 "SW_Push" H 1275 4069 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1275 4075 50  0001 C CNN
-F 3 "~" H 1275 4075 50  0001 C CNN
-	1    1275 3875
+P 1875 3875
+F 0 "SW5" H 1875 4160 50  0000 C CNN
+F 1 "SW_Push" H 1875 4069 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1875 4075 50  0001 C CNN
+F 3 "~" H 1875 4075 50  0001 C CNN
+	1    1875 3875
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW13
 U 1 1 5F6C2748
-P 1875 3875
-F 0 "SW13" H 1875 4160 50  0000 C CNN
-F 1 "SW_Push" H 1875 4069 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1875 4075 50  0001 C CNN
-F 3 "~" H 1875 4075 50  0001 C CNN
-	1    1875 3875
+P 3075 3875
+F 0 "SW13" H 3075 4160 50  0000 C CNN
+F 1 "SW_Push" H 3075 4069 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 3075 4075 50  0001 C CNN
+F 3 "~" H 3075 4075 50  0001 C CNN
+	1    3075 3875
 	1    0    0    -1  
 $EndComp
 Text GLabel 8750 6400 2    50   Input ~ 0
@@ -1773,15 +1729,11 @@ RE_A
 Text GLabel 8750 6300 2    50   Input ~ 0
 RE_B
 Wire Wire Line
-	2875 4175 2875 4325
+	4075 4175 4075 4325
 Wire Wire Line
 	1675 3875 1675 4025
 Wire Wire Line
-	1075 3875 1075 4025
-Wire Wire Line
-	1475 4325 1475 4175
-Wire Wire Line
-	2075 3875 2075 4025
+	2075 4325 2075 4175
 $Comp
 L Switch:SW_Push SW65
 U 1 1 5F6AD842
@@ -1796,55 +1748,19 @@ $EndComp
 $Comp
 L Switch:SW_Push SW88
 U 1 1 5EFEDE4B
-P 8475 3225
-F 0 "SW88" H 8475 3510 50  0000 C CNN
-F 1 "SW_Push" H 8475 3419 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 3425 50  0001 C CNN
-F 3 "~" H 8475 3425 50  0001 C CNN
-	1    8475 3225
+P 8475 3275
+F 0 "SW88" H 8475 3560 50  0000 C CNN
+F 1 "SW_Push" H 8475 3469 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 3475 50  0001 C CNN
+F 3 "~" H 8475 3475 50  0001 C CNN
+	1    8475 3275
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW8
 U 1 1 5F022077
-P 1275 4325
-F 0 "SW8" H 1275 4610 50  0000 C CNN
-F 1 "SW_Push" H 1275 4519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1275 4525 50  0001 C CNN
-F 3 "~" H 1275 4525 50  0001 C CNN
-	1    1275 4325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW7
-U 1 1 5F02207D
-P 1275 4175
-F 0 "SW7" H 1275 4460 50  0000 C CNN
-F 1 "SW_Push" H 1275 4369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1275 4375 50  0001 C CNN
-F 3 "~" H 1275 4375 50  0001 C CNN
-	1    1275 4175
-	1    0    0    -1  
-$EndComp
-Connection ~ 1075 4025
-Wire Wire Line
-	1075 4025 1075 4175
-Connection ~ 1075 4175
-Wire Wire Line
-	1075 4175 1075 4325
-Connection ~ 1475 4025
-Wire Wire Line
-	1475 4025 1475 3875
-Connection ~ 1475 4175
-Wire Wire Line
-	1475 4175 1475 4025
-Wire Wire Line
-	2075 4325 2075 4175
-$Comp
-L Switch:SW_Push SW16
-U 1 1 5F0649C2
 P 1875 4325
-F 0 "SW16" H 1875 4610 50  0000 C CNN
+F 0 "SW8" H 1875 4610 50  0000 C CNN
 F 1 "SW_Push" H 1875 4519 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1875 4525 50  0001 C CNN
 F 3 "~" H 1875 4525 50  0001 C CNN
@@ -1852,86 +1768,116 @@ F 3 "~" H 1875 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW15
-U 1 1 5F0649C8
+L Switch:SW_Push SW7
+U 1 1 5F02207D
 P 1875 4175
-F 0 "SW15" H 1875 4460 50  0000 C CNN
+F 0 "SW7" H 1875 4460 50  0000 C CNN
 F 1 "SW_Push" H 1875 4369 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1875 4375 50  0001 C CNN
 F 3 "~" H 1875 4375 50  0001 C CNN
 	1    1875 4175
 	1    0    0    -1  
 $EndComp
+Connection ~ 1675 4025
 Wire Wire Line
 	1675 4025 1675 4175
 Connection ~ 1675 4175
 Wire Wire Line
 	1675 4175 1675 4325
+Connection ~ 2075 4025
+Wire Wire Line
+	2075 4025 2075 3875
 Connection ~ 2075 4175
 Wire Wire Line
 	2075 4175 2075 4025
-Connection ~ 1675 4025
-Connection ~ 2075 4025
+Wire Wire Line
+	3275 4325 3275 4175
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5F0649C2
+P 3075 4325
+F 0 "SW16" H 3075 4610 50  0000 C CNN
+F 1 "SW_Push" H 3075 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3075 4525 50  0001 C CNN
+F 3 "~" H 3075 4525 50  0001 C CNN
+	1    3075 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5F0649C8
+P 3075 4175
+F 0 "SW15" H 3075 4460 50  0000 C CNN
+F 1 "SW_Push" H 3075 4369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3075 4375 50  0001 C CNN
+F 3 "~" H 3075 4375 50  0001 C CNN
+	1    3075 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 4025 2875 4175
+Connection ~ 2875 4175
+Wire Wire Line
+	2875 4175 2875 4325
+Connection ~ 3275 4175
+Wire Wire Line
+	3275 4175 3275 4025
+Connection ~ 2875 4025
 $Comp
 L Switch:SW_Push SW22
 U 1 1 5F0A9F06
-P 2475 4025
-F 0 "SW22" H 2475 4310 50  0000 C CNN
-F 1 "SW_Push" H 2475 4219 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 2475 4225 50  0001 C CNN
-F 3 "~" H 2475 4225 50  0001 C CNN
-	1    2475 4025
+P 3675 4025
+F 0 "SW22" H 3675 4310 50  0000 C CNN
+F 1 "SW_Push" H 3675 4219 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3675 4225 50  0001 C CNN
+F 3 "~" H 3675 4225 50  0001 C CNN
+	1    3675 4025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW21
 U 1 1 5F0A9F0C
-P 2475 3875
-F 0 "SW21" H 2475 4160 50  0000 C CNN
-F 1 "SW_Push" H 2475 4069 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 2475 4075 50  0001 C CNN
-F 3 "~" H 2475 4075 50  0001 C CNN
-	1    2475 3875
+P 4875 4325
+F 0 "SW21" H 4875 4610 50  0000 C CNN
+F 1 "SW_Push" H 4875 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4875 4525 50  0001 C CNN
+F 3 "~" H 4875 4525 50  0001 C CNN
+	1    4875 4325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2275 3875 2275 4025
-Wire Wire Line
-	2675 3875 2675 4025
-Wire Wire Line
-	2675 4325 2675 4175
+	3875 4325 3875 4175
 $Comp
 L Switch:SW_Push SW24
 U 1 1 5F0A9F17
-P 2475 4325
-F 0 "SW24" H 2475 4610 50  0000 C CNN
-F 1 "SW_Push" H 2475 4519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 2475 4525 50  0001 C CNN
-F 3 "~" H 2475 4525 50  0001 C CNN
-	1    2475 4325
+P 3675 4325
+F 0 "SW24" H 3675 4610 50  0000 C CNN
+F 1 "SW_Push" H 3675 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3675 4525 50  0001 C CNN
+F 3 "~" H 3675 4525 50  0001 C CNN
+	1    3675 4325
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW23
 U 1 1 5F0A9F1D
-P 2475 4175
-F 0 "SW23" H 2475 4460 50  0000 C CNN
-F 1 "SW_Push" H 2475 4369 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 2475 4375 50  0001 C CNN
-F 3 "~" H 2475 4375 50  0001 C CNN
-	1    2475 4175
+P 3675 4175
+F 0 "SW23" H 3675 4460 50  0000 C CNN
+F 1 "SW_Push" H 3675 4369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3675 4375 50  0001 C CNN
+F 3 "~" H 3675 4375 50  0001 C CNN
+	1    3675 4175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2275 4025 2275 4175
-Connection ~ 2275 4175
+	3475 4025 3475 4175
+Connection ~ 3475 4175
 Wire Wire Line
-	2275 4175 2275 4325
-Connection ~ 2675 4175
+	3475 4175 3475 4325
+Connection ~ 3875 4175
 Wire Wire Line
-	2675 4175 2675 4025
-Connection ~ 2275 4025
-Connection ~ 2675 4025
+	3875 4175 3875 4025
+Connection ~ 3475 4025
 Wire Wire Line
 	9275 2075 9275 1925
 Wire Wire Line
@@ -2079,29 +2025,15 @@ Wire Wire Line
 Connection ~ 7075 4025
 Connection ~ 7475 4025
 Wire Wire Line
-	3275 4175 3275 4325
+	4475 4175 4475 4325
 Wire Wire Line
 	8075 1925 8075 2075
 Wire Wire Line
 	8075 2575 8075 2725
 Wire Wire Line
-	8675 2575 8675 2725
+	8675 2525 8675 2625
 Text Notes 9300 2025 0    50   ~ 0
-right top (Row1, Col14)
-$Comp
-L Switch:SW_Push SW81
-U 1 1 5F4F6143
-P 7875 4025
-F 0 "SW81" H 7875 4310 50  0000 C CNN
-F 1 "SW_Push" H 7875 4219 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 7875 4225 50  0001 C CNN
-F 3 "~" H 7875 4225 50  0001 C CNN
-	1    7875 4025
-	1    0    0    -1  
-$EndComp
-Connection ~ 8075 4175
-Wire Wire Line
-	8075 4175 8075 4325
+right top (Row1, Col13+1)
 Wire Wire Line
 	6950 6800 6700 6800
 Connection ~ 6350 7025
@@ -2219,13 +2151,9 @@ $EndComp
 Wire Wire Line
 	8675 1925 8675 2075
 Wire Wire Line
-	7475 3225 7475 3375
-Wire Wire Line
 	8075 3225 8075 3375
 Wire Wire Line
-	8675 3225 8675 3375
-Wire Wire Line
-	8075 4025 8075 4175
+	8675 3175 8675 3275
 $Comp
 L Switch:SW_Push SW59
 U 1 1 5F145FD8
@@ -2237,11 +2165,6 @@ F 3 "~" H 7875 4525 50  0001 C CNN
 	1    7875 4325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7675 4025 7675 4175
-Connection ~ 7675 4175
-Wire Wire Line
-	7675 4175 7675 4325
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F074A7D
@@ -2322,8 +2245,30 @@ $EndComp
 $Comp
 L Device:D D20
 U 1 1 5F6780D9
+P 4475 4475
+F 0 "D20" V 4521 4395 50  0000 R CNN
+F 1 "D" V 4430 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 4475 4475 50  0001 C CNN
+F 3 "~" H 4475 4475 50  0001 C CNN
+	1    4475 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5F67809D
+P 3875 4475
+F 0 "D15" V 3921 4395 50  0000 R CNN
+F 1 "D" V 3830 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 3875 4475 50  0001 C CNN
+F 3 "~" H 3875 4475 50  0001 C CNN
+	1    3875 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5F678091
 P 3275 4475
-F 0 "D20" V 3321 4395 50  0000 R CNN
+F 0 "D10" V 3321 4395 50  0000 R CNN
 F 1 "D" V 3230 4395 50  0000 R CNN
 F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 3275 4475 50  0001 C CNN
 F 3 "~" H 3275 4475 50  0001 C CNN
@@ -2331,36 +2276,14 @@ F 3 "~" H 3275 4475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D15
-U 1 1 5F67809D
-P 2675 4475
-F 0 "D15" V 2721 4395 50  0000 R CNN
-F 1 "D" V 2630 4395 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 2675 4475 50  0001 C CNN
-F 3 "~" H 2675 4475 50  0001 C CNN
-	1    2675 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D10
-U 1 1 5F678091
+L Device:D D5
+U 1 1 5F678085
 P 2075 4475
-F 0 "D10" V 2121 4395 50  0000 R CNN
+F 0 "D5" V 2121 4395 50  0000 R CNN
 F 1 "D" V 2030 4395 50  0000 R CNN
 F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 2075 4475 50  0001 C CNN
 F 3 "~" H 2075 4475 50  0001 C CNN
 	1    2075 4475
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 5F678085
-P 1475 4475
-F 0 "D5" V 1521 4395 50  0000 R CNN
-F 1 "D" V 1430 4395 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 1475 4475 50  0001 C CNN
-F 3 "~" H 1475 4475 50  0001 C CNN
-	1    1475 4475
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1475 1725
@@ -2502,7 +2425,6 @@ Connection ~ 5075 3675
 Connection ~ 5675 3675
 Connection ~ 6275 3675
 Connection ~ 6875 3675
-Connection ~ 7475 3375
 Connection ~ 7475 3675
 Connection ~ 8075 3375
 Connection ~ 8075 3675
@@ -2533,66 +2455,57 @@ Wire Wire Line
 	7475 3675 8075 3675
 Wire Wire Line
 	2675 3675 3275 3675
-Connection ~ 1475 4325
-Connection ~ 1475 4625
 Connection ~ 2075 4325
-Connection ~ 2075 4625
-Connection ~ 2675 4325
-Connection ~ 2675 4625
 Connection ~ 3275 4325
+Connection ~ 3875 4325
+Connection ~ 2675 4625
+Connection ~ 4475 4325
 Connection ~ 3275 4625
 Connection ~ 6875 4625
 Connection ~ 6875 4325
 Connection ~ 7475 4625
 Connection ~ 7475 4325
 Connection ~ 8075 4625
-Connection ~ 8075 4325
-Wire Wire Line
-	925  4625 1475 4625
 Wire Wire Line
 	8075 4625 8675 4625
 Wire Wire Line
 	6875 4625 7475 4625
 Wire Wire Line
-	3275 4625 6275 4625
+	3275 4625 3875 4625
 Wire Wire Line
 	2675 4625 3275 4625
 Wire Wire Line
-	2075 4625 2675 4625
-Wire Wire Line
-	1475 4625 2075 4625
-Wire Wire Line
 	7475 4625 8075 4625
-Text GLabel 8875 4075 2    50   Input ~ 0
+Text GLabel 12400 5125 2    50   Input ~ 0
 RE_B
-Text GLabel 8875 3875 2    50   Input ~ 0
+Text GLabel 12400 4925 2    50   Input ~ 0
 RE_A
 Wire Wire Line
-	9200 3975 8875 3975
+	12725 5025 12400 5025
 $Comp
 L power:GND #PWR017
 U 1 1 5EE7288E
-P 9200 3975
-F 0 "#PWR017" H 9200 3725 50  0001 C CNN
-F 1 "GND" H 9205 3802 50  0000 C CNN
-F 2 "" H 9200 3975 50  0001 C CNN
-F 3 "" H 9200 3975 50  0001 C CNN
-	1    9200 3975
+P 12725 5025
+F 0 "#PWR017" H 12725 4775 50  0001 C CNN
+F 1 "GND" H 12730 4852 50  0000 C CNN
+F 2 "" H 12725 5025 50  0001 C CNN
+F 3 "" H 12725 5025 50  0001 C CNN
+	1    12725 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch SW90
 U 1 1 5EE661C6
-P 8575 3975
-F 0 "SW90" H 8575 4342 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 8575 4251 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 8425 4135 50  0001 C CNN
-F 3 "~" H 8575 4235 50  0001 C CNN
-	1    8575 3975
+P 12100 5025
+F 0 "SW90" H 12100 5392 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 12100 5301 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 11950 5185 50  0001 C CNN
+F 3 "~" H 12100 5285 50  0001 C CNN
+	1    12100 5025
 	-1   0    0    -1  
 $EndComp
 Text Notes 9300 2675 0    50   ~ 0
-second row (Row2, Col13)
+Second row (Row2, Col13)
 Wire Wire Line
 	8875 1200 8875 1425
 Connection ~ 8875 1425
@@ -2607,8 +2520,6 @@ Wire Wire Line
 Connection ~ 8875 2575
 Wire Wire Line
 	8875 2575 8875 2725
-Wire Wire Line
-	8275 2725 8275 3225
 $Comp
 L Device:D D65
 U 1 1 5F6C56F6
@@ -2621,12 +2532,9 @@ F 3 "~" H 8675 4475 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8275 4075 8275 4325
-Wire Wire Line
-	8275 4325 8675 4325
+	8675 4250 8675 4325
 Wire Wire Line
 	8275 1200 8275 1425
-Connection ~ 7675 4025
 Connection ~ 8275 1425
 Wire Wire Line
 	8275 1425 8275 1925
@@ -2634,18 +2542,7 @@ Connection ~ 8275 1925
 Wire Wire Line
 	8275 1925 8275 2075
 Connection ~ 8275 2075
-Wire Wire Line
-	8275 2075 8275 2575
-Connection ~ 8275 2575
-Wire Wire Line
-	8275 2575 8275 2725
-Connection ~ 8275 2725
-Connection ~ 8275 3225
-Wire Wire Line
-	8275 3225 8275 3375
 Connection ~ 8275 3375
-Wire Wire Line
-	7675 3375 7675 4025
 Wire Wire Line
 	7675 1200 7675 1425
 Connection ~ 7075 3875
@@ -2680,11 +2577,6 @@ Connection ~ 7075 2075
 Wire Wire Line
 	7075 2075 7075 2725
 Connection ~ 7075 2725
-Wire Wire Line
-	7075 2725 7075 3225
-Connection ~ 7075 3225
-Wire Wire Line
-	7075 3225 7075 3375
 Connection ~ 7075 3375
 Wire Wire Line
 	6475 3375 6475 3875
@@ -2701,7 +2593,7 @@ Wire Wire Line
 	6475 2725 6475 3375
 Connection ~ 6475 3375
 Wire Wire Line
-	5875 3375 5875 4325
+	5875 3375 5875 3875
 Wire Wire Line
 	5875 3375 5875 2725
 Connection ~ 5875 1425
@@ -2759,7 +2651,7 @@ Wire Wire Line
 	3475 2725 3475 3375
 Wire Wire Line
 	2875 1200 2875 1425
-Connection ~ 2875 4175
+Connection ~ 4075 4175
 Connection ~ 2875 1425
 Wire Wire Line
 	2875 1425 2875 2075
@@ -2771,10 +2663,7 @@ Wire Wire Line
 	2875 2725 2875 3375
 Connection ~ 2875 3375
 Wire Wire Line
-	2875 3375 2875 4175
-Wire Wire Line
-	2275 3875 2275 3375
-Connection ~ 2275 3875
+	4075 3375 4075 4175
 Connection ~ 2275 1425
 Wire Wire Line
 	2275 1425 2275 1200
@@ -2789,7 +2678,6 @@ Wire Wire Line
 	2275 3375 2275 2725
 Wire Wire Line
 	1675 1200 1675 1425
-Connection ~ 1675 3875
 Connection ~ 1675 1425
 Wire Wire Line
 	1675 1425 1675 2075
@@ -2799,12 +2687,9 @@ Wire Wire Line
 Connection ~ 1675 2725
 Wire Wire Line
 	1675 2725 1675 3375
-Connection ~ 1675 3375
-Wire Wire Line
-	1675 3375 1675 3875
 Wire Wire Line
 	1075 1200 1075 1425
-Connection ~ 1075 3875
+Connection ~ 1675 3875
 Connection ~ 1075 1425
 Wire Wire Line
 	1075 1425 1075 2075
@@ -2814,9 +2699,8 @@ Wire Wire Line
 Connection ~ 1075 2725
 Wire Wire Line
 	1075 2725 1075 3375
-Connection ~ 1075 3375
 Wire Wire Line
-	1075 3375 1075 3875
+	1675 3375 1675 3875
 Text GLabel 8750 8900 2    60   Input ~ 0
 COL11
 Connection ~ 5875 3375
@@ -2830,12 +2714,12 @@ ROW1
 Text GLabel 8750 7700 2    60   Input ~ 0
 ROW0
 $Comp
-L SMK_Jones:UX60SC-MB-5S8 J1
+L UX60SC-MB-5S8:UX60SC-MB-5S8 J1
 U 1 1 5F11DB3B
 P 4725 7050
 F 0 "J1" H 4617 6485 50  0000 C CNN
 F 1 "UX60SC-MB-5S8" H 4617 6576 50  0000 C CNN
-F 2 "SMK_Jones:HIROSE_UX60SC-MB-5S8" H 4725 7050 50  0001 L BNN
+F 2 "Jones.local:UX60-MB-5S8" H 4725 7050 50  0001 L BNN
 F 3 "" H 4725 7050 50  0001 L BNN
 F 4 "Hirose" H 4725 7050 50  0001 L BNN "Field4"
 F 5 "4.1mm" H 4725 7050 50  0001 L BNN "Field5"
@@ -2985,4 +2869,542 @@ Text GLabel 11525 8175 0    50   Input ~ 0
 Reserve_PD1
 Text GLabel 11525 8275 0    50   Input ~ 0
 Reserve_PD5
+Wire Wire Line
+	2875 3375 2875 3875
+Text Notes 1875 4775 0    50   ~ 0
+a
+Text Notes 3025 4800 0    50   ~ 0
+c
+Text Notes 3625 4800 0    50   ~ 0
+d
+Text Notes 4200 4800 0    50   ~ 0
+e
+Text Notes 8575 4775 0    50   ~ 0
+x
+Text Notes 7875 4800 0    50   ~ 0
+L
+Text Notes 7250 4800 0    50   ~ 0
+k
+Text Notes 6675 4800 0    50   ~ 0
+j
+Text Notes 6075 4800 0    50   ~ 0
+i
+Text Notes 5475 4800 0    50   ~ 0
+h
+Text Notes 4800 4800 0    50   ~ 0
+g
+Connection ~ 2875 3875
+Wire Wire Line
+	2875 3875 2875 4025
+Wire Wire Line
+	3275 3875 3275 4025
+Connection ~ 3275 4025
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1746B5
+P 4875 4200
+F 0 "SW?" H 4875 4485 50  0000 C CNN
+F 1 "SW_Push" H 4875 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4875 4400 50  0001 C CNN
+F 3 "~" H 4875 4400 50  0001 C CNN
+	1    4875 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3375 3475 4025
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F186ADE
+P 4875 4075
+F 0 "SW?" H 4875 4360 50  0000 C CNN
+F 1 "SW_Push" H 4875 4269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4875 4275 50  0001 C CNN
+F 3 "~" H 4875 4275 50  0001 C CNN
+	1    4875 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F198E16
+P 4875 3950
+F 0 "SW?" H 4875 4235 50  0000 C CNN
+F 1 "SW_Push" H 4875 4144 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4875 4150 50  0001 C CNN
+F 3 "~" H 4875 4150 50  0001 C CNN
+	1    4875 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1AB091
+P 4875 3825
+F 0 "SW?" H 4875 4110 50  0000 C CNN
+F 1 "SW_Push" H 4875 4019 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 4875 4025 50  0001 C CNN
+F 3 "~" H 4875 4025 50  0001 C CNN
+	1    4875 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 3375 4675 3825
+Connection ~ 3475 3375
+Connection ~ 4675 3825
+Wire Wire Line
+	4675 3825 4675 3950
+Connection ~ 4675 3950
+Wire Wire Line
+	4675 3950 4675 4075
+Connection ~ 4675 4075
+Wire Wire Line
+	4675 4075 4675 4200
+Connection ~ 4675 4200
+Wire Wire Line
+	4675 4200 4675 4325
+$Comp
+L Device:D D?
+U 1 1 5F1D06D0
+P 5075 4475
+F 0 "D?" V 5121 4395 50  0000 R CNN
+F 1 "D" V 5030 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 5075 4475 50  0001 C CNN
+F 3 "~" H 5075 4475 50  0001 C CNN
+	1    5075 4475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5075 3825 5075 3950
+Connection ~ 5075 4325
+Connection ~ 5075 3950
+Wire Wire Line
+	5075 3950 5075 4075
+Connection ~ 5075 4075
+Wire Wire Line
+	5075 4075 5075 4200
+Connection ~ 5075 4200
+Wire Wire Line
+	5075 4200 5075 4325
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1F97DD
+P 5475 4325
+F 0 "SW?" H 5475 4610 50  0000 C CNN
+F 1 "SW_Push" H 5475 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5475 4525 50  0001 C CNN
+F 3 "~" H 5475 4525 50  0001 C CNN
+	1    5475 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1F97E3
+P 5475 4200
+F 0 "SW?" H 5475 4485 50  0000 C CNN
+F 1 "SW_Push" H 5475 4394 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5475 4400 50  0001 C CNN
+F 3 "~" H 5475 4400 50  0001 C CNN
+	1    5475 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1F97E9
+P 5475 4075
+F 0 "SW?" H 5475 4360 50  0000 C CNN
+F 1 "SW_Push" H 5475 4269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5475 4275 50  0001 C CNN
+F 3 "~" H 5475 4275 50  0001 C CNN
+	1    5475 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1F97EF
+P 5475 3950
+F 0 "SW?" H 5475 4235 50  0000 C CNN
+F 1 "SW_Push" H 5475 4144 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5475 4150 50  0001 C CNN
+F 3 "~" H 5475 4150 50  0001 C CNN
+	1    5475 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F1F97F5
+P 5475 3825
+F 0 "SW?" H 5475 4110 50  0000 C CNN
+F 1 "SW_Push" H 5475 4019 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 5475 4025 50  0001 C CNN
+F 3 "~" H 5475 4025 50  0001 C CNN
+	1    5475 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F1F97FB
+P 5675 4475
+F 0 "D?" V 5721 4395 50  0000 R CNN
+F 1 "D" V 5630 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 5675 4475 50  0001 C CNN
+F 3 "~" H 5675 4475 50  0001 C CNN
+	1    5675 4475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5675 3825 5675 3950
+Connection ~ 5675 4325
+Connection ~ 5675 3950
+Wire Wire Line
+	5675 3950 5675 4075
+Connection ~ 5675 4075
+Wire Wire Line
+	5675 4075 5675 4200
+Connection ~ 5675 4200
+Wire Wire Line
+	5675 4200 5675 4325
+Wire Wire Line
+	5275 3375 5275 3825
+Connection ~ 5275 3375
+Connection ~ 5275 3825
+Wire Wire Line
+	5275 3825 5275 3950
+Connection ~ 5275 3950
+Wire Wire Line
+	5275 3950 5275 4075
+Connection ~ 5275 4075
+Wire Wire Line
+	5275 4075 5275 4200
+Connection ~ 5275 4200
+Wire Wire Line
+	5275 4200 5275 4325
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F225904
+P 6075 4025
+F 0 "SW?" H 6075 4310 50  0000 C CNN
+F 1 "SW_Push" H 6075 4219 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 6075 4225 50  0001 C CNN
+F 3 "~" H 6075 4225 50  0001 C CNN
+	1    6075 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F22590A
+P 6075 3875
+F 0 "SW?" H 6075 4160 50  0000 C CNN
+F 1 "SW_Push" H 6075 4069 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 6075 4075 50  0001 C CNN
+F 3 "~" H 6075 4075 50  0001 C CNN
+	1    6075 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 3875 6275 4025
+Wire Wire Line
+	6275 4325 6275 4175
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F225912
+P 6075 4175
+F 0 "SW?" H 6075 4460 50  0000 C CNN
+F 1 "SW_Push" H 6075 4369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 6075 4375 50  0001 C CNN
+F 3 "~" H 6075 4375 50  0001 C CNN
+	1    6075 4175
+	1    0    0    -1  
+$EndComp
+Connection ~ 6275 4175
+Wire Wire Line
+	6275 4175 6275 4025
+Connection ~ 6275 4025
+Connection ~ 5875 3875
+Wire Wire Line
+	5875 3875 5875 4025
+Connection ~ 5875 4025
+Wire Wire Line
+	5875 4025 5875 4175
+Connection ~ 5875 4175
+Wire Wire Line
+	5875 4175 5875 4325
+Connection ~ 5675 4625
+Wire Wire Line
+	5675 4625 6275 4625
+Connection ~ 3875 4625
+Wire Wire Line
+	3875 4625 4475 4625
+Wire Wire Line
+	7675 3375 7675 4325
+Connection ~ 4075 3375
+Connection ~ 4475 4625
+Wire Wire Line
+	4475 4625 5075 4625
+Text Notes 2475 4800 0    50   ~ 0
+b
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F29DC6B
+P 2475 4325
+F 0 "SW?" H 2475 4610 50  0000 C CNN
+F 1 "SW_Push" H 2475 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-6.25U-ReversedStabilizers-NoLED" H 2475 4525 50  0001 C CNN
+F 3 "~" H 2475 4525 50  0001 C CNN
+	1    2475 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F29DC71
+P 2475 4175
+F 0 "SW?" H 2475 4460 50  0000 C CNN
+F 1 "SW_Push" H 2475 4369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-ReversedStabilizers" H 2475 4375 50  0001 C CNN
+F 3 "~" H 2475 4375 50  0001 C CNN
+	1    2475 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 4175 2275 4325
+Wire Wire Line
+	2675 4175 2675 4325
+Connection ~ 2275 4175
+Wire Wire Line
+	2275 3375 2275 4175
+Connection ~ 2675 4325
+$Comp
+L Device:D D?
+U 1 1 5F29DC79
+P 2675 4475
+F 0 "D?" V 2721 4395 50  0000 R CNN
+F 1 "D" V 2630 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 2675 4475 50  0001 C CNN
+F 3 "~" H 2675 4475 50  0001 C CNN
+	1    2675 4475
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2075 4625
+Wire Wire Line
+	2075 4625 2675 4625
+Connection ~ 8675 2625
+Wire Wire Line
+	8675 2625 8675 2725
+Connection ~ 8275 2625
+$Comp
+L Device:D D58
+U 1 1 5F639FD4
+P 8675 2875
+F 0 "D58" V 8721 2795 50  0000 R CNN
+F 1 "D" V 8630 2795 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 8675 2875 50  0001 C CNN
+F 3 "~" H 8675 2875 50  0001 C CNN
+	1    8675 2875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8275 2625 8275 2725
+Connection ~ 8275 2725
+Wire Wire Line
+	8275 2075 8275 2525
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F2E70C7
+P 8475 2525
+F 0 "SW?" H 8475 2810 50  0000 C CNN
+F 1 "SW_Push" H 8475 2719 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 2725 50  0001 C CNN
+F 3 "~" H 8475 2725 50  0001 C CNN
+	1    8475 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 2725 8275 3175
+$Comp
+L Switch:SW_Push SW78
+U 1 1 5F639FCE
+P 8475 2725
+F 0 "SW78" H 8475 3010 50  0000 C CNN
+F 1 "SW_Push" H 8475 2919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-NoLED" H 8475 2925 50  0001 C CNN
+F 3 "~" H 8475 2925 50  0001 C CNN
+	1    8475 2725
+	1    0    0    -1  
+$EndComp
+Connection ~ 8275 2525
+Wire Wire Line
+	8275 2525 8275 2625
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F320F07
+P 9075 3225
+F 0 "SW?" H 9075 3510 50  0000 C CNN
+F 1 "SW_Push" H 9075 3419 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9075 3425 50  0001 C CNN
+F 3 "~" H 9075 3425 50  0001 C CNN
+	1    9075 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F320F0D
+P 9075 3375
+F 0 "SW?" H 9075 3660 50  0000 C CNN
+F 1 "SW_Push" H 9075 3569 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 9075 3575 50  0001 C CNN
+F 3 "~" H 9075 3575 50  0001 C CNN
+	1    9075 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F320F13
+P 9275 3525
+F 0 "D?" V 9321 3445 50  0000 R CNN
+F 1 "D" V 9230 3445 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 9275 3525 50  0001 C CNN
+F 3 "~" H 9275 3525 50  0001 C CNN
+	1    9275 3525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9275 3375 9275 3225
+Connection ~ 9275 3375
+Text Notes 9300 3325 0    50   ~ 0
+Third row (Row3, Col13)
+Wire Wire Line
+	8875 2725 8875 3225
+Connection ~ 8875 3225
+Wire Wire Line
+	8875 3225 8875 3375
+Connection ~ 8675 3675
+Wire Wire Line
+	8675 3675 9275 3675
+Text GLabel 11800 4925 0    50   Input ~ 0
+RE_S1
+Text GLabel 11800 5125 0    50   Input ~ 0
+RE_S2
+Text GLabel 8275 3875 2    50   Input ~ 0
+RE_S1
+Text GLabel 8675 4250 1    50   Input ~ 0
+RE_S2
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F3CB93C
+P 9075 4150
+F 0 "SW?" H 9075 4435 50  0000 C CNN
+F 1 "SW_Push" H 9075 4344 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9075 4350 50  0001 C CNN
+F 3 "~" H 9075 4350 50  0001 C CNN
+	1    9075 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9275 4325
+$Comp
+L Device:D D?
+U 1 1 5F3CB947
+P 9275 4475
+F 0 "D?" V 9321 4395 50  0000 R CNN
+F 1 "D" V 9230 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 9275 4475 50  0001 C CNN
+F 3 "~" H 9275 4475 50  0001 C CNN
+	1    9275 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F3CB950
+P 9075 3975
+F 0 "SW?" H 9075 4260 50  0000 C CNN
+F 1 "SW_Push" H 9075 4169 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 9075 4175 50  0001 C CNN
+F 3 "~" H 9075 4175 50  0001 C CNN
+	1    9075 3975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F3CB957
+P 9075 4325
+F 0 "SW?" H 9075 4610 50  0000 C CNN
+F 1 "SW_Push" H 9075 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-NoLED" H 9075 4525 50  0001 C CNN
+F 3 "~" H 9075 4525 50  0001 C CNN
+	1    9075 4325
+	1    0    0    -1  
+$EndComp
+Connection ~ 8875 4150
+Wire Wire Line
+	8875 4150 8875 4325
+Connection ~ 9275 4150
+Wire Wire Line
+	9275 4150 9275 4325
+Connection ~ 8875 3975
+Wire Wire Line
+	9275 3975 9275 4150
+Wire Wire Line
+	8875 3975 8875 4150
+Wire Wire Line
+	8875 3475 8875 3975
+Connection ~ 8675 4625
+Wire Wire Line
+	8675 4625 9275 4625
+Text Notes 9300 4125 0    50   ~ 0
+Fourth row (Row4, Col13)
+Connection ~ 1675 3375
+Connection ~ 4675 3375
+Connection ~ 5075 4625
+Wire Wire Line
+	5075 4625 5675 4625
+Wire Wire Line
+	925  4625 1475 4625
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F4FA4BE
+P 1275 4325
+F 0 "SW?" H 1275 4610 50  0000 C CNN
+F 1 "SW_Push" H 1275 4519 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2U-Hotswap-ReversedStabilizers" H 1275 4525 50  0001 C CNN
+F 3 "~" H 1275 4525 50  0001 C CNN
+	1    1275 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F4FA4C4
+P 1475 4475
+F 0 "D?" V 1521 4395 50  0000 R CNN
+F 1 "D" V 1430 4395 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 1475 4475 50  0001 C CNN
+F 3 "~" H 1475 4475 50  0001 C CNN
+	1    1475 4475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1075 3375 1075 4325
+Connection ~ 1075 3375
+Connection ~ 1475 4625
+Wire Wire Line
+	1475 4625 2075 4625
+Text Notes 0    4325 0    50   ~ 0
+Fourth row (Row4, Col0-1)
+Wire Wire Line
+	7075 2725 7075 3375
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F5460F4
+P 8475 3175
+F 0 "SW?" H 8475 3460 50  0000 C CNN
+F 1 "SW_Push" H 8475 3369 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 8475 3375 50  0001 C CNN
+F 3 "~" H 8475 3375 50  0001 C CNN
+	1    8475 3175
+	1    0    0    -1  
+$EndComp
+Connection ~ 8275 3275
+Wire Wire Line
+	8275 3275 8275 3375
+Connection ~ 8675 3275
+Wire Wire Line
+	8675 3275 8675 3375
+Connection ~ 8275 3175
+Wire Wire Line
+	8275 3175 8275 3275
 $EndSCHEMATC
