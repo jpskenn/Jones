@@ -1702,8 +1702,6 @@ F 3 "~" H 7875 2775 50  0001 C CNN
 	1    7875 2575
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8750 8000
-NoConn ~ 8750 7500
 $Comp
 L Switch:SW_Push SW84
 U 1 1 5F6B0365
@@ -2088,7 +2086,6 @@ Wire Wire Line
 	8075 2575 8075 2725
 Wire Wire Line
 	8675 2575 8675 2725
-NoConn ~ 8750 7600
 Text Notes 9300 2025 0    50   ~ 0
 right top (Row1, Col14)
 $Comp
@@ -2965,4 +2962,27 @@ F 3 "~" H 11600 7500 50  0001 C CNN
 	1    11600 7500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5EF95D64
+P 11725 8175
+F 0 "J2" H 11805 8217 50  0000 L CNN
+F 1 "Conn_01x03" H 11805 8126 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11725 8175 50  0001 C CNN
+F 3 "~" H 11725 8175 50  0001 C CNN
+	1    11725 8175
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 7500 2    50   Input ~ 0
+Reserve_PD0
+Text GLabel 8750 7600 2    50   Input ~ 0
+Reserve_PD1
+Text GLabel 8750 8000 2    50   Input ~ 0
+Reserve_PD5
+Text GLabel 11525 8075 0    50   Input ~ 0
+Reserve_PD0
+Text GLabel 11525 8175 0    50   Input ~ 0
+Reserve_PD1
+Text GLabel 11525 8275 0    50   Input ~ 0
+Reserve_PD5
 $EndSCHEMATC
