@@ -1,4 +1,4 @@
-19218952179297349
+19218952420580199
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55671,13 +55671,6 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 2
 2
 Jones.local
-HIROSE_UX60SC-MB-5S8
-
-
-0
-9
-9
-Jones.local
 Jones_logo_28.3x10.2_silk
 
 
@@ -55705,13 +55698,6 @@ Jones_logo_33.9x12.3_silk
 0
 0
 0
-Jones.local
-UX60-MB-5S8
-
-
-0
-9
-9
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -84769,6 +84755,20 @@ Wurth-632723300011-MaximumExtensionMount
 0
 32
 27
+UX60SC-MB-5S8
+HIROSE_UX60SC-MB-5S8
+
+
+0
+9
+9
+UX60SC-MB-5S8
+UX60-MB-5S8
+
+
+0
+9
+9
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
