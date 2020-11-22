@@ -219,7 +219,7 @@ Text GLabel 15275 4750 2    60   Input ~ 0
 pin5
 Text GLabel 15275 4650 2    60   Input ~ 0
 pin4
-Text GLabel 15275 3150 2    60   Input ~ 0
+Text GLabel 15275 2550 2    60   Input ~ 0
 pin3
 Text GLabel 15275 4050 2    60   Input ~ 0
 pin2
@@ -1283,7 +1283,7 @@ U 1 1 5F7267DD
 P 2800 8250
 F 0 "LED1" H 3144 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 3144 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 2850 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2850 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2900 7875 50  0001 L TNN
 	1    2800 8250
 	1    0    0    -1  
@@ -1294,7 +1294,7 @@ U 1 1 5F7283A7
 P 3400 8250
 F 0 "LED2" H 3744 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 3744 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 3450 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3450 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3500 7875 50  0001 L TNN
 	1    3400 8250
 	1    0    0    -1  
@@ -1494,6 +1494,28 @@ F 4 "C17561" H 14825 7275 50  0001 C CNN "LCSC"
 	1    14825 7275
 	0    1    1    0   
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EF49FE1
+P 625 9050
+F 0 "H1" H 725 9096 50  0000 L CNN
+F 1 "MountingHole" H 725 9005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 9050 50  0001 C CNN
+F 3 "~" H 625 9050 50  0001 C CNN
+	1    625  9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EF67610
+P 625 9325
+F 0 "H2" H 725 9371 50  0000 L CNN
+F 1 "MountingHole" H 725 9280 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 9325 50  0001 C CNN
+F 3 "~" H 625 9325 50  0001 C CNN
+	1    625  9325
+	1    0    0    -1  
+$EndComp
 Text GLabel 15275 3350 2    50   Input ~ 0
 SCL
 Text GLabel 15275 3450 2    50   Input ~ 0
@@ -1644,7 +1666,7 @@ L SMK_foostan:OLED EXT3
 U 1 1 5F1613E8
 P 14950 9450
 F 0 "EXT3" H 15578 9519 51  0000 L CNN
-F 1 "OLED" H 15578 9429 47  0000 L CNN
+F 1 "OLED/TB" H 15578 9429 47  0000 L CNN
 F 2 "SMK_foostan:OLED_1side" H 14950 9550 60  0001 C CNN
 F 3 "" H 14950 9550 60  0001 C CNN
 	1    14950 9450
@@ -1687,6 +1709,72 @@ F 3 "~" H 6800 8750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13625 6875 14075 6875
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F17C7BB
+P 625 9600
+F 0 "H3" H 725 9646 50  0000 L CNN
+F 1 "MountingHole" H 725 9555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 9600 50  0001 C CNN
+F 3 "~" H 625 9600 50  0001 C CNN
+	1    625  9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F17C7C1
+P 625 9875
+F 0 "H4" H 725 9921 50  0000 L CNN
+F 1 "MountingHole" H 725 9830 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 9875 50  0001 C CNN
+F 3 "~" H 625 9875 50  0001 C CNN
+	1    625  9875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F193985
+P 625 10175
+F 0 "H5" H 725 10221 50  0000 L CNN
+F 1 "MountingHole" H 725 10130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 10175 50  0001 C CNN
+F 3 "~" H 625 10175 50  0001 C CNN
+	1    625  10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5F19398B
+P 625 10450
+F 0 "H6" H 725 10496 50  0000 L CNN
+F 1 "MountingHole" H 725 10405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 10450 50  0001 C CNN
+F 3 "~" H 625 10450 50  0001 C CNN
+	1    625  10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5F250D48
+P 625 10725
+F 0 "H7" H 725 10771 50  0000 L CNN
+F 1 "MountingHole" H 725 10680 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 10725 50  0001 C CNN
+F 3 "~" H 625 10725 50  0001 C CNN
+	1    625  10725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5F250D4E
+P 625 11025
+F 0 "H8" H 725 11071 50  0000 L CNN
+F 1 "MountingHole" H 725 10980 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 625 11025 50  0001 C CNN
+F 3 "~" H 625 11025 50  0001 C CNN
+	1    625  11025
+	1    0    0    -1  
+$EndComp
 $Comp
 L Switch:SW_Push SW_Fn1u1
 U 1 1 5F3CB950
@@ -1894,7 +1982,7 @@ $EndComp
 Text GLabel 1200 2375 0    50   Input ~ 0
 pin7
 Wire Wire Line
-	925  1475 925  1925
+	925  1475 925  2075
 Connection ~ 925  2075
 Wire Wire Line
 	925  2075 925  3325
@@ -1968,7 +2056,7 @@ F 3 "~" H 1575 1325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1575 1475 1575 1925
+	1575 1475 1575 2075
 Connection ~ 1575 2075
 Wire Wire Line
 	1575 2075 1575 6925
@@ -3391,7 +3479,7 @@ U 1 1 6368EC94
 P 4000 8250
 F 0 "LED3" H 4344 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 4344 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 4050 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4050 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4100 7875 50  0001 L TNN
 	1    4000 8250
 	1    0    0    -1  
@@ -3414,7 +3502,7 @@ U 1 1 637F924C
 P 5550 8250
 F 0 "LED5" H 5894 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 5894 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 5600 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5600 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5650 7875 50  0001 L TNN
 	1    5550 8250
 	1    0    0    -1  
@@ -3425,7 +3513,7 @@ U 1 1 637F9252
 P 6150 8250
 F 0 "LED6" H 6494 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 6494 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 6200 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6200 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6250 7875 50  0001 L TNN
 	1    6150 8250
 	1    0    0    -1  
@@ -3438,7 +3526,7 @@ U 1 1 63AABB7E
 P 6150 9250
 F 0 "LED8" H 6494 9296 50  0000 L CNN
 F 1 "SK6812MINI" H 6494 9205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 6200 8950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6200 8950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6250 8875 50  0001 L TNN
 	1    6150 9250
 	1    0    0    -1  
@@ -3451,7 +3539,7 @@ U 1 1 63AABB78
 P 5550 9250
 F 0 "LED7" H 5894 9296 50  0000 L CNN
 F 1 "SK6812MINI" H 5894 9205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 5600 8950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5600 8950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5650 8875 50  0001 L TNN
 	1    5550 9250
 	1    0    0    -1  
@@ -3462,8 +3550,8 @@ Wire Wire Line
 	5350 7950 5550 7950
 Wire Wire Line
 	5350 9550 5550 9550
-Text GLabel 15275 2550 2    50   Input ~ 0
-Reserve_PB4
+Text GLabel 15275 3150 2    50   Input ~ 0
+Reserve_PC7
 Text GLabel 15275 2750 2    50   Input ~ 0
 Reserve_PB6
 Text GLabel 15275 2650 2    50   Input ~ 0
@@ -3657,15 +3745,15 @@ Wire Wire Line
 Connection ~ 7175 7075
 Text GLabel 15275 3050 2    50   Input ~ 0
 Reserve_PC6
+Text GLabel 10250 9000 2    50   Input ~ 0
+Reserve_PC7
 Text GLabel 10250 8800 2    50   Input ~ 0
-Reserve_PB4
-Text GLabel 10250 8900 2    50   Input ~ 0
 Reserve_PB5
 Text GLabel 9750 8800 0    50   Input ~ 0
 Reserve_PD2-RX
 Text GLabel 9750 8900 0    50   Input ~ 0
 Reserve_PD3-TX
-Text GLabel 10250 9000 2    50   Input ~ 0
+Text GLabel 10250 8900 2    50   Input ~ 0
 Reserve_PB6
 Text GLabel 9750 9000 0    50   Input ~ 0
 Reserve_PC6
@@ -3701,7 +3789,7 @@ U 1 1 6368EC9A
 P 4600 8250
 F 0 "LED4" H 4944 8296 50  0000 L CNN
 F 1 "SK6812MINI" H 4944 8205 50  0000 L CNN
-F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 4650 7950 50  0001 L TNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4650 7950 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4700 7875 50  0001 L TNN
 	1    4600 8250
 	1    0    0    -1  
@@ -3900,38 +3988,4 @@ RE2_A
 Text GLabel 10250 9200 2    50   Input ~ 0
 RE2_B
 NoConn ~ 8225 9200
-$Comp
-L Switch:SW_Push SW_ESC2
-U 1 1 5F79BDBD
-P 1125 1925
-F 0 "SW_ESC2" H 1125 2210 50  0000 C CNN
-F 1 "SW_Push" H 1125 2119 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1125 2125 50  0001 C CNN
-F 3 "~" H 1125 2125 50  0001 C CNN
-	1    1125 1925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_10
-U 1 1 5F7B7764
-P 1775 1925
-F 0 "SW_10" H 1775 2210 50  0000 C CNN
-F 1 "SW_Push" H 1775 2119 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 1775 2125 50  0001 C CNN
-F 3 "~" H 1775 2125 50  0001 C CNN
-	1    1775 1925
-	1    0    0    -1  
-$EndComp
-Connection ~ 925  1925
-Wire Wire Line
-	925  1925 925  2075
-Connection ~ 1575 1925
-Wire Wire Line
-	1575 1925 1575 2075
-Wire Wire Line
-	1325 1925 1325 2075
-Connection ~ 1325 2075
-Wire Wire Line
-	1975 1925 1975 2075
-Connection ~ 1975 2075
 $EndSCHEMATC
