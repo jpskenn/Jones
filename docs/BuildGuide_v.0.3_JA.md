@@ -39,9 +39,9 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
     全てのGH60型ケースに取り付けできるかは、なんとも言えません…  
 現在のところ、取り付け確認済みのケースは次の通りです。  
-    - KBDfans TOFU ALUMINUM CASE  
-    - KBDfans 5° FROSTED ACRYLIC CNC 60% CASE  
-    - 60% プラスチックケース（簡単な加工が必要）
+    - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)  
+    - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)  
+    - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
 
     上記以外のケースへの取り付けの成功／失敗の報告を募集しております。
 
