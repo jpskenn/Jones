@@ -240,8 +240,8 @@ QMK Toolboxのメッセージエリアに、以下のメッセージが表示さ
 なお、各ファイルは本家QMKには取り込まれていませんので、私がフォークしたリポジトリから取得してください。
 
 - QMK Toolbox用hexファイル：  
-[基本的なANSIスタイル用](../firmware/jones_v.0.3.1_default_ansi.hex)  
-[基本的なJPスタイル用](../firmware/jones_v.0.3.1_default_jp.hex)  
+[基本的なANSIスタイル用](https://gist.github.com/jpskenn/e458aba60c828ac9f2b4f6b7c2098455)  
+[基本的なJPスタイル用](https://gist.github.com/jpskenn/6c6ec73f580b8839b76e3e6510bacca9)  
 
 - QMKコマンド用キーボード関連ファイル：  
 [jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware)
