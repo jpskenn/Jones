@@ -157,6 +157,7 @@ OLEDとはピンアサインの都合で排他使用となります。
 ## ビルドガイド
 
 - [v.0.3.1](./docs/BuildGuide_v.0.3.1_JA.md)
+- [v.0.3](./docs/BuildGuide_v.0.3_JA.md)
 - [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
 - [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
 
