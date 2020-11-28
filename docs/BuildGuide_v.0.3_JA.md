@@ -56,7 +56,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 | 部品名 | 個数 |
 | ----- | -----: |
-| Jones 基板 | 1 |
+| Jones 基板 v.0.3 | 1 |
 | Jones キープレート v.3.5.4 | 1 |
 | USBコネクタ<br>GCT USB4085-GF-A| 1 |
 | リセットスイッチ<br>RS-187R05A2-DS MT RT（または同等品） | 1 |
