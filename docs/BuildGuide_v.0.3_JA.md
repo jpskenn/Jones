@@ -349,12 +349,12 @@ Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/g
 | E | あり | 2行目 |
 | F | あり | 3行目 |
 
-LEDの右側のみ使用／右側Dと左側の両方使用により、基板裏側のジャンパ`JP_LED1`を`R Only`または`L+R`にジャンパします。
+基板裏側のジャンパ`JP_LED1`を、LEDを右側のみ使用する場合は`R Only`に、右側と左側の両方使用する場合は`L+R`にジャンパします。
 
 ![](../assets/BuildGuide_v.0.3/IMG_2194.jpeg)  
 JP_LED1ジャンパ位置
 
-また、右側LEDを使用する場合は、基板裏側のジャンパ`JP_LED2`と`JP_LED3`を`JP`にジャンパします。
+また、基板裏側のジャンパ`JP_LED2`と`JP_LED3`を`JP`にジャンパします。
 ![](../assets/BuildGuide_v.0.3/IMG_2195.jpeg)  
 右側LEDジャンパ位置
 
