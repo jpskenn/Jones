@@ -259,7 +259,7 @@ Flashボタンを押して書き込みます。
 
 写真のような書き込みメッセージが表示されれば完了です。
 
-![](../assets/BuildGuide_v.0.3.1/QmkToolboxFlash.png)
+![](../assets/BuildGuide_v.0.3.1/QmkToolboxFlash.png)  
 書き込みメッセージ
 
 #### QMKコマンド
