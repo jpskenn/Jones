@@ -391,12 +391,12 @@ Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/g
 | E | あり | 2行目 |
 | F | あり | 3行目 |
 
-左側LEDの使用あり／なしにより、基板裏側のジャンパ`Left LEDs`を`On`または`Off`にジャンパします。
+基板裏側のジャンパ`Left LEDs`を、左側LEDを使用する場合は`On`に、使用しない場合は`Off`にジャンパします。
 ![](../assets/BuildGuide_v.0.3.1/IMG_1969.jpeg)  
 左側LEDジャンパ位置
 
-右側LEDの使用あり／なしにより、基板裏側のジャンパ`Right LEDs`を`On`または`Off`にジャンパします。  
-また、右側LEDの位置の2行目（＝R2）／3行目（＝R3)により、基板裏側のジャンパ`Right LED Pos.`を`R2`または`R3`にジャンパします。
+基板裏側のジャンパ`Right LEDs`を、右側LEDを使用する場合は`On`に、使用しない場合には`Off`にジャンパします。  
+また、右側LEDを使用する場合は、基板裏側のジャンパ`Right LED Pos.`を、LEDの位置が2行目（＝R2）の場合は`R2`に、3行目（＝R3)の場合は`R3`にジャンパします。
 ![](../assets/BuildGuide_v.0.3.1/IMG_1970.jpeg)  
 右側LEDジャンパ位置
 
