@@ -170,6 +170,8 @@ OLEDとはピンアサインの都合で排他使用となります。
 - オーディオの2音同時発音に対応。
 - テープLEDのみ光らせるパターンを追加。
 
+![Jones v.0.3.1](./assets/IMG_2204.jpeg)  
+
 ### v.0.3
 
 - [レイアウト変更](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
