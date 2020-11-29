@@ -705,4 +705,4 @@ PCやMacに接続し、各部の動作を簡単に確認しておきます。
 完成です。
 
 写真を撮影し、`#Jones_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
-[Twitter: #Jones-kbd](https://twitter.com/search?q=%23Jones_kbd)
+[Twitter: #Jones_kbd](https://twitter.com/search?q=%23Jones_kbd)
