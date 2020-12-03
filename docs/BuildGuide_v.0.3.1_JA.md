@@ -250,7 +250,7 @@ QMK Toolboxのメッセージエリアに、以下のメッセージが表示さ
 [基本的なJPスタイル用](https://gist.github.com/jpskenn/6c6ec73f580b8839b76e3e6510bacca9)  
 
 - QMKコマンド用キーボード関連ファイル：  
-[jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware)
+[jpskenn/qmk_firmware:develop_Jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/)
 
 #### QMK Toolbox
 書き込むhexファイルを指定します。  
