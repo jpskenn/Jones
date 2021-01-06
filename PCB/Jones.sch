@@ -1641,7 +1641,7 @@ F 3 "~" H 1125 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SMK_foostan:OLED EXT3
+L Jones-rescue:OLED-SMK_foostan EXT3
 U 1 1 5F1613E8
 P 14950 9450
 F 0 "EXT3" H 15578 9519 51  0000 L CNN
