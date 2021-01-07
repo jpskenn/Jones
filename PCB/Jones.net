@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/Jones.sch)
-    (date "2020 October 11, Sunday 16:28:06")
-    (tool "Eeschema (5.1.6-0-10_14)")
+    (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
+    (date "2021 January 07, Thursday 21:11:25")
+    (tool "Eeschema (5.1.9-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Jones)
@@ -34,8 +34,6 @@
     (comp (ref ResetSW1)
       (value 5.2x5.2mm)
       (footprint SMK_ai03_RandomKeyboardParts:SKQG-1155865)
-      (fields
-        (field (name LCSC) C318884/C318889EXT))
       (libsource (lib Jones-rescue) (part SW_Push) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B323AA5))
@@ -100,7 +98,7 @@
       (footprint SMK_keebio:QFN-44-1EP_7x7mm_Pitch0.5mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
       (fields
-        (field (name LCSC) C112161))
+        (field (name LCSC) C45874))
       (libsource (lib MCU_Microchip_ATmega) (part ATmega32U4-MU) (description "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D93C3AA))
@@ -862,7 +860,7 @@
     (comp (ref EXT3)
       (value OLED)
       (footprint SMK_foostan:OLED_1side)
-      (libsource (lib SMK_foostan) (part OLED) (description ""))
+      (libsource (lib Jones-rescue) (part OLED-SMK_foostan) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1613E8))
     (comp (ref LED_PAD1)
@@ -893,7 +891,7 @@
       (value 500mA)
       (footprint Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
-        (field (name LCSC) C70076EXT))
+        (field (name LCSC) C70076))
       (libsource (lib Device) (part Polyfuse_Small) (description "Resettable fuse, polymeric positive temperature coefficient, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B3392E8))
@@ -902,7 +900,7 @@
       (footprint Package_TO_SOT_SMD:SOT-143)
       (datasheet https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf)
       (fields
-        (field (name LCSC) C78442EXT))
+        (field (name LCSC) C78442))
       (libsource (lib Power_Protection) (part PRTR5V0U2X) (description "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F744321))
@@ -1907,6 +1905,15 @@
       (pins
         (pin (num 1) (name 1) (type input))
         (pin (num 2) (name 2) (type input))))
+    (libpart (lib Jones-rescue) (part OLED-SMK_foostan)
+      (fields
+        (field (name Reference) OL)
+        (field (name Value) OLED-SMK_foostan))
+      (pins
+        (pin (num 1) (name SDA) (type BiDi))
+        (pin (num 2) (name SCL) (type BiDi))
+        (pin (num 3) (name VCC) (type power_in))
+        (pin (num 4) (name GND) (type power_in))))
     (libpart (lib Jones-rescue) (part SW_Push)
       (fields
         (field (name Reference) SW)
@@ -2032,15 +2039,6 @@
         (pin (num 2) (name I/O1) (type passive))
         (pin (num 3) (name I/O2) (type passive))
         (pin (num 4) (name VCC) (type passive))))
-    (libpart (lib SMK_foostan) (part OLED)
-      (fields
-        (field (name Reference) OL)
-        (field (name Value) OLED))
-      (pins
-        (pin (num 1) (name SDA) (type BiDi))
-        (pin (num 2) (name SCL) (type BiDi))
-        (pin (num 3) (name VCC) (type power_in))
-        (pin (num 4) (name GND) (type power_in))))
     (libpart (lib Switch) (part SW_Push)
       (description "Push button switch, generic, two pins")
       (docs ~)
@@ -2085,7 +2083,7 @@
     (library (logical Device)
       (uri "/Library/Application Support/kicad/library/Device.lib"))
     (library (logical Jones-rescue)
-      (uri /Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/Jones-rescue.lib))
+      (uri /Users/kenn/Git/jpskenn/Jones/PCB/Jones-rescue.lib))
     (library (logical Jumper)
       (uri "/Library/Application Support/kicad/library/Jumper.lib"))
     (library (logical LED)
@@ -2096,12 +2094,10 @@
       (uri "/Library/Application Support/kicad/library/Mechanical.lib"))
     (library (logical Power_Protection)
       (uri "/Library/Application Support/kicad/library/Power_Protection.lib"))
-    (library (logical SMK_foostan)
-      (uri /Users/kenn/Git/kbd/library/kbd.lib))
     (library (logical Switch)
       (uri "/Library/Application Support/kicad/library/Switch.lib"))
     (library (logical USB4085-GF-A)
-      (uri /Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)))
+      (uri /Users/kenn/Git/jpskenn/Jones/PCB/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)))
   (nets
     (net (code 1) (name "Net-(C6-Pad1)")
       (node (ref C6) (pin 1))
