@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/Jones.sch</source>
-    <date>2020 October 11, Sunday 16:43:21</date>
-    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <source>/Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch</source>
+    <date>2021 January 10, Sunday 18:02:40</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Jones</title>
@@ -1026,7 +1026,7 @@
     <comp ref="EXT3">
       <value>OLED</value>
       <footprint>SMK_foostan:OLED_1side</footprint>
-      <libsource lib="SMK_foostan" part="OLED" description=""/>
+      <libsource lib="Jones-rescue" part="OLED-SMK_foostan" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1613E8</tstamp>
     </comp>
@@ -2277,6 +2277,18 @@
         <pin num="2" name="2" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="Jones-rescue" part="OLED-SMK_foostan">
+      <fields>
+        <field name="Reference">OL</field>
+        <field name="Value">OLED-SMK_foostan</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="SCL" type="BiDi"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Jones-rescue" part="SW_Push">
       <fields>
         <field name="Reference">SW</field>
@@ -2429,18 +2441,6 @@
         <pin num="4" name="VCC" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SMK_foostan" part="OLED">
-      <fields>
-        <field name="Reference">OL</field>
-        <field name="Value">OLED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SDA" type="BiDi"/>
-        <pin num="2" name="SCL" type="BiDi"/>
-        <pin num="3" name="VCC" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
       <docs>~</docs>
@@ -2494,7 +2494,7 @@
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
     <library logical="Jones-rescue">
-      <uri>/Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/Jones-rescue.lib</uri>
+      <uri>/Users/kenn/Git/jpskenn/Jones/PCB/Jones-rescue.lib</uri>
     </library>
     <library logical="Jumper">
       <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
@@ -2511,14 +2511,11 @@
     <library logical="Power_Protection">
       <uri>/Library/Application Support/kicad/library/Power_Protection.lib</uri>
     </library>
-    <library logical="SMK_foostan">
-      <uri>/Users/kenn/Git/kbd/library/kbd.lib</uri>
-    </library>
     <library logical="Switch">
       <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
     </library>
     <library logical="USB4085-GF-A">
-      <uri>/Users/kenn/Git/Jones/PCB/v.0.3.1/Jones_v.0.3.1_003/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib</uri>
+      <uri>/Users/kenn/Git/jpskenn/Jones/PCB/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib</uri>
     </library>
   </libraries>
   <nets>
