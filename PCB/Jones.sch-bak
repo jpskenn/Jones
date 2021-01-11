@@ -218,7 +218,7 @@ Text GLabel 15275 5050 2    60   Input ~ 0
 pin6
 Text GLabel 15275 3150 2    60   Input ~ 0
 pin5
-Text GLabel 15275 4650 2    60   Input ~ 0
+Text GLabel 15275 4750 2    60   Input ~ 0
 pin4
 Text GLabel 15275 2750 2    60   Input ~ 0
 pin3
@@ -226,8 +226,6 @@ Text GLabel 15275 2650 2    60   Input ~ 0
 pin2
 Text GLabel 15275 4050 2    60   Input ~ 0
 pin1
-Text GLabel 15275 2250 2    60   Input ~ 0
-pin11
 Text GLabel 15275 2150 2    60   Input ~ 0
 pin10
 Wire Wire Line
@@ -1212,9 +1210,9 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 4850 2    50   Input ~ 0
+Text GLabel 15275 4950 2    50   Input ~ 0
 RE1_A
-Text GLabel 15275 4750 2    50   Input ~ 0
+Text GLabel 15275 4850 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_up1
@@ -1828,24 +1826,22 @@ Wire Wire Line
 Connection ~ 14600 7275
 Wire Wire Line
 	14600 7275 14725 7275
-Text GLabel 8375 2375 0    50   Input ~ 0
+Text GLabel 800  2425 0    50   Input ~ 0
 pin1
-Text GLabel 8375 3625 0    50   Input ~ 0
+Text GLabel 800  3675 0    50   Input ~ 0
 pin2
-Text GLabel 8375 4875 0    50   Input ~ 0
+Text GLabel 800  4925 0    50   Input ~ 0
 pin3
-Text GLabel 8375 6125 0    50   Input ~ 0
+Text GLabel 800  6175 0    50   Input ~ 0
 pin4
-Text GLabel 8375 7375 0    50   Input ~ 0
+Text GLabel 800  7425 0    50   Input ~ 0
 pin5
-Text GLabel 1200 3625 0    50   Input ~ 0
+Text GLabel 800  5025 0    50   Input ~ 0
 pin8
-Text GLabel 1200 4875 0    50   Input ~ 0
+Text GLabel 800  6275 0    50   Input ~ 0
 pin9
-Text GLabel 1250 6125 0    50   Input ~ 0
+Text GLabel 800  7525 0    50   Input ~ 0
 pin10
-Text GLabel 1250 7375 0    50   Input ~ 0
-pin11
 $Comp
 L Device:D D66
 U 1 1 5F725688
@@ -1858,25 +1854,16 @@ F 4 "C81598" H 925 1325 50  0001 C CNN "LCSC"
 	1    925  1325
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1200 2375 0    50   Input ~ 0
+Text GLabel 800  3775 0    50   Input ~ 0
 pin7
 Wire Wire Line
 	925  1475 925  1925
 Connection ~ 925  2075
 Wire Wire Line
-	925  2075 925  3325
-Connection ~ 1325 2375
-Wire Wire Line
-	1325 2375 1975 2375
+	925  2075 925  2900
 Connection ~ 925  3325
-Connection ~ 1325 3625
-Wire Wire Line
-	1325 3625 2625 3625
-Connection ~ 1325 4875
 Wire Wire Line
 	925  3325 925  4375
-Wire Wire Line
-	1325 4875 2625 4875
 $Comp
 L Device:D D3
 U 1 1 5F665845
@@ -1905,43 +1892,18 @@ Wire Wire Line
 	1325 4375 1325 4575
 Connection ~ 1325 4575
 Connection ~ 925  5825
-Connection ~ 1325 6125
-Wire Wire Line
-	1325 6125 2625 6125
 Wire Wire Line
 	925  4375 925  4575
 Connection ~ 925  4575
 Connection ~ 1325 5825
-$Comp
-L Device:D D72
-U 1 1 5FE04787
-P 1575 1325
-F 0 "D72" V 1621 1245 50  0000 R CNN
-F 1 "D" V 1530 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 1575 1325 50  0001 C CNN
-F 3 "~" H 1575 1325 50  0001 C CNN
-F 4 "C81598" H 1575 1325 50  0001 C CNN "LCSC"
-	1    1575 1325
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1575 1475 1575 1925
-Connection ~ 1575 2075
-Wire Wire Line
-	1575 2075 1575 6925
-Connection ~ 1975 2375
-Wire Wire Line
-	1975 2375 2625 2375
 Connection ~ 925  6925
 Wire Wire Line
 	925  6925 925  7075
-Connection ~ 1325 7375
-Wire Wire Line
-	1325 7375 1975 7375
 Connection ~ 1575 6925
 Wire Wire Line
 	1575 6925 1575 7075
-Connection ~ 1975 7375
 $Comp
 L Device:D D73
 U 1 1 5FFCEC9E
@@ -1959,34 +1921,19 @@ Wire Wire Line
 Connection ~ 2225 2075
 Wire Wire Line
 	2225 2075 2225 3325
-Connection ~ 2625 2375
-Wire Wire Line
-	2625 2375 3275 2375
 Connection ~ 2225 3325
 Wire Wire Line
-	2225 3325 2225 4575
-Connection ~ 2625 3625
-Wire Wire Line
-	2625 3625 3275 3625
+	2225 3325 2225 4000
 Connection ~ 2225 4575
 Wire Wire Line
 	2225 4575 2225 5825
-Connection ~ 2625 4875
-Wire Wire Line
-	2625 4875 3275 4875
 Connection ~ 2225 5825
-Connection ~ 2625 6125
-Wire Wire Line
-	2625 6125 3275 6125
 Connection ~ 2225 6925
 Wire Wire Line
 	2225 6925 2225 7075
 Wire Wire Line
 	2225 5825 2225 6925
 Connection ~ 2625 7075
-Wire Wire Line
-	1975 7375 2625 7375
-Connection ~ 2625 7375
 $Comp
 L Device:D D10
 U 1 1 5F678091
@@ -1997,18 +1944,6 @@ F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 2625 7225 50  0001 C CNN
 F 3 "~" H 2625 7225 50  0001 C CNN
 F 4 "C81598" H 2625 7225 50  0001 C CNN "LCSC"
 	1    2625 7225
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D74
-U 1 1 603845BB
-P 2875 1325
-F 0 "D74" V 2921 1245 50  0000 R CNN
-F 1 "D" V 2830 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 2875 1325 50  0001 C CNN
-F 3 "~" H 2875 1325 50  0001 C CNN
-F 4 "C81598" H 2875 1325 50  0001 C CNN "LCSC"
-	1    2875 1325
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2026,18 +1961,6 @@ F 4 "C81598" H 3525 1325 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D76
-U 1 1 603D3EE7
-P 4175 1325
-F 0 "D76" V 4221 1245 50  0000 R CNN
-F 1 "D" V 4130 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 4175 1325 50  0001 C CNN
-F 3 "~" H 4175 1325 50  0001 C CNN
-F 4 "C81598" H 4175 1325 50  0001 C CNN "LCSC"
-	1    4175 1325
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D77
 U 1 1 603FC360
 P 4825 1325
@@ -2047,18 +1970,6 @@ F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 4825 1325 50  0001 C CNN
 F 3 "~" H 4825 1325 50  0001 C CNN
 F 4 "C81598" H 4825 1325 50  0001 C CNN "LCSC"
 	1    4825 1325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D78
-U 1 1 60424F32
-P 5475 1325
-F 0 "D78" V 5521 1245 50  0000 R CNN
-F 1 "D" V 5430 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 5475 1325 50  0001 C CNN
-F 3 "~" H 5475 1325 50  0001 C CNN
-F 4 "C81598" H 5475 1325 50  0001 C CNN "LCSC"
-	1    5475 1325
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2074,18 +1985,6 @@ F 4 "C81598" H 6125 1325 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D80
-U 1 1 604779F3
-P 6775 1325
-F 0 "D80" V 6821 1245 50  0000 R CNN
-F 1 "D" V 6730 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 6775 1325 50  0001 C CNN
-F 3 "~" H 6775 1325 50  0001 C CNN
-F 4 "C81598" H 6775 1325 50  0001 C CNN "LCSC"
-	1    6775 1325
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D D81
 U 1 1 604A1A95
 P 7425 1325
@@ -2095,18 +1994,6 @@ F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 7425 1325 50  0001 C CNN
 F 3 "~" H 7425 1325 50  0001 C CNN
 F 4 "C81598" H 7425 1325 50  0001 C CNN "LCSC"
 	1    7425 1325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D82
-U 1 1 604CC128
-P 8075 1325
-F 0 "D82" V 8121 1245 50  0000 R CNN
-F 1 "D" V 8030 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 8075 1325 50  0001 C CNN
-F 3 "~" H 8075 1325 50  0001 C CNN
-F 4 "C81598" H 8075 1325 50  0001 C CNN "LCSC"
-	1    8075 1325
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2121,136 +2008,48 @@ F 4 "C81598" H 8725 1325 50  0001 C CNN "LCSC"
 	1    8725 1325
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D84
-U 1 1 60521C0A
-P 9375 1325
-F 0 "D84" V 9421 1245 50  0000 R CNN
-F 1 "D" V 9330 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 9375 1325 50  0001 C CNN
-F 3 "~" H 9375 1325 50  0001 C CNN
-F 4 "C81598" H 9375 1325 50  0001 C CNN "LCSC"
-	1    9375 1325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D85
-U 1 1 6054D24B
-P 10025 1325
-F 0 "D85" V 10071 1245 50  0000 R CNN
-F 1 "D" V 9980 1245 50  0000 R CNN
-F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 10025 1325 50  0001 C CNN
-F 3 "~" H 10025 1325 50  0001 C CNN
-F 4 "C81598" H 10025 1325 50  0001 C CNN "LCSC"
-	1    10025 1325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3525 1475 3525 2075
 Wire Wire Line
 	4825 1475 4825 2075
 Wire Wire Line
 	6775 1475 6775 2075
 Wire Wire Line
-	7425 1475 7425 2075
-Wire Wire Line
 	6125 1475 6125 2075
 Wire Wire Line
-	8075 1475 8075 2075
-Wire Wire Line
-	8725 1475 8725 2075
-Wire Wire Line
-	9375 1475 9375 2075
+	9375 1475 9375 1675
 Wire Wire Line
 	10025 1475 10025 2075
 Wire Wire Line
 	4175 1475 4175 2075
-Connection ~ 2875 3325
-Connection ~ 3275 3625
-Wire Wire Line
-	3275 3625 3925 3625
 Connection ~ 2875 5825
-Connection ~ 3275 6125
-Wire Wire Line
-	3275 6125 3925 6125
-Connection ~ 2875 4575
 Wire Wire Line
 	2875 4575 2875 5825
-Connection ~ 3275 4875
-Wire Wire Line
-	3275 4875 3925 4875
-Wire Wire Line
-	2875 3325 2875 4575
 Connection ~ 2875 2075
 Wire Wire Line
 	2875 2075 2875 3325
-Connection ~ 3275 2375
 Connection ~ 3525 2075
 Wire Wire Line
 	3525 2075 3525 3325
-Connection ~ 3925 2375
-Wire Wire Line
-	3275 2375 3925 2375
 Connection ~ 4175 2075
 Wire Wire Line
 	4175 2075 4175 3325
-Wire Wire Line
-	3925 2375 4575 2375
 Connection ~ 4825 2075
 Wire Wire Line
 	4825 2075 4825 3325
-Connection ~ 5875 2375
-Wire Wire Line
-	5225 2375 5875 2375
 Connection ~ 6125 2075
-Connection ~ 6525 2375
-Wire Wire Line
-	5875 2375 6525 2375
-Connection ~ 8075 2075
 Connection ~ 6775 2075
-Connection ~ 7175 2375
-Wire Wire Line
-	7175 2375 7825 2375
-Wire Wire Line
-	6525 2375 7175 2375
 Connection ~ 3525 3325
-Connection ~ 3925 3625
-Wire Wire Line
-	3925 3625 4575 3625
-Connection ~ 3525 5825
-Connection ~ 3925 6125
-Wire Wire Line
-	3925 6125 4575 6125
 Connection ~ 3525 4575
 Wire Wire Line
-	3525 4575 3525 5825
-Connection ~ 3925 4875
-Wire Wire Line
-	3925 4875 4575 4875
+	3525 4575 3525 5250
 Wire Wire Line
 	3525 3325 3525 4575
-Connection ~ 4175 5825
-Connection ~ 4575 6125
-Wire Wire Line
-	4575 6125 5225 6125
 Connection ~ 4175 3325
-Connection ~ 4575 3625
-Wire Wire Line
-	4575 3625 5225 3625
 Wire Wire Line
 	4175 3325 4175 4575
-Connection ~ 4175 4575
-Connection ~ 4575 4875
-Wire Wire Line
-	4575 4875 5225 4875
-Wire Wire Line
-	4175 4575 4175 5825
-Connection ~ 5225 6125
 Connection ~ 4825 3325
 Wire Wire Line
 	4825 3325 4825 4575
 Connection ~ 4825 4575
-Connection ~ 5225 4875
 Wire Wire Line
 	4825 4575 4825 5825
 $Comp
@@ -2323,7 +2122,7 @@ F 3 "~" H 6325 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6775 2075 6775 3325
+	6775 2075 6775 2750
 $Comp
 L Device:D D40
 U 1 1 5F66BA0D
@@ -2464,10 +2263,6 @@ F 3 "~" H 8275 3525 50  0001 C CNN
 	1    8275 3325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5225 6125 5875 6125
-Wire Wire Line
-	5225 4875 5875 4875
 $Comp
 L Device:D D32
 U 1 1 5F66B9F5
@@ -2532,14 +2327,6 @@ Wire Wire Line
 Connection ~ 5475 4575
 Wire Wire Line
 	5475 4575 5475 5825
-Connection ~ 5475 5825
-Wire Wire Line
-	5475 5825 5475 6925
-Wire Wire Line
-	5875 3625 6525 3625
-Connection ~ 5875 6125
-Wire Wire Line
-	5875 6125 6525 6125
 Connection ~ 6125 3325
 Wire Wire Line
 	6125 3325 6125 4575
@@ -2549,11 +2336,6 @@ Wire Wire Line
 Connection ~ 6125 5825
 Wire Wire Line
 	6125 5825 6125 7075
-Connection ~ 6525 3625
-Wire Wire Line
-	6525 3625 7175 3625
-Wire Wire Line
-	6525 4875 7175 4875
 $Comp
 L Switch:SW_Push SW_I1
 U 1 1 5F65B3B7
@@ -2632,14 +2414,6 @@ Wire Wire Line
 Connection ~ 6775 5825
 Wire Wire Line
 	6775 5825 6775 6925
-Connection ~ 7175 3625
-Wire Wire Line
-	7175 3625 7825 3625
-Connection ~ 7175 4875
-Wire Wire Line
-	7175 4875 7825 4875
-Wire Wire Line
-	7175 6125 7825 6125
 $Comp
 L Switch:SW_Push SW_O1
 U 1 1 5F65B387
@@ -2651,13 +2425,12 @@ F 3 "~" H 7625 3525 50  0001 C CNN
 	1    7625 3325
 	1    0    0    -1  
 $EndComp
-Connection ~ 7425 3325
 Wire Wire Line
 	7425 3325 7425 4575
 Connection ~ 7425 4575
 Connection ~ 8075 3325
 Wire Wire Line
-	8075 3325 8075 4575
+	8075 3325 8075 3900
 Connection ~ 8075 4575
 Wire Wire Line
 	8075 4575 8075 5825
@@ -2665,10 +2438,6 @@ Connection ~ 8075 5825
 Wire Wire Line
 	8075 5825 8075 7075
 Connection ~ 9375 2075
-Connection ~ 8725 2075
-Connection ~ 7425 2075
-Wire Wire Line
-	7425 2075 7425 3325
 Connection ~ 10025 2075
 Wire Wire Line
 	10025 2075 10025 3175
@@ -2725,7 +2494,6 @@ F 3 "~" H 8925 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 10425 4275
-Connection ~ 8725 4125
 Connection ~ 8725 4425
 Wire Wire Line
 	8725 4425 8725 4575
@@ -2808,80 +2576,24 @@ Wire Wire Line
 Connection ~ 10025 5825
 Wire Wire Line
 	10025 5825 10025 7075
-Wire Wire Line
-	1250 7375 1325 7375
-Wire Wire Line
-	1250 6125 1325 6125
-Wire Wire Line
-	1200 4875 1325 4875
-Wire Wire Line
-	1200 3625 1325 3625
-Wire Wire Line
-	1200 2375 1325 2375
 Text GLabel 925  1175 1    50   Input ~ 0
 pin1
-Text GLabel 1575 1175 1    50   Input ~ 0
-pin2
 Text GLabel 2225 1175 1    50   Input ~ 0
-pin3
-Text GLabel 2875 1175 1    50   Input ~ 0
-pin4
+pin2
 Text GLabel 3525 1175 1    50   Input ~ 0
-pin5
-Text GLabel 4175 1175 1    50   Input ~ 0
-pin6
-Text GLabel 5475 1175 1    50   Input ~ 0
-pin8
-Text GLabel 6125 1175 1    50   Input ~ 0
-pin9
-Text GLabel 6775 1175 1    50   Input ~ 0
-pin10
-Text GLabel 7425 1175 1    50   Input ~ 0
-pin11
+pin3
 Text GLabel 4825 1175 1    50   Input ~ 0
-pin7
-Text GLabel 5150 2375 0    50   Input ~ 0
+pin4
+Text GLabel 6125 1175 1    50   Input ~ 0
+pin5
+Text GLabel 7425 1175 1    50   Input ~ 0
 pin6
-Wire Wire Line
-	5150 2375 5225 2375
-Connection ~ 5225 2375
-Text GLabel 6450 4875 0    50   Input ~ 0
-pin8
-Text GLabel 7075 6125 0    50   Input ~ 0
-pin9
-Text GLabel 7775 7375 0    50   Input ~ 0
-pin10
-Text GLabel 5800 3625 0    50   Input ~ 0
-pin7
-Wire Wire Line
-	5800 3625 5875 3625
-Connection ~ 5875 3625
-Wire Wire Line
-	6450 4875 6525 4875
-Connection ~ 6525 4875
-Wire Wire Line
-	7175 6125 7075 6125
-Connection ~ 7175 6125
-Wire Wire Line
-	7775 7375 7825 7375
-Wire Wire Line
-	8375 6125 8475 6125
-Wire Wire Line
-	8375 4875 8475 4875
-Wire Wire Line
-	8375 3625 8475 3625
-Wire Wire Line
-	8375 2375 8475 2375
-Text GLabel 8075 1175 1    50   Input ~ 0
+Text GLabel 9375 1175 1    50   Input ~ 0
 pin8
 Text GLabel 8725 1175 1    50   Input ~ 0
-pin9
-Text GLabel 9375 1175 1    50   Input ~ 0
-pin10
-Text GLabel 10025 1175 1    50   Input ~ 0
-pin11
-Wire Wire Line
-	3525 5825 3525 7075
+pin7
+Text GLabel 800  2525 0    50   Input ~ 0
+pin6
 $Comp
 L Switch:SW_Push SW_RIGHT1
 U 1 1 5F156A11
@@ -3125,31 +2837,16 @@ Wire Wire Line
 	2875 6925 2875 7075
 Connection ~ 2875 6925
 Wire Wire Line
-	2625 7375 3275 7375
-Connection ~ 3275 7375
-Wire Wire Line
 	4175 5825 4175 6925
-Wire Wire Line
-	3275 7375 4575 7375
 Connection ~ 10425 7075
 Connection ~ 4175 6925
 Wire Wire Line
 	4175 6925 4175 7075
-Connection ~ 4575 7375
 Wire Wire Line
 	5875 6925 5875 7075
 Connection ~ 5875 7075
-Connection ~ 5475 6925
 Wire Wire Line
 	5475 6925 5475 7075
-Connection ~ 5875 7375
-Wire Wire Line
-	5875 7375 6525 7375
-Wire Wire Line
-	4575 7375 5875 7375
-Connection ~ 6525 7375
-Wire Wire Line
-	6525 7375 7175 7375
 $Comp
 L Switch:SW_Push SW_LEFT1
 U 1 1 5F10669A
@@ -3161,58 +2858,8 @@ F 3 "~" H 8925 7275 50  0001 C CNN
 	1    8925 7075
 	1    0    0    -1  
 $EndComp
-Connection ~ 9125 7375
-Wire Wire Line
-	9125 7375 9775 7375
-Wire Wire Line
-	8375 7375 8475 7375
-Connection ~ 9775 7375
-Wire Wire Line
-	9775 7375 10425 7375
-Connection ~ 8475 7375
-Wire Wire Line
-	8475 7375 9125 7375
-Connection ~ 8475 6125
-Wire Wire Line
-	8475 6125 9125 6125
-Connection ~ 9125 6125
-Wire Wire Line
-	9125 6125 9775 6125
-Connection ~ 9775 6125
-Wire Wire Line
-	9775 6125 10425 6125
-Connection ~ 8475 4875
-Wire Wire Line
-	8475 4875 9125 4875
-Connection ~ 9125 4875
-Wire Wire Line
-	9125 4875 9775 4875
-Connection ~ 9775 4875
-Wire Wire Line
-	9775 4875 10425 4875
-Connection ~ 8475 3625
-Wire Wire Line
-	8475 3625 9125 3625
-Connection ~ 9125 3625
-Wire Wire Line
-	9125 3625 9775 3625
-Connection ~ 9775 3625
-Wire Wire Line
-	9775 3625 10425 3625
-Connection ~ 8475 2375
-Wire Wire Line
-	8475 2375 9125 2375
-Connection ~ 9125 2375
-Wire Wire Line
-	9125 2375 9775 2375
-Connection ~ 9775 2375
-Wire Wire Line
-	9775 2375 10425 2375
 Wire Wire Line
 	7425 4575 7425 5825
-Connection ~ 7425 5825
-Wire Wire Line
-	7425 5825 7425 7075
 Text GLabel 2700 10950 2    50   Input ~ 0
 RE2_B
 Text GLabel 2700 10750 2    50   Input ~ 0
@@ -3331,9 +2978,6 @@ AUDIO
 Connection ~ 9125 4425
 Wire Wire Line
 	9125 4425 9125 4575
-Connection ~ 4825 5825
-Wire Wire Line
-	4825 5825 4825 7075
 $Comp
 L LED:SK6812MINI LED3
 U 1 1 6368EC94
@@ -3483,11 +3127,11 @@ Wire Wire Line
 Connection ~ 5825 8950
 Wire Wire Line
 	5825 8950 5625 8950
-Text GLabel 15275 4350 2    50   Input ~ 0
+Text GLabel 15275 4550 2    50   Input ~ 0
 LED
 Text GLabel 15275 2450 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 4550 2    60   Input ~ 0
+Text GLabel 15275 4650 2    60   Input ~ 0
 pin9
 Text GLabel 15275 3750 2    60   Input ~ 0
 pin8
@@ -3549,7 +3193,6 @@ Wire Wire Line
 	2350 8350 2350 8250
 Wire Wire Line
 	8725 2075 8725 3175
-Connection ~ 8725 3175
 $Comp
 L Switch:SW_Push SW_BS1.5u1
 U 1 1 5F65B3C3
@@ -3561,8 +3204,6 @@ F 3 "~" H 8925 3375 50  0001 C CNN
 	1    8925 3175
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8725 3175 8725 4125
 Wire Wire Line
 	9375 2075 9375 3025
 Wire Wire Line
@@ -3837,11 +3478,450 @@ Wire Wire Line
 	3775 10750 3925 10750
 Wire Wire Line
 	3775 11050 3925 11050
-NoConn ~ 15275 4950
+NoConn ~ 15275 4350
 NoConn ~ 15275 3850
 NoConn ~ 15275 3950
 NoConn ~ 15275 3350
 NoConn ~ 15275 3450
 NoConn ~ 15275 3550
 NoConn ~ 15275 3650
+$Comp
+L Device:D D85
+U 1 1 6054D24B
+P 9375 1325
+F 0 "D85" V 9421 1245 50  0000 R CNN
+F 1 "D" V 9330 1245 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 9375 1325 50  0001 C CNN
+F 3 "~" H 9375 1325 50  0001 C CNN
+F 4 "C81598" H 9375 1325 50  0001 C CNN "LCSC"
+	1    9375 1325
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 15275 2250
+Text GLabel 10025 1175 1    60   Input ~ 0
+pin9
+$Comp
+L Device:D D84
+U 1 1 60521C0A
+P 10025 1325
+F 0 "D84" V 10071 1245 50  0000 R CNN
+F 1 "D" V 9980 1245 50  0000 R CNN
+F 2 "SMK_ai03_RandomKeyboardParts:D_SOD-123-Pretty" H 10025 1325 50  0001 C CNN
+F 3 "~" H 10025 1325 50  0001 C CNN
+F 4 "C81598" H 10025 1325 50  0001 C CNN "LCSC"
+	1    10025 1325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  2425 1975 2425
+Wire Wire Line
+	9775 2425 9775 2375
+Wire Wire Line
+	10425 2375 10425 2425
+Wire Wire Line
+	10425 2425 9775 2425
+Connection ~ 9775 2425
+Wire Wire Line
+	1575 1475 2225 1475
+Connection ~ 2225 1475
+Wire Wire Line
+	1575 2900 1575 6925
+Wire Wire Line
+	1575 2900 925  2900
+Connection ~ 925  2900
+Wire Wire Line
+	925  2900 925  3325
+Wire Wire Line
+	800  2525 1325 2525
+Wire Wire Line
+	1325 2375 1325 2525
+Connection ~ 1325 2525
+Wire Wire Line
+	1325 2525 2625 2525
+Wire Wire Line
+	1975 2375 1975 2425
+Connection ~ 1975 2425
+Wire Wire Line
+	1975 2425 3275 2425
+Wire Wire Line
+	2625 2375 2625 2525
+Connection ~ 2625 2525
+Wire Wire Line
+	2625 2525 3925 2525
+Wire Wire Line
+	2875 1475 3525 1475
+Connection ~ 3525 1475
+Wire Wire Line
+	3275 2375 3275 2425
+Wire Wire Line
+	3525 1475 3525 2075
+Connection ~ 3275 2425
+Wire Wire Line
+	3275 2425 4575 2425
+Wire Wire Line
+	3925 2375 3925 2525
+Connection ~ 3925 2525
+Wire Wire Line
+	3925 2525 5225 2525
+Wire Wire Line
+	4575 2375 4575 2425
+Connection ~ 4575 2425
+Wire Wire Line
+	4575 2425 5875 2425
+Wire Wire Line
+	5225 2375 5225 2525
+Connection ~ 5225 2525
+Wire Wire Line
+	5225 2525 6525 2525
+Wire Wire Line
+	4175 1475 4825 1475
+Connection ~ 4825 1475
+Wire Wire Line
+	5475 1475 6125 1475
+Connection ~ 6125 1475
+Wire Wire Line
+	5875 2375 5875 2425
+Connection ~ 5875 2425
+Wire Wire Line
+	6525 2375 6525 2525
+Connection ~ 6525 2525
+Wire Wire Line
+	6525 2525 7825 2525
+Wire Wire Line
+	6775 1475 7425 1475
+Wire Wire Line
+	5875 2425 7175 2425
+Wire Wire Line
+	7175 2375 7175 2425
+Connection ~ 7175 2425
+Wire Wire Line
+	7825 2375 7825 2525
+Connection ~ 7825 2525
+Wire Wire Line
+	7425 2075 7425 1600
+Wire Wire Line
+	7425 1600 8725 1600
+Wire Wire Line
+	8725 1475 8725 1600
+Wire Wire Line
+	7175 2425 8475 2425
+Wire Wire Line
+	9125 2525 9125 2375
+Wire Wire Line
+	8725 2075 8725 1675
+Wire Wire Line
+	8725 1675 9375 1675
+Connection ~ 8725 2075
+Connection ~ 9375 1675
+Wire Wire Line
+	9375 1675 9375 2075
+Wire Wire Line
+	800  3675 3275 3675
+Wire Wire Line
+	10425 3675 10425 3625
+Wire Wire Line
+	9775 3625 9775 3675
+Connection ~ 9775 3675
+Wire Wire Line
+	9775 3675 10425 3675
+Wire Wire Line
+	800  3775 1325 3775
+Wire Wire Line
+	9125 3775 9125 3625
+Wire Wire Line
+	1325 3625 1325 3775
+Connection ~ 1325 3775
+Wire Wire Line
+	1325 3775 2625 3775
+Wire Wire Line
+	800  4925 3275 4925
+Wire Wire Line
+	10425 4925 10425 4875
+Wire Wire Line
+	9775 4875 9775 4925
+Connection ~ 9775 4925
+Wire Wire Line
+	9775 4925 10425 4925
+Wire Wire Line
+	800  5025 1325 5025
+Wire Wire Line
+	1325 5025 1325 4875
+Wire Wire Line
+	1325 5025 2625 5025
+Wire Wire Line
+	9125 5025 9125 4875
+Connection ~ 1325 5025
+Wire Wire Line
+	8725 4125 8725 3900
+Wire Wire Line
+	8725 3900 8075 3900
+Connection ~ 8725 4125
+Connection ~ 8075 3900
+Wire Wire Line
+	8075 3900 8075 4575
+Wire Wire Line
+	800  6175 3275 6175
+Wire Wire Line
+	10425 6175 10425 6125
+Wire Wire Line
+	9775 6125 9775 6175
+Connection ~ 9775 6175
+Wire Wire Line
+	9775 6175 10425 6175
+Wire Wire Line
+	800  6275 1325 6275
+Wire Wire Line
+	1325 6275 1325 6125
+Wire Wire Line
+	1325 6275 2625 6275
+Wire Wire Line
+	9125 6275 9125 6125
+Connection ~ 1325 6275
+Wire Wire Line
+	800  7525 1325 7525
+Wire Wire Line
+	1325 7525 1325 7375
+Wire Wire Line
+	1325 7525 2625 7525
+Wire Wire Line
+	9125 7525 9125 7375
+Connection ~ 1325 7525
+Wire Wire Line
+	800  7425 1975 7425
+Wire Wire Line
+	1975 7425 1975 7375
+Wire Wire Line
+	1975 7425 3275 7425
+Wire Wire Line
+	10425 7425 10425 7375
+Connection ~ 1975 7425
+Wire Wire Line
+	9775 7375 9775 7425
+Connection ~ 9775 7425
+Wire Wire Line
+	9775 7425 10425 7425
+Wire Wire Line
+	2625 3625 2625 3775
+Connection ~ 2625 3775
+Wire Wire Line
+	2625 3775 3925 3775
+Wire Wire Line
+	2625 4875 2625 5025
+Connection ~ 2625 5025
+Wire Wire Line
+	2625 5025 3925 5025
+Wire Wire Line
+	2625 6125 2625 6275
+Connection ~ 2625 6275
+Wire Wire Line
+	2625 6275 3925 6275
+Wire Wire Line
+	2625 7375 2625 7525
+Connection ~ 2625 7525
+Wire Wire Line
+	2625 7525 6525 7525
+Wire Wire Line
+	3275 3625 3275 3675
+Connection ~ 3275 3675
+Wire Wire Line
+	3275 3675 4575 3675
+Wire Wire Line
+	2875 4575 2875 4000
+Wire Wire Line
+	2875 4000 2225 4000
+Connection ~ 2875 4575
+Connection ~ 2225 4000
+Wire Wire Line
+	2225 4000 2225 4575
+Wire Wire Line
+	3275 4875 3275 4925
+Connection ~ 3275 4925
+Wire Wire Line
+	3275 4925 4575 4925
+Wire Wire Line
+	3275 6125 3275 6175
+Connection ~ 3275 6175
+Wire Wire Line
+	3275 6175 4575 6175
+Wire Wire Line
+	3275 7375 3275 7425
+Connection ~ 3275 7425
+Wire Wire Line
+	3275 7425 4575 7425
+Wire Wire Line
+	3925 3625 3925 3775
+Connection ~ 3925 3775
+Wire Wire Line
+	3925 3775 5225 3775
+Wire Wire Line
+	3925 4875 3925 5025
+Connection ~ 3925 5025
+Wire Wire Line
+	3925 5025 5225 5025
+Wire Wire Line
+	3925 6125 3925 6275
+Connection ~ 3925 6275
+Wire Wire Line
+	3925 6275 5225 6275
+Wire Wire Line
+	4575 3625 4575 3675
+Connection ~ 4575 3675
+Wire Wire Line
+	4575 3675 5875 3675
+Wire Wire Line
+	4575 4875 4575 4925
+Connection ~ 4575 4925
+Wire Wire Line
+	4575 4925 5875 4925
+Wire Wire Line
+	4175 5825 4175 5250
+Wire Wire Line
+	4175 5250 3525 5250
+Connection ~ 4175 5825
+Connection ~ 3525 5250
+Wire Wire Line
+	3525 5250 3525 5825
+Wire Wire Line
+	4575 6125 4575 6175
+Connection ~ 4575 6175
+Wire Wire Line
+	4575 6175 5875 6175
+Wire Wire Line
+	4575 7375 4575 7425
+Connection ~ 4575 7425
+Wire Wire Line
+	4575 7425 5875 7425
+Wire Wire Line
+	5225 3625 5225 3775
+Connection ~ 5225 3775
+Wire Wire Line
+	5225 3775 6525 3775
+Wire Wire Line
+	5225 4875 5225 5025
+Connection ~ 5225 5025
+Wire Wire Line
+	5225 5025 6525 5025
+Wire Wire Line
+	5225 6125 5225 6275
+Connection ~ 5225 6275
+Wire Wire Line
+	5225 6275 6525 6275
+Wire Wire Line
+	5875 3625 5875 3675
+Connection ~ 5875 3675
+Wire Wire Line
+	5875 3675 7175 3675
+Wire Wire Line
+	5875 4875 5875 4925
+Connection ~ 5875 4925
+Wire Wire Line
+	5875 4925 7175 4925
+Wire Wire Line
+	5875 6125 5875 6175
+Connection ~ 5875 6175
+Wire Wire Line
+	5875 6175 7175 6175
+Wire Wire Line
+	5875 7375 5875 7425
+Connection ~ 5875 7425
+Wire Wire Line
+	5875 7425 7175 7425
+Wire Wire Line
+	4825 5825 4825 6500
+Wire Wire Line
+	4825 6500 5475 6500
+Wire Wire Line
+	5475 6500 5475 6925
+Connection ~ 4825 5825
+Connection ~ 5475 6925
+Wire Wire Line
+	6525 3625 6525 3775
+Connection ~ 6525 3775
+Wire Wire Line
+	6525 3775 7825 3775
+Wire Wire Line
+	6525 4875 6525 5025
+Connection ~ 6525 5025
+Wire Wire Line
+	6525 5025 7825 5025
+Wire Wire Line
+	6525 6125 6525 6275
+Connection ~ 6525 6275
+Wire Wire Line
+	6525 6275 7825 6275
+Wire Wire Line
+	6525 7375 6525 7525
+Connection ~ 6525 7525
+Wire Wire Line
+	6525 7525 9125 7525
+Wire Wire Line
+	7175 3625 7175 3675
+Connection ~ 7175 3675
+Wire Wire Line
+	7175 3675 8475 3675
+Wire Wire Line
+	7175 4875 7175 4925
+Connection ~ 7175 4925
+Wire Wire Line
+	7175 4925 8475 4925
+Wire Wire Line
+	7175 6125 7175 6175
+Connection ~ 7175 6175
+Wire Wire Line
+	7175 6175 8475 6175
+Wire Wire Line
+	7175 7375 7175 7425
+Connection ~ 7175 7425
+Wire Wire Line
+	7175 7425 8475 7425
+Wire Wire Line
+	7425 3325 7425 2750
+Wire Wire Line
+	7425 2750 6775 2750
+Connection ~ 7425 3325
+Connection ~ 6775 2750
+Wire Wire Line
+	6775 2750 6775 3325
+Wire Wire Line
+	7825 3625 7825 3775
+Connection ~ 7825 3775
+Wire Wire Line
+	7825 3775 9125 3775
+Wire Wire Line
+	7825 4875 7825 5025
+Connection ~ 7825 5025
+Wire Wire Line
+	7825 5025 9125 5025
+Wire Wire Line
+	7825 6125 7825 6275
+Connection ~ 7825 6275
+Wire Wire Line
+	7825 6275 9125 6275
+Wire Wire Line
+	7825 2525 9125 2525
+Wire Wire Line
+	8475 2375 8475 2425
+Connection ~ 8475 2425
+Wire Wire Line
+	8475 2425 9775 2425
+Wire Wire Line
+	8475 3625 8475 3675
+Connection ~ 8475 3675
+Wire Wire Line
+	8475 3675 9775 3675
+Wire Wire Line
+	8475 4875 8475 4925
+Connection ~ 8475 4925
+Wire Wire Line
+	8475 4925 9775 4925
+Wire Wire Line
+	8475 6125 8475 6175
+Connection ~ 8475 6175
+Wire Wire Line
+	8475 6175 9775 6175
+Wire Wire Line
+	8475 7375 8475 7425
+Connection ~ 8475 7425
+Wire Wire Line
+	8475 7425 9775 7425
 $EndSCHEMATC
