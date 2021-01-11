@@ -214,17 +214,17 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 	1    12975 4725
 	-1   0    0    1   
 $EndComp
-Text GLabel 15275 4850 2    60   Input ~ 0
+Text GLabel 15275 5050 2    60   Input ~ 0
 pin6
-Text GLabel 15275 4750 2    60   Input ~ 0
-pin5
-Text GLabel 15275 4650 2    60   Input ~ 0
-pin4
 Text GLabel 15275 3150 2    60   Input ~ 0
+pin5
+Text GLabel 15275 4750 2    60   Input ~ 0
+pin4
+Text GLabel 15275 2750 2    60   Input ~ 0
 pin3
-Text GLabel 15275 4050 2    60   Input ~ 0
+Text GLabel 15275 2650 2    60   Input ~ 0
 pin2
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 4050 2    60   Input ~ 0
 pin1
 Text GLabel 15275 2250 2    60   Input ~ 0
 pin11
@@ -1212,9 +1212,9 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 5050 2    50   Input ~ 0
-RE1_A
 Text GLabel 15275 4950 2    50   Input ~ 0
+RE1_A
+Text GLabel 15275 4850 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_up1
@@ -3487,11 +3487,11 @@ Text GLabel 15275 4550 2    50   Input ~ 0
 LED
 Text GLabel 15275 2450 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 4350 2    60   Input ~ 0
+Text GLabel 15275 4650 2    60   Input ~ 0
 pin9
-Text GLabel 15275 3850 2    60   Input ~ 0
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin8
-Text GLabel 15275 3950 2    60   Input ~ 0
+Text GLabel 15275 2550 2    60   Input ~ 0
 pin7
 Connection ~ 2800 7950
 Wire Wire Line
@@ -3837,9 +3837,9 @@ Wire Wire Line
 	3775 10750 3925 10750
 Wire Wire Line
 	3775 11050 3925 11050
-NoConn ~ 15275 2550
-NoConn ~ 15275 2650
-NoConn ~ 15275 2750
+NoConn ~ 15275 4350
+NoConn ~ 15275 3850
+NoConn ~ 15275 3950
 NoConn ~ 15275 3350
 NoConn ~ 15275 3450
 NoConn ~ 15275 3550
