@@ -214,17 +214,15 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 	1    12975 4725
 	-1   0    0    1   
 $EndComp
-Text GLabel 15275 5050 2    60   Input ~ 0
-pin6
-Text GLabel 15275 3150 2    60   Input ~ 0
-pin5
-Text GLabel 15275 4750 2    60   Input ~ 0
-pin4
-Text GLabel 15275 2750 2    60   Input ~ 0
-pin3
 Text GLabel 15275 2650 2    60   Input ~ 0
+pin6
+Text GLabel 15275 4350 2    60   Input ~ 0
+pin5
+Text GLabel 15275 4550 2    60   Input ~ 0
+pin4
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin2
-Text GLabel 15275 4050 2    60   Input ~ 0
+Text GLabel 15275 2750 2    60   Input ~ 0
 pin1
 Text GLabel 15275 2150 2    60   Input ~ 0
 pin10
@@ -1210,7 +1208,7 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 4950 2    50   Input ~ 0
+Text GLabel 15275 4750 2    50   Input ~ 0
 RE1_A
 Text GLabel 15275 4850 2    50   Input ~ 0
 RE1_B
@@ -2928,7 +2926,7 @@ F 3 "~" H 3565 10800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 4300 10750 2    50   Input ~ 0
-AUDIO
+AUDIO1
 $Comp
 L power:GND #PWR023
 U 1 1 6309ED5B
@@ -2971,10 +2969,8 @@ Wire Wire Line
 Connection ~ 3925 10750
 Wire Wire Line
 	3775 10850 3775 11050
-Text GLabel 15275 2350 2    50   Input ~ 0
-RE2_A
 Text GLabel 15275 2850 2    50   Input ~ 0
-AUDIO
+AUDIO1
 Connection ~ 9125 4425
 Wire Wire Line
 	9125 4425 9125 4575
@@ -3127,13 +3123,11 @@ Wire Wire Line
 Connection ~ 5825 8950
 Wire Wire Line
 	5825 8950 5625 8950
-Text GLabel 15275 4550 2    50   Input ~ 0
-LED
 Text GLabel 15275 2450 2    50   Input ~ 0
 RE2_B
 Text GLabel 15275 4650 2    60   Input ~ 0
 pin9
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 4950 2    60   Input ~ 0
 pin8
 Text GLabel 15275 2550 2    60   Input ~ 0
 pin7
@@ -3236,7 +3230,7 @@ Wire Wire Line
 	7175 6925 7175 7075
 Connection ~ 7175 7075
 Text GLabel 15275 3050 2    50   Input ~ 0
-Reserve_PC6
+AUDIO2
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED4
 U 1 1 5FA68DEE
@@ -3377,28 +3371,11 @@ Connection ~ 1975 2075
 Connection ~ 3925 11050
 Wire Wire Line
 	3925 11050 4125 11050
-Text GLabel 4300 10250 2    50   Input ~ 0
-Reserve_PC6
-$Comp
-L Jumper:SolderJumper_2_Open JP_AUDIO1
-U 1 1 5F8605DC
-P 4250 10500
-F 0 "JP_AUDIO1" V 4204 10568 50  0000 L CNN
-F 1 "SolderJumper_2_Open" V 4295 10568 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4250 10500 50  0001 C CNN
-F 3 "~" H 4250 10500 50  0001 C CNN
-	1    4250 10500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4250 10250 4300 10250
-Wire Wire Line
-	4250 10650 4250 10750
 Connection ~ 4250 10750
 Wire Wire Line
 	4250 10750 4225 10750
-Wire Wire Line
-	4250 10250 4250 10350
 Wire Wire Line
 	7100 8250 6725 8250
 Wire Wire Line
@@ -3478,7 +3455,7 @@ Wire Wire Line
 	3775 10750 3925 10750
 Wire Wire Line
 	3775 11050 3925 11050
-NoConn ~ 15275 4350
+NoConn ~ 15275 3150
 NoConn ~ 15275 3850
 NoConn ~ 15275 3950
 NoConn ~ 15275 3350
@@ -3497,7 +3474,7 @@ F 4 "C81598" H 9375 1325 50  0001 C CNN "LCSC"
 	1    9375 1325
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 15275 2250
+NoConn ~ 15275 4050
 Text GLabel 10025 1175 1    60   Input ~ 0
 pin9
 $Comp
@@ -3600,7 +3577,7 @@ Connection ~ 7825 2525
 Wire Wire Line
 	7425 2075 7425 1600
 Wire Wire Line
-	7425 1600 8725 1600
+	7425 1600 8075 1600
 Wire Wire Line
 	8725 1475 8725 1600
 Wire Wire Line
@@ -3924,4 +3901,20 @@ Wire Wire Line
 Connection ~ 8475 7425
 Wire Wire Line
 	8475 7425 9775 7425
+Wire Wire Line
+	8075 1600 8075 2075
+Connection ~ 8075 1600
+Wire Wire Line
+	8075 1600 8725 1600
+Connection ~ 8075 2075
+Wire Wire Line
+	4250 10250 4250 10750
+Text GLabel 4300 10250 2    50   Input ~ 0
+AUDIO2
+Text GLabel 15275 5050 2    60   Input ~ 0
+pin3
+Text GLabel 15275 2250 2    50   Input ~ 0
+LED
+Text GLabel 15275 2350 2    50   Input ~ 0
+RE2_A
 $EndSCHEMATC
