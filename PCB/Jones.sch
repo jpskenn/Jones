@@ -214,17 +214,15 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 	1    12975 4725
 	-1   0    0    1   
 $EndComp
-Text GLabel 15275 2650 2    60   Input ~ 0
-pin6
 Text GLabel 15275 4350 2    60   Input ~ 0
+pin6
+Text GLabel 15275 2550 2    60   Input ~ 0
 pin5
-Text GLabel 15275 4550 2    60   Input ~ 0
-pin4
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 2350 2    60   Input ~ 0
 pin2
-Text GLabel 15275 2750 2    60   Input ~ 0
+Text GLabel 15275 2450 2    60   Input ~ 0
 pin1
-Text GLabel 15275 2150 2    60   Input ~ 0
+Text GLabel 15275 2650 2    60   Input ~ 0
 pin10
 Wire Wire Line
 	13750 3450 14075 3450
@@ -1208,9 +1206,9 @@ F 3 "~" H 2425 7125 50  0001 C CNN
 	1    2425 6925
 	1    0    0    -1  
 $EndComp
-Text GLabel 15275 4750 2    50   Input ~ 0
+Text GLabel 15275 3750 2    50   Input ~ 0
 RE1_A
-Text GLabel 15275 4850 2    50   Input ~ 0
+Text GLabel 15275 3950 2    50   Input ~ 0
 RE1_B
 $Comp
 L Switch:SW_Push SW_up1
@@ -2969,7 +2967,7 @@ Wire Wire Line
 Connection ~ 3925 10750
 Wire Wire Line
 	3775 10850 3775 11050
-Text GLabel 15275 2850 2    50   Input ~ 0
+Text GLabel 15275 2750 2    50   Input ~ 0
 AUDIO1
 Connection ~ 9125 4425
 Wire Wire Line
@@ -3123,13 +3121,13 @@ Wire Wire Line
 Connection ~ 5825 8950
 Wire Wire Line
 	5825 8950 5625 8950
-Text GLabel 15275 2350 2    50   Input ~ 0
+Text GLabel 15275 4550 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 4650 2    60   Input ~ 0
+Text GLabel 15275 3150 2    60   Input ~ 0
 pin9
-Text GLabel 15275 4950 2    60   Input ~ 0
+Text GLabel 15275 5050 2    60   Input ~ 0
 pin8
-Text GLabel 15275 2550 2    60   Input ~ 0
+Text GLabel 15275 2250 2    60   Input ~ 0
 pin7
 Connection ~ 2800 7950
 Wire Wire Line
@@ -3455,9 +3453,9 @@ Wire Wire Line
 	3775 10750 3925 10750
 Wire Wire Line
 	3775 11050 3925 11050
-NoConn ~ 15275 3150
-NoConn ~ 15275 3850
-NoConn ~ 15275 3950
+NoConn ~ 15275 2150
+NoConn ~ 15275 4750
+NoConn ~ 15275 2850
 NoConn ~ 15275 3350
 NoConn ~ 15275 3450
 NoConn ~ 15275 3550
@@ -3474,7 +3472,6 @@ F 4 "C81598" H 9375 1325 50  0001 C CNN "LCSC"
 	1    9375 1325
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 15275 4050
 Text GLabel 10025 1175 1    60   Input ~ 0
 pin9
 $Comp
@@ -3911,10 +3908,13 @@ Wire Wire Line
 	4250 10250 4250 10750
 Text GLabel 4300 10250 2    50   Input ~ 0
 AUDIO2
-Text GLabel 15275 5050 2    60   Input ~ 0
+Text GLabel 15275 3850 2    60   Input ~ 0
 pin3
-Text GLabel 15275 2450 2    50   Input ~ 0
-LED
-Text GLabel 15275 2250 2    50   Input ~ 0
+Text GLabel 15275 4650 2    50   Input ~ 0
 RE2_A
+NoConn ~ 15275 4850
+Text GLabel 15275 4950 2    50   Input ~ 0
+LED
+Text GLabel 15275 4050 2    60   Input ~ 0
+pin4
 $EndSCHEMATC
