@@ -3917,4 +3917,81 @@ Text GLabel 15275 4950 2    50   Input ~ 0
 LED
 Text GLabel 15275 4050 2    60   Input ~ 0
 pin4
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6008BA2A
+P 9725 10175
+F 0 "H4" H 9825 10221 50  0000 L CNN
+F 1 "MountingHole" H 9825 10130 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 10175 50  0001 C CNN
+F 3 "~" H 9725 10175 50  0001 C CNN
+	1    9725 10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 6008C78B
+P 9725 10375
+F 0 "H5" H 9825 10421 50  0000 L CNN
+F 1 "MountingHole" H 9825 10330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 10375 50  0001 C CNN
+F 3 "~" H 9725 10375 50  0001 C CNN
+	1    9725 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 600BD10E
+P 9725 10575
+F 0 "H6" H 9825 10621 50  0000 L CNN
+F 1 "MountingHole" H 9825 10530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 10575 50  0001 C CNN
+F 3 "~" H 9725 10575 50  0001 C CNN
+	1    9725 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 600EDAFA
+P 9725 10775
+F 0 "H7" H 9825 10821 50  0000 L CNN
+F 1 "MountingHole" H 9825 10730 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 10775 50  0001 C CNN
+F 3 "~" H 9725 10775 50  0001 C CNN
+	1    9725 10775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6011EF49
+P 9725 9575
+F 0 "H1" H 9825 9621 50  0000 L CNN
+F 1 "MountingHole" H 9825 9530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 9575 50  0001 C CNN
+F 3 "~" H 9725 9575 50  0001 C CNN
+	1    9725 9575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6011EF4F
+P 9725 9775
+F 0 "H2" H 9825 9821 50  0000 L CNN
+F 1 "MountingHole" H 9825 9730 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 9775 50  0001 C CNN
+F 3 "~" H 9725 9775 50  0001 C CNN
+	1    9725 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6011EF55
+P 9725 9975
+F 0 "H3" H 9825 10021 50  0000 L CNN
+F 1 "MountingHole" H 9825 9930 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 9975 50  0001 C CNN
+F 3 "~" H 9725 9975 50  0001 C CNN
+	1    9725 9975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
