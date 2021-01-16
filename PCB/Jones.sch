@@ -3994,4 +3994,15 @@ F 3 "~" H 9725 9975 50  0001 C CNN
 	1    9725 9975
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60069E85
+P 9725 10975
+F 0 "H8" H 9825 11021 50  0000 L CNN
+F 1 "MountingHole" H 9825 10930 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9725 10975 50  0001 C CNN
+F 3 "~" H 9725 10975 50  0001 C CNN
+	1    9725 10975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

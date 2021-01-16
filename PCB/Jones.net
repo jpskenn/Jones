@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 January 16, Saturday 13:37:24")
+    (date "2021 January 17, Sunday 08:38:34")
     (tool "Eeschema (5.1.9-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1717,7 +1717,14 @@
       (datasheet ~)
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 6011EF55)))
+      (tstamp 6011EF55))
+    (comp (ref H8)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_2.2mm_M2)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60069E85)))
   (libparts
     (libpart (lib Connector_Generic) (part Conn_01x03)
       (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
