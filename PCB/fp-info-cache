@@ -1,4 +1,4 @@
-19650921488307951
+19652532257837951
 5-way_Nav_Switch
 JS5208_PKG
 
@@ -85461,6 +85461,13 @@ locallib
 
 0
 37
+1
+locallib
+60_Outline-TinyHole_No_Hole3
+
+
+0
+9
 1
 locallib
 60_Outline-TinyHole_No_Hole@UpperRight
