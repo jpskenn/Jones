@@ -3123,9 +3123,9 @@ Wire Wire Line
 	5825 8950 5625 8950
 Text GLabel 15275 4550 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 5050 2    60   Input ~ 0
-pin9
 Text GLabel 15275 3150 2    60   Input ~ 0
+pin9
+Text GLabel 15275 5050 2    60   Input ~ 0
 pin8
 Text GLabel 15275 2250 2    60   Input ~ 0
 pin7
