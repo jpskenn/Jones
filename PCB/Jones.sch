@@ -3912,7 +3912,6 @@ Text GLabel 15275 3650 2    60   Input ~ 0
 pin3
 Text GLabel 15275 4650 2    50   Input ~ 0
 RE2_A
-NoConn ~ 15275 4850
 Text GLabel 15275 4950 2    50   Input ~ 0
 LED
 Text GLabel 15275 4050 2    60   Input ~ 0
@@ -4027,4 +4026,5 @@ F 3 "~" H 10575 10375 50  0001 C CNN
 	1    10575 10375
 	1    0    0    -1  
 $EndComp
+NoConn ~ 15275 4850
 $EndSCHEMATC
