@@ -1219,12 +1219,6 @@ F 3 "~" H 9575 6025 50  0001 C CNN
 	1    9575 5825
 	1    0    0    -1  
 $EndComp
-Connection ~ 1325 6925
-Wire Wire Line
-	1325 6925 1325 6825
-Connection ~ 1325 7075
-Wire Wire Line
-	1325 7075 1325 6925
 Wire Wire Line
 	13475 2650 13225 2650
 Connection ~ 12875 2875
@@ -1488,17 +1482,6 @@ $EndComp
 Wire Wire Line
 	2625 6925 2625 7075
 $Comp
-L Switch:SW_Push SW_LongOPT1
-U 1 1 5F29DC6B
-P 1775 7075
-F 0 "SW_LongOPT1" H 1775 7360 50  0000 C CNN
-F 1 "SW_Push" H 1775 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1775 7275 50  0001 C CNN
-F 3 "~" H 1775 7275 50  0001 C CNN
-	1    1775 7075
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW_WIN1
 U 1 1 5F29DC71
 P 1775 6925
@@ -1604,28 +1587,6 @@ Wire Wire Line
 	10425 5650 10425 5825
 Wire Wire Line
 	10425 5475 10425 5650
-$Comp
-L Switch:SW_Push SW_CAPS1u1
-U 1 1 5F67807F
-P 1125 6925
-F 0 "SW_CAPS1u1" H 1125 7210 50  0000 C CNN
-F 1 "SW_Push" H 1125 7119 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1125 7125 50  0001 C CNN
-F 3 "~" H 1125 7125 50  0001 C CNN
-	1    1125 6925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_CAPS1.25u1
-U 1 1 5F02207D
-P 1125 7075
-F 0 "SW_CAPS1.25u1" H 1125 7360 50  0000 C CNN
-F 1 "SW_Push" H 1125 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 1125 7275 50  0001 C CNN
-F 3 "~" H 1125 7275 50  0001 C CNN
-	1    1125 7075
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 LED_PAD1
 U 1 1 5F213686
@@ -1884,9 +1845,6 @@ Wire Wire Line
 	925  4375 925  4575
 Connection ~ 925  4575
 Connection ~ 1325 5825
-Connection ~ 925  6925
-Wire Wire Line
-	925  6925 925  7075
 Wire Wire Line
 	1575 6925 1575 7075
 $Comp
@@ -2779,8 +2737,6 @@ F 3 "~" H 1125 5825 50  0001 C CNN
 	1    1125 5625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	925  5825 925  6925
 $Comp
 L Device:Speaker LS1
 U 1 1 63083776
@@ -4068,5 +4024,48 @@ F 4 "C81598" H 5475 1325 50  0001 C CNN "LCSC"
 	1    5475 1325
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 15275 2650
+$Comp
+L Switch:SW_Push SW_LongOPT1
+U 1 1 5F29DC6B
+P 1775 7075
+F 0 "SW_LongOPT1" H 1775 7360 50  0000 C CNN
+F 1 "SW_Push" H 1775 7269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1775 7275 50  0001 C CNN
+F 3 "~" H 1775 7275 50  0001 C CNN
+	1    1775 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  5825 925  6925
+Wire Wire Line
+	925  6925 925  7075
+Connection ~ 925  6925
+Wire Wire Line
+	1325 7075 1325 6925
+Wire Wire Line
+	1325 6925 1325 6825
+Connection ~ 1325 6925
+$Comp
+L Switch:SW_Push SW_CAPS1u1
+U 1 1 5F67807F
+P 1125 6925
+F 0 "SW_CAPS1u1" H 1125 7210 50  0000 C CNN
+F 1 "SW_Push" H 1125 7119 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1125 7125 50  0001 C CNN
+F 3 "~" H 1125 7125 50  0001 C CNN
+	1    1125 6925
+	1    0    0    -1  
+$EndComp
+Connection ~ 1325 7075
+$Comp
+L Switch:SW_Push SW_CAPS1.25u1
+U 1 1 5F02207D
+P 1125 7075
+F 0 "SW_CAPS1.25u1" H 1125 7360 50  0000 C CNN
+F 1 "SW_Push" H 1125 7269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 1125 7275 50  0001 C CNN
+F 3 "~" H 1125 7275 50  0001 C CNN
+	1    1125 7075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
