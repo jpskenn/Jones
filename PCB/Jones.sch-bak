@@ -2253,10 +2253,10 @@ Connection ~ 10025 2075
 Wire Wire Line
 	10025 2075 10025 2725
 $Comp
-L Switch:SW_Push SW_[3
+L Switch:SW_Push SW_[2
 U 1 1 61629E68
 P 10225 3325
-F 0 "SW_[3" H 10225 3610 50  0000 C CNN
+F 0 "SW_[2" H 10225 3610 50  0000 C CNN
 F 1 "SW_Push" H 10225 3519 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 10225 3525 50  0001 C CNN
 F 3 "~" H 10225 3525 50  0001 C CNN
@@ -3068,22 +3068,6 @@ Wire Wire Line
 	9775 3175 9775 3325
 Connection ~ 9775 3325
 $Comp
-L Switch:SW_Push SW_[2
-U 1 1 5FB0372F
-P 9575 3025
-F 0 "SW_[2" H 9575 3310 50  0000 C CNN
-F 1 "SW_Push" H 9575 3219 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 9575 3225 50  0001 C CNN
-F 3 "~" H 9575 3225 50  0001 C CNN
-	1    9575 3025
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9775 3025 9775 3175
-Connection ~ 9775 3175
-Wire Wire Line
-	9375 3025 9375 3175
-$Comp
 L Jumper:SolderJumper_3_Open JP_LED2
 U 1 1 5F8CA8A3
 P 5050 8950
@@ -3876,12 +3860,9 @@ Wire Wire Line
 	8725 1625 8725 2075
 Wire Wire Line
 	10025 2725 9375 2725
-Wire Wire Line
-	9375 2725 9375 3025
 Connection ~ 10025 2725
 Wire Wire Line
 	10025 2725 10025 3175
-Connection ~ 9375 3025
 Wire Wire Line
 	8725 6450 9375 6450
 Wire Wire Line
@@ -3971,4 +3952,6 @@ Wire Wire Line
 	9125 5300 9125 5650
 Wire Wire Line
 	10025 5650 10025 7075
+Wire Wire Line
+	9375 2725 9375 3175
 $EndSCHEMATC
