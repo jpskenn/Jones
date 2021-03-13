@@ -1,4 +1,4 @@
-19655777681694951
+19668703073606951
 5-way_Nav_Switch
 JS5208_PKG
 
@@ -57988,6 +57988,13 @@ MXOnly-1.5U-Hotswap
 2
 2
 MX_Alps_Hybrid
+MXOnly-1.5U-Hotswap-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
 MXOnly-1.5U-NoLED
 
 
@@ -58030,6 +58037,13 @@ MXOnly-1.25U-Hotswap
 2
 2
 MX_Alps_Hybrid
+MXOnly-1.25U-Hotswap-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
 MXOnly-1.25U-NoLED
 
 
@@ -58052,6 +58066,13 @@ MXOnly-1.75U-FLIPPED
 4
 MX_Alps_Hybrid
 MXOnly-1.75U-Hotswap
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-1.75U-Hotswap-guide
 
 
 0
@@ -58136,6 +58157,20 @@ MXOnly-2.25U-Hotswap
 2
 MX_Alps_Hybrid
 MXOnly-2.25U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-2.25U-Hotswap-ReversedStabilizers-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-2.25U-Hotswap-guide
 
 
 0
@@ -58254,6 +58289,20 @@ MXOnly-2U-Hotswap-ReversedStabilizers
 2
 2
 MX_Alps_Hybrid
+MXOnly-2U-Hotswap-ReversedStabilizers-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-2U-Hotswap-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
 MXOnly-2U-NoLED
 
 
@@ -58346,6 +58395,13 @@ MXOnly-6.25U-Hotswap
 2
 MX_Alps_Hybrid
 MXOnly-6.25U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-6.25U-Hotswap-ReversedStabilizers-guide
 
 
 0
