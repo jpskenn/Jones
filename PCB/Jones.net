@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 March 14, Sunday 06:16:51")
+    (date "2021 March 14, Sunday 06:24:11")
     (tool "Eeschema (5.1.9-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1476,7 +1476,7 @@
       (tstamp 63AABB78))
     (comp (ref ISO-Stab1)
       (value ISO-Stabilizer)
-      (footprint MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly-Reversed)
+      (footprint MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly)
       (datasheet ~)
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))

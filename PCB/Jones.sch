@@ -2794,7 +2794,7 @@ U 1 1 5F59B84E
 P 8275 4750
 F 0 "ISO-Stab1" H 8375 4796 50  0000 L CNN
 F 1 "ISO-Stabilizer" H 8375 4705 50  0000 L CNN
-F 2 "MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly-Reversed" H 8275 4750 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-ISO-StabilizerOnly" H 8275 4750 50  0001 C CNN
 F 3 "~" H 8275 4750 50  0001 C CNN
 	1    8275 4750
 	1    0    0    -1  
