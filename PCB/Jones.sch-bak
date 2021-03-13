@@ -1127,17 +1127,6 @@ F 4 "C81598" H 9125 5975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_RSFT1.5u1
-U 1 1 5F66BA37
-P 8925 5475
-F 0 "SW_RSFT1.5u1" H 8925 5760 50  0000 C CNN
-F 1 "SW_Push" H 8925 5669 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-NoLED" H 8925 5675 50  0001 C CNN
-F 3 "~" H 8925 5675 50  0001 C CNN
-	1    8925 5475
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D41
 U 1 1 5F66BA3D
 P 9775 5975
@@ -1158,17 +1147,6 @@ F 1 "SW_Push" H 2425 7269 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 2425 7275 50  0001 C CNN
 F 3 "~" H 2425 7275 50  0001 C CNN
 	1    2425 7075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW_'2
-U 1 1 5F68651C
-P 9575 4450
-F 0 "SW_'2" H 9575 4735 50  0000 C CNN
-F 1 "SW_Push" H 9575 4644 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 9575 4650 50  0001 C CNN
-F 3 "~" H 9575 4650 50  0001 C CNN
-	1    9575 4450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1315,8 +1293,6 @@ F 3 "" H 5625 7950 50  0001 C CNN
 	1    5625 7950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9125 5300 9125 5475
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5F074A7D
@@ -1507,8 +1483,6 @@ F 4 "C81598" H 1975 7225 50  0001 C CNN "LCSC"
 	1    1975 7225
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9775 4450 9775 4575
 $Comp
 L Device:D D31
 U 1 1 5F639FD4
@@ -2335,36 +2309,8 @@ Connection ~ 8075 4425
 Wire Wire Line
 	8075 4425 8075 4575
 Connection ~ 8475 4575
-Connection ~ 9375 4450
-$Comp
-L Switch:SW_Push SW_FN1.75u1
-U 1 1 61BAA342
-P 10225 4575
-F 0 "SW_FN1.75u1" H 10225 4860 50  0000 C CNN
-F 1 "SW_Push" H 10225 4769 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.75U-NoLED" H 10225 4775 50  0001 C CNN
-F 3 "~" H 10225 4775 50  0001 C CNN
-	1    10225 4575
-	1    0    0    -1  
-$EndComp
 Connection ~ 10025 3975
 Connection ~ 10025 4275
-Connection ~ 10025 4575
-Wire Wire Line
-	10025 4575 10025 5475
-Connection ~ 10425 4575
-Connection ~ 10425 5825
-$Comp
-L Switch:SW_Push SW_Fn1.5u1
-U 1 1 5F3CB957
-P 10225 5825
-F 0 "SW_Fn1.5u1" H 10225 6110 50  0000 C CNN
-F 1 "SW_Push" H 10225 6019 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-NoLED" H 10225 6025 50  0001 C CNN
-F 3 "~" H 10225 6025 50  0001 C CNN
-	1    10225 5825
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW_RSFT1.75u1
 U 1 1 61CC65BC
@@ -2379,9 +2325,6 @@ $EndComp
 Connection ~ 9125 5650
 Wire Wire Line
 	9125 5650 9125 5825
-Connection ~ 8725 5475
-Wire Wire Line
-	8725 5475 8725 5650
 $Comp
 L Switch:SW_Push SW_RSFT1u1
 U 1 1 61DDDB18
@@ -2393,20 +2336,10 @@ F 3 "~" H 8925 5500 50  0001 C CNN
 	1    8925 5300
 	1    0    0    -1  
 $EndComp
-Connection ~ 9125 5475
-Wire Wire Line
-	9125 5475 9125 5650
-Wire Wire Line
-	8725 5300 8725 5475
 Connection ~ 10025 5475
 Wire Wire Line
 	10025 5475 10025 5650
 Connection ~ 10025 5650
-Wire Wire Line
-	10025 5650 10025 5825
-Connection ~ 10025 5825
-Wire Wire Line
-	10025 5825 10025 7075
 Text GLabel 10025 1175 1    50   Input ~ 0
 pin1
 Text GLabel 8725 1175 1    50   Input ~ 0
@@ -2985,12 +2918,6 @@ F 3 "~" H 8275 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8075 4125 8075 4275
-Wire Wire Line
-	8475 4125 8475 4275
-Wire Wire Line
-	9375 4450 9375 5825
-Wire Wire Line
 	10025 3975 10025 4275
 Wire Wire Line
 	10425 3975 10425 4275
@@ -3058,23 +2985,6 @@ Wire Wire Line
 Wire Wire Line
 	5325 9250 5525 9250
 $Comp
-L Switch:SW_Push SW_ENT1.25u1
-U 1 1 5FDEE168
-P 8275 4275
-F 0 "SW_ENT1.25u1" H 8275 4560 50  0000 C CNN
-F 1 "SW_Push" H 8275 4469 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 8275 4475 50  0001 C CNN
-F 3 "~" H 8275 4475 50  0001 C CNN
-	1    8275 4275
-	1    0    0    -1  
-$EndComp
-Connection ~ 8075 4275
-Wire Wire Line
-	8075 4275 8075 4425
-Connection ~ 8475 4275
-Wire Wire Line
-	8475 4275 8475 4425
-$Comp
 L Switch:SW_Push SW_:1
 U 1 1 5FE08221
 P 9575 4300
@@ -3086,19 +2996,12 @@ F 3 "~" H 9575 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9775 4300 9775 4450
-Connection ~ 9775 4450
-Wire Wire Line
-	10025 4275 10025 4575
-Wire Wire Line
 	10425 4275 10425 4575
 Text GLabel 10425 7000 1    50   Input ~ 0
 RE1_2
 Text GLabel 10025 6625 2    50   Input ~ 0
 RE1_1
 Connection ~ 9375 4300
-Wire Wire Line
-	9375 4300 9375 4450
 $Comp
 L Switch:SW_Push SW_ESC2
 U 1 1 5F79BDBD
@@ -4024,48 +3927,48 @@ F 4 "C81598" H 5475 1325 50  0001 C CNN "LCSC"
 	1    5475 1325
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 15275 2650
 $Comp
-L Switch:SW_Push SW_LongOPT1
+L Switch:SW_Push SW_CAPS1u1
+U 1 1 5F67807F
+P 1125 7075
+F 0 "SW_CAPS1u1" H 1125 7360 50  0000 C CNN
+F 1 "SW_Push" H 1125 7269 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1125 7275 50  0001 C CNN
+F 3 "~" H 1125 7275 50  0001 C CNN
+	1    1125 7075
+	1    0    0    -1  
+$EndComp
+Connection ~ 1325 7075
+Wire Wire Line
+	1325 6825 1325 7075
+Wire Wire Line
+	925  5825 925  7075
+$Comp
+L Switch:SW_Push SW_LongOPT1.25
 U 1 1 5F29DC6B
 P 1775 7075
-F 0 "SW_LongOPT1" H 1775 7360 50  0000 C CNN
+F 0 "SW_LongOPT1.25" H 1775 7360 50  0000 C CNN
 F 1 "SW_Push" H 1775 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1775 7275 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap" H 1775 7275 50  0001 C CNN
 F 3 "~" H 1775 7275 50  0001 C CNN
 	1    1775 7075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	925  5825 925  6925
+	8075 4125 8075 4425
 Wire Wire Line
-	925  6925 925  7075
-Connection ~ 925  6925
+	8475 4125 8475 4425
 Wire Wire Line
-	1325 7075 1325 6925
+	9375 4300 9375 5825
 Wire Wire Line
-	1325 6925 1325 6825
-Connection ~ 1325 6925
-$Comp
-L Switch:SW_Push SW_CAPS1u1
-U 1 1 5F67807F
-P 1125 6925
-F 0 "SW_CAPS1u1" H 1125 7210 50  0000 C CNN
-F 1 "SW_Push" H 1125 7119 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap" H 1125 7125 50  0001 C CNN
-F 3 "~" H 1125 7125 50  0001 C CNN
-	1    1125 6925
-	1    0    0    -1  
-$EndComp
-Connection ~ 1325 7075
-$Comp
-L Switch:SW_Push SW_CAPS1.25u1
-U 1 1 5F02207D
-P 1125 7075
-F 0 "SW_CAPS1.25u1" H 1125 7360 50  0000 C CNN
-F 1 "SW_Push" H 1125 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 1125 7275 50  0001 C CNN
-F 3 "~" H 1125 7275 50  0001 C CNN
-	1    1125 7075
-	1    0    0    -1  
-$EndComp
+	9775 4300 9775 4575
+Wire Wire Line
+	10025 4275 10025 5475
+Wire Wire Line
+	8725 5300 8725 5650
+Wire Wire Line
+	9125 5300 9125 5650
+Wire Wire Line
+	10025 5650 10025 7075
 $EndSCHEMATC
