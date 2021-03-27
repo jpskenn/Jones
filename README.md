@@ -29,7 +29,6 @@ GH60 case compatible PCB and key-plate.
 Jones can handle a speaker with two simultaneous audio voices, two rotary encoders and LED lightings together.  
 You can expand functions by adding two or three parts and write firmware for it.
 
-
 ## コンセプト
 
 このキーボードのコンセプトや実現したい要件は次の通りです。
@@ -46,14 +45,12 @@ You can expand functions by adding two or three parts and write firmware for it.
 →独自配列にしすぎない。
 - 標準的なキーキャプですべて埋められるレイアウト。
 
-
 ## 特徴
 
 ### キーレイアウト
 
+#### 独自のずれ幅をもつ左右対象のアルファ部。
 
-
-#### 独自のずれ幅をもつ左右対象のアルファ部。  
 2行目と3行目にずれの無い、ロースタガとオルソリニアを組み合わせたキー配列です。  
 左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並んだ自然なポジションにします。  
 
@@ -63,21 +60,21 @@ Jonesレイアウト: 左手、右手ともに、肘、手首、指先が直線�
 ![Position:HHKB](./assets/position_hhkb.jpg)  
 一般的なレイアウト: 左手の手首から先、指先が外側へ向く
 
-#### 右手のホームポジションに近づけたModキー  
+#### 右手のホームポジションに近づけたModキー
+
 40%キーボードのレイアウトにならい、Modキーを右手のホームポジションのすぐ隣へ移動しました。  
 打鍵しやすい位置に使用頻度の高いキーを配置したことで、右手の負担を軽減できます。  
 
 ![Mod keys at right side](./assets/DSC_7217.jpeg)  
 右手のホームポジションすぐ隣のModキー
 
-#### キーレイアウトのバリエーション  
+#### キーレイアウトのバリエーション
+
 キーレイアウトは、基本的なレイアウトとしてANSIまたはJPスタイルを選択できます。  
 最下行はスペースキーのサイズでいくつかバリエーションがあります。
 
-
 [![key layouts](./assets/layout.png)  
 Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
-
 
 基本的なレイアウトは、一般的なキーキャップセットで全て埋められるようになっています。  
 
@@ -87,27 +84,27 @@ Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/g
 [![JP Style](./assets/jones_layout_v.3.5.4_JP.png)  
 基本的なレイアウト：JPスタイル](http://www.keyboard-layout-editor.com/#/gists/3bc20c5810c8dc7985cc79059cf4c005)
 
-
-
 GMK Coreに相当するセットや40%キーボード向けのセットを用意すれば、基本的なレイアウトから派生した個性的なレイアウトにすることもできます。  
-
-
 
 ### 機能
 
 #### スピーカー
+
 基板上にスピーカーを設置して、レイヤーキーなど特定のキー押下時にメロディを流したり、ピコピコと打鍵音を鳴らしたりできます。
 
 [QMKの音楽モード](https://docs.qmk.fm/#/ja/feature_audio?id=音楽モード)を使って曲を演奏することもでき、組み立て時の設定で2音同時発音にも対応します。
 
-#### ロータリーエンコーダ  
+#### ロータリーエンコーダ
+
 右下と左下へ、片方または両方にロータリーエンコーダを設置することができます。  
 ALPS ALPINE製のEC11, EC12またはその互換品が使用できます。
 
-#### LED照明  
+#### LED照明
+
 レイヤーインジケータやアンダーグロー照明として、LEDを設置できます。  
 
 次の3箇所にLEDを設置でき、それぞれ使用／未使用が選べます。
+
 - 右側：2行目に2個、または3行目に2個。  
 - 左側：3行目と4行目にそれぞれ2個。合計4個。  
 - 裏側：テープLED。
@@ -120,10 +117,12 @@ ALPS ALPINE製のEC11, EC12またはその互換品が使用できます。
 なお、書き込めるファームウェアサイズに上限があるため、全ての機能を同時には使えない場合があります。  
 
 ##### OLED
+
 右上2キーとは設置場所の都合で排他使用となります。  
 [遊舎工房で販売されているOLEDモジュール](https://yushakobo.jp/shop/oled/)を使用し、レイヤー名やロゴの表示ができることを確認済みです。
 
 ##### 外部接続用端子
+
 ピンヘッダやピンソケットを介し、本対外のデバイスを接続する目的の外部接続用端子を用意しています。  
 
 キーマトリクスの未使用部分を含むピンやMCUの未使用ピンを外部へ引き出すことができます。  
@@ -131,7 +130,6 @@ ALPS ALPINE製のEC11, EC12またはその互換品が使用できます。
 キーマトリクスは総当たりマトリクスを使用しているため、通常とは回路が少し異なります。
 
 スピーカー2音同時発音のテストで動作確認済み。  
-
 
 ##### I2C接続
 
@@ -146,14 +144,13 @@ OLEDとはピンアサインの都合で排他使用となります。
 
 - GH60型  
 確認済みのケースは次の通り。
-    - [KBDfans TOFU 60% Aluminum Case](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)  
-    - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)  
-    - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（※ケースの一部加工が必要）
+  - [KBDfans TOFU 60% Aluminum Case](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)  
+  - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)  
+  - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（※ケースの一部加工が必要）
 
 - ケースレス簡易サンドイッチプレート（未完成）
 
 - オリジナルトップマウントケース（未完成）
-
 
 ## ビルドガイド
 
