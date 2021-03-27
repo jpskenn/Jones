@@ -124,12 +124,18 @@ ALPS ALPINE製のEC11, EC12またはその互換品が使用できます。
 
 ## ビルドガイド
 
-- [v.0.3.1](./docs/BuildGuide_v.0.3.1_JA.md)
+- [v.0.3.1 / v.0.3.2](./docs/BuildGuide_v.0.3.1_JA.md)
 - [v.0.3](./docs/BuildGuide_v.0.3_JA.md)
 - [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
 - [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
 
 ## 製作歴
+
+### v.0.3.2
+
+- 組み立てやすさを向上。
+- ネジ穴経由で導通する不具合対策
+- キープレートの切り欠き部分を減らして剛性アップ
 
 ### v.0.3.1
 
