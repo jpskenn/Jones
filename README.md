@@ -8,7 +8,7 @@ Jones（ジョーンズ）は、2行目と3行目のずれをなくし、ロー�
 40〜50%のキーボードが60%のケースに収まったような配列になっており、コンパクトで軽快な運指の心地良さと、必要十分なキー数（レイヤーに全部押し込まなくて良い！）を兼ね備えています。  
 ANSIまたはJPスタイルのレイアウトが選択でき、PCBとキープレートはGH60型のケースと組み合わせて使用できます。  
 
-左右2個のロータリーエンコーダと2音同時発音のスピーカーを使用することができ、DIYで機能を拡張することもできます。
+左右2個のロータリーエンコーダと2音同時発音のスピーカーを使用することができます。
 
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
@@ -26,8 +26,7 @@ Symmetrical alpha-keys and nearby right side mod-keys provide natural typing pos
 ANSI and JP style layouts are supported.  
 GH60 case compatible PCB and key-plate.
 
-Jones can handle a speaker with two simultaneous audio voices, two rotary encoders and LED lightings together.  
-You can expand functions by adding two or three parts and write firmware for it.
+Jones can handle one speaker with two simultaneous audio voices, two rotary encoders and LED lightings together.  
 
 ## コンセプト
 
@@ -108,35 +107,6 @@ ALPS ALPINE製のEC11, EC12またはその互換品が使用できます。
 - 右側：2行目に2個、または3行目に2個。  
 - 左側：3行目と4行目にそれぞれ2個。合計4個。  
 - 裏側：テープLED。
-
-#### 追加使用できる機能
-
-**組み合わせるパーツや作成するファームウェアなど、動作を保証しきれない部分があるため、機能拡張はDIYでお楽しみください。**
-
-いくつかの部品を追加してファームウェアを作成すれば、以下の機能を使用できるようになります。  
-なお、書き込めるファームウェアサイズに上限があるため、全ての機能を同時には使えない場合があります。  
-
-##### OLED
-
-右上2キーとは設置場所の都合で排他使用となります。  
-[遊舎工房で販売されているOLEDモジュール](https://yushakobo.jp/shop/oled/)を使用し、レイヤー名やロゴの表示ができることを確認済みです。
-
-##### 外部接続用端子
-
-ピンヘッダやピンソケットを介し、本対外のデバイスを接続する目的の外部接続用端子を用意しています。  
-
-キーマトリクスの未使用部分を含むピンやMCUの未使用ピンを外部へ引き出すことができます。  
-テンキーやマクロパッドを追加したり、ロータリーエンコーダの増設に使用できます。
-キーマトリクスは総当たりマトリクスを使用しているため、通常とは回路が少し異なります。
-
-スピーカー2音同時発音のテストで動作確認済み。  
-
-##### I2C接続
-
-OLEDとはピンアサインの都合で排他使用となります。  
-基板上に用意したプルアップ抵抗のパターンへ抵抗を追加して使用します。
-
-動作未確認。
 
 ### ケース
 
