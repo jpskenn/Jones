@@ -218,9 +218,9 @@ Text GLabel 15275 4350 2    60   Input ~ 0
 pin6
 Text GLabel 15275 2550 2    60   Input ~ 0
 pin5
-Text GLabel 15275 2350 2    60   Input ~ 0
+Text GLabel 15650 2350 2    50   Input ~ 0
 pin2
-Text GLabel 15275 2450 2    60   Input ~ 0
+Text GLabel 15650 2450 2    50   Input ~ 0
 pin1
 Wire Wire Line
 	13750 3450 14075 3450
@@ -2421,7 +2421,7 @@ Text GLabel 15275 3150 2    60   Input ~ 0
 pin9
 Text GLabel 15275 3850 2    60   Input ~ 0
 pin8
-Text GLabel 15275 2250 2    60   Input ~ 0
+Text GLabel 15650 2150 2    50   Input ~ 0
 pin7
 Connection ~ 4000 7950
 Wire Wire Line
@@ -2451,25 +2451,14 @@ $EndComp
 Text Notes 3525 8500 1    50   ~ 0
 Use Left LEDs
 $Comp
-L power:+5V #PWR025
-U 1 1 5FEBF83A
-P 7525 8450
-F 0 "#PWR025" H 7525 8300 50  0001 C CNN
-F 1 "+5V" H 7540 8623 50  0000 C CNN
-F 2 "" H 7525 8450 50  0001 C CNN
-F 3 "" H 7525 8450 50  0001 C CNN
-	1    7525 8450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR026
 U 1 1 5FEDCA01
-P 7525 9050
-F 0 "#PWR026" H 7525 8800 50  0001 C CNN
-F 1 "GND" H 7530 8877 50  0000 C CNN
-F 2 "" H 7525 9050 50  0001 C CNN
-F 3 "" H 7525 9050 50  0001 C CNN
-	1    7525 9050
+P 7425 8850
+F 0 "#PWR026" H 7425 8600 50  0001 C CNN
+F 1 "GND" H 7430 8677 50  0000 C CNN
+F 2 "" H 7425 8850 50  0001 C CNN
+F 3 "" H 7425 8850 50  0001 C CNN
+	1    7425 8850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2632,8 +2621,6 @@ Wire Wire Line
 NoConn ~ 15275 2150
 NoConn ~ 15275 4750
 NoConn ~ 15275 2850
-NoConn ~ 15275 3350
-NoConn ~ 15275 3450
 NoConn ~ 15275 3550
 NoConn ~ 15275 5050
 Wire Wire Line
@@ -2859,160 +2846,16 @@ F 3 "~" H 2425 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI LED7
-U 1 1 6085D184
-P 7725 8750
-F 0 "LED7" H 8069 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 8069 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 7775 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7825 8375 50  0001 L TNN
-	1    7725 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED8
-U 1 1 6085D18A
-P 8325 8750
-F 0 "LED8" H 8669 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 8669 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 8375 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8425 8375 50  0001 L TNN
-	1    8325 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED9
-U 1 1 6088DC82
-P 8925 8750
-F 0 "LED9" H 9269 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 9269 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 8975 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9025 8375 50  0001 L TNN
-	1    8925 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED10
-U 1 1 6088DC88
-P 9525 8750
-F 0 "LED10" H 9869 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 9869 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 9575 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9625 8375 50  0001 L TNN
-	1    9525 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED11
-U 1 1 608BE1DE
-P 10125 8750
-F 0 "LED11" H 10469 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 10469 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 10175 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10225 8375 50  0001 L TNN
-	1    10125 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED12
-U 1 1 608BE1E4
-P 10725 8750
-F 0 "LED12" H 11069 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 11069 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 10775 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10825 8375 50  0001 L TNN
-	1    10725 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED13
-U 1 1 608EF658
-P 11325 8750
-F 0 "LED13" H 11669 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 11669 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 11375 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11425 8375 50  0001 L TNN
-	1    11325 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:SK6812MINI LED14
-U 1 1 608EF65E
-P 11925 8750
-F 0 "LED14" H 12269 8796 50  0000 L CNN
-F 1 "SK6812MINI" H 12269 8705 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 11975 8450 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12025 8375 50  0001 L TNN
-	1    11925 8750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7525 8450 7725 8450
-Connection ~ 7725 8450
-Wire Wire Line
-	7725 8450 8325 8450
-Connection ~ 8325 8450
-Wire Wire Line
-	8325 8450 8925 8450
-Connection ~ 8925 8450
-Wire Wire Line
-	8925 8450 9525 8450
-Connection ~ 9525 8450
-Wire Wire Line
-	9525 8450 10125 8450
-Connection ~ 10125 8450
-Wire Wire Line
-	10125 8450 10725 8450
-Connection ~ 10725 8450
-Wire Wire Line
-	10725 8450 11325 8450
-Connection ~ 11325 8450
-Wire Wire Line
-	11325 8450 11925 8450
-Wire Wire Line
-	11925 9050 11325 9050
-Connection ~ 7725 9050
-Wire Wire Line
-	7725 9050 7525 9050
-Connection ~ 8325 9050
-Wire Wire Line
-	8325 9050 7725 9050
-Connection ~ 8925 9050
-Wire Wire Line
-	8925 9050 8325 9050
-Connection ~ 9525 9050
-Wire Wire Line
-	9525 9050 8925 9050
-Connection ~ 10125 9050
-Wire Wire Line
-	10125 9050 9525 9050
-Connection ~ 10725 9050
-Wire Wire Line
-	10725 9050 10125 9050
-Connection ~ 11325 9050
-Wire Wire Line
-	11325 9050 10725 9050
-$Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 609B8FD1
-P 12425 8750
-F 0 "J2" H 12505 8792 50  0000 L CNN
-F 1 "Conn_01x03" H 12505 8701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 12425 8750 50  0001 C CNN
-F 3 "~" H 12425 8750 50  0001 C CNN
-	1    12425 8750
+P 7625 8750
+F 0 "J2" H 7705 8792 50  0000 L CNN
+F 1 "Conn_01x03" H 7705 8701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7625 8750 50  0001 C CNN
+F 3 "~" H 7625 8750 50  0001 C CNN
+	1    7625 8750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12225 8650 12225 8450
-Wire Wire Line
-	12225 8450 11925 8450
-Connection ~ 11925 8450
-Wire Wire Line
-	12225 8850 12225 9050
-Wire Wire Line
-	12225 9050 11925 9050
-Connection ~ 11925 9050
 Text GLabel 15275 2650 2    50   Input ~ 0
 pin10
 Text GLabel 800  7525 0    50   Input ~ 0
@@ -4232,4 +4075,117 @@ Wire Wire Line
 Connection ~ 7175 6900
 Wire Wire Line
 	6125 5825 6125 6900
+$Comp
+L power:+5V #PWR025
+U 1 1 5FEBF83A
+P 7425 8650
+F 0 "#PWR025" H 7425 8500 50  0001 C CNN
+F 1 "+5V" H 7440 8823 50  0000 C CNN
+F 2 "" H 7425 8650 50  0001 C CNN
+F 3 "" H 7425 8650 50  0001 C CNN
+	1    7425 8650
+	1    0    0    -1  
+$EndComp
+Text GLabel 15650 2550 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	15275 2450 15600 2450
+Wire Wire Line
+	15650 2550 15600 2550
+Wire Wire Line
+	15600 2550 15600 2450
+Connection ~ 15600 2450
+Wire Wire Line
+	15600 2450 15650 2450
+Text GLabel 15650 2250 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	15275 2350 15600 2350
+Wire Wire Line
+	15600 2350 15600 2250
+Wire Wire Line
+	15600 2250 15650 2250
+Connection ~ 15600 2350
+Wire Wire Line
+	15600 2350 15650 2350
+Wire Wire Line
+	15275 2250 15375 2250
+Wire Wire Line
+	15375 2250 15375 2150
+Wire Wire Line
+	15375 2150 15600 2150
+Text GLabel 15650 2050 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	15650 2050 15600 2050
+Wire Wire Line
+	15600 2050 15600 2150
+Connection ~ 15600 2150
+Wire Wire Line
+	15600 2150 15650 2150
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 60CD9651
+P 13275 5950
+F 0 "J5" H 13325 6267 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 13325 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 13275 5950 50  0001 C CNN
+F 3 "~" H 13275 5950 50  0001 C CNN
+	1    13275 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 13075 5850 0    50   Input ~ 0
+MISO
+Text GLabel 13575 5950 2    50   Input ~ 0
+MISO
+Text GLabel 13075 5950 0    50   Input ~ 0
+SCK
+Text GLabel 14075 2025 1    50   Input ~ 0
+RESET
+Wire Wire Line
+	14075 2025 14075 2150
+Connection ~ 14075 2150
+Text GLabel 13075 6050 0    50   Input ~ 0
+RESET
+$Comp
+L power:+5V #PWR028
+U 1 1 60DCBFD7
+P 13575 5850
+F 0 "#PWR028" H 13575 5700 50  0001 C CNN
+F 1 "+5V" H 13575 5990 50  0000 C CNN
+F 2 "" H 13575 5850 50  0001 C CNN
+F 3 "" H 13575 5850 50  0001 C CNN
+	1    13575 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 60DFCFED
+P 13575 6050
+F 0 "#PWR029" H 13575 5800 50  0001 C CNN
+F 1 "GND" H 13575 5900 50  0000 C CNN
+F 2 "" H 13575 6050 50  0001 C CNN
+F 3 "" H 13575 6050 50  0001 C CNN
+	1    13575 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 15275 3350 2    50   Input ~ 0
+SCL
+Text GLabel 15275 3450 2    50   Input ~ 0
+SDA
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 60E8EB4C
+P 12100 5875
+F 0 "J3" H 12180 5867 50  0000 L CNN
+F 1 "Conn_01x02" H 12180 5776 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 12100 5875 50  0001 C CNN
+F 3 "~" H 12100 5875 50  0001 C CNN
+	1    12100 5875
+	1    0    0    -1  
+$EndComp
+Text GLabel 11900 5975 0    50   Input ~ 0
+SCL
+Text GLabel 11900 5875 0    50   Input ~ 0
+SDA
 $EndSCHEMATC
