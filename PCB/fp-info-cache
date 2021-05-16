@@ -1,4 +1,4 @@
-19670318749609951
+19808200760135951
 5-way_Nav_Switch
 JS5208_PKG
 
@@ -57995,6 +57995,13 @@ MXOnly-1.5U-Hotswap-guide
 2
 2
 MX_Alps_Hybrid
+MXOnly-1.5U-Hotswap-guide-Rotate
+
+
+0
+2
+2
+MX_Alps_Hybrid
 MXOnly-1.5U-NoLED
 
 
@@ -58038,6 +58045,13 @@ MXOnly-1.25U-Hotswap
 2
 MX_Alps_Hybrid
 MXOnly-1.25U-Hotswap-guide
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-1.25U-Hotswap-guide-Rotate
 
 
 0
@@ -58150,6 +58164,13 @@ MXOnly-2.25U-FLIPPED-ReversedStabilizers
 4
 MX_Alps_Hybrid
 MXOnly-2.25U-Hotswap
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-2.25U-Hotswap-LeftRotate-guide
 
 
 0
