@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 85)
-    (tracks 0)
+    (tracks 2)
     (zones 0)
     (modules 234)
     (nets 133)
@@ -6129,7 +6129,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60A0E98B)
-    (at 315.14379 91.30665)
+    (at 318.05004 88.1004)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /655A34CC)
@@ -7577,7 +7577,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A10FED)
-    (at 224.7 41.3 90)
+    (at 224.65004 75.7004 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /604F6C80)
@@ -7665,7 +7665,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A1101D)
-    (at 189 97.5 90)
+    (at 167.65004 41.1004 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /6044E0F2)
@@ -11494,6 +11494,9 @@
   (gr_line (start 259.55625 78.58125) (end 65.88125 78.58125) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 259.55625 79.375) (end 259.55625 80.16875) (angle -180) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 65.88125 79.375) (end 65.88125 78.58125) (angle -180) (layer Edge.Cuts) (width 0.15) (tstamp 5EE6F4BD))
+
+  (segment (start 77.644362 35.95) (end 96.3 35.95) (width 0.254) (layer B.Cu) (net 62))
+  (segment (start 62.5 35.95) (end 77.644362 35.95) (width 0.254) (layer B.Cu) (net 62))
 
   (zone (net 40) (net_name GND) (layer B.Cu) (tstamp 60071F00) (hatch edge 0.508)
     (connect_pads (clearance 0.3556))
