@@ -216,7 +216,7 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15275 2150 2    60   Input ~ 0
 pin6
-Text GLabel 15275 2550 2    60   Input ~ 0
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin5
 Text GLabel 15650 2450 2    50   Input ~ 0
 pin1
@@ -2338,7 +2338,7 @@ Wire Wire Line
 	6675 9325 6475 9325
 Text GLabel 15275 4750 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 2550 2    60   Input ~ 0
 pin9
 Text GLabel 15275 2850 2    60   Input ~ 0
 pin8
@@ -2472,11 +2472,6 @@ Wire Wire Line
 	3775 10750 3925 10750
 Wire Wire Line
 	3775 11050 3925 11050
-NoConn ~ 15275 3850
-NoConn ~ 15275 4550
-NoConn ~ 15275 2650
-NoConn ~ 15275 3150
-NoConn ~ 15275 5050
 Wire Wire Line
 	6525 2425 6525 2375
 Wire Wire Line
@@ -2603,7 +2598,6 @@ F 3 "~" H 9900 10675 50  0001 C CNN
 	1    9900 10675
 	1    0    0    -1  
 $EndComp
-NoConn ~ 15275 4950
 Wire Wire Line
 	1325 2375 1325 2425
 Wire Wire Line
@@ -4568,4 +4562,94 @@ Connection ~ 8725 4225
 Wire Wire Line
 	8725 4225 8725 4400
 Connection ~ 9125 4400
+Text GLabel 15275 2650 2    50   Input ~ 0
+resv_PB5
+Text GLabel 14850 8825 2    50   Input ~ 0
+resv_PB5
+Text GLabel 15275 3150 2    50   Input ~ 0
+resv_PC7
+Text GLabel 14850 8975 2    50   Input ~ 0
+resv_PC7
+Text GLabel 15275 3850 2    50   Input ~ 0
+resv_PD5
+Text GLabel 14850 9125 2    50   Input ~ 0
+resv_PD5
+Text GLabel 15275 4550 2    50   Input ~ 0
+resv_PF0
+Text GLabel 14850 9275 2    50   Input ~ 0
+resv_PF0
+Text GLabel 15275 4950 2    50   Input ~ 0
+resv_PF6
+Text GLabel 15275 5050 2    50   Input ~ 0
+resv_PF7
+Text GLabel 14850 9425 2    50   Input ~ 0
+resv_PF6
+Text GLabel 14850 9575 2    50   Input ~ 0
+resv_PF7
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PB5
+U 1 1 60D9E5DD
+P 14650 8825
+F 0 "Reserve_PB5" H 14725 8875 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 8800 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 8825 50  0001 C CNN
+F 3 "~" H 14650 8825 50  0001 C CNN
+	1    14650 8825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PC7
+U 1 1 60DD1EC9
+P 14650 8975
+F 0 "Reserve_PC7" H 14725 9025 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 8950 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 8975 50  0001 C CNN
+F 3 "~" H 14650 8975 50  0001 C CNN
+	1    14650 8975
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PD5
+U 1 1 60E05214
+P 14650 9125
+F 0 "Reserve_PD5" H 14725 9175 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 9100 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 9125 50  0001 C CNN
+F 3 "~" H 14650 9125 50  0001 C CNN
+	1    14650 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PF0
+U 1 1 60E385A7
+P 14650 9275
+F 0 "Reserve_PF0" H 14725 9325 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 9250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 9275 50  0001 C CNN
+F 3 "~" H 14650 9275 50  0001 C CNN
+	1    14650 9275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PF6
+U 1 1 60ED129E
+P 14650 9425
+F 0 "Reserve_PF6" H 14725 9475 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 9400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 9425 50  0001 C CNN
+F 3 "~" H 14650 9425 50  0001 C CNN
+	1    14650 9425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_PF7
+U 1 1 60F041C4
+P 14650 9575
+F 0 "Reserve_PF7" H 14725 9625 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 9550 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 9575 50  0001 C CNN
+F 3 "~" H 14650 9575 50  0001 C CNN
+	1    14650 9575
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

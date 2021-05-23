@@ -216,7 +216,7 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 $EndComp
 Text GLabel 15275 2150 2    60   Input ~ 0
 pin6
-Text GLabel 15275 2550 2    60   Input ~ 0
+Text GLabel 15275 3750 2    60   Input ~ 0
 pin5
 Text GLabel 15650 2450 2    50   Input ~ 0
 pin1
@@ -2338,7 +2338,7 @@ Wire Wire Line
 	6675 9325 6475 9325
 Text GLabel 15275 4750 2    50   Input ~ 0
 RE2_B
-Text GLabel 15275 3750 2    60   Input ~ 0
+Text GLabel 15275 2550 2    60   Input ~ 0
 pin9
 Text GLabel 15275 2850 2    60   Input ~ 0
 pin8
@@ -3404,8 +3404,6 @@ Wire Wire Line
 Connection ~ 8475 3775
 Wire Wire Line
 	8475 3775 9775 3775
-Wire Wire Line
-	8075 3875 8075 4225
 Connection ~ 8075 3875
 Connection ~ 8075 4575
 Wire Wire Line
@@ -3434,7 +3432,7 @@ Wire Wire Line
 	8725 2075 8725 3150
 Connection ~ 8725 3325
 Wire Wire Line
-	8725 3325 8725 4400
+	8725 3325 8725 4225
 $Comp
 L Device:D D44
 U 1 1 64060264
@@ -4554,18 +4552,20 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW_ENT2.25u1
 U 1 1 6112D7C7
-P 8275 4225
-F 0 "SW_ENT2.25u1" H 8275 4510 50  0000 C CNN
-F 1 "SW_Push" H 8275 4419 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-LeftRotate-guide" H 8275 4425 50  0001 C CNN
-F 3 "~" H 8275 4425 50  0001 C CNN
-	1    8275 4225
+P 8925 4225
+F 0 "SW_ENT2.25u1" H 8925 4510 50  0000 C CNN
+F 1 "SW_Push" H 8925 4419 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-LeftRotate-guide" H 8925 4425 50  0001 C CNN
+F 3 "~" H 8925 4425 50  0001 C CNN
+	1    8925 4225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8475 4225 8475 4400
-Connection ~ 8075 4225
+	9125 4225 9125 4400
 Wire Wire Line
-	8075 4225 8075 4400
-Connection ~ 8475 4400
+	8075 3875 8075 4400
+Connection ~ 8725 4225
+Wire Wire Line
+	8725 4225 8725 4400
+Connection ~ 9125 4400
 $EndSCHEMATC
