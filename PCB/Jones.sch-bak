@@ -1081,12 +1081,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW_narrowRALT1.25u1
 U 1 1 5F6C2748
-P 6975 6725
-F 0 "SW_narrowRALT1.25u1" H 6975 7010 50  0000 C CNN
-F 1 "SW_Push" H 6975 6919 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide" H 6975 6925 50  0001 C CNN
-F 3 "~" H 6975 6925 50  0001 C CNN
-	1    6975 6725
+P 6975 6900
+F 0 "SW_narrowRALT1.25u1" H 6975 7185 50  0000 C CNN
+F 1 "SW_Push" H 6975 7094 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide" H 6975 7100 50  0001 C CNN
+F 3 "~" H 6975 7100 50  0001 C CNN
+	1    6975 6900
 	1    0    0    -1  
 $EndComp
 Text GLabel 15275 3550 2    50   Input ~ 0
@@ -2013,17 +2013,6 @@ F 3 "~" H 7175 7225 50  0001 C CNN
 F 4 "C81598" H 7175 7225 50  0001 C CNN "LCSC"
 	1    7175 7225
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW_RSPC1.5u1
-U 1 1 5F198E16
-P 6975 6900
-F 0 "SW_RSPC1.5u1" H 6975 7185 50  0000 C CNN
-F 1 "SW_Push" H 6975 7094 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 6975 7100 50  0001 C CNN
-F 3 "~" H 6975 7100 50  0001 C CNN
-	1    6975 6900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW_RSPC2u1
@@ -3040,28 +3029,9 @@ Connection ~ 4175 4575
 Wire Wire Line
 	4175 4575 4175 5825
 Connection ~ 4175 5825
-Wire Wire Line
-	4175 5825 4175 6725
 Connection ~ 4175 6900
 Wire Wire Line
 	4175 6900 4175 7075
-$Comp
-L Switch:SW_Push SW_LSPC1.5u1
-U 1 1 621C442B
-P 4375 6725
-F 0 "SW_LSPC1.5u1" H 4375 7010 50  0000 C CNN
-F 1 "SW_Push" H 4375 6919 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 4375 6925 50  0001 C CNN
-F 3 "~" H 4375 6925 50  0001 C CNN
-	1    4375 6725
-	1    0    0    -1  
-$EndComp
-Connection ~ 4175 6725
-Wire Wire Line
-	4175 6725 4175 6900
-Wire Wire Line
-	4575 6725 4575 6900
-Connection ~ 4575 6900
 Wire Wire Line
 	4825 2625 4825 3325
 Connection ~ 4175 2625
@@ -3079,8 +3049,6 @@ Connection ~ 4825 4575
 Wire Wire Line
 	4825 4575 4825 5825
 Connection ~ 4825 5825
-Wire Wire Line
-	4825 5825 4825 6725
 $Comp
 L Switch:SW_Push SW_CenterL1u1
 U 1 1 6245CA13
@@ -3104,19 +3072,6 @@ F 4 "C81598" H 5225 7225 50  0001 C CNN "LCSC"
 	1    5225 7225
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW_CenterL1.5u1
-U 1 1 6245CA23
-P 5025 6725
-F 0 "SW_CenterL1.5u1" H 5025 7010 50  0000 C CNN
-F 1 "SW_Push" H 5025 6919 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 5025 6925 50  0001 C CNN
-F 3 "~" H 5025 6925 50  0001 C CNN
-	1    5025 6725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5225 6725 5225 6900
 Wire Wire Line
 	5475 1475 4825 1475
 Wire Wire Line
@@ -3299,19 +3254,6 @@ F 4 "C81598" H 6525 7225 50  0001 C CNN "LCSC"
 	1    6525 7225
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW_CenterR1.5u1
-U 1 1 62E9DA61
-P 6325 6725
-F 0 "SW_CenterR1.5u1" H 6325 7010 50  0000 C CNN
-F 1 "SW_Push" H 6325 6919 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 6325 6925 50  0001 C CNN
-F 3 "~" H 6325 6925 50  0001 C CNN
-	1    6325 6725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6525 6725 6525 6900
 Connection ~ 5875 7425
 Wire Wire Line
 	5875 7425 6525 7425
@@ -3331,8 +3273,6 @@ Connection ~ 7175 7075
 Wire Wire Line
 	6525 7375 6525 7425
 Connection ~ 6525 7425
-Wire Wire Line
-	7175 6725 7175 6900
 $Comp
 L Switch:SW_Push SW_narrowRWIN1.25u1
 U 1 1 6352BDD0
@@ -3344,11 +3284,6 @@ F 3 "~" H 7625 7275 50  0001 C CNN
 	1    7625 7075
 	1    0    0    -1  
 $EndComp
-Connection ~ 6775 6900
-Wire Wire Line
-	7175 6900 7175 7075
-Wire Wire Line
-	6775 6900 6775 7075
 Wire Wire Line
 	7425 1475 6775 1475
 Wire Wire Line
@@ -3849,8 +3784,6 @@ Wire Wire Line
 	2875 5825 2875 6900
 Wire Wire Line
 	6525 7425 7825 7425
-Wire Wire Line
-	6775 5825 6775 6725
 $Comp
 L Device:D D50
 U 1 1 60C29FD1
@@ -3868,12 +3801,6 @@ Wire Wire Line
 Connection ~ 7825 7425
 Wire Wire Line
 	7825 7425 9125 7425
-Connection ~ 6775 6725
-Wire Wire Line
-	6775 6725 6775 6900
-Connection ~ 7175 6900
-Wire Wire Line
-	6125 5825 6125 6725
 $Comp
 L power:+5V #PWR025
 U 1 1 5FEBF83A
@@ -4370,10 +4297,7 @@ Wire Wire Line
 	1575 1475 1575 2075
 Text GLabel 13575 5950 2    50   Input ~ 0
 MOSI
-Connection ~ 4825 6725
 Connection ~ 5225 7075
-Wire Wire Line
-	4825 6725 4825 6900
 $Comp
 L Switch:SW_Push SW_CenterL1u2
 U 1 1 60C4538F
@@ -4388,12 +4312,8 @@ $EndComp
 Connection ~ 4825 6900
 Wire Wire Line
 	4825 6900 4825 7075
-Connection ~ 5225 6900
 Wire Wire Line
 	5225 6900 5225 7075
-Connection ~ 6125 6725
-Wire Wire Line
-	6125 6725 6125 6900
 $Comp
 L Switch:SW_Push SW_CenterR1u2
 U 1 1 60D14409
@@ -4409,7 +4329,6 @@ Connection ~ 6525 7075
 Connection ~ 6125 6900
 Wire Wire Line
 	6125 6900 6125 7075
-Connection ~ 6525 6900
 Wire Wire Line
 	6525 6900 6525 7075
 Wire Wire Line
@@ -4422,6 +4341,7 @@ F 0 "U1" H 14675 1761 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 14675 1670 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 14675 3650 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14675 3650 50  0001 C CNN
+F 4 "C44854" H 14675 3650 50  0001 C CNN "LCSC"
 	1    14675 3650
 	1    0    0    -1  
 $EndComp
@@ -4711,4 +4631,17 @@ Text GLabel 12500 7150 2    50   Input ~ 0
 SCL
 Text GLabel 12500 7050 2    50   Input ~ 0
 SDA
+Wire Wire Line
+	4175 5825 4175 6900
+Wire Wire Line
+	4825 5825 4825 6900
+Wire Wire Line
+	6125 5825 6125 6900
+Connection ~ 6775 6900
+Wire Wire Line
+	6775 6900 6775 7075
+Wire Wire Line
+	7175 6900 7175 7075
+Wire Wire Line
+	6775 5825 6775 6900
 $EndSCHEMATC
