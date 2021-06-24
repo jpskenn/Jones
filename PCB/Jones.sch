@@ -2209,7 +2209,7 @@ F 3 "~" H 3565 10800 50  0001 C CNN
 	1    3575 10850
 	-1   0    0    1   
 $EndComp
-Text GLabel 4300 10750 2    50   Input ~ 0
+Text GLabel 4575 10550 2    50   Input ~ 0
 AUDIO1
 $Comp
 L power:GND #PWR023
@@ -2246,8 +2246,6 @@ F 4 "C17513" H 4125 10750 50  0001 C CNN "LCSC"
 	1    4125 10750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4300 10750 4250 10750
 Wire Wire Line
 	4025 10750 3925 10750
 Connection ~ 3925 10750
@@ -2421,11 +2419,6 @@ Connection ~ 3925 11050
 Wire Wire Line
 	3925 11050 4125 11050
 Wire Wire Line
-	4250 10250 4300 10250
-Connection ~ 4250 10750
-Wire Wire Line
-	4250 10750 4225 10750
-Wire Wire Line
 	8225 9625 8100 9625
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED2
@@ -2465,9 +2458,7 @@ Wire Wire Line
 	6525 2425 6525 2375
 Wire Wire Line
 	3275 2375 3275 2525
-Wire Wire Line
-	4250 10250 4250 10750
-Text GLabel 4300 10250 2    50   Input ~ 0
+Text GLabel 4575 10950 2    50   Input ~ 0
 AUDIO2
 Text GLabel 15275 4350 2    60   Input ~ 0
 pin3
@@ -4610,4 +4601,47 @@ Wire Wire Line
 	4825 5825 4825 7075
 Wire Wire Line
 	6125 5825 6125 7075
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 60D7CE05
+P 4450 10750
+F 0 "JP1" V 4404 10818 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 4495 10818 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 4450 10750 50  0001 C CNN
+F 3 "~" H 4450 10750 50  0001 C CNN
+	1    4450 10750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4225 10750 4300 10750
+Wire Wire Line
+	4575 10550 4450 10550
+Wire Wire Line
+	4450 10950 4575 10950
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_AUDIO2
+U 1 1 60DE9592
+P 14650 8675
+F 0 "Reserve_AUDIO2" H 14725 8725 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 8650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 8675 50  0001 C CNN
+F 3 "~" H 14650 8675 50  0001 C CNN
+	1    14650 8675
+	-1   0    0    1   
+$EndComp
+Text GLabel 14850 8675 2    50   Input ~ 0
+AUDIO2
+$Comp
+L Connector_Generic:Conn_01x01 Reserve_AUDIO1
+U 1 1 60E4CD3A
+P 14650 8525
+F 0 "Reserve_AUDIO1" H 14725 8575 50  0000 L CNN
+F 1 "Conn_01x01" H 14725 8500 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 14650 8525 50  0001 C CNN
+F 3 "~" H 14650 8525 50  0001 C CNN
+	1    14650 8525
+	-1   0    0    1   
+$EndComp
+Text GLabel 14850 8525 2    50   Input ~ 0
+AUDIO1
 $EndSCHEMATC
