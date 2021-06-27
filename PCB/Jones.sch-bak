@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Jones"
-Date ""
-Rev "v.0.4"
+Date "2021-06-27"
+Rev "v.0.4.1"
 Comp "@jpskenn"
 Comment1 ""
 Comment2 ""
@@ -1291,7 +1291,7 @@ U 1 1 5EE661C6
 P 2400 10000
 F 0 "SW_RE1" H 2400 10367 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2400 10276 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2250 10160 50  0001 C CNN
+F 2 "locallib:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 2250 10160 50  0001 C CNN
 F 3 "~" H 2400 10260 50  0001 C CNN
 	1    2400 10000
 	-1   0    0    -1  
@@ -2172,7 +2172,7 @@ U 1 1 62F44E00
 P 2400 10850
 F 0 "SW_RE2" H 2400 11217 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 2400 11126 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2250 11010 50  0001 C CNN
+F 2 "locallib:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm" H 2250 11010 50  0001 C CNN
 F 3 "~" H 2400 11110 50  0001 C CNN
 	1    2400 10850
 	-1   0    0    -1  
@@ -2209,7 +2209,7 @@ F 3 "~" H 3565 10800 50  0001 C CNN
 	1    3575 10850
 	-1   0    0    1   
 $EndComp
-Text GLabel 4575 10550 2    50   Input ~ 0
+Text GLabel 4575 10750 2    50   Input ~ 0
 AUDIO1
 $Comp
 L power:GND #PWR023
@@ -2458,7 +2458,7 @@ Wire Wire Line
 	6525 2425 6525 2375
 Wire Wire Line
 	3275 2375 3275 2525
-Text GLabel 4575 10950 2    50   Input ~ 0
+Text GLabel 4575 11050 2    50   Input ~ 0
 AUDIO2
 Text GLabel 15275 4350 2    60   Input ~ 0
 pin3
@@ -2468,116 +2468,6 @@ Text GLabel 15275 4650 2    50   Input ~ 0
 LED
 Text GLabel 15275 3950 2    60   Input ~ 0
 pin4
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 6008BA2A
-P 9050 10475
-F 0 "H4" H 9150 10521 50  0000 L CNN
-F 1 "MountingHole" H 9150 10430 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9050 10475 50  0001 C CNN
-F 3 "~" H 9050 10475 50  0001 C CNN
-	1    9050 10475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 6008C78B
-P 9050 10675
-F 0 "H5" H 9150 10721 50  0000 L CNN
-F 1 "MountingHole" H 9150 10630 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9050 10675 50  0001 C CNN
-F 3 "~" H 9050 10675 50  0001 C CNN
-	1    9050 10675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 600BD10E
-P 9900 9875
-F 0 "H6" H 10000 9921 50  0000 L CNN
-F 1 "MountingHole" H 10000 9830 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 9875 50  0001 C CNN
-F 3 "~" H 9900 9875 50  0001 C CNN
-	1    9900 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 600EDAFA
-P 9900 10075
-F 0 "H7" H 10000 10121 50  0000 L CNN
-F 1 "MountingHole" H 10000 10030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10075 50  0001 C CNN
-F 3 "~" H 9900 10075 50  0001 C CNN
-	1    9900 10075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 6011EF49
-P 9050 9875
-F 0 "H1" H 9150 9921 50  0000 L CNN
-F 1 "MountingHole" H 9150 9830 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9050 9875 50  0001 C CNN
-F 3 "~" H 9050 9875 50  0001 C CNN
-	1    9050 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 6011EF4F
-P 9050 10075
-F 0 "H2" H 9150 10121 50  0000 L CNN
-F 1 "MountingHole" H 9150 10030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9050 10075 50  0001 C CNN
-F 3 "~" H 9050 10075 50  0001 C CNN
-	1    9050 10075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 6011EF55
-P 9050 10275
-F 0 "H3" H 9150 10321 50  0000 L CNN
-F 1 "MountingHole" H 9150 10230 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9050 10275 50  0001 C CNN
-F 3 "~" H 9050 10275 50  0001 C CNN
-	1    9050 10275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 60069E85
-P 9900 10275
-F 0 "H8" H 10000 10321 50  0000 L CNN
-F 1 "MountingHole" H 10000 10230 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10275 50  0001 C CNN
-F 3 "~" H 9900 10275 50  0001 C CNN
-	1    9900 10275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 6009D747
-P 9900 10475
-F 0 "H9" H 10000 10521 50  0000 L CNN
-F 1 "MountingHole" H 10000 10430 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10475 50  0001 C CNN
-F 3 "~" H 9900 10475 50  0001 C CNN
-	1    9900 10475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 6009D74D
-P 9900 10675
-F 0 "H10" H 10000 10721 50  0000 L CNN
-F 1 "MountingHole" H 10000 10630 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9900 10675 50  0001 C CNN
-F 3 "~" H 9900 10675 50  0001 C CNN
-	1    9900 10675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1325 2375 1325 2425
 Wire Wire Line
@@ -3136,10 +3026,10 @@ F 4 "C81598" H 5875 7225 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW_CSPC2u/1u1
+L Switch:SW_Push SW_CSPC2u1
 U 1 1 62B9C238
 P 5675 7075
-F 0 "SW_CSPC2u/1u1" H 5675 7360 50  0000 C CNN
+F 0 "SW_CSPC2u1" H 5675 7360 50  0000 C CNN
 F 1 "SW_Push" H 5675 7269 50  0000 C CNN
 F 2 "MX_Alps_Hybrid:MXOnly-2U-Hotswap-ReversedStabilizers-guide" H 5675 7275 50  0001 C CNN
 F 3 "~" H 5675 7275 50  0001 C CNN
@@ -3439,7 +3329,7 @@ Connection ~ 8475 6900
 Wire Wire Line
 	10025 1475 9375 1475
 Wire Wire Line
-	9375 1475 9375 2075
+	9375 1475 9375 1900
 Wire Wire Line
 	10025 1475 10025 2075
 Connection ~ 10025 1475
@@ -4167,105 +4057,6 @@ Text GLabel 15650 2350 2    50   Input ~ 0
 pin2
 Text GLabel 15650 2250 2    50   Input ~ 0
 MOSI
-$Comp
-L Mechanical:MountingHole H11
-U 1 1 614C73B1
-P 10750 9875
-F 0 "H11" H 10850 9921 50  0000 L CNN
-F 1 "MountingHole" H 10850 9830 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10750 9875 50  0001 C CNN
-F 3 "~" H 10750 9875 50  0001 C CNN
-	1    10750 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H12
-U 1 1 614C73B7
-P 10750 10075
-F 0 "H12" H 10850 10121 50  0000 L CNN
-F 1 "MountingHole" H 10850 10030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10750 10075 50  0001 C CNN
-F 3 "~" H 10750 10075 50  0001 C CNN
-	1    10750 10075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 614C73BD
-P 10750 10275
-F 0 "H13" H 10850 10321 50  0000 L CNN
-F 1 "MountingHole" H 10850 10230 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10750 10275 50  0001 C CNN
-F 3 "~" H 10750 10275 50  0001 C CNN
-	1    10750 10275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H14
-U 1 1 614C73C3
-P 10750 10475
-F 0 "H14" H 10850 10521 50  0000 L CNN
-F 1 "MountingHole" H 10850 10430 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10750 10475 50  0001 C CNN
-F 3 "~" H 10750 10475 50  0001 C CNN
-	1    10750 10475
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H15
-U 1 1 614C73C9
-P 10750 10675
-F 0 "H15" H 10850 10721 50  0000 L CNN
-F 1 "MountingHole" H 10850 10630 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 10750 10675 50  0001 C CNN
-F 3 "~" H 10750 10675 50  0001 C CNN
-	1    10750 10675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H16
-U 1 1 61538F98
-P 11600 9875
-F 0 "H16" H 11700 9921 50  0000 L CNN
-F 1 "MountingHole" H 11700 9830 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 9875 50  0001 C CNN
-F 3 "~" H 11600 9875 50  0001 C CNN
-	1    11600 9875
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H17
-U 1 1 61538F9E
-P 11600 10075
-F 0 "H17" H 11700 10121 50  0000 L CNN
-F 1 "MountingHole" H 11700 10030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 10075 50  0001 C CNN
-F 3 "~" H 11600 10075 50  0001 C CNN
-	1    11600 10075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H18
-U 1 1 61538FA4
-P 11600 10275
-F 0 "H18" H 11700 10321 50  0000 L CNN
-F 1 "MountingHole" H 11700 10230 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 10275 50  0001 C CNN
-F 3 "~" H 11600 10275 50  0001 C CNN
-	1    11600 10275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H19
-U 1 1 61538FAA
-P 11600 10475
-F 0 "H19" H 11700 10521 50  0000 L CNN
-F 1 "MountingHole" H 11700 10430 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 11600 10475 50  0001 C CNN
-F 3 "~" H 11600 10475 50  0001 C CNN
-	1    11600 10475
-	1    0    0    -1  
-$EndComp
 Text Notes 14425 4000 0    50   ~ 0
 Audio\nC4,5,6\nB5,6,7
 Wire Wire Line
@@ -4308,7 +4099,7 @@ U 1 1 60AB199F
 P 11625 5625
 F 0 "R8" H 11695 5671 50  0000 L CNN
 F 1 "4.7k" H 11695 5580 50  0000 L CNN
-F 2 "locallib:Resistor-Hybrid-Back" V 11555 5625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11555 5625 50  0001 C CNN
 F 3 "~" H 11625 5625 50  0001 C CNN
 	1    11625 5625
 	1    0    0    -1  
@@ -4319,7 +4110,7 @@ U 1 1 60AB3787
 P 11950 5625
 F 0 "R9" H 12020 5671 50  0000 L CNN
 F 1 "4.7k" H 12020 5580 50  0000 L CNN
-F 2 "locallib:Resistor-Hybrid-Back" V 11880 5625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11880 5625 50  0001 C CNN
 F 3 "~" H 11950 5625 50  0001 C CNN
 	1    11950 5625
 	1    0    0    -1  
@@ -4372,47 +4163,47 @@ Wire Wire Line
 Wire Wire Line
 	15550 2050 15550 2150
 $Comp
-L Mechanical:MountingHole H20
+L Mechanical:MountingHole H1
 U 1 1 60B084C7
-P 12450 9875
-F 0 "H20" H 12550 9921 50  0000 L CNN
-F 1 "MountingHole" H 12550 9830 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 12450 9875 50  0001 C CNN
-F 3 "~" H 12450 9875 50  0001 C CNN
-	1    12450 9875
+P 12625 8825
+F 0 "H1" H 12725 8871 50  0000 L CNN
+F 1 "MountingHole" H 12725 8780 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 12625 8825 50  0001 C CNN
+F 3 "~" H 12625 8825 50  0001 C CNN
+	1    12625 8825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H21
+L Mechanical:MountingHole H2
 U 1 1 60B084CD
-P 12450 10075
-F 0 "H21" H 12550 10121 50  0000 L CNN
-F 1 "MountingHole" H 12550 10030 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 12450 10075 50  0001 C CNN
-F 3 "~" H 12450 10075 50  0001 C CNN
-	1    12450 10075
+P 12625 9025
+F 0 "H2" H 12725 9071 50  0000 L CNN
+F 1 "MountingHole" H 12725 8980 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 12625 9025 50  0001 C CNN
+F 3 "~" H 12625 9025 50  0001 C CNN
+	1    12625 9025
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H22
+L Mechanical:MountingHole H3
 U 1 1 60B084D3
-P 12450 10275
-F 0 "H22" H 12550 10321 50  0000 L CNN
-F 1 "MountingHole" H 12550 10230 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 12450 10275 50  0001 C CNN
-F 3 "~" H 12450 10275 50  0001 C CNN
-	1    12450 10275
+P 12625 9225
+F 0 "H3" H 12725 9271 50  0000 L CNN
+F 1 "MountingHole" H 12725 9180 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 12625 9225 50  0001 C CNN
+F 3 "~" H 12625 9225 50  0001 C CNN
+	1    12625 9225
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H23
+L Mechanical:MountingHole H4
 U 1 1 60B084D9
-P 12450 10475
-F 0 "H23" H 12550 10521 50  0000 L CNN
-F 1 "MountingHole" H 12550 10430 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 12450 10475 50  0001 C CNN
-F 3 "~" H 12450 10475 50  0001 C CNN
-	1    12450 10475
+P 12625 9425
+F 0 "H4" H 12725 9471 50  0000 L CNN
+F 1 "MountingHole" H 12725 9380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 12625 9425 50  0001 C CNN
+F 3 "~" H 12625 9425 50  0001 C CNN
+	1    12625 9425
 	1    0    0    -1  
 $EndComp
 Connection ~ 8100 9625
@@ -4535,7 +4326,7 @@ U 1 1 60AF01F9
 P 12100 7150
 F 0 "U2" H 12100 7631 50  0000 C CNN
 F 1 "24LC64" H 12100 7540 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 12100 7150 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 12100 7150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf" H 12100 7150 50  0001 C CNN
 	1    12100 7150
 	1    0    0    -1  
@@ -4601,23 +4392,12 @@ Wire Wire Line
 	4825 5825 4825 7075
 Wire Wire Line
 	6125 5825 6125 7075
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 60D7CE05
-P 4450 10750
-F 0 "JP1" V 4404 10818 50  0000 L CNN
-F 1 "SolderJumper_3_Bridged12" V 4495 10818 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 4450 10750 50  0001 C CNN
-F 3 "~" H 4450 10750 50  0001 C CNN
-	1    4450 10750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	4225 10750 4300 10750
+	4225 10750 4400 10750
 Wire Wire Line
-	4575 10550 4450 10550
+	4575 10750 4400 10750
 Wire Wire Line
-	4450 10950 4575 10950
+	4400 11050 4575 11050
 $Comp
 L Connector_Generic:Conn_01x01 Reserve_AUDIO2
 U 1 1 60DE9592
@@ -4644,4 +4424,59 @@ F 3 "~" H 14650 8525 50  0001 C CNN
 $EndComp
 Text GLabel 14850 8525 2    50   Input ~ 0
 AUDIO1
+$Comp
+L Switch:SW_Push SW_BS2u1
+U 1 1 60F4B7F1
+P 9575 1900
+F 0 "SW_BS2u1" H 9575 2185 50  0000 C CNN
+F 1 "SW_Push" H 9575 2094 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-2U-Hotswap-guide" H 9575 2100 50  0001 C CNN
+F 3 "~" H 9575 2100 50  0001 C CNN
+	1    9575 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9375 1900
+Wire Wire Line
+	9375 1900 9375 2075
+Wire Wire Line
+	9775 1900 9775 2075
+Connection ~ 9775 2075
+Text Notes 12550 8675 0    50   ~ 0
+Screws for Bottom place
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60F24724
+P 12625 9625
+F 0 "H5" H 12725 9671 50  0000 L CNN
+F 1 "MountingHole" H 12725 9580 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 12625 9625 50  0001 C CNN
+F 3 "~" H 12625 9625 50  0001 C CNN
+	1    12625 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 613DBDD8
+P 4400 10900
+F 0 "JP1" V 4354 10968 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 4445 10968 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4400 10900 50  0001 C CNN
+F 3 "~" H 4400 10900 50  0001 C CNN
+	1    4400 10900
+	0    1    1    0   
+$EndComp
+Connection ~ 4400 10750
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 61CF6E0D
+P 10050 10225
+F 0 "LOGO1" H 10297 10341 50  0000 L CNN
+F 1 "Logo_Open_Hardware_Small" H 10050 10000 50  0001 C CNN
+F 2 "locallib:Jones_logo_7.8x13.2" H 10050 10225 50  0001 C CNN
+F 3 "~" H 10050 10225 50  0001 C CNN
+F 4 "#Jones_kbd v.0.4.1" H 10297 10250 50  0000 L CNN "Version"
+F 5 "@jpskenn" H 10297 10159 50  0000 L CNN "Auther"
+	1    10050 10225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
