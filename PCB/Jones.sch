@@ -2715,30 +2715,6 @@ Wire Wire Line
 Connection ~ 4825 4575
 Wire Wire Line
 	4825 4575 4825 5825
-Connection ~ 4825 5825
-$Comp
-L Switch:SW_Push SW_CenterL1u1
-U 1 1 6245CA13
-P 5025 7075
-F 0 "SW_CenterL1u1" H 5025 7360 50  0000 C CNN
-F 1 "SW_Push" H 5025 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide" H 5025 7275 50  0001 C CNN
-F 3 "~" H 5025 7275 50  0001 C CNN
-	1    5025 7075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D20
-U 1 1 6245CA1B
-P 5225 7225
-F 0 "D20" V 5271 7145 50  0000 R CNN
-F 1 "D" V 5180 7145 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 5225 7225 50  0001 C CNN
-F 3 "~" H 5225 7225 50  0001 C CNN
-F 4 "C81598" H 5225 7225 50  0001 C CNN "LCSC"
-	1    5225 7225
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5475 1475 4825 1475
 Wire Wire Line
@@ -3365,8 +3341,6 @@ Wire Wire Line
 Wire Wire Line
 	3275 7525 4575 7525
 Wire Wire Line
-	2625 7425 5225 7425
-Wire Wire Line
 	4575 2375 4575 2525
 Connection ~ 4575 2525
 Wire Wire Line
@@ -3408,11 +3382,6 @@ Wire Wire Line
 Connection ~ 4575 7525
 Wire Wire Line
 	4575 7525 7175 7525
-Wire Wire Line
-	5225 7375 5225 7425
-Connection ~ 5225 7425
-Wire Wire Line
-	5225 7425 5875 7425
 Wire Wire Line
 	6525 2425 7825 2425
 Wire Wire Line
@@ -3866,7 +3835,7 @@ Wire Wire Line
 Text GLabel 13175 6825 2    50   Input ~ 0
 MOSI
 Wire Wire Line
-	5475 5825 5475 7075
+	5475 5825 5475 6900
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U1
 U 1 1 60F59257
@@ -4115,8 +4084,6 @@ Wire Wire Line
 	7175 6900 7175 7075
 Wire Wire Line
 	6775 5825 6775 6900
-Wire Wire Line
-	4825 5825 4825 7075
 Wire Wire Line
 	6125 5825 6125 7075
 Wire Wire Line
@@ -4486,4 +4453,23 @@ Text Notes 850  800  0    100  ~ 20
 KEY MATRIX
 Text Notes 12800 1700 0    100  ~ 20
 MCU
+Connection ~ 5475 6900
+Wire Wire Line
+	5475 6900 5475 7075
+$Comp
+L Switch:SW_Push SW_CenterL1u1
+U 1 1 6245CA13
+P 5675 6900
+F 0 "SW_CenterL1u1" H 5675 7185 50  0000 C CNN
+F 1 "SW_Push" H 5675 7094 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide" H 5675 7100 50  0001 C CNN
+F 3 "~" H 5675 7100 50  0001 C CNN
+	1    5675 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 6900 5875 7075
+Connection ~ 5875 7075
+Wire Wire Line
+	2625 7425 5875 7425
 $EndSCHEMATC
