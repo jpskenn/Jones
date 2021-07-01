@@ -3,9 +3,7 @@ LED1,SK6812MINI,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark,25.65,-62.45
 LED2,SK6812MINI,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark,25.65,-66.65004,180,top
 LED3,SK6812MINI,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark,304.45,-62.45004,180,top
 LED4,SK6812MINI,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark,304.45,-66.65004,180,top
-LS1,Speaker,Buzzer_Murata_PKMCS0909E4000-R1,57.25004,-92.9004,180,top
-R8,4.7k,Resistor-Hybrid-Back,89.95,-75.4,90,top
-R9,4.7k,Resistor-Hybrid-Back,86.85,-75.4,90,top
+LS1,Speaker,Buzzer_Murata_PKMCS0909E4000-R1,57.25004,-92.9004,0,top
 SW_'1,SW_Push,MXOnly-1U-Hotswap-guide,174.65088,-69.87524,0,top
 SW_'2,SW_Push,MXOnly-1U-Hotswap-guide,279.42504,-69.8754,90,top
 SW_-1,SW_Push,MXOnly-1U-Hotswap-guide,279.42484,-31.77504,0,top
@@ -30,18 +28,15 @@ SW_B2,SW_Push,MXOnly-1U-Hotswap-guide,184.17504,-88.9254,0,top
 SW_BS1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide,293.71348,-50.82516,0,top
 SW_BS1.5u2,SW_Push,MXOnly-1.5U-Hotswap-guide,255.61254,-50.8254,180,top
 SW_BS1.25u1,SW_Push,MXOnly-1.25U-Hotswap-guide,291.33129,-50.8254,180,top
+SW_BS2u1,SW_Push,MXOnly-2U-Hotswap-guide,288.95,-31.77504,0,top
 SW_C1,SW_Push,MXOnly-1U-Hotswap-guide,107.975,-88.92528,0,top
 SW_CAPS1u1,SW_Push,MXOnly-1U-Hotswap-guide,31.77504,-107.9754,0,top
-SW_CSPC2u/1u1,SW_Push,MXOnly-2U-Hotswap-ReversedStabilizers-guide,165.12504,-107.9754,0,top
+SW_CSPC2u1,SW_Push,MXOnly-2U-Hotswap-ReversedStabilizers-guide,165.12504,-107.9754,0,top
 SW_CTL1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide,36.53754,-69.8754,180,top
 SW_CTL1.25u1,SW_Push,MXOnly-1.25U-Hotswap-guide,38.91882,-69.87524,0,top
 SW_Center1,SW_Push,MXOnly-1U-Hotswap-guide,165.12504,-88.9254,0,top
-SW_CenterL1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide,150.83754,-107.9754,180,top
 SW_CenterL1u1,SW_Push,MXOnly-1U-Hotswap-guide,155.60004,-107.9754,0,top
-SW_CenterL1u2,SW_Push,MXOnly-1U-Hotswap-guide,146.07504,-107.9754,0,top
-SW_CenterR1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide,179.41254,-107.9754,180,top
 SW_CenterR1u1,SW_Push,MXOnly-1U-Hotswap-guide,174.65004,-107.9754,0,top
-SW_CenterR1u2,SW_Push,MXOnly-1U-Hotswap-guide,186.55629,-107.9754,180,top
 SW_D1,SW_Push,MXOnly-1U-Hotswap-guide,98.45,-69.8752,0,top
 SW_DOWN1,SW_Push,MXOnly-1U-Hotswap-guide,279.42608,-107.97536,0,top
 SW_E1,SW_Push,MXOnly-1U-Hotswap-guide,98.45,-50.82512,0,top
@@ -66,7 +61,6 @@ SW_LSFT1.75u1,SW_Push,MXOnly-1.75U-Hotswap-guide,43.68134,-88.92532,0,top
 SW_LSFT1u1,SW_Push,MXOnly-1U-Hotswap-guide,31.77504,-88.9254,180,top
 SW_LSFT1u2,SW_Push,MXOnly-1U-Hotswap-guide,50.82504,-88.9254,180,top
 SW_LSFT2u1,SW_Push,MXOnly-2U-Hotswap-ReversedStabilizers-guide,41.30008,-88.92532,180,top
-SW_LSPC1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide-Rotate,122.26254,-107.9754,0,top
 SW_LSPC2.25u1,SW_Push,MXOnly-2.25U-Hotswap-guide,124.64418,-107.9754,180,top
 SW_LSPC2u1,SW_Push,MXOnly-2U-Hotswap-ReversedStabilizers-guide,127.02544,-107.9754,0,top
 SW_LWIN1.25u1,SW_Push,MXOnly-1.25U-Hotswap-guide,72.25629,-107.9754,0,top
@@ -81,7 +75,6 @@ SW_RALT1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide,236.56254,-107.9754,180,top
 SW_RALT1.25u1,SW_Push,MXOnly-1.25U-Hotswap-guide,234.18129,-107.9754,0,top
 SW_RIGHT1,SW_Push,MXOnly-1U-Hotswap-guide,298.47616,-107.9754,0,top
 SW_ROPT1.25u1,SW_Push,MXOnly-1.25U-Hotswap-guide,257.99379,-107.9754,0,top
-SW_RSPC1.5u1,SW_Push,MXOnly-1.5U-Hotswap-guide-Rotate,207.98754,-107.9754,180,top
 SW_RSPC2u1,SW_Push,MXOnly-2U-Hotswap-ReversedStabilizers-guide,203.22504,-107.9754,0,top
 SW_S1,SW_Push,MXOnly-1U-Hotswap-guide,79.4,-69.8752,0,top
 SW_T1,SW_Push,MXOnly-1U-Hotswap-guide,136.55,-50.82512,0,top
