@@ -178,7 +178,8 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 
 #### 取り付け位置の確認
 
-使用するレイアウト（→[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)）に合わせて、基板裏側のソケットの取り付け位置を確認します。
+使用するレイアウトに合わせて、基板裏側のソケットの取り付け位置を確認します。  
+参考：[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)
 
 基板にはソケットの枠が描かれており、複数のソケットが集まっている箇所には適合キーサイズ（1uや2uなど）が表記されています。  
 また、キーサイズの表記に`N`がついてものはNarrowレイアウトのみで使用するキーを意味していますので、それらの表記を参考に取り付け位置を確認します。  
