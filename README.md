@@ -27,7 +27,7 @@ Jones is a 60% keyboard combined with Ortho-Linear and Row-staggered. It has gap
 Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
 
 It has compact and light fingering which like 40% and 50% keyboards.
-And also, it has enough keys, no need to pushnumeric and symbol keys into layers.
+And also, it has enough keys, no need to push numeric and symbol keys into layers.
 
 It can be used with GH60 or Poker compatible cases.
 
