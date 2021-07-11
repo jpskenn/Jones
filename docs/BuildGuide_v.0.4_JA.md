@@ -13,7 +13,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 ケースのネジ穴とスイッチ足の干渉を避けるため、中央と右上のネジの上に配置されるスイッチの足を加工して取り付けてください。
 
-  - 中央ネジ穴：Gの右隣のキー
+- 中央ネジ穴：Gの右隣のキー
 5pinスイッチの片方の足を切断。（3pinスイッチは影響なし）
 
 - 右上ネジ穴：Narrowレイアウト2行目の、右から2個目のキー
@@ -34,15 +34,15 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 ### ケース
 
 GH60型に対応する基板とキープレートですが、もしかしたら取り付けできないケースがあるかもしれません。  
-取り付け確認済みのケースは次の通りです。  
+取り付け確認済みのケースは次の通りです。
 
-  - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
+- [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
 
-  - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
+- [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
 
-  - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
+- [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
 
-  上記以外のケースへの取り付けの成功／失敗の報告を募集しております。
+上記以外のケースへの取り付けの成功／失敗の報告を募集しております。
 
 ## 部品リスト
 
@@ -108,7 +108,7 @@ GH60型に対応する基板とキープレートですが、もしかしたら�
 
 ### 基板
 
-主要な部品がはんだ付けされた板です。
+細かな部品がはんだ付けされた板です。
 
 - おもて側  
 部品が何も取り付けられていない方が、おもて側です。
@@ -148,7 +148,7 @@ Jonesのロゴが描かれている方が、おもて側です。
 ゴム足の貼り付け指標が描かれている方が、裏側です。
 〓写真更新〓
 
-### 小物パーツ類
+### ボトムプレート用小物パーツ類
 
 〓キャプション更新〓
 〓写真更新〓
