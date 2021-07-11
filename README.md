@@ -12,6 +12,8 @@ Jones（ジョーンズ）は、2行目と3行目にずれのない、ロース�
 
 GH60型やPoker型に互換性のあるケースと組み合わせて使用できます。
 
+![Jones logo](./assets/logo.png)
+
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
     橋　→　ブリッジ　→　ブリッジド　→　ブリジット　→　ブリジット・ジョーンズ　→　ジョーンズ
@@ -111,10 +113,9 @@ WideレイアウトとNormalレイアウトは、一般的な英語104キーや�
 
 最下行はスペースキーとModキーのサイズによっていくつかバリエーションがあり、左右の端はロータリーエンコーダにすることもできます。
 
-〓リンク更新
-すべてのレイアウトは[Keyboard Layout Editor: Jones v.3.5.4](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)で確認できます。
-〓画像更新
-![key layouts](./assets/layout.png)  
+すべてのレイアウトは  
+[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)  
+で確認できます。
 
 ### 機能
 
@@ -127,7 +128,7 @@ WideレイアウトとNormalレイアウトは、一般的な英語104キーや�
 
 Remapにはキーボード定義を登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
 VIAを使用する場合は、以下のキーボード定義ファイルを読み込ませてください。
-〓リンク追加〓
+キーボード定義ファイル：[jones.json](./VIA/jones.json)
 
 #### レイヤーインジケータLED
 
