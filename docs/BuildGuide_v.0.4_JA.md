@@ -53,16 +53,17 @@ GH60型, Poker型に対応する基板とキープレートですが、もしか
 
 ### キット内容物
 〓説明・写真更新〓
+〓小物類は同じ写真にすべて置いて、それぞれに◯をつける
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
 | Jones 基板 v.0.4.x | 1 | [おもて側<br><img alt="おもて側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>[裏側<br><img alt="裏側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | Jones キープレート v.4.0.x | 1 | [おもて側<br><img alt="おもて側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | Kailh MXソケット | 75(\*) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| 低頭ネジ, M2 4mm | 3(\*) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| 低頭ネジ, M2 5mm | 3(\*) | ^ |
-| プラ板, 5mm\*40mm | 1 | ^ |
-| ナット, M1.4 | 4 | ^ |
+| 低頭ネジ, M2 4mm | 3(\*) | [<img alt="低頭ネジ, M2 4mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| 低頭ネジ, M2 5mm | 3(\*) | [<img alt="低頭ネジ, M2 5mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| プラ板, 5mm\*40mm | 1 | [<img alt="プラ板, 5mm 40mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| ナット, M1.4 | 4 | [<img alt="ナット, M1.4" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 
 \* 予備を含む
 
@@ -77,14 +78,14 @@ GH60型, Poker型に対応する基板とキープレートですが、もしか
 | USBケーブル （Type-C） | 1 | |
 
 \* Jones用ボトムプレートキットの内容物は次の通り
-| 部品名 | 個数 |
-| ----- | :-----: |
-| ご案内リーフレット | 1 |
-| Jones用ボトムプレート | 1 |
-| スペーサー, M2 3mm | 8 |
-| ネジ, M2 3mm | 16 |
-| ゴム足 大 | 2 |
-| ゴム足 小 | 6 |
+| 部品名 | 個数 | 備考 |
+| ----- | :-----: | ----- |
+| ご案内リーフレット | 1 ||
+| Jones用ボトムプレート | 1 | [おもて側<br><img alt="おもて側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>[裏側<br><img alt="裏側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| スペーサー, M2 3mm | 8 | [<img alt="スペーサー, M2 3mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| ネジ, M2 3mm | 16 | [<img alt="ネジ, M2 3mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| ゴム足 大 | 2 | [<img alt="ゴム足 大" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| ゴム足 小 | 6 | [<img alt="ゴム足 小" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 
 ### オプション部品
 
