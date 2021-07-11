@@ -29,6 +29,9 @@
 - キープレートと基板を接続する試作→失敗
 
 ![Jones v.0.4](../assets/DSC_7440.jpeg)  
+v.0.4  
+Keycap: GMK Pulse, PIMP MY KEYBOARD Switch Blocker
+Case: KBDfans TOFU 60% Aluminum, Black
 
 ### v.0.3.2
 
@@ -37,6 +40,9 @@
 - キープレートの切り欠き部分を減らして剛性アップ
 
 ![Jones v.0.3.2](../assets/DSC_7433.jpeg)  
+Jones v.0.3.2  
+Keycap: KAT Lucky Jade, PIMP MY KEYBOARD Switch Blocker
+Case: 60% Plastic Case, White
 
 ### v.0.3.1
 
@@ -45,6 +51,9 @@
 - テープLEDのみ光らせるパターンを追加。
 
 ![Jones v.0.3.1](../assets/IMG_2204.jpeg)  
+v.0.3.1  
+Keycap: Qisan / Magicforce PBT 108 keycaps
+Case: KBDfans TOFU 60% Aluminum, Black
 
 ### v.0.3
 
