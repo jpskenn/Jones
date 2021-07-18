@@ -62,8 +62,8 @@ GH60型, Poker型に対応する基板とキープレートですが、もしか
 | PCBマウント スタビライザー<br>2u, ねじ止め式 | 2 | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>2.25uのキーにも使用できます。 |
 | 低頭ネジ, M2 4mm | 3(\*) | [<img alt="低頭ネジ, M2 4mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | 低頭ネジ, M2 5mm | 3(\*) | [<img alt="低頭ネジ, M2 5mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| プラ板, 5mm\*40mm | 1 | [<img alt="プラ板, 5mm 40mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| ナット, M1.4 | 4 | [<img alt="ナット, M1.4" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| プラ板, 約5mm\*約40mm | 1 | [<img alt="プラ板, 5mm 40mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| ナット, M1.4 | 2 | [<img alt="ナット, M1.4" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 
 \* 予備を含む
 
@@ -155,6 +155,7 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 
 キースイッチのソケットをはんだ付けするソケット用パッド（ソケットをはんだ付けする基板上の金属部分）が、電気的に正しく反応するかを確認します。  
 全てのパッドを確認しなくてもかまいませんが、少なくとも組み立てようとしているレイアウトのパッドは確認しておいてください。
+〓写真、ソケット用パッド、これがパッドです
 
 キーマップ書き換えツール”Remap”のテスト機能を使った確認方法について説明していますが、OSのキーボードビューアや、[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)のキーボード入力テストを使用して確認することもできます。
 
@@ -176,7 +177,7 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 
 [<img alt="デバイスへの接続要求" src="../assets/BuildGuide_v.0.4/Remap_connect2.png" width="300">](../assets/BuildGuide_v.0.4/Remap_connect2.png)
 
-レイアウト右側の`Layout Optionのアイコン`をクリックし、組み立てようとしているレイアウトに設定します。  
+レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 
 [<img alt="Layout Option" src="../assets/BuildGuide_v.0.4/Remap_LayoutOption.png" width="300">](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
 
@@ -349,7 +350,7 @@ LEDの1箇所だけ欠けた角が、基板に描かれた▲マークに合う�
 この段階では、LEDが予備はんだした箇所に乗り、基板から少し浮いています。
 
 ![](../assets/BuildGuide_v.0.4/LED_direction.jpeg)
-LED取り付け方向を示す線とLEDの方向、
+LED取り付け方向。基板に描かれた▲マークと、LEDの方向、
 
 LEDは高温ではんだ付けすると壊れるため、こて先温度を220-270℃に設定します。  
 使用するはんだの種類や加熱時間にもよりますが、220℃では加熱不足によるはんだ不良（表面上ははんだ付けされたように見えるが、内部はしっかりとくっついていない状態）に注意してください。  
@@ -366,6 +367,8 @@ LEDは高温ではんだ付けすると壊れるため、こて先温度を220-2
 さらに1、2と数えて、はんだが固まったらLEDをつまんでいたピンセットを離します。  
 
 はんだが、直径1mmくらいの小さな球のようになっていれば良い仕上がりです。
+
+〓写真、1箇所だけはんだ付けしたもの
 
 LEDの取り付け位置が大きくずれていたり基板から浮いている場合は、はんだ付けした箇所を再加熱し、ピンセットで修正します。  
 再加熱する際も、フラックスを塗っておくと作業がしやすくなります。
@@ -431,6 +434,8 @@ LEDを左右両方に取り付けている場合も、左側と右側で同じ�
 #### スピーカーの取り付け
 
 基板おもて側、`Speaker`の枠内へ取り付けます。
+
+〓写真、取り付け場所、裏側写真を流用
 
 2箇所のパッドうち、1箇所だけに予備はんだします。
 
@@ -826,9 +831,6 @@ USBコネクタ接続図〓更新
 
 ![](../assets/BuildGuide_v.0.3.1/IMG_1985.jpeg)  
 ジャンパ箇所
-
-![](../assets/BuildGuide_v.0.3.1/IMG_2191.jpeg)  
-ジャンパした状態
 
 #### 参考：正常に入力できないスイッチの原因調査
 
