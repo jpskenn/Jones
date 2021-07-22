@@ -52,14 +52,11 @@ GH60型, Poker型に対応する基板とキープレートですが、もしか
 | ご案内リーフレット | 1 | |
 | Jones 基板 v.0.4.x | 1 | [おもて側<br><img alt="おもて側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>[裏側<br><img alt="裏側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | Jones キープレート v.4.0.x | 1 | [おもて側<br><img alt="おもて側" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| Kailh MXソケット | 75(\*) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | PCBマウント スタビライザー<br>2u, ねじ止め式 | 2 | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>2.25uのキーにも使用できます。 |
-| 低頭ネジ, M2 4mm | 3(\*) | [<img alt="低頭ネジ, M2 4mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| 低頭ネジ, M2 5mm | 3(\*) | [<img alt="低頭ネジ, M2 5mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| 低頭ネジ, M2 4mm | 3(予備含む) | [<img alt="低頭ネジ, M2 4mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
+| 低頭ネジ, M2 5mm | 3(予備含む) | [<img alt="低頭ネジ, M2 5mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | プラ板, 約5mm\*約40mm | 1 | [<img alt="プラ板, 5mm 40mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-| ナット, M1.4 | 2 | [<img alt="ナット, M1.4" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
-
-\* 予備を含む
 
 ### 別途用意が必要な部品
 
