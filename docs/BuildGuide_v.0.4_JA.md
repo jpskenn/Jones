@@ -17,26 +17,26 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 - キースイッチ取り付け時の加工
 
-    ケースのネジ穴とスイッチ足の干渉を避けるため、中央ネジ穴の上に位置するスイッチは足を加工して取り付けます。  
-    また、Narrowレイアウトを使用する際は、右上ネジ穴の上に位置するスイッチも、足を加工して取り付けます。
+  ケースのネジ穴とスイッチ足の干渉を避けるため、中央ネジ穴の上に位置するスイッチは足を加工して取り付けます。  
+  また、Narrowレイアウトを使用する際は、右上ネジ穴の上に位置するスイッチも、足を加工して取り付けます。
 
 - キースイッチの取り付け方向
 
-    一部のキーは上下逆向きや横向きに取り付けるため、キーキャップが取り付けにくかったり、キーキャップとスイッチが干渉し打鍵感が悪くなることがあります。
+  一部のキーは上下逆向きや横向きに取り付けるため、キーキャップが取り付けにくかったり、キーキャップとスイッチが干渉し打鍵感が悪くなることがあります。
 
 - 左シフトキー
 
-    左シフトキーの2Uスタビライザーは、ケースネジに干渉するため使用を避けてください。
+  左シフトキーの2Uスタビライザーは、ケースネジに干渉するため使用を避けてください。
 
 - スピーカー
 
-    スピーカーは、左シフトキーが1.75uまたは2uの場合にのみ取り付けることができます。
+  スピーカーは、左シフトキーが1.75uまたは2uの場合にのみ取り付けることができます。
 
 - ケース
 
-    GH60型, Poker型に対応する基板とキープレートですが、もしかしたら取り付けできないケースがあるかもしれません。  
-    取り付け確認済みのケースは次の通りです。  
-    （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
+  GH60型, Poker型に対応する基板とキープレートですが、もしかしたら取り付けできないケースがあるかもしれません。  
+  取り付け確認済みのケースは次の通りです。  
+  （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
 
@@ -50,15 +50,18 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 ”オプション部品”は使いたい機能などに合わせて用意してください。  
 
 ### キット内容物
+
 〓説明・写真更新〓
+
 〓小物類は同じ写真にすべて置いて、それぞれに◯をつける
+
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
 | Jones 基板 v.0.4.x | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.4/_DSF0124.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0124.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.4/_DSF0120.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0120.jpeg) |
 | Jones キープレート v.4.0.x | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0131.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0131.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0132.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0132.jpeg) |
 | Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.4/_DSF0133.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0133.jpeg) |
-| PCBマウント スタビライザー<br>2u, ねじ止め式 | 2 | 〓[<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>2.25uのキーにも使用できます。 |
+| PCBマウント スタビライザー<br>2uサイズ, ねじ止め式 | 2 | 〓[<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>2.25uのキーにも使用できます。 |
 | 低頭ネジ, M2 4mm | 3(予備含む) | 〓[<img alt="低頭ネジ, M2 4mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | 低頭ネジ, M2 5mm | 3(予備含む) | 〓[<img alt="低頭ネジ, M2 5mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
 | プラ板, 約5mm\*約40mm | 1 | 〓[<img alt="プラ板, 5mm 40mm" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg) |
@@ -67,10 +70,10 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
-| MXスイッチ | 最大 70 | 取り付け安定性が高い5pinタイプを推奨。<br>いくつか予備があると安心。 |
-| PCBマウント スタビライザー, 2u | 必要数 | キット付属の2個では足りない場合。<br>確実に固定できるねじ止め式を推奨。 |
-| キーキャップ, MXスイッチ用 | 必要数 | |
-| ケース（GH60型, Poker型）<br>または<br>Jones用ボトムプレートキット(\*) | 1 | |
+| MXスイッチ | 最大 70 | 取り付け安定性が高い5pinタイプを推奨。<br>端子が折れたりしたばあいに備えて、いくつか予備があると安心。 |
+| キーキャップ<br>MXスイッチ用 | 必要数 | Wide, Normalレイアウトは、一般的な日本語108または英語104のキーキャップセットに対応。<br>Narrowレイアウトはカスタムキーキャップセットが必要。|
+| PCBマウント スタビライザー<br>2uサイズ | 必要数 | キット付属の2個では足りない場合に必要。<br>確実に固定できるねじ止め式を推奨。 |
+| GH60型, Poker型ケース<br>または<br>Jones用ボトムプレートキット(\*) | 1 | |
 | USBケーブル （Type-C） | 1 | |
 
 \* Jones用ボトムプレートキットの内容物は次の通り
@@ -116,7 +119,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 - 基板に配線が切れるような大きく深い傷や割れなどの破損がないこと
 
-- 梱包の中に小さな部品が落ちていないこと（基板に実装された部品が外れている）
+- 梱包の中に小さな部品が落ちていないこと（＝基板に実装された部品が外れていないこと）
 
 ### 接続の確認
 
@@ -125,7 +128,8 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 ファームウェアを書き込み済みですので、正常であれば、USBケーブルで接続するとキーボードとして認識されます。  
 下記の方法を参考に確認してください。
 
-#### Mac, macOS Big Sur 11.4
+<details>
+<summary>Mac, macOS Big Sur 11.4</summary>
 
 *充電用ではないUSBケーブル（できれば他の機器を接続して使用した実績のあるもの）*を使って、キーボードとMacをUSB接続します。
 
@@ -137,8 +141,10 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 
 ![Mac System Report](../assets/BuildGuide_v.0.4/macOS_SystemReport.png)  
 システム情報の表示
+</details>
 
-#### Windows, 10 Pro 1909(18363.1082)
+<details>
+<summary>Windows, 10 Pro 1909(18363.1082)</summary>
 
 *充電用ではないUSBケーブル（できれば他の機器を接続して使用した実績のあるもの）*を使って、キーボードとPCをUSB接続します。
 
@@ -147,6 +153,7 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 
 ![Windows Devices](../assets/BuildGuide_v.0.4/win10_Devices.png)  
 デバイスの表示
+</details>
 
 ### ソケット用パッドの確認
 
@@ -154,7 +161,8 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 全てのパッドを確認しなくてもかまいませんが、少なくとも組み立てようとしているレイアウトのパッドが正しく反応することは確認しておいてください。
 〓写真、ソケット用パッド、これがパッドです
 
-レイアウトを画面に表示させて確認できるのでキーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使う方法がおすすめですが、OSのキーボードビューアや、[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)のキーボード入力テストを使用して確認することもできます。
+レイアウトを画面に表示させて確認できるのでキーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使う方法がおすすめですが、OSのキーボードビューアや[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)のキーボード入力テストを使用して確認することもできます。  
+VIAを使用する際は、[この定義ファイル（jones_v04_1_VIA_definition.json）](https://gist.github.com/jpskenn/db13901f72a58f6757ae0baf57bfa7ee)を読み込ませてください。
 
 <details>
 <summary>詳しい手順</summary>
@@ -179,8 +187,6 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 
 〓Remapに登録しないと、ここでIMPORTする必要あり。
 
-〓VIA用にDLリンクをどっかに用意
-
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 
 [<img alt="Layout Option" src="../assets/BuildGuide_v.0.4/Remap_LayoutOption.png" width="300">](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
@@ -202,7 +208,7 @@ Remapの画面で、ショートさせたパッドに対応するキーの色が
 なお、ロータリーエンコーダの回転に割り当てた箇所は、この手順では確認しません。
 </details>
 
-余裕があれば、他のレイアウトでも同様に確認します。
+余裕があれば、すべてのレイアウトでも同様に確認します。
 
 確認が終わったら、USBケーブルを抜きます。
 
@@ -213,18 +219,24 @@ Remapの画面で、ショートさせたパッドに対応するキーの色が
 
 ### 作りたいレイアウトを決める
 
-Jonesのレイアウトは、大きく分けて次の3つから選ぶことができます。
+Jonesのレイアウトは、大きく分けて次の3つから選ぶことができます。  
 
 - Wide（ワイド）レイアウト
+
   右手ホームポジションを右側へずらしてModキーに近づけ、キーボード中央に2キー分の間隔をもたせたレイアウトです。  
 
 - Narrow（ナロー）レイアウト
+
   右側Modキーをキーボード中央側へずらし、ホームポジションに近づけたレイアウトです。  
 
 - Normal（ノーマル）レイアウト
-  Wideレイアウトのキーマップを一部調整し、一般的な英語配列や日本語配列のキーボードとして使えるようにしたレイアウトです。
 
-レイアウトは[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)を参考にしてください。
+  Wideレイアウトのキーマップを一部調整し、一般的な日本語配列や英語配列のキーボードとして使えるようにしたレイアウトです。
+
+Wide, Normalレイアウトは、一般的な日本語108または英語104のキーキャップセットで組み立てられます。  
+Narrowレイアウトの組み立てには、カスタムキーキャップセットが必要です。  
+
+レイアウトをまとめた[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)を参考に、どのレイアウトを作るか決めてください。  
 
 ### スイッチ用ソケットの取り付け
 
@@ -234,12 +246,15 @@ Jonesのレイアウトは、大きく分けて次の3つから選ぶことが�
 
 使用するレイアウトに合わせて、基板裏側のソケットの取り付け位置を確認します。  
 
+<details>
+<summary>詳しい手順</summary>
 基板にはソケットの枠が描かれており、1uよりも大きなキーと、ソケットが重なる箇所に適合キーサイズ（1uや2uなど）が表記されています。  
 また、キーサイズの表記に`N`がついてものはNarrowレイアウトのみで使用するキーを意味していますので、それらの表記を参考に取り付け位置を確認します。  
 わかりにくいときは、実際にスイッチやキーキャップを置いてみるとよいでしょう。  
 
 ![ソケット取り付け位置の表記](../assets/BuildGuide_v.0.4/socket_markings.jpeg)
 ソケット取り付け位置の表記
+</details>
 
 #### ソケット用パッドの予備はんだ
 
