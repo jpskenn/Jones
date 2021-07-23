@@ -17,7 +17,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 - キースイッチ取り付け時の加工
 
-    ケースのネジ穴とスイッチ足の干渉を避けるため、中央ネジ穴の上に位置するスイッチは足を加工して取り付けます。
+    ケースのネジ穴とスイッチ足の干渉を避けるため、中央ネジ穴の上に位置するスイッチは足を加工して取り付けます。  
     また、Narrowレイアウトを使用する際は、右上ネジ穴の上に位置するスイッチも、足を加工して取り付けます。
 
 - キースイッチの取り付け方向
@@ -35,7 +35,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 - ケース
 
     GH60型, Poker型に対応する基板とキープレートですが、もしかしたら取り付けできないケースがあるかもしれません。  
-    取り付け確認済みのケースは次の通りです。
+    取り付け確認済みのケースは次の通りです。  
     （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
