@@ -926,7 +926,7 @@ TOFUケースに入れた状態（中央ねじ穴）
 
 USBコネクタの配線は次の通りです。
 
-![](../assets/BuildGuide_v.0.4/USB_Wireing.png)
+![](../assets/BuildGuide_v.0.4/USB_wireing.png)
 USBコネクタ接続図
 
 #### 参考：スピーカーの2音同時再生
