@@ -891,18 +891,34 @@ Remapで自分好みのキーマップに変更して、完成です。
 
 #### 参考：1個のスピーカーで2音同時再生する
 
-**元々は2個のスピーカーで2音同時再生する機能であり、1個のスピーカーでの再生は_実験的な機能_です。**
+*元々は2個のスピーカーで2音同時再生する機能であり、1個のスピーカーでの再生は**実験的な機能**です。*
+*ハードウェア的には1箇所ジャンパするだけで機能が有効になりますが、ファームウェアの書き換えが必要となるため、**それがどういうことか理解できる方のみ**おこなってください。*
 
 QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mode)を使用する際に、1つのスピーカーで2音同時再生させることができます。
 
 なお、2音同時再生されるのはMusic Modeで演奏する際の音だけで、キーボードの起動音やリセット音などの[Songs](https://docs.qmk.fm/#/feature_audio?id=songs)については、単音再生のままで変わりません。
 
-キーマップの`config.h`を次のように変更して、2音同時再生に対応するファームウェアを作成してください。
+キーボード裏側の`Simultaneous Audio`をジャンパします。
 
-```diff
--  #define AUDIO_PIN B6
-+  #define AUDIO_PIN C6
-+  #define AUDIO_PIN_ALT B6
+![ジャンパ箇所](../assets/BuildGuide_v.0.4/_DSF0150.jpeg)
+ジャンパ箇所
+
+ファームウェアは、私のQMKフォークのブランチ[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards)に、[via_duophone](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1/keymaps/via_duophone)の名前で用意してあります。
+
+初期状態で書き込んであるVIA対応ファームウェアとほぼ同じですが、キーマップの`via_duophone/config.h`でAudio機能の定義を2音同時再生に適した設定に上書きしている点が異なります。
+
+``` c
+#ifdef AUDIO_ENABLE
+  #undef AUDIO_PIN
+  #define AUDIO_PIN C6
+  #define AUDIO_PIN_ALT B6
+#endif
+```
+
+ファームウェアを次のように作成し、任意の方法で書き込みます。
+
+``` shell
+make jones/v04_1:via_duophone
 ```
 
 #### 参考：打鍵感向上：ケースへの基板取り付け方法
