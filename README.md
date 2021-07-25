@@ -1,7 +1,5 @@
 # Jones（ジョーンズ）とは
 
-〓ロゴいれる
-
 ![Jones](./assets/_DSF0257.jpeg)
 
 Jones（ジョーンズ）は、2行目と3行目にずれのない、ロースタッガードとオルソリニアを組み合わせた60%キーボードです。  
@@ -14,7 +12,7 @@ GH60型やPoker型に互換性のあるケースと組み合わせて使用で�
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
 ``` text
-橋　→　ブリッジ　→　ブリッジド　→　ブリジット　→　ブリジット・ジョーンズ　→　ジョーンズ
+橋（ブリッジ）　→　ブリッジド　→　ブリジット　→　ブリジット・ジョーンズ　→　ジョーンズ
 
 Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 ```
@@ -168,10 +166,18 @@ GH60型やPoker型に互換性のあるケースに対応しています。
 
 ## 作例みたいなもの
 
-Wideで中央にブロッカーとか2x2キーとか
-NormalのUS
+〓
+NormalのUS, JP
 その他、レイアウトのところに載せてないもの（v04で実現可能なものに限る）
-ケース、キーキャップをキャプションをつける
+
+| ビルド例 | 詳細 |
+| --- | :-- |
+| [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wide 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
+| [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wide 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
+| [<img src="./assets/IMG_2798.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrow 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: GMK Pulse, GMK Mitolet, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
+|||
+|||
+Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
 
 ## 私の使用環境
 
@@ -179,8 +185,6 @@ NormalのUS
 2020年7月から試作段階のものを使い始め、多少の変更はあるものの、2行目と3行目にずれのないレイアウトをメインキーボードとして使い続けています。
 
 長らくNarrowレイアウトで使っていましたが、現在（2021年7月）はWideレイアウトをUS配列で使っており、親指をもっと活用できるように訓練中です。
-
-![Jones](./assets/_DSF0406.jpeg)
 
 なお、私はもともと右利きですが、左手でマウスやトラックパッドを使用しています。  
 フルキーボードを使用中にカーソルとテンキーを超えて右手をマウスに移動するのは非効率だと思い、20年以上前にマウスを左手に持ち替えました。  
@@ -233,3 +237,5 @@ ESCキーを押している間はNumericレイヤーが使えるようになっ�
 ## 試作歴
 
 これまでの試作歴は、[試作歴](./docs/trials.md)にまとめています。
+
+![Jones logo](./assets/logo_small.png)
