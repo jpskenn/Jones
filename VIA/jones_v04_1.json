@@ -1,6 +1,6 @@
 {
     "name": "Jones",
-    "vendorId": "0xFEED",
+    "vendorId": "0xB9DD",
     "productId": "0x175A",
     "lighting": "qmk_rgblight",
     "matrix": { "rows": 10, "cols": 10 },
