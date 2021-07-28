@@ -88,8 +88,7 @@ Jones, Wideレイアウト: 左手、右手ともに、肘、手首、指先が�
 <details>
 <summary>Modキーと記号キーの配置</summary>
 
-〓さしかえ
-![Mod keys at right side](./assets/right_hand_keys_narrow.jpeg)  
+![Mod keys at right side](./assets/right_hand_keys_wide.jpeg)  
 右手のホームポジションすぐ隣のModキーと、移動した記号キー（Wideレイアウト）
 
 ![Mod keys at right side](./assets/right_hand_keys_narrow.jpeg)  
