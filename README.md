@@ -108,7 +108,7 @@ Wide（ワイド）, Narrow（ナロー）, Normal（ノーマル）の、3つ�
   WideやNarrowレイアウトへの移行（習得）に不安のある方や、一般的なキーボードに近いレイアウトでアルファ部を左右対称にしたい方におすすめです。
   ![Jones, Normalレイアウト](./assets/_DSF0414.jpeg)  
 
-最下行はスペースキーとModキーの組み合わせを選択でき、左右の端はロータリーエンコーダにすることもできます。
+いずれのレイアウトも、最下行はスペースキーとModキーの組み合わせが選択でき、左右の端はロータリーエンコーダにすることもできます。
 
 すべてのレイアウトは、[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)で確認できます。
 
