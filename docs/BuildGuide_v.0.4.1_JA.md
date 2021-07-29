@@ -195,6 +195,7 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 [<img alt="デバイスへの接続要求" src="../assets/BuildGuide_v.0.4/Remap_connect2.png" width="300">](../assets/BuildGuide_v.0.4/Remap_connect2.png)
 
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
+キーマップは組み立て完了後に変更するため、ここではレイアウトだけ設定して先へ進みます。
 
 [<img alt="Layout Option" src="../assets/BuildGuide_v.0.4/Remap_LayoutOption.png" width="300">](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
 
