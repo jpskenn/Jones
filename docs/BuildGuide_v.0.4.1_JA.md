@@ -961,7 +961,7 @@ QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mo
 ![ジャンパ箇所](../assets/BuildGuide_v.0.4/_DSF0150.jpeg)
 ジャンパ箇所
 
-ファームウェアは、私のQMKフォークのブランチ[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards)に、[via_duophone](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1/keymaps/via_duophone)の名前で用意してあります。
+ファームウェアは、私のQMKフォークのブランチ [develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に、[via_duophone](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1/keymaps/via_duophone)の名前で用意してあります。
 
 初期状態で書き込んであるVIA対応ファームウェアと同等ですが、キーマップの`via_duophone/config.h`で2音同時再生の設定に上書きしている点が異なります。
 
@@ -1162,7 +1162,7 @@ LEDの組み合わせに応じて、基板裏側のジャンパが正しく行�
 
 #### 参考：ファームウェアの書き込み方法
 
-Jonesのファームウェアは、私のQMKフォークのブランチ[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards)に用意してあります。  
+Jones v.0.4.1のファームウェアは、私のQMKフォークのブランチ[develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に用意してあります。  
 必要に応じてキーマップや機能の設定を変更し、ファームウェアを構築して書き込んでください。
 
 ファームウェアの書き込みが終わった後、外部EEPROMの消去に5秒ほどかかる場合があります。（書き込み直後の1回のみ）
