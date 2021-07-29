@@ -256,4 +256,6 @@ Windows XPのPCで、主な使用用途は次のとおりです。
 
 これまでの試作歴は、[試作歴](./docs/trials.md)にまとめています。
 
+## ロゴ
+
 ![Jones logo](./assets/logo_small.png)
