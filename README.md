@@ -23,7 +23,7 @@ Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
 ---
 
-Jones is a 60% keyboard combined with Ortho-Linear and Row-staggered. It has gapless R2-R3 row.  
+Jones is a 60% keyboard combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
 Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
 
 It has compact and light fingering which like 40% and 50% keyboards.
