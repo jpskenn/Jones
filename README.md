@@ -182,9 +182,16 @@ GH60型やPoker型に互換性のあるケースに対応しています。
 
 ## ビルドガイド
 
-- [v.0.4.x](./docs/BuildGuide_v.0.4_JA.md)
+<details>
+<summary>以前のビルドガイド</summary>
 
-試作機のビルドガイドは、[試作歴](./docs/trials.md)を参照してください。
+- [v.0.4.x](./docs/BuildGuide_v.0.4_JA.md)
+- [v.0.3.1 / v.0.3.2](./docs/BuildGuide_v.0.3.1_JA.md)
+- [v.0.3](./docs/BuildGuide_v.0.3_JA.md)
+- [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
+- [v.0.1](./docs/BuildGuide_v.0.1_JA.md)
+
+</details>
 
 ## 作例みたいなもの
 
