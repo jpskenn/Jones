@@ -1,5 +1,3 @@
-〓説明が多いので、detailsで隠す
-
 # Jones（ジョーンズ）とは
 
 ![Jones](./assets/_DSF0257.jpeg)
