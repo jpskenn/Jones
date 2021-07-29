@@ -1,11 +1,11 @@
-# Jones v.0.4.x ビルドガイド
+# Jones v.0.4.1 ビルドガイド
 
 
 〓大切なことはdetailsから出す
 
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Jonesに興味を持っていただきありがとうございます。
 
-このドキュメントは、Jones v.0.4.xを組み立てるためのビルドガイドです。  
+このドキュメントは、Jones v.0.4.1を組み立てるためのビルドガイドです。  
 Jonesのコンセプトや特徴などについては、[Jones README](https://github.com/jpskenn/Jones/blob/master/README.md)をご覧ください。
 
 ビルドガイド全体に目を通して作業手順を把握しておくとミスの防止につながりますので、ぜひ、一度お読みになってから組み立て作業を始めてください。
@@ -62,7 +62,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| Jones 基板 v.0.4.x | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.4/_DSF0124.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0124.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.4/_DSF0120.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0120.jpeg) |
+| Jones 基板 v.0.4.1 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.4/_DSF0124.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0124.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.4/_DSF0120.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0120.jpeg) |
 | Jones キープレート v.4.0.x | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0131.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0131.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0132.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0132.jpeg) |
 | Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.4/_DSF0133.jpeg" width="200">](../assets/BuildGuide_v.0.4/_DSF0133.jpeg) |
 | PCBマウント スタビライザー<br>2uサイズ, ねじ止め式 | 2 | 〓[<img alt="MXソケット" src="../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg" width="200">](../assets/BuildGuide_v.0.3.1/DSC_6972.jpeg)<br>2.25uのキーにも使用できます。 |
