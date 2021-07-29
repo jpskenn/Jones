@@ -191,6 +191,7 @@ NormalのUS, JP
 | [<img src="./assets/IMG_2798.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrow 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: GMK Pulse, GMK Mitolet, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
 |||
 |||
+
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
 
 ## 私の使用環境
