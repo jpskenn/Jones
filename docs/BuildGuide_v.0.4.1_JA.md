@@ -75,7 +75,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 ”オプション部品”は使いたい機能などに合わせて用意してください。  
 
-〓購入先リンク
+部品の購入先は、Self-Made Keyboards in Japanの[ショップリスト](https://scrapbox.io/self-made-kbds-ja/ショップリスト)などを参考にしてください。
 
 ### キット内容物
 
