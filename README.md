@@ -182,6 +182,8 @@ GH60型やPoker型に互換性のあるケースに対応しています。
 
 ## ビルドガイド
 
+- [v.0.4.1](./docs/BuildGuide_v.0.4.1_JA.md)
+
 <details>
 <summary>以前のビルドガイド</summary>
 
