@@ -194,8 +194,6 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 
 [<img alt="デバイスへの接続要求" src="../assets/BuildGuide_v.0.4/Remap_connect2.png" width="300">](../assets/BuildGuide_v.0.4/Remap_connect2.png)
 
-〓Remapに登録しないと、ここでIMPORTする必要あり。
-
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 
 [<img alt="Layout Option" src="../assets/BuildGuide_v.0.4/Remap_LayoutOption.png" width="300">](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
