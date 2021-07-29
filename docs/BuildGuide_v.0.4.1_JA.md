@@ -11,6 +11,31 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 〓最後に作る
 
+## Jones v.0.4.1の機能
+
+- 主要な部品を実装済み  
+  はんだ付けが必要な部品は、MXソケットとオプションパーツのみ。
+
+- 対応レイアウト
+  [Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)
+
+- ファームウェア  
+  RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み  
+  [develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)  
+
+- 外部EEPROM（8KB）を搭載  
+  書き込み済みのファームウェアで利用可能
+
+- ケース
+  - GH60型やPoker型に互換性のあるケース
+  - Jones用ボトムプレートキット
+
+- レイヤーインジケータLED（オプション）
+
+- ロータリーエンコーダ（オプション）
+
+- スピーカー（オプション）
+
 ## 注意事項、制限など
 
 - キースイッチ取り付け時の加工
