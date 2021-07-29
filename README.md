@@ -64,6 +64,7 @@ Jonesキーボードは、
 
 2行目と3行目にずれの無い、ロースタッガードとオルソリニアを組み合わせたキー配列です。  
 分類上は、左右対称ロースタッガードや変則ロースタッガードと呼んでも良いかもしれません。  
+
 左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並んだ自然なポジションにします。  
 
 ![Position:Jones](./assets/position_jones.jpg)  
@@ -103,11 +104,11 @@ Wide（ワイド）, Narrow（ナロー）, Normal（ノーマル）の、3つ�
   ![Jones, Narrowレイアウト](./assets/IMG_2798.jpeg)  
 
 - Normal（ノーマル）レイアウト `JP108` `US104`  
-  Wideレイアウトのキーマップを一部調整し、一般的な英語配列や日本語配列のキーボードとして使えるようにしたレイアウトです。  
-  WideやNarrowレイアウトへの移行（習得）に不安のある方や、一般的なキーボードの配列でアルファ部を左右対称にしたい方におすすめです。
+  一般的な英語配列や日本語配列とほぼ同じになるように調整したレイアウトです。  
+  WideやNarrowレイアウトへの移行（習得）に不安のある方や、一般的なキーボードに近いレイアウトでアルファ部を左右対称にしたい方におすすめです。
   ![Jones, Normalレイアウト](./assets/_DSF0414.jpeg)  
 
-最下行はスペースキーとModキーの組み合わせを選択でき、左右の端はロータリーエンコーダにすることもできます。
+いずれのレイアウトも、最下行はスペースキーとModキーの組み合わせが選択でき、左右の端はロータリーエンコーダにすることもできます。
 
 すべてのレイアウトは、[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)で確認できます。
 
@@ -119,7 +120,7 @@ Wide（ワイド）, Narrow（ナロー）, Normal（ノーマル）の、3つ�
 
 Remapにはキーボード定義を登録済みですので、サイトへアクセスしてキーボードを接続すれば、すぐにキーの割り当てを変更することができます。  
 VIAを使用する場合は、以下のキーボード定義ファイルを読み込ませてください。  
-キーボード定義ファイル：[jones.json](./VIA/jones_v04_1.json)
+キーボード定義ファイル：[jones_v04_1.json](./VIA/jones_v04_1.json)
 
 #### より多くのレイヤーを使用可能（外部EEPROMの搭載）
 
@@ -168,7 +169,6 @@ GH60型やPoker型に互換性のあるケースに対応しています。
 <details>
 <summary>以前のビルドガイド</summary>
 
-- [v.0.4.x](./docs/BuildGuide_v.0.4_JA.md)
 - [v.0.3.1 / v.0.3.2](./docs/BuildGuide_v.0.3.1_JA.md)
 - [v.0.3](./docs/BuildGuide_v.0.3_JA.md)
 - [v.0.2](./docs/BuildGuide_v.0.2_JA.md)
@@ -189,8 +189,7 @@ NormalのUS, JP
 | [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wide 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wide 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
 | [<img src="./assets/IMG_2798.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrow 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: GMK Pulse, GMK Mitolet, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
-|||
-|||
+
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
 
 ## 私の使用環境
@@ -254,5 +253,7 @@ Windows XPのPCで、主な使用用途は次のとおりです。
 ## 試作歴
 
 これまでの試作歴は、[試作歴](./docs/trials.md)にまとめています。
+
+## ロゴ
 
 ![Jones logo](./assets/logo_small.png)
