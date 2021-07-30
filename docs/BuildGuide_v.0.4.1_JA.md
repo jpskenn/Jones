@@ -969,6 +969,7 @@ QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mo
 ファームウェアは、私のQMKフォークのブランチ [develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に、[via_duophone](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1/keymaps/via_duophone)の名前で用意してあります。
 
 初期状態で書き込んであるVIA対応ファームウェアと同等ですが、キーマップの`via_duophone/config.h`で2音同時再生の設定に上書きしている点が異なります。
+また、ファームウェアサイズの制限により、使用できるレイヤー数を、6から5に減らしています。
 
 ``` c
 #ifdef AUDIO_ENABLE
