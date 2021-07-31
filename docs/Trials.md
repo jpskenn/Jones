@@ -108,7 +108,7 @@ Jones v.0 モックアップ
 物理配列について、
 
 - [HHKB](https://happyhackingkb.com/jp/)
-- [Treadstoneシリーズ](https://github.com/marksard/Keyboards)
+- [Treadstoneシリーズ](https://marksard.github.io/2018/12/17/about-treadstone48/)
 - [Zinc（シンメトリカル版）](http://www.sho-k.co.uk/tech/735.html)
 - [Katana60](http://xahlee.info/kbd/katana60_keyboard.html)
 
