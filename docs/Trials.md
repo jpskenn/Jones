@@ -2,12 +2,17 @@
 
 試作機の履歴をまとめています。
 
+## v.1 (=v.0.4.2) *製作中*
+
+- シルク調整, 修正
+- その他
+
 ## v.0.4.1
 
 - 試作最終型の予定
 - レイアウト調整。最下行から使わないバリエーションを削除。
 - 基板とボトムプレートとの接続を調整。
-- 外部EEPROMのサイズ変更。
+- 外部EEPROMの部品サイズを変更。
 - ロゴ追加
 
 ![Jones v.0.4.1](../assets/_DSF0472.jpeg)  
@@ -108,7 +113,7 @@ Jones v.0 モックアップ
 物理配列について、
 
 - [HHKB](https://happyhackingkb.com/jp/)
-- [Treadstoneシリーズ](https://github.com/marksard/Keyboards)
+- [Treadstoneシリーズ](https://marksard.github.io/2018/12/17/about-treadstone48/)
 - [Zinc（シンメトリカル版）](http://www.sho-k.co.uk/tech/735.html)
 - [Katana60](http://xahlee.info/kbd/katana60_keyboard.html)
 
