@@ -969,7 +969,9 @@ Remapで自分好みのキーマップに変更します。
 *ハードウェア的には1箇所ジャンパするだけで機能が有効になりますが、ファームウェアの書き換えが必要となるため、**それがどういうことか理解できる方のみ**おこなってください。*
 
 QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mode)を使用する際に、1つのスピーカーで2音同時再生させることができます。
-<!-- 〓1音と2音の比較動画 -->
+
+[![Playing QMK's simultaneous tones with single speaker.](http://img.youtube.com/vi/ZqbNMjGJpUM/0.jpg)](https://www.youtube.com/watch?v=ZqbNMjGJpUM)
+YouTube：2音同時再生デモ動画
 
 なお、2音同時再生されるのはMusic Modeで演奏する際の音だけで、キーボードの起動音やリセット音などの[Songs](https://docs.qmk.fm/#/feature_audio?id=songs)については、単音再生のままで変わりません。
 
@@ -1078,9 +1080,7 @@ TOFUケースに入れた状態（中央ねじ穴）
 - キースイッチの安定性の向上
 
 これらの効果により、ブレの少ないかっちりとした打鍵感と、密度が高く、明瞭で少しピッチが高い打鍵音を得ることができます。
-
-[![Playing QMK's simultaneous tones with single speaker.](http://img.youtube.com/vi/ZqbNMjGJpUM/0.jpg)](https://www.youtube.com/watch?v=ZqbNMjGJpUM)
-YouTube：2音同時再生デモ動画
+<!-- 〓打鍵音比較を見せたいが、使用前がないかも -->
 
 <details>
 <summary>詳しい手順</summary>
