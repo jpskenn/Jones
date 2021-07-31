@@ -13,7 +13,6 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 <details>
 <summary>《詳しい手順》</summary>
 
-そうです。  
 ここに詳しい手順が書かれています。
 </details>
 
