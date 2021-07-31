@@ -133,7 +133,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
 | Jones 基板 v.0.4.1 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.4/_DSF0124.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0124.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.4/_DSF0120.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0120.jpeg) |
-| Jones キープレート v.4.0.x | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0131.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0131.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0132.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0132.jpeg) |
+| Jones キープレート v.4.0.2 | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0131.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0131.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0132.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0132.jpeg) |
 | Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.4/_DSF0133.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0133.jpeg) |
 | PCBマウント スタビライザー<br>2uサイズ, ねじ止め式 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg)<br>2.25uのキーにも使用できます。 |
 | 低頭ネジ, M2 4mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
