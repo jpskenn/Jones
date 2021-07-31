@@ -10,6 +10,11 @@
 - 外部EEPROMのサイズ変更。
 - ロゴ追加
 
+![Jones v.0.4.1](../assets/_DSF0472.jpeg)  
+v.0.4.1
+Keycap: KAT Lucky Jade, SP DSA 2*2, PIMP MY KEYBOARD Switch Blocker
+Case: Bottom plate kit for Jomes
+
 ## v.0.4
 
 - 世界的な半導体不足により、MCUをATmega32u4-MUから-AUに変更。
