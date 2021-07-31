@@ -1078,7 +1078,9 @@ TOFUケースに入れた状態（中央ねじ穴）
 - キースイッチの安定性の向上
 
 これらの効果により、ブレの少ないかっちりとした打鍵感と、密度が高く、明瞭で少しピッチが高い打鍵音を得ることができます。
-<!--〓音比較を載せたいが録画してないんだな-->
+
+[![Playing QMK's simultaneous tones with single speaker.](http://img.youtube.com/vi/ZqbNMjGJpUM/0.jpg)](https://www.youtube.com/watch?v=ZqbNMjGJpUM)
+YouTube：2音同時再生デモ動画
 
 <details>
 <summary>詳しい手順</summary>
