@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Jones"
 Date "2021-08-01"
-Rev "v.0.4.2"
+Rev "v.1 (042)"
 Comp "@jpskenn"
 Comment1 ""
 Comment2 ""
@@ -4165,7 +4165,7 @@ L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 61CF6E0D
 P 1200 8675
 F 0 "LOGO1" H 1447 8791 50  0000 L CNN
-F 1 "#Jones_kbd v.0.4.2" H 1447 8700 50  0000 L CNN
+F 1 "#Jones_kbd v.1 (042)" H 1447 8700 50  0000 L CNN
 F 2 "locallib:Jones_logo_7.8x13.2" H 1200 8675 50  0001 C CNN
 F 3 "~" H 1200 8675 50  0001 C CNN
 F 4 "@jpskenn" H 1447 8609 50  0000 L CNN "Text"

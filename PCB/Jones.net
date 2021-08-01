@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 August 02, Monday 06:13:02")
+    (date "2021 August 02, Monday 06:30:49")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1844,7 +1844,7 @@
       (tstamp 613DBDD8))
     (comp (ref LOGO1)
       (value "#Jones_kbd v.1 (042)")
-      (footprint locallib:Jones_logo_7.8x13.2)
+      (footprint locallib:Jones_logo_B_R_60x98.2)
       (datasheet ~)
       (fields
         (field (name Text) @jpskenn))
