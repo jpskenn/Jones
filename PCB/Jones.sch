@@ -2037,7 +2037,7 @@ Wire Wire Line
 Connection ~ 3225 10525
 Wire Wire Line
 	3075 10625 3075 10825
-Text GLabel 15275 2750 2    50   Input ~ 0
+Text GLabel 15275 3050 2    50   Input ~ 0
 AUDIO1
 Wire Wire Line
 	2800 8725 2950 8725
@@ -2180,7 +2180,7 @@ $EndComp
 Wire Wire Line
 	8475 6900 8475 7075
 Connection ~ 8475 7075
-Text GLabel 15275 3050 2    50   Input ~ 0
+Text GLabel 15275 2750 2    50   Input ~ 0
 AUDIO2
 $Comp
 L Jumper:SolderJumper_3_Open JP_LED1

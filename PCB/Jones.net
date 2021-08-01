@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 July 01, Thursday 06:09:18")
+    (date "2021 August 01, Sunday 19:58:47")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1716,6 +1716,8 @@
       (value 4.7k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17673))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 60AB199F))
@@ -1723,6 +1725,8 @@
       (value 4.7k)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C17673))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 60AB3787))
@@ -1851,6 +1855,8 @@
       (value 24LC64)
       (footprint Package_SO:SO-8_3.9x4.9mm_P1.27mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf)
+      (fields
+        (field (name LCSC) C79988))
       (libsource (lib Memory_EEPROM) (part 24LC64) (description "I2C Serial EEPROM, 64Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"))
       (sheetpath (names /) (tstamps /))
       (tstamp 60AF01F9))
@@ -2593,7 +2599,7 @@
       (node (ref SW_CAPS1u1) (pin 2)))
     (net (code 67) (name AUDIO1)
       (node (ref R7) (pin 1))
-      (node (ref U1) (pin 30))
+      (node (ref U1) (pin 31))
       (node (ref JP1) (pin 1))
       (node (ref Reserve_AUDIO1) (pin 1)))
     (net (code 68) (name "Net-(D0-Pad1)")
@@ -2895,7 +2901,7 @@
       (node (ref R4) (pin 1)))
     (net (code 115) (name AUDIO2)
       (node (ref Reserve_AUDIO2) (pin 1))
-      (node (ref U1) (pin 31))
+      (node (ref U1) (pin 30))
       (node (ref JP1) (pin 2)))
     (net (code 116) (name resv_PC7)
       (node (ref U1) (pin 32))
