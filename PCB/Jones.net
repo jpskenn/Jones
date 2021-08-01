@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 August 01, Sunday 21:13:55")
+    (date "2021 August 02, Monday 06:13:02")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title Jones)
         (company @jpskenn)
-        (rev v.0.4.2)
+        (rev "v.1 (042)")
         (date 2021-08-01)
         (source Jones.sch)
         (comment (number 1) (value ""))
@@ -1843,7 +1843,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 613DBDD8))
     (comp (ref LOGO1)
-      (value "#Jones_kbd v.0.4.2")
+      (value "#Jones_kbd v.1 (042)")
       (footprint locallib:Jones_logo_7.8x13.2)
       (datasheet ~)
       (fields

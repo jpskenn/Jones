@@ -2161,7 +2161,7 @@ U 1 1 5F65B3C3
 P 9575 3325
 F 0 "SW_BS1.5u1" H 9575 3610 50  0000 C CNN
 F 1 "SW_Push" H 9575 3519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 9575 3525 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 9575 3525 50  0001 C CNN
 F 3 "~" H 9575 3525 50  0001 C CNN
 	1    9575 3325
 	1    0    0    -1  
@@ -3200,7 +3200,7 @@ U 1 1 65AAAE17
 P 8275 3150
 F 0 "SW_BS1.5u2" H 8275 3435 50  0000 C CNN
 F 1 "SW_Push" H 8275 3344 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 8275 3350 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 8275 3350 50  0001 C CNN
 F 3 "~" H 8275 3350 50  0001 C CNN
 	1    8275 3150
 	1    0    0    -1  
