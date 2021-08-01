@@ -141,6 +141,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | 低頭ネジ, M2 4mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
 | 低頭ネジ, M2 5mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
 | プラ板 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) <br>LEDインジケータ取り付け時のみ使用。|
+
 ※出荷時期によってメーカーや品番、色などが変わることがあります
 
 ### 別途用意が必要な部品
@@ -163,6 +164,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_2.jpeg) |
 | ゴム足 大 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_3.jpeg) |
 | ゴム足 小 | 6 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_4_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_4.jpeg) |
+
 ※出荷時期によってメーカーや品番、色などが変わることがあります
 
 ### オプション部品
@@ -712,7 +714,7 @@ USBケーブルを接続し、ロータリーエンコーダのつまみを左�
 何か問題があった場合は、正しくはんだ付けされているかを確認してください。
 
 ### スタビライザーの取り付け
-
+〓左SPCはねじ止め式を推奨
 #### スタビライザーの取り付け位置の確認
 
 使用するレイアウトに合わせて、基板おもて側のスタビライザー取り付け位置を確認します。  
