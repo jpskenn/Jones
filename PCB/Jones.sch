@@ -3200,7 +3200,7 @@ U 1 1 65AAAE17
 P 8275 3150
 F 0 "SW_BS1.5u2" H 8275 3435 50  0000 C CNN
 F 1 "SW_Push" H 8275 3344 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 8275 3350 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 8275 3350 50  0001 C CNN
 F 3 "~" H 8275 3350 50  0001 C CNN
 	1    8275 3150
 	1    0    0    -1  
@@ -3209,14 +3209,14 @@ Connection ~ 8075 3150
 Wire Wire Line
 	8075 3150 8075 3325
 Wire Wire Line
-	8075 2075 8075 3150
+	8075 2075 8075 2975
 $Comp
 L Switch:SW_Push SW_ENT1.5u2
 U 1 1 65BFEE3E
 P 8275 4400
 F 0 "SW_ENT1.5u2" H 8275 4685 50  0000 C CNN
 F 1 "SW_Push" H 8275 4594 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 8275 4600 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 8275 4600 50  0001 C CNN
 F 3 "~" H 8275 4600 50  0001 C CNN
 	1    8275 4400
 	1    0    0    -1  
@@ -3982,7 +3982,7 @@ $EndComp
 Wire Wire Line
 	9125 4225 9125 4400
 Wire Wire Line
-	8075 3875 8075 4400
+	8075 3875 8075 4225
 Connection ~ 8725 4225
 Wire Wire Line
 	8725 4225 8725 4400
@@ -4512,4 +4512,38 @@ F 3 "" H 6625 8550 50  0001 C CNN
 	1    6625 8550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW_BS1.25u2
+U 1 1 61379E30
+P 8275 2975
+F 0 "SW_BS1.25u2" H 8275 3260 50  0000 C CNN
+F 1 "SW_Push" H 8275 3169 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide-Rotate" H 8275 3175 50  0001 C CNN
+F 3 "~" H 8275 3175 50  0001 C CNN
+	1    8275 2975
+	1    0    0    -1  
+$EndComp
+Connection ~ 8075 2975
+Wire Wire Line
+	8075 2975 8075 3150
+Wire Wire Line
+	8475 2975 8475 3150
+Connection ~ 8475 3150
+$Comp
+L Switch:SW_Push SW_ENT1.25u2
+U 1 1 613DB418
+P 8275 4225
+F 0 "SW_ENT1.25u2" H 8275 4510 50  0000 C CNN
+F 1 "SW_Push" H 8275 4419 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide-Rotate" H 8275 4425 50  0001 C CNN
+F 3 "~" H 8275 4425 50  0001 C CNN
+	1    8275 4225
+	1    0    0    -1  
+$EndComp
+Connection ~ 8075 4225
+Wire Wire Line
+	8075 4225 8075 4400
+Wire Wire Line
+	8475 4225 8475 4400
+Connection ~ 8475 4400
 $EndSCHEMATC
