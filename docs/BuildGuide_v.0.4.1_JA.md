@@ -18,6 +18,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 と書かれたところをクリックすると、追加の説明が表示されます。
 
+**試作版のビルドガイドのため、掲載している一部の写真に最新ではないものがございます。ご了承ください。**
+
 ## 目次
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=false} -->
