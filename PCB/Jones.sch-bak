@@ -215,11 +215,11 @@ F 4 "C15850" H 12975 4725 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 Text GLabel 15275 2150 2    60   Input ~ 0
-pin6
-Text GLabel 15275 3750 2    60   Input ~ 0
 pin5
+Text GLabel 15275 3750 2    60   Input ~ 0
+pin4
 Text GLabel 15650 2450 2    50   Input ~ 0
-pin1
+pin0
 Wire Wire Line
 	13750 3450 14075 3450
 Wire Wire Line
@@ -1350,21 +1350,21 @@ F 3 "~" H 10225 6025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 800  2425 0    50   Input ~ 0
-pin1
+pin0
 Text GLabel 800  3675 0    50   Input ~ 0
-pin2
+pin1
 Text GLabel 800  4925 0    50   Input ~ 0
-pin3
+pin2
 Text GLabel 800  6175 0    50   Input ~ 0
-pin4
+pin3
 Text GLabel 800  7425 0    50   Input ~ 0
-pin5
+pin4
 Text GLabel 800  5025 0    50   Input ~ 0
-pin8
-Text GLabel 800  6275 0    50   Input ~ 0
-pin9
-Text GLabel 800  3775 0    50   Input ~ 0
 pin7
+Text GLabel 800  6275 0    50   Input ~ 0
+pin8
+Text GLabel 800  3775 0    50   Input ~ 0
+pin6
 $Comp
 L Device:D D39
 U 1 1 5F665845
@@ -1738,23 +1738,23 @@ F 3 "~" H 9575 4775 50  0001 C CNN
 $EndComp
 Connection ~ 9775 4575
 Text GLabel 4175 1175 1    50   Input ~ 0
-pin1
+pin0
 Text GLabel 10025 1175 1    50   Input ~ 0
-pin2
+pin1
 Text GLabel 6775 1175 1    50   Input ~ 0
-pin3
+pin2
 Text GLabel 8075 1175 1    50   Input ~ 0
-pin4
+pin3
 Text GLabel 2875 1175 1    50   Input ~ 0
-pin5
+pin4
 Text GLabel 6125 1175 1    50   Input ~ 0
-pin6
+pin5
 Text GLabel 8725 1175 1    50   Input ~ 0
-pin8
-Text GLabel 5475 1175 1    50   Input ~ 0
 pin7
-Text GLabel 800  2525 0    50   Input ~ 0
+Text GLabel 5475 1175 1    50   Input ~ 0
 pin6
+Text GLabel 800  2525 0    50   Input ~ 0
+pin5
 $Comp
 L Switch:SW_Push SW_RIGHT1
 U 1 1 5F156A11
@@ -2112,9 +2112,9 @@ Wire Wire Line
 Text GLabel 15275 4750 2    50   Input ~ 0
 RE2_B
 Text GLabel 15275 2550 2    60   Input ~ 0
-pin9
-Text GLabel 15275 2850 2    60   Input ~ 0
 pin8
+Text GLabel 15275 2850 2    60   Input ~ 0
+pin7
 Connection ~ 3250 8425
 Wire Wire Line
 	3050 8425 3250 8425
@@ -2247,13 +2247,13 @@ Wire Wire Line
 Text GLabel 3875 10825 2    50   Input ~ 0
 AUDIO2
 Text GLabel 15275 4350 2    60   Input ~ 0
-pin3
+pin2
 Text GLabel 15275 4850 2    50   Input ~ 0
 RE2_A
 Text GLabel 15275 4650 2    50   Input ~ 0
 LED
 Text GLabel 15275 3950 2    60   Input ~ 0
-pin4
+pin3
 Wire Wire Line
 	1325 2375 1325 2425
 Wire Wire Line
@@ -2359,9 +2359,9 @@ F 3 "~" H 6825 9325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15275 4050 2    50   Input ~ 0
-pin10
+pin9
 Text GLabel 800  7525 0    50   Input ~ 0
-pin10
+pin9
 Wire Wire Line
 	800  2525 1975 2525
 Wire Wire Line
@@ -2373,7 +2373,7 @@ Wire Wire Line
 Wire Wire Line
 	800  7525 1975 7525
 Text GLabel 2225 1175 1    50   Input ~ 0
-pin9
+pin8
 $Comp
 L Device:D D9
 U 1 1 5F725688
@@ -2483,7 +2483,7 @@ F 4 "C81598" H 5475 1325 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 Text GLabel 925  1175 1    50   Input ~ 0
-pin10
+pin9
 $Comp
 L Device:D D42
 U 1 1 61030C18
@@ -3807,9 +3807,9 @@ Wire Wire Line
 Wire Wire Line
 	9125 4925 10425 4925
 Text GLabel 15650 2150 2    50   Input ~ 0
-pin7
+pin6
 Text GLabel 15650 2350 2    50   Input ~ 0
-pin2
+pin1
 Text GLabel 15650 2250 2    50   Input ~ 0
 MOSI
 Text Notes 14425 4000 0    50   ~ 0
@@ -4166,7 +4166,7 @@ U 1 1 61CF6E0D
 P 1200 8675
 F 0 "LOGO1" H 1447 8791 50  0000 L CNN
 F 1 "#Jones_kbd v.1 (042)" H 1447 8700 50  0000 L CNN
-F 2 "locallib:Jones_logo_7.8x13.2" H 1200 8675 50  0001 C CNN
+F 2 "locallib:Jones_logo_B_R_60x98.2" H 1200 8675 50  0001 C CNN
 F 3 "~" H 1200 8675 50  0001 C CNN
 F 4 "@jpskenn" H 1447 8609 50  0000 L CNN "Text"
 	1    1200 8675
