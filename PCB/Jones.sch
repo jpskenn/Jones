@@ -3506,17 +3506,6 @@ Text GLabel 15325 3075 2    50   Input ~ 0
 SCL
 Text GLabel 15325 3175 2    50   Input ~ 0
 SDA
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 60E8EB4C
-P 10300 8975
-F 0 "J3" H 10380 8967 50  0000 L CNN
-F 1 "Conn_01x02" H 10380 8876 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10300 8975 50  0001 C CNN
-F 3 "~" H 10300 8975 50  0001 C CNN
-	1    10300 8975
-	1    0    0    -1  
-$EndComp
 Text GLabel 9575 9075 0    50   Input ~ 0
 SCL
 Text GLabel 9575 8975 0    50   Input ~ 0
@@ -4545,4 +4534,41 @@ Connection ~ 14625 1575
 Connection ~ 14725 1575
 Wire Wire Line
 	14725 1575 14825 1575
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 611BE50F
+P 10300 9075
+F 0 "J3" H 10380 9067 50  0000 L CNN
+F 1 "Conn_01x04" H 10380 8976 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 10300 9075 50  0001 C CNN
+F 3 "~" H 10300 9075 50  0001 C CNN
+	1    10300 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 611F1741
+P 9225 9175
+F 0 "#PWR0104" H 9225 9025 50  0001 C CNN
+F 1 "+5V" H 9240 9348 50  0000 C CNN
+F 2 "" H 9225 9175 50  0001 C CNN
+F 3 "" H 9225 9175 50  0001 C CNN
+	1    9225 9175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 9175 10100 9175
+$Comp
+L power:GND #PWR0105
+U 1 1 61253728
+P 9225 9275
+F 0 "#PWR0105" H 9225 9025 50  0001 C CNN
+F 1 "GND" H 9225 9125 50  0000 C CNN
+F 2 "" H 9225 9275 50  0001 C CNN
+F 3 "" H 9225 9275 50  0001 C CNN
+	1    9225 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 9275 10100 9275
 $EndSCHEMATC
