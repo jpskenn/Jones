@@ -4534,6 +4534,7 @@ F 0 "U1" H 14725 1486 50  0000 C CNN
 F 1 "ATmega32U4-MU" H 14725 1395 50  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm" H 14725 3375 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14725 3375 50  0001 C CNN
+F 4 "C45874" H 14725 3375 50  0001 C CNN "LCSC"
 	1    14725 3375
 	1    0    0    -1  
 $EndComp
