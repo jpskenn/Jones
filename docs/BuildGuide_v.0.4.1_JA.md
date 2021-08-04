@@ -262,24 +262,24 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 
 `START REMAP FOR YOUR KEYBOARD`をクリックしてキーボード接続画面に進みます。
 
-[<img src="../assets/BuildGuide_v.0.4/Remap_start.png" alt="START REMAP FOR YOUR KEYBOARD" width="300">](../assets/BuildGuide_v.0.4/Remap_start.png)
+![START REMAP FOR YOUR KEYBOARD](../assets/BuildGuide_v.0.4/Remap_start.png)
 
 `+ KEYBOARD`をクリックしてデバイスへの接続要求画面を開きます。
 
-[<img alt="+ KEYBOARD" src="../assets/BuildGuide_v.0.4/Remap_connect.png" width="300">](../assets/BuildGuide_v.0.4/Remap_connect.png)
+![+ KEYBOARD](../assets/BuildGuide_v.0.4/Remap_connect.png)
 
 デバイスへの接続要求画面で`Jones`を選択して`接続`をクリックすると、画面にキーボードのレイアウトが表示されます。
 
-[<img alt="デバイスへの接続要求" src="../assets/BuildGuide_v.0.4/Remap_connect2.png" width="300">](../assets/BuildGuide_v.0.4/Remap_connect2.png)
+![デバイスへの接続要求](../assets/BuildGuide_v.0.4/Remap_connect2.png)
 
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 キーマップは組み立て完了後に変更するため、ここではレイアウトだけ設定して先へ進みます。
 
-[<img alt="Layout Option" src="../assets/BuildGuide_v.0.4/Remap_LayoutOption.png" width="300">](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
+![Layout Option](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
 
 レイアウト右側の`…`をクリックし、`Test Matrix mode`を選択します。
 
-[<img alt="+ KEYBOARD" src="../assets/BuildGuide_v.0.4/Remap_TestMatrix.png" width="300">](../assets/BuildGuide_v.0.4/Remap_TestMatrix.png)
+![Test Matrix Mode](../assets/BuildGuide_v.0.4/Remap_TestMatrix.png)
 
 ピンセットなどの電気を通すものを使い、基板裏面のソケット用パッドをショートさせます。
 
@@ -288,7 +288,7 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 
 Remapの画面で、ショートさせたパッドに対応するキーの色が変わることを確認します。  
 
-[<img alt="+ KEYBOARD" src="../assets/BuildGuide_v.0.4/Remap_TestMatrix2.png" width="300">](../assets/BuildGuide_v.0.4/Remap_TestMatrix2.png)
+![キーの色が変わる](../assets/BuildGuide_v.0.4/Remap_TestMatrix2.png)
 
 ソケット用パッドを順にショートさせ、全てのキーの色が変わることを確認します。  
 なお、ロータリーエンコーダの回転に割り当てた箇所は、この手順では確認しません。
