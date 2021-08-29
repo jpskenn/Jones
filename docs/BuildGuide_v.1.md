@@ -1294,4 +1294,123 @@ USBケーブルを差し込みます。
 
 </details>
 
+### 参考：アンダーグロー用LEDテープの使用
 
+アンダーグロー対応ファームウェアへ書き換えることで、アンダーグロー用のLEDを取り付けて、基板裏側を光らせることができます。  
+
+不透明のケースを使用するとほとんど見えないため、取り付けても徒労に終わります。  
+クリアや半透明のケースでは良い具合に光ります。
+
+![](../assets/BuildGuide_v.1/IMG_3353.jpeg)
+KBDfans 5° FROSTED ACRYLIC CNC 60% CASEでの使用例
+
+なお、ファームウェアサイズの制限により、Audio機能の”Music Mode”は使用できなくなります。
+
+``` aside
+ファームウェアの機能を厳選すれば、アンダーグローと”Music Mode”を同時に使うことも可能です。
+```
+
+<details>
+<summary>《詳しい手順》</summary>
+
+#### 使用するLEDテープ
+
+使用するLEDテープは、以下のようなタイプです。
+
+- フルカラーシリアルLEDテープ  
+  Neopixel WS2812BやRGBテープと表記されていることもあります。
+
+- 幅1cm
+
+- 1mあたり60個のLEDがついたタイプ
+
+このテープを、LED15個分の約25cm使用します。
+
+例えば、[NeoPixel RGB TAPE LED [1907]](https://www.akiba-led.jp/product/959)のような商品がこれに該当します。  
+50cm/30LEDのものを買った場合は、真ん中で半分に切り、LED15個分を使用します。
+
+#### LEDテープの取り付け
+
+LEDテープを用意したら、LED信号の入力方向を示す`Din`の文字や、LEDに向かう矢印`→`が描かれている方向を確認します。
+
+![](../assets/BuildGuide_v.1/IMG_3342.jpeg)
+LED信号の入力方向を示す`Din`と矢印`→`
+
+LED信号の入力側のテープ裏面の剥離紙を、端子が見える程度（5〜10mm）はがして切り取ります。  
+端子が露出するように、シールの糊も取り除きます。
+
+![](../assets/BuildGuide_v.1/IMG_3343.jpeg)
+裏側の剥離紙をはがす様子
+
+基板裏側のLEDテープ用パッド`LED STRIP`の、`GND`, `LED`, `VCC`の3箇所へ予備はんだします。
+
+はんだごてを270℃程度に設定します。
+
+LEDテープをマスキングテープなどで仮固定したり、端子付近をピンセットで押さえたりして、基板のパッドとテープ裏側の端子部分が重なるように固定します。  
+
+テープおもて側の端子部分にはんだごてをあてて押さえつけ、パッド上の予備はんだが溶けたらはんだごてを離します。  
+はんだごてで端子部分をグリグリいじりすぎると端子が剥がれてしまうため、上から押さえるだけにします。  
+`GND`, `LED`, `VCC`の3箇所をはんだ付けします。
+
+![](../assets/BuildGuide_v.1/IMG_3344.jpeg)
+テープおもて側からはんだごてをあてて押さえつける様子
+
+ソケットなどとのショートを防ぐため、テープのもう一方の端の端子部分へビニールテープなどを貼ります。
+
+マスキングテープなどを使い、LEDテープを基板に固定します。
+
+``` aside
+LEDテープの剥離紙をすべてはがして基板に貼り付けてしまっても良いですが、メンテナンスしにくくなります。
+また、はがす際に基板上の部品まではがれてしまったりするかもしれないので、注意が必要です。  
+```
+
+![](../assets/BuildGuide_v.1/IMG_3348.jpeg)
+LEDテープを取り付けた様子
+
+#### ファームウェアの書き換え
+
+アンダーグロー対応ファームウェアを用意します。  
+インジケータLEDの使用数によって、書き込むファームウェアが異なるため、使用環境に合ったものを用意してください。  
+間違ったものを書き込んでも壊れることはありませんが、LEDの点灯位置がずれてしまいます。
+
+ファームウェアのソースは、私のQMKフォークのブランチ[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)にあります。
+
+- [インジケータLEDなし用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_0%2B15)
+
+- [インジケータLED2個（左または右の、どちらか片側のみ）用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_2%2B15)
+
+- [インジケータLED4個（左右両側）用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_4%2B15)
+
+ビルド済みのHEXファイルは以下のリンクからダウンロードできます。
+
+- [インジケータLEDなし用 HEX](https://gist.github.com/jpskenn/50e3ec1cdb09e1d24a6f2a5ed4cc2e15)
+
+- [インジケータLED2個（左または右の、どちらか片側のみ）用 HEX](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_2%2B15)
+〓リンク更新
+
+- [インジケータLED4個（左右両側）用 HEX](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_4%2B15)
+〓リンク更新
+
+ファームウェアを書き込みます。  
+[参考：ファームウェアの書き込み方法](#参考ファームウェアの書き込み方法)
+
+#### アンダーグローの動作確認とケースへの取り付け
+
+キーボードの起動後、LEDテープのすべてのLEDが赤色に点灯していれば正しく動作しています。  
+点灯しない場合は、はんだ付けをやりなおします。
+
+![](../assets/BuildGuide_v.1/IMG_3358.jpeg)
+すべてのLEDが赤色に点灯している様子
+
+アンダーグローLED関連のキー割り当て（一部抜粋）
+`Raise + Lower + L`: ON/OFF切り替え
+`Raise + Lower + P`: 表示モード切り替え
+`Raise + Lower + I`: 明るさ増加
+`Raise + Lower + K`: 明るさ減少
+
+ケースへ基板を取り付けます。  
+60%プラスチックケースと組み合わせたときにケース内のリブがLEDテープと干渉しやすいため、テープを少しずらすか、ケース内のリブをカットして対処します。  
+
+〓写真、ボトムプレートとの組み合わせ
+
+</details>
