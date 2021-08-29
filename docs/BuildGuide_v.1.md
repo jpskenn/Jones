@@ -483,7 +483,7 @@ LEDジャンパ箇所
 </details>
 
 ![Left LEDsをOnにジャンパ](../assets/BuildGuide_v.0.4/_DSF0153.jpeg)
-Left LEDsをOnにジャンパにした状態
+Left LEDsをOnにジャンパした例
 
 #### LED用パッドの予備はんだ
 
