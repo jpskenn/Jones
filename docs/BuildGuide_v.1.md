@@ -1274,6 +1274,12 @@ Jonesキーボードでこのモードにするには、次のように操作し
 
 #### Jonesキーボードのデフォルトファームウェア
 
+ビルド済みの初期書き込み済みのファームウェアは、以下に用意しています。
+[Jones v1 ファームウェア, VIA対応デフォルト](https://gist.github.com/jpskenn/3fcebf6a7c17f1a8433a8d954e05206f)
+
+ファームウェアのソースは、以下に用意しています。
+[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)  
+
 ### EEPROMを消去して、初期状態に戻す方法
 
 RemapやVIAなどのキーマップ書き換えツールで設定した内容など、EEPROMに記録されているデータを消去し、ファームウェアの初期状態に戻すことができます。  
