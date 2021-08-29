@@ -245,15 +245,17 @@ MacやPCに接続した際に、キーボードとして認識されるかを確
 ### ソケット用パッドの確認
 
 キースイッチのソケットをはんだ付けするソケット用パッド（ソケットをはんだ付けする基板上の金属部分）が、電気的に正しく反応することを確認します。  
-全てのパッドを確認しなくてもかまいませんが、少なくとも組み立てようとしているレイアウトのパッドが正しく反応することは確認しておいてください。
-
-レイアウトを画面に表示させて確認できるのでキーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使う方法がおすすめですが、OSのキーボードビューアや[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)のキーボード入力テストを使用して確認することもできます。  
-VIAを使用する際は、[この定義ファイル（jones_v04_1_VIA_definition.json）](https://gist.github.com/jpskenn/db13901f72a58f6757ae0baf57bfa7ee)を読み込ませてください。
 
 <details>
 <summary>《詳しい手順》</summary>
 
-キーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使い、確認を行います。
+レイアウトを画面に表示させて確認できるのでキーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使う方法がおすすめです。  
+
+その他の方法として、OSのキーボードビューアや[Keyboard Checker](https://keyboardchecker.com)、[QMK Configrator](https://config.qmk.fm/)のキーボード入力テストを使用して確認することもできます。  
+〓JSONリンク変更
+VIAを使用する際は、[この定義ファイル（jones_v04_1_VIA_definition.json）](https://gist.github.com/jpskenn/db13901f72a58f6757ae0baf57bfa7ee)を読み込ませてください。
+
+ここでは、キーマップ書き換えツール[Remap](https://remap-keys.app/)のテスト機能を使い、確認を行います。
 
 基板の裏面が上側になるように置き、PCやMacとUSBケーブルで接続します。
 
