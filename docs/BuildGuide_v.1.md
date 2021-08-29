@@ -73,7 +73,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 - ファームウェア  
   RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み  
-  [develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)  
+  [develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)  
 
 - 外部EEPROM（8KB）を搭載  
   書き込み済みのファームウェアで利用可能
