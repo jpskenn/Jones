@@ -1388,11 +1388,9 @@ LEDテープを取り付けた様子
 
 - [インジケータLEDなし用 HEX](https://gist.github.com/jpskenn/50e3ec1cdb09e1d24a6f2a5ed4cc2e15)
 
-- [インジケータLED2個（左または右の、どちらか片側のみ）用 HEX](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_2%2B15)
-〓リンク更新
+- [インジケータLED2個（左または右の、どちらか片側のみ）用 HEX](https://gist.github.com/jpskenn/5f6d95be0a71697aa9e7e743e40a73b2)
 
-- [インジケータLED4個（左右両側）用 HEX](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_4%2B15)
-〓リンク更新
+- [インジケータLED4個（左右両側）用 HEX](https://gist.github.com/jpskenn/cc2e155be9b250978d8f289e9917b5cd)
 
 ファームウェアを書き込みます。  
 [参考：ファームウェアの書き込み方法](#参考ファームウェアの書き込み方法)
