@@ -140,8 +140,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 | |
-| Jones 基板 v.0.4.1 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.0.4/_DSF0124.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0124.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.0.4/_DSF0120.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0120.jpeg) |
-| Jones キープレート v.4.0.2 | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0131.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0131.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0132.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0132.jpeg) |
+| Jones 基板 v.1 | 1 | [おもて側<br><img alt="基板おもて側" src="../assets/BuildGuide_v.1/_DSF0643.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0643.jpeg)<br>[裏側<br><img alt="基板裏側" src="../assets/BuildGuide_v.1/_DSF0638.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0638.jpeg) |
+| Jones キープレート v.4.0.2 | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.1/_DSF0653.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0653.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.1/_DSF0650.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0650.jpeg) |
 | Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.4/_DSF0133.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0133.jpeg) |
 | PCBマウント スタビライザー<br>2uサイズ, ねじ止め式 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg)<br>2.25uのキーにも使用できます。 |
 | 低頭ネジ, M2 4mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
@@ -164,7 +164,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | 部品名 | 個数 | 備考 |
 | ----- | :-----: | ----- |
 | ご案内リーフレット | 1 ||
-| Jones用ボトムプレート | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.0.4/_DSF0127.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0127.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.0.4/_DSF0129.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0129.jpeg) |
+| Jones用ボトムプレート v.1 | 1 | [おもて側<br><img alt="ボトムプレートおもて側" src="../assets/BuildGuide_v.1/_DSF0644.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0644.jpeg)<br>[裏側<br><img alt="ボトムプレート裏側" src="../assets/BuildGuide_v.1/_DSF0654.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0654.jpeg) |
 | スペーサー, M2 3mm | 8 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_0.jpeg) |
 | ネジ, M2 3mm | 16 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_1.jpeg) |
 | ネジ, M2 3mm, 低頭 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0435_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0435_2.jpeg) |
