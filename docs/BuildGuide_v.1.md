@@ -1326,14 +1326,25 @@ JonesキーボードでDFU (Bootloader)モードにするには、次のよう�
 
 </details>
 
+### Jonesキーボードのファームウェア
 
-#### Jonesキーボードのデフォルトファームウェア
+ビルド済みファームウェアと、ソースファイルを用意しています。
 
-ビルド済みの初期書き込み済みのファームウェアは、以下に用意しています。
-[Jones v1 ファームウェア, VIA対応デフォルト](https://gist.github.com/jpskenn/3fcebf6a7c17f1a8433a8d954e05206f)
+#### ビルド済みのファームウェア
 
-ファームウェアのソースは、以下に用意しています。
-[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)  
+- [Jones v1 ファームウェア, VIA対応デフォルト](https://gist.github.com/jpskenn/3fcebf6a7c17f1a8433a8d954e05206f)
+
+- [アンダーグロー対応 インジケータLEDなし用](https://gist.github.com/jpskenn/50e3ec1cdb09e1d24a6f2a5ed4cc2e15)
+
+- [アンダーグロー対応 インジケータLED2個（左または右の、どちらか片側のみ）用](https://gist.github.com/jpskenn/5f6d95be0a71697aa9e7e743e40a73b2)
+
+- [アンダーグロー対応 インジケータLED4個（左右両側）用](https://gist.github.com/jpskenn/cc2e155be9b250978d8f289e9917b5cd)
+
+- [2音同時再生対応](https://gist.github.com/jpskenn/2a1d57117e745d635d038c64fdb32539)
+
+#### ファームウェアのソース
+
+- [develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)
 
 ### EEPROMを消去して、初期状態に戻す方法
 
