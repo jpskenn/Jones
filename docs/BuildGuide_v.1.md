@@ -1294,7 +1294,7 @@ LEDの組み合わせに応じて、基板裏側のジャンパが正しく行�
 
 ### ファームウェアの書き込み方法
 
-#### QMK　Toolboxの使用
+#### QMK Toolboxの使用
 
 ビルド済み（≒作成済み）のキーボード用ファームウェアを書き込むには、[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)を使用します。
 
