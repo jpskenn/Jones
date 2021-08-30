@@ -62,30 +62,30 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 <!-- /code_chunk_output -->
 
-## Jones v.1の機能
+
+## Jones v.1の特徴,　機能
 
 - 主要な部品を実装済み  
   はんだ付けが必要な部品は、MXソケットとオプションパーツのみ。
 
-- 対応レイアウト
-  [Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)
+- 複数のレイアウトに対応
+  Wide, Narrow, Normalの3つのレイアウトから選択可能。
+  レイアウト一覧：[Keyboard Layout Editor: Jones v.1(042)](http://www.keyboard-layout-editor.com/#/gists/53fab8cd4a4480980921f37c39e1f5f3)
 
-- ファームウェア  
-  RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み  
-  [develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)  
+- ファームウェアを書き込み済み
+  RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み。  
+  ソース（[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)）を元に、自由に改造することも可能。
 
-- 外部EEPROM（8KB）を搭載  
-  書き込み済みのファームウェアで利用可能
+- 外部EEPROM（8KB）を搭載し、十分な数のレイヤーを使用可能。
 
-- ケース
-  - GH60型やPoker型に互換性のあるケース
-  - Jones用ボトムプレートキット
+- GH60型やPoker型に互換性のあるケースに対応
+  Jones用ボトムプレートキットと組み合わせ、ケースレスで高さを抑えて使用することも可能。
 
-- レイヤーインジケータLED（オプション）
-
-- ロータリーエンコーダ（オプション）
-
-- スピーカー（オプション）
+- オプションとして使用できる機能
+  - レイヤーインジケータLED（オプション）
+  - アンダーグローLEDテープ（オプション）
+  - ロータリーエンコーダ（オプション）
+  - スピーカー（オプション）
 
 ## 注意事項、制限など
 
