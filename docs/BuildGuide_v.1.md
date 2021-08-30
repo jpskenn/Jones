@@ -1035,38 +1035,44 @@ Remapで自分好みのキーマップに変更します。
 ### 1個のスピーカーで2音同時再生する
 
 *元々は2個のスピーカーで2音同時再生する機能であり、1個のスピーカーでの再生は**実験的な機能**です。*
-*ハードウェア的には1箇所ジャンパするだけで機能が有効になりますが、ファームウェアの書き換えが必要となるため、**それがどういうことか理解できる方のみ**おこなってください。*
 
-QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mode)を使用する際に、1つのスピーカーで2音同時再生させることができます。
+QMKのAudio機能で[Music Mode](https://docs.qmk.fm/#/feature_audio?id=music-mode)を使用する際に、1つのスピーカーで2音同時再生させることができます。  
+なお、2音同時再生されるのはMusic Modeで演奏する際の音だけで、キーボードの起動音やリセット音などの[Songs](https://docs.qmk.fm/#/feature_audio?id=songs)については、単音再生のままで変わりません。
 
 [![Playing QMK's simultaneous tones with single speaker.](http://img.youtube.com/vi/ZqbNMjGJpUM/0.jpg)](https://www.youtube.com/watch?v=ZqbNMjGJpUM)
 YouTube：2音同時再生デモ動画
 
-なお、2音同時再生されるのはMusic Modeで演奏する際の音だけで、キーボードの起動音やリセット音などの[Songs](https://docs.qmk.fm/#/feature_audio?id=songs)については、単音再生のままで変わりません。
+ハードウェア的には1箇所ジャンパするだけで機能が有効になりますが、ファームウェアの書き換えが必要となります。
+
+<details>
+<summary>《詳しい手順》</summary>
+
+#### 基板のジャンパ
 
 キーボード裏側の`Simultaneous Audio`をジャンパします。
 
 ![ジャンパ箇所](../assets/BuildGuide_v.0.4/_DSF0150.jpeg)
 ジャンパ箇所
 
-ファームウェアは、私のQMKフォークのブランチ [develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に、[via_duophone](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1/keymaps/via_duophone)の名前で用意しています。
+#### ファームウェアの書き換え
 
-初期状態で書き込んであるVIA対応ファームウェアと同等ですが、キーマップの`via_duophone/config.h`で2音同時再生の設定に上書きしている点が異なります。  
-また、ファームウェアサイズの制限により、`ベースレイヤー #3`を削除して、使用できるレイヤー数を6から5に減らしています。
+2音同時再生対応ファームウェアを用意します。
 
-``` c
-#ifdef AUDIO_ENABLE
-  #undef AUDIO_PIN
-  #define AUDIO_PIN C6
-  #define AUDIO_PIN_ALT B6
-#endif
-```
+ビルド済みのHEXファイルは以下のリンクからダウンロードできます。
 
-ファームウェアを次のように作成し、任意の方法で書き込みます。
+- [Jones v1 ファームウェア, 2音同時再生](https://gist.github.com/jpskenn/2a1d57117e745d635d038c64fdb32539)
 
-``` shell
-make jones/v04_1:via_duophone
-```
+ファームウェアサイズの制限により、`ベースレイヤー #3`を削除して、使用できるレイヤー数を6から5に減らしています。
+
+[ファームウェアの書き込み方法](#ファームウェアの書き込み方法)を参考に、ファームウェアを書き込みます。  
+
+#### 2音同時再生の確認
+
+キーボード起動後に、`Raise` + `Lower` + `D`を押してMusic ModeをONにします。
+
+`F`と`J`を同時に押して、2音同時再生されていれば正しく動作しています。
+
+</details>
 
 ### 打鍵感向上：ケースへの基板取り付け方法
 
