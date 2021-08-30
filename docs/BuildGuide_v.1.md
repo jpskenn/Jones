@@ -1393,14 +1393,6 @@ LEDテープを取り付けた様子
 インジケータLEDの使用数によって、書き込むファームウェアが異なるため、使用環境に合ったものを用意してください。  
 間違ったものを書き込んでも壊れることはありませんが、LEDの点灯位置がずれてしまいます。
 
-ファームウェアのソースは、私のQMKフォークのブランチ[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)にあります。
-
-- [インジケータLEDなし用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_0%2B15)
-
-- [インジケータLED2個（左または右の、どちらか片側のみ）用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_2%2B15)
-
-- [インジケータLED4個（左右両側）用](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1/keymaps/via_led_tape_4%2B15)
-
 ビルド済みのHEXファイルは以下のリンクからダウンロードできます。
 
 - [インジケータLEDなし用 HEX](https://gist.github.com/jpskenn/50e3ec1cdb09e1d24a6f2a5ed4cc2e15)
