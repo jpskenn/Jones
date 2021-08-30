@@ -62,6 +62,7 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 
 <!-- /code_chunk_output -->
 
+---
 
 ## Jones v.1の特徴,　機能
 
@@ -86,6 +87,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
   - アンダーグローLEDテープ（オプション）
   - ロータリーエンコーダ（オプション）
   - スピーカー（オプション）
+
+---
 
 ## 注意事項、制限など
 
@@ -120,6 +123,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
+
+---
 
 ## 部品リスト
 
@@ -177,6 +182,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | ロータリーエンコーダ用ノブ（つまみ）| 最大 2 | ロータリーエンコーダの軸の形状に合ったもの。 |
 | スピーカー<br>Murata PKMCS0909E4000-R1 | 1 | |
 
+---
+
 ## 組み立てに必要な工具
 
 先の小さなドライバー、ピンセット、はんだ付け関連用品など、一般的な電子工作向け工具を使用します。  
@@ -186,6 +193,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 [TALP KEYBOARDで売っているこのタイプ](https://talpkeyboard.net/items/601362fe2438601925ad0692)は、1本でキースイッチとキーキャップの両方に使えるので便利です。
 
 なお、無くても組み立てはできますが、何か不具合があった場合の原因調査ではテスターが必要になることがあります。
+
+---
 
 ## 組み立て前の確認
 
@@ -298,6 +307,9 @@ Remapの画面で、ショートさせたパッドに対応するキーの色が
 余裕があれば、すべてのレイアウトでも同様に確認します。
 
 確認が終わったら、USBケーブルを抜きます。
+
+
+---
 
 ## 組み立て手順
 
@@ -1025,6 +1037,8 @@ Remapで自分好みのキーマップに変更します。
 
 完成したところですが、打鍵感の向上やアンダーグロー用LEDテープの使用など、DIYで楽しむ要素はまだまだ残っています。  
 [参考](#参考)にいろいろと情報を載せていますので、ご活用ください。
+
+---
 
 ## 参考
 
