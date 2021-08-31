@@ -326,7 +326,7 @@ Jonesのレイアウトは、大きく分けて次の3つから選ぶことが�
 いずれのレイアウトも、一般的な日本語108または英語104のキーキャップセットで組み立てられます。  
 Narrowレイアウトを隙間なく埋める場合は、カスタムキーキャップセットが必要です。  
 
-レイアウトをまとめた[Keyboard Layout Editor: Jones v04_1](http://www.keyboard-layout-editor.com/#/gists/5c8ac0bbee831ac1463e579fabf9d351)を参考に、どのレイアウトを作るか決めてください。  
+レイアウトをまとめた[Keyboard Layout Editor: Jones v.1(042)](http://www.keyboard-layout-editor.com/#/gists/53fab8cd4a4480980921f37c39e1f5f3)を参考に、どのレイアウトを作るか決めてください。  
 
 ### スイッチ用ソケットの取り付け
 
