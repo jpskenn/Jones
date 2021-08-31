@@ -229,7 +229,7 @@ MacやPCに接続して、キーボードとして認識されることを確認
 右側の`USB装置ツリー`のどこかに`Jones`というデバイスが表示されていれば、正しく認識されています。  
 `USB装置ツリー`の下の方が見切れている場合があるため、スクロールして確認してください。
 
-![Mac System Report](../assets/BuildGuide_v.0.4/macOS_SystemReport.png)  
+![Mac System Report](../assets/BuildGuide_v.1/macOS_SystemReport.png)  
 システム情報の表示
 </details>
 
