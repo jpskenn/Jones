@@ -183,7 +183,7 @@ OSのボリューム操作やマウスホイールの上下などの機能を割
 
 ## ビルドガイド
 
-- [v.1](./docs/BuildGuide_v.1_JA.md)
+- [Jones v.1 ビルドガイド](./docs/BuildGuide_v.1_JA.md)
 
 <details>
 <summary>以前のビルドガイド</summary>
