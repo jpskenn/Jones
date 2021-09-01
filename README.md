@@ -101,10 +101,10 @@ Jones, Wideレイアウト: 左手、右手ともに、肘、手首、指先が�
 使用頻度の低い記号キーは、Wideレイアウトではキーボードの中央へ、Narrowレイアウトでは右端へ移動しています。
 
 ![Mod keys at right side](./assets/right_hand_keys_wide.jpeg)  
-右手のホームポジションすぐ隣のModキーと、移動した記号キー（Wideレイアウト）
+右手のホームポジションすぐ隣のModキーと、移動した記号キー（Wideレイアウト，英語配列）
 
 ![Mod keys at right side](./assets/right_hand_keys_narrow.jpeg)  
-右手のホームポジションすぐ隣のModキーと、移動した記号キー（Narrowレイアウト）
+右手のホームポジションすぐ隣のModキーと、移動した記号キー（Narrowレイアウト，英語配列）
 
 #### キーレイアウトのバリエーション
 
