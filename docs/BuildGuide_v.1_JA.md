@@ -130,8 +130,8 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
 | Jones キープレート v.4.0.2 | 1 | [おもて側<br><img alt="キープレートおもて側" src="../assets/BuildGuide_v.1/_DSF0653.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0653.jpeg)<br>[裏側<br><img alt="キープレート裏側" src="../assets/BuildGuide_v.1/_DSF0650.jpeg" width="300">](../assets/BuildGuide_v.1/_DSF0650.jpeg) |
 | Kailh MXソケット | 75(予備含む) | [<img alt="MXソケット" src="../assets/BuildGuide_v.0.4/_DSF0133.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0133.jpeg) |
 | PCBマウント スタビライザー<br>2uサイズ, ねじ止め式 | 2 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_0_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_0.jpeg)<br>2.25uのキーにも使用できます。 |
-| 低頭ネジ, M2 4mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
-| 低頭ネジ, M2 5mm | 3(予備含む) | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
+| 低頭ネジ, M2 4mm | 3 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_1_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_1.jpeg) |
+| 低頭ネジ, M2 5mm | 3 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_2_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_2.jpeg) |
 | プラ板 | 1 | [<img alt="" src="../assets/BuildGuide_v.0.4/_DSF0432_3_s.jpeg" width="300">](../assets/BuildGuide_v.0.4/_DSF0432_3.jpeg) <br>LEDインジケータ取り付け時のみ使用。|
 
 ※出荷時期によってメーカーや品番などが変わることがあります
