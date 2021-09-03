@@ -2,7 +2,7 @@
 
 ![Jones](./assets/_DSF0257.jpeg)
 
-Jones（ジョーンズ）は、2行目と3行目にずれのない、ロースタッガードとオルソリニアを組み合わせた60%キーボードです。  
+Jones（ジョーンズ）は、2行目と3行目にずれのない、ロースタッガードとオルソリニアを組み合わせた、シンメトリカルな60%キーボードです。  
 左右対象のアルファ部と、右手側Modキーをホームポジションのすぐ隣へ配置したレイアウトが特徴です。  
 
 40%や50%キーボードのコンパクトで軽快な運指の心地良さと、レイヤーに数字や記号を押し込まなくてよい十分なキー数を兼ね備えています。
@@ -21,7 +21,7 @@ Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
 ---
 
-Jones is a 60% keyboard combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
+Jones is a symmetrical 60% keyboard, combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
 Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
 
 It has compact and light fingering which like 40% and 50% keyboards.
