@@ -212,7 +212,7 @@ GodSpeedで数字行をノベルティ
 | [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wideレイアウト 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
 | [<img src="./assets/IMG_2798.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: GMK Pulse, GMK Mitolet, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
-| [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
 
