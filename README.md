@@ -213,6 +213,7 @@ GodSpeedで数字行をノベルティ
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wideレイアウト 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
 | [<img src="./assets/_DSF0257.jpeg" width="300">](./assets/_DSF0257.jpeg) | Wideレイアウト 日本語配列, 日本語108キーキャップ<br>case: 60％ Plastic, Clear<br>keycaps: Majestouch 日本語108キー・かななし・ミルキーブルー |
 | [<img src="./assets/IMG_3353.jpeg" width="300">](./assets/IMG_3353.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: KAT Space Cadet, SP G20<br>アンダーグローLED |
+| [<img src="./assets/_DSF0512.jpeg" width="300">](./assets/_DSF0512.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: GMK Pulse, SP Blocker |
 | [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
