@@ -2,8 +2,8 @@
 
 ![Jones](./assets/_DSF0257.jpeg)
 
-Jones（ジョーンズ）は、2行目と3行目にずれのない、ロースタッガードとオルソリニアを組み合わせた60%キーボードです。  
-左右対象のアルファ部と、右手側Modキーをホームポジションのすぐ隣へ配置したレイアウトが特徴です。  
+Jones（ジョーンズ）は、2行目と3行目にずれのない、シンメトリカルな60%キーボードです。  
+左右対象のアルファ部と、右手側Modキーをホームポジションのすぐ隣へ配置したレイアウトが特徴で、自然なポジションで打鍵できます。  
 
 40%や50%キーボードのコンパクトで軽快な運指の心地良さと、レイヤーに数字や記号を押し込まなくてよい十分なキー数を兼ね備えています。
 
@@ -21,7 +21,7 @@ Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
 ---
 
-Jones is a 60% keyboard combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
+Jones is a symmetrical 60% keyboard, combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
 Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
 
 It has compact and light fingering which like 40% and 50% keyboards.
@@ -45,7 +45,7 @@ Jonesキーボードは、
   あまり使わないキーをホームポジションから外し、よく使うキーを使いやすい位置に配置しています。  
   分割したスペースキーや親指付近のキーにEnterやBackspaceを割り当てて、これまでとは違う使い方も楽しめます。
 
-- レイアウトを変えるのが不安な方，指使いを変えたくない方  
+- レイアウトを変えるのが不安な方や、指使いを変えたくない方  
   左右対称のレイアウトに戸惑うかもしれませんが、一般的なキーボードの違いはごくわずかです。  
   3行目から下が左へ1/4キー（0.25u）ずれただけなので、ほぼ同じレイアウトで使用できます。  
   指使いを覚え直す必要がなく、これまでどおりの指使いのまま打鍵することができます。
@@ -80,8 +80,8 @@ Jonesキーボードは、
 
 ### 独自のずれ幅をもつ左右対象のアルファ部
 
-2行目と3行目にずれの無い、ロースタッガードとオルソリニアを組み合わせたキー配列です。  
-分類上は、シンメトリカル、左右対称ロースタッガードや変則ロースタッガードと呼んでも良いかもしれません。  
+2行目と3行目にずれの無い、シンメトリカルなキー配列です。  
+ロースタッガードとオルソリニアを組み合わせたような配列になっており、分類上は、シンメトリカル、左右対称ロースタッガードや変則ロースタッガードと呼んでも良いかもしれません。  
 
 左手と右手が同じずれ幅となる左右対象のアルファ部により、肘、手首、指先が直線上に並んだ自然なポジションにします。  
 
@@ -209,9 +209,13 @@ GodSpeedで数字行をノベルティ
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
+| [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/_DSF0484.jpeg" width="300">](./assets/_DSF0484.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP Blocker |
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wideレイアウト 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
-| [<img src="./assets/IMG_2798.jpeg" width="300">](./assets/IMG_2798.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: GMK Pulse, GMK Mitolet, SP Blocker<br>rotaly encoder: EC12E24204A2, K-2605 |
+| [<img src="./assets/_DSF0680.jpeg" width="300">](./assets/_DSF0680.jpeg) | Wideレイアウト 日本語配列, 日本語108キーキャップ<br>case: 60％ Plastic, Clear<br>keycaps: Majestouch 日本語108キー・かななし・ミルキーブルー<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/IMG_3353.jpeg" width="300">](./assets/IMG_3353.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: KAT Space Cadet, SP G20<br>アンダーグローLED |
+| [<img src="./assets/_DSF0512.jpeg" width="300">](./assets/_DSF0512.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: GMK Pulse, SP Blocker |
+| [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
 
