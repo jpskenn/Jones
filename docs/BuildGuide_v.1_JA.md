@@ -3,7 +3,7 @@
 購入していただいた方、リポジトリから製造していただいた方、その他の皆様、Jonesに興味を持っていただきありがとうございます。
 
 このドキュメントは、Jones v.1を組み立てるためのビルドガイドです。  
-Jonesのコンセプトや特徴などについては、[Jones README](https://github.com/jpskenn/Jones/blob/master/README.md)をご覧ください。
+Jonesのコンセプトや特徴、ビルド例などについては、[Jones README](https://github.com/jpskenn/Jones/blob/master/README.md)をご覧ください。
 
 ビルドガイド全体に目を通して作業手順を把握しておくとミスの防止につながりますので、ぜひ、一度お読みになってから組み立て作業を始めてください。
 
