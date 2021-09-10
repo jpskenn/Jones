@@ -1080,7 +1080,7 @@ Remapで自分好みのキーマップに変更します。
 製作例
 
 写真を撮影し、`#Jones_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
-[Twitter: #Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)
+[Twitter: #Jones_kbd](https://twitter.com/search?q=(%23jones_kbd)&src=typed_query&f=live)
 
 完成したところですが、打鍵感の向上やアンダーグロー用LEDテープの使用など、DIYで楽しむ要素はまだまだ残っています。  
 [参考](#参考)にいろいろと情報を載せていますので、ご活用ください。

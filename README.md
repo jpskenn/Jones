@@ -217,7 +217,7 @@ GodSpeedで数字行をノベルティ
 | [<img src="./assets/_DSF0512.jpeg" width="300">](./assets/_DSF0512.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: GMK Pulse, SP Blocker |
 | [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 
-Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)にも、作例が集まっています。
+Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=(%23jones_kbd)&src=typed_query&f=live)にも、作例が集まっています。
 
 ## 私の使用環境
 
