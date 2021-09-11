@@ -275,6 +275,14 @@ Google Chromeブラウザ（Web HID対応のバージョン89以降）で、[Rem
 レイアウト右側の`Layout Option`で、組み立てようとしているレイアウトに設定します。  
 キーマップは組み立て完了後に変更するため、ここではレイアウトだけ設定して先へ進みます。
 
+```aside
+Layout Optionの、
+Right R2とRight R3の、Narrow, 1.25u
+は、v.1で追加されたレイアウトです。
+
+v.0.4.1では、このレイアウトに対応していません。
+```
+
 ![Layout Option](../assets/BuildGuide_v.0.4/Remap_LayoutOption.png)
 
 レイアウト右側の`…`をクリックし、`Test Matrix mode`を選択します。
