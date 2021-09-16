@@ -28,6 +28,7 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
 <!-- code_chunk_output -->
 
 - [目次](#目次)
+- [Jones v.1の特徴, 機能](#jones-v1の特徴-機能)
 - [注意事項、制限など](#注意事項-制限など)
 - [部品リスト](#部品リスト)
   - [キット内容](#キット内容)
@@ -63,6 +64,31 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
   - [参考：EEPROMを消去して、初期状態に戻す方法](#参考eepromを消去して-初期状態に戻す方法)
 
 <!-- /code_chunk_output -->
+
+---
+## Jones v.1の特徴, 機能
+
+- 主要な部品を実装済み  
+  はんだ付けが必要な部品は、MXソケットとオプションパーツのみ。
+
+- 3つのレイアウト、Wide（ワイド）, Narrow（ナロー）, Normal（ノーマル）を選択可能  
+  レイアウト一覧：[Keyboard Layout Editor: Jones v.1(042)](http://www.keyboard-layout-editor.com/#/gists/53fab8cd4a4480980921f37c39e1f5f3)
+
+- 一般的な日本語108キー、英語104キーのキーキャップセットに対応。
+
+- RemapやVIAなどのキーマップ書き換えツールに対応したファームウェアを書き込み済み  
+  ソース（[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)）を元に、自由に改造することも可能。
+
+- 外部EEPROM（8KB）を搭載し、十分な数のレイヤーを使用可能
+
+- GH60型やPoker型に互換性のあるケースに対応  
+  Jones用ボトムプレートキットと組み合わせて、ケースレスで高さを抑えて使用することも可能。
+
+- オプションとして、以下のハードウェア機能を使用可能
+  - レイヤーインジケータLED
+  - アンダーグローLEDテープ
+  - ロータリーエンコーダ
+  - スピーカー
 
 ---
 
