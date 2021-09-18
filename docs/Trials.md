@@ -18,7 +18,7 @@
 ![Jones v.0.4.1](../assets/_DSF0472.jpeg)  
 v.0.4.1
 Keycap: KAT Lucky Jade, SP DSA 2*2, PIMP MY KEYBOARD Switch Blocker
-Case: Bottom plate kit for Jomes
+Case: Bottom plate kit for Jones
 
 ## v.0.4
 
