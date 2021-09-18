@@ -55,6 +55,8 @@ It can be used with GH60 and Poker compatible cases.
   - [総当たりマトリクス](#総当たりマトリクス)
 - [ビルドガイド](#ビルドガイド)
 - [ビルド例](#ビルド例)
+- [関連リソース](#関連リソース)
+  - [キーボードレイアウト定義ファイル](#キーボードレイアウト定義ファイル)
 - [私の使用環境](#私の使用環境)
 - [試作歴](#試作歴)
 - [ロゴ](#ロゴ)
@@ -257,6 +259,20 @@ m.teiさんのアレ。
 | [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
 
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=(%23jones_kbd)&src=typed_query&f=live)にも、作例が集まっています。
+
+## 関連リソース
+
+### キーボードレイアウト定義ファイル
+
+[Remap](https://remap-keys.app)や[VIA](https://caniusevia.com)で使用できる、キーボードレイアウト定義ファイルです。  
+このリポジトリの[VIAフォルダ](https://github.com/jpskenn/Jones/tree/master/VIA)に配置しています。
+
+RemapのWebサイトには登録済みなので、このファイルは不要です。  
+Webサイトを開いてキーボードを接続すれば、自動的にレイアウトが表示されます。
+
+定義ファイルが登録されていないVIAを使用する場合や、Remapをローカル環境で動作させる場合に使用します。
+
+Jones v.1用 キーボードレイアウト定義ファイル：[jones_v1(042).json](https://gist.github.com/jpskenn/b0e62ff02264ebc955b5153c9b64200d)
 
 ## 私の使用環境
 
