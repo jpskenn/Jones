@@ -9,6 +9,9 @@ Jones（ジョーンズ）は、2行目と3行目にずれのない、シンメ�
 
 GH60型やPoker型に互換性のあるケースや、専用のボトムプレートと組み合わせて使用できます。
 
+[遊舎工房](https://shop.yushakobo.jp/products/2798)と[BOOTH](https://booth.pm/ja/items/3266269)で購入できます。  
+また、その気になればご自分で製造することも可能です。
+
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
 ``` text
@@ -28,6 +31,9 @@ It has compact and light fingering which like 40% and 50% keyboards.
 And also, it has enough keys, no need to push numeric and symbol keys into layers.
 
 It can be used with GH60 and Poker compatible cases.
+
+Available at [Yushakobo](https://shop.yushakobo.jp/products/2798) and [BOOTH](https://booth.pm/ja/items/3266269).  
+Or, manufacture by your self.
 
 ---
 
