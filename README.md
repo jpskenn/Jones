@@ -9,6 +9,9 @@ Jones（ジョーンズ）は、2行目と3行目にずれのない、シンメ�
 
 GH60型やPoker型に互換性のあるケースや、専用のボトムプレートと組み合わせて使用できます。
 
+[遊舎工房](https://shop.yushakobo.jp/products/2798)と[BOOTH](https://booth.pm/ja/items/3266269)で購入できます。  
+また、その気になればご自分で製造することも可能です。
+
 名前の由来は、ロースタガとオルソリニアをつなぐ”橋”という意味を込めて…
 
 ``` text
@@ -21,13 +24,16 @@ Bridge --> Bridged --> Bridget --> Bridget Jones --> Jones
 
 ---
 
-Jones is a symmetrical 60% keyboard, combined with Ortho-linear and Row-staggered. It has gapless R2-R3 row.  
+Jones is a symmetrical 60% keyboard, combined with Ortho-linear and Row-staggered. It has gap-less R2-R3 row.  
 Symmetrical alpha-keys and nearby right side mod-keys provide natural typing position.  
 
 It has compact and light fingering which like 40% and 50% keyboards.
 And also, it has enough keys, no need to push numeric and symbol keys into layers.
 
 It can be used with GH60 and Poker compatible cases.
+
+Available at [Yushakobo](https://shop.yushakobo.jp/products/2798) and [BOOTH](https://booth.pm/ja/items/3266269).  
+Or, manufacture by your self.
 
 ---
 
@@ -91,7 +97,7 @@ Jonesキーボードは、
 参考までに、*冗談半分で*以下のチャートにまとめました。
 
 <!--　チャート更新 -->
-![どうやってもJonesになるチャート](./assets/No_matter_how_cahrt.png)
+![どうやってもJonesになるチャート](./assets/No_matter_how_chart.png)
 
 ## コンセプト
 
@@ -250,13 +256,13 @@ m.teiさんのアレ。
 
 | ビルド例 | 詳細 |
 | --- | :-- |
-| [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotary encoder: EC12E24204A2, knob: K-2605 |
 | [<img src="./assets/_DSF0484.jpeg" width="300">](./assets/_DSF0484.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP Blocker |
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wideレイアウト 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
-| [<img src="./assets/_DSF0680.jpeg" width="300">](./assets/_DSF0680.jpeg) | Wideレイアウト 日本語配列, 日本語108キーキャップ<br>case: 60％ Plastic, Clear<br>keycaps: Majestouch 日本語108キー・かななし・ミルキーブルー<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/_DSF0680.jpeg" width="300">](./assets/_DSF0680.jpeg) | Wideレイアウト 日本語配列, 日本語108キーキャップ<br>case: 60％ Plastic, Clear<br>keycaps: Majestouch 日本語108キー・かななし・ミルキーブルー<br>rotary encoder: EC12E24204A2, knob: K-2605 |
 | [<img src="./assets/IMG_3353.jpeg" width="300">](./assets/IMG_3353.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Frosted Acrylic CNC 60%<br>keycaps: KAT Space Cadet, SP G20<br>アンダーグローLED |
 | [<img src="./assets/_DSF0512.jpeg" width="300">](./assets/_DSF0512.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: GMK Pulse, SP Blocker |
-| [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotaly encoder: EC12E24204A2, knob: K-2605 |
+| [<img src="./assets/IMG_3047.jpeg" width="300">](./assets/IMG_3047.jpeg) | Narrowレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: ePBT Ivory, SP G20, SP Blocker<br>rotary encoder: EC12E24204A2, knob: K-2605 |
 
 Twitterのハッシュタグ[#Jones_kbd](https://twitter.com/search?q=(%23jones_kbd)&src=typed_query&f=live)にも、作例が集まっています。
 
@@ -290,9 +296,9 @@ Jones v.1用 キーボードレイアウト定義ファイル：[jones_v1(042).j
 
 振り返ってみて思うことですが、もしこのレイアウトが使いにくいものだったとしたら、1年以上も使い続けてこられたでしょうか？  
 以前はRealforce R2（静音30g）の打鍵感にベタ惚れして使っていたのですが、Jonesを使い始めてからは、押し入れで眠ったままになっています。  
-打鍵感、特にキースイッチに起因する指先の感覚において、JonesでRalforceほどの快適さを得ることはほぼ不可能ですが、それでもRealforceには出番がまわってきません。
+打鍵感、特にキースイッチに起因する指先の感覚において、JonesでRealforceほどの快適さを得ることはほぼ不可能ですが、それでもRealforceには出番がまわってきません。
 
-この状況から考えると、少なくとも、RalforceよりもJonesのほうが使いやすいと感じる何かがあると言えるでしょう。
+この状況から考えると、少なくとも、RealforceよりもJonesのほうが使いやすいと感じる何かがあると言えるでしょう。
 
 ### キーボードのセッティング
 
@@ -354,7 +360,7 @@ Raiseレイヤーでカーソル移動ができれば十分なので、カーソ
 左手でマウスを使用するため、マウス主体のアプリケーションを使用する際に右手でModキーが操作できるよう、右手側に`Cmd`, `Opt`, `Shift`, `Ctrl`をそれぞれ単独で配置しています。
 
 私は肘から少し先までを机に乗せて、手をあまり浮かせずに打鍵するタイプなので、小指の付け根付近が最下行のキーに当たりやすく、少し不快に感じます。  
-そのため、最下行の左右端から2キーにはブロッカー（[Pimpmykeyboard: Switch Blocker](https://pimpmykeyboard.com/switch-blocker-pack-of-10/)）を取り付けて、キーを配置していません。  
+そのため、最下行の左右端から2キーにはブロッカー（[Pimp my keyboard: Switch Blocker](https://pimpmykeyboard.com/switch-blocker-pack-of-10/)）を取り付けて、キーを配置していません。  
 プログラムの動作や文章の表現を考えながらキーボードを使うときは、このちょっとした心地よさが大切な気がします。
 
 ロータリーエンコーダも軸が短いタイプに背の低いノブを組み合わせることで、打鍵時に手に当たらないようにしています。
