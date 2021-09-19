@@ -1260,7 +1260,7 @@ LEDの組み合わせに応じて、基板裏側のジャンパが正しく行�
 Jones v.0.4.1のファームウェアは、私のQMKフォークのブランチ[develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に用意しています。  
 必要に応じてキーマップや機能の設定を変更し、ファームウェアを構築して書き込んでください。
 
-ファームウェアの書き込みが終わった後、外部EEPROMの消去に5秒ほどかかる場合があります。（書き込み直後の1回のみ）
+ファームウェアの書き込みが終わった後、外部EEPROMの消去に5~10秒ほどかかる場合があります。（書き込み直後の1回のみ）
 
 <details>
 <summary>《詳しい手順》</summary>
