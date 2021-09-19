@@ -122,6 +122,12 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
 
+  以下のケースは取り付けに手間のかかる加工が必要です。
+  - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
+  ケース内の外周部に基板を乗せる段がついており、基板の外周が数ミリ乗る構造になっています。  
+  そのため、基板うら側で外周付近に配置されるソケットやスタビライザーが干渉します。  
+  （Lekipon様より報告をいただきました。）
+
 ## 部品リスト
 
 このキットを組み立てるためには、”キット内容物”に加え、”別途用意が必要な部品”が必要です。  
