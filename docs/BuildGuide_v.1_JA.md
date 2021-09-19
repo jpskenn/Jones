@@ -114,11 +114,15 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
   - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)
 
-  以下のケースは取り付けに手間のかかる加工が必要です。
+  木製のケースは、ケースの内部構造が基板うら側のソケットやスタビライザーに干渉するものが多いため、注意してください。  
+  ケース内部の外周部に数ミリ幅の段があり、基板を支えるような構造がこれに該当します。  
+  カッターや彫刻刀で干渉箇所を削れば取り付けできますが、手間のかかる加工作業になります。  
   - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
-  ケース内の外周部に基板を乗せる段がついており、基板の外周が数ミリ乗る構造になっています。  
-  そのため、基板うら側で外周付近に配置されるソケットやスタビライザーが干渉します。  
-  （Lekipon様より報告をいただきました。）
+  Lekipon様より[ご報告](https://twitter.com/lekipon/status/1439607642431754250)をいただきました。  
+  Dropで販売されている[NPKC 60% WOODEN WRIST REST KEYBOARD CASE](https://drop.com/buy/npkc-60-percent-wooden-wrist-rest-keyboard-case)も同じ形状で、干渉すると思われます。
+  - [60% 木製ケース](https://shop.yushakobo.jp/products/60-wood-case)  
+  竹製ケースと同じような内部構造で、写真で見ると干渉は少なめですが、注意が必要です。
+  - その他の木製ケース
 
 ---
 
