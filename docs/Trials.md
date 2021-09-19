@@ -2,9 +2,16 @@
 
 試作機の履歴をまとめています。
 
-## v.1 (=v.0.4.2) *製作中*
+## v.1 (=v.0.4.2)
 
+- 遊舎工房にて委託販売開始。  
+  BOOTHでもボトムプレートのセット品を販売。
+- SMTA製造でMCUの在庫不足により、ATmega32u4-AUから-MUへ変更。
+- ロゴ更新
 - シルク調整, 修正
+- アンダーグローLEDテープ対応
+- Narrowレイアウトで一般的なキーキャップに対応（これにより、すべてのレイアウトで対応）
+- Audio用のGPIOピンのメインとサブを入れ替え
 - その他
 
 ## v.0.4.1
@@ -18,7 +25,7 @@
 ![Jones v.0.4.1](../assets/_DSF0472.jpeg)  
 v.0.4.1
 Keycap: KAT Lucky Jade, SP DSA 2*2, PIMP MY KEYBOARD Switch Blocker
-Case: Bottom plate kit for Jomes
+Case: Bottom plate kit for Jones
 
 ## v.0.4
 

@@ -57,11 +57,11 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
   - [参考：スピーカーの2音同時再生](#参考スピーカーの2音同時再生)
   - [参考：正常に入力できないスイッチの原因調査](#参考正常に入力できないスイッチの原因調査)
   - [参考：LEDの取り付け不良調査](#参考ledの取り付け不良調査)
-  - [参考：ファームウェアの書き込み方法](#参考ファームウェアの書き込み方法)
+  - [参考：ファームウェアの書き込み方法（QMK Toolboxで書き込む）](#参考ファームウェアの書き込み方法qmk-toolboxで書き込む)
+  - [参考：ファームウェアの書き込み方法（コマンドを使って書き込む）](#参考ファームウェアの書き込み方法コマンドを使って書き込む)
   - [参考：EEPROMを消去し、初期状態に戻す方法](#参考eepromを消去し-初期状態に戻す方法)
 
 <!-- /code_chunk_output -->
-
 
 ## Jones v.0.4.1の機能
 
@@ -121,6 +121,16 @@ Jonesのコンセプトや特徴などについては、[Jones README](https://g
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
+
+  木製のケースは、ケースの内部構造が基板うら側のソケットやスタビライザーに干渉するものが多いため、注意してください。  
+  ケース内部の外周部に数ミリ幅の段があり、基板を支えるような構造がこれに該当します。  
+  カッターや彫刻刀で干渉箇所を削れば取り付けできますが、手間のかかる加工作業になります。  
+  - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
+  Lekipon様より[ご報告](https://twitter.com/lekipon/status/1439607642431754250)をいただきました。  
+  Dropで販売されている[NPKC 60% WOODEN WRIST REST KEYBOARD CASE](https://drop.com/buy/npkc-60-percent-wooden-wrist-rest-keyboard-case)も同じ形状で、干渉すると思われます。
+  - [60% 木製ケース](https://shop.yushakobo.jp/products/60-wood-case)  
+  竹製ケースと同じような内部構造で、写真で見ると干渉は少なめですが、注意が必要です。
+  - その他の木製ケース
 
 ## 部品リスト
 
@@ -1255,12 +1265,44 @@ LEDの組み合わせに応じて、基板裏側のジャンパが正しく行�
 1. 光らないLEDを新しいものに交換する
     220-270℃で1、2と数える程の加熱ではそう簡単にはLEDは壊れないと考えますが、何度かはんだをやり直しても点灯しない場合は、LEDが壊れていると判断して新しいものに交換します。
 
-### 参考：ファームウェアの書き込み方法
+### 参考：ファームウェアの書き込み方法（QMK Toolboxで書き込む）
+
+QMK Toolboxを使ったファームウェアの書き込み方法について説明します。
+
+<details>
+<summary>《詳しい説明》</summary>
+
+#### ビルド済みファームウェアのダウンロード
+
+[Firmware for Jones v.0.4.1](https://gist.github.com/jpskenn/d945e87789f29a62901298beea667db1)のページで`Download ZIP`をクリックしてZIPファイルをダウンロードします。
+
+ZIPファイルを解凍／展開し、ビルド済みファームウェア`jones_v04_1_via.hex`を取り出します。
+
+#### QMK Toolboxの使用
+
+ビルド済み（≒作成済み）のキーボード用ファームウェアを書き込むには、[QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)を使用します。
+
+QMKファームウェアに関するドキュメントの、[ファームウェアを書き込む](https://docs.qmk.fm/#/ja/newbs_flashing?id=ファームウェアを書き込む)を参考に、QMK Toolboxを使ってキーボードに書き込みます。
+
+#### キーボードを DFU (Bootloader) モードにする方法
+
+JonesキーボードでDFU (Bootloader)モードにするには、次のように操作します。
+
+1. USBケーブルを抜く
+
+1. キーボードの左上のキーを押したまま、USBケーブルを差し込む
+
+この操作によってEEPROMも消去されるので、古いデータが残って動作がおかしくなるのを防止できます。  
+ファームウェアの書き込みが終わった後に外部EEPROMの消去がおこなわれるため、**キーボードの起動まで5〜10秒ほどかかります**。（書き込み直後の初回起動のみ）
+
+</details>
+
+### 参考：ファームウェアの書き込み方法（コマンドを使って書き込む）
 
 Jones v.0.4.1のファームウェアは、私のQMKフォークのブランチ[develop_jones:v04_1](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v04_1)に用意しています。  
 必要に応じてキーマップや機能の設定を変更し、ファームウェアを構築して書き込んでください。
 
-ファームウェアの書き込みが終わった後、外部EEPROMの消去に5秒ほどかかる場合があります。（書き込み直後の1回のみ）
+ファームウェアの書き込みが終わった後、外部EEPROMの消去に5~10秒ほどかかる場合があります。（書き込み直後の1回のみ）
 
 <details>
 <summary>《詳しい手順》</summary>
