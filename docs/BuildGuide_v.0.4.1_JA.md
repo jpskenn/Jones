@@ -1264,9 +1264,7 @@ QMK Toolboxを使ったファームウェアの書き込み方法について説
 
 #### ビルド済みファームウェアのダウンロード
 
-以下のリンク先で`Download ZIP`をクリックしてZIPファイルをダウンロードします。
-
-[FIrmware for Jones v.0.4.1](https://gist.github.com/jpskenn/d945e87789f29a62901298beea667db1)
+[Firmware for Jones v.0.4.1](https://gist.github.com/jpskenn/d945e87789f29a62901298beea667db1)のページで`Download ZIP`をクリックしてZIPファイルをダウンロードします。
 
 ZIPファイルを解凍／展開し、ビルド済みファームウェア`jones_v04_1_via.hex`を取り出します。
 
