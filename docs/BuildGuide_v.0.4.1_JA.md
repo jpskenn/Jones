@@ -1031,7 +1031,7 @@ Remapで自分好みのキーマップに変更します。
 製作例
 
 写真を撮影し、`#Jones_kbd` のタグをつけてツイートすると設計者が喜んだりします。  
-[Twitter: #Jones_kbd](https://twitter.com/search?q=%23Jones_kbd&f=live)
+[Twitter: #Jones_kbd](https://twitter.com/search?q=(%23jones_kbd)&src=typed_query&f=live
 
 ## 参考
 
