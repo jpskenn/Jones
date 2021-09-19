@@ -112,7 +112,7 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
   - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
-  - Jones用ボトムプレート
+  - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)
 
   以下のケースは取り付けに手間のかかる加工が必要です。
   - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
