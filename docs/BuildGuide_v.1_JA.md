@@ -116,7 +116,7 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
 
   木製のケースは、ケースの内部構造が基板うら側のソケットやスタビライザーに干渉するものが多いため、注意してください。  
   ケース内部の外周部に数ミリ幅の段があり、基板を支えるような構造がこれに該当します。  
-  カッターや彫刻刀で干渉箇所を削れば取り付けできますが、手間のかかる加工作業になります。  
+  カッターや彫刻刀で干渉箇所を削れば取り付けできますが、ひと手間かかる加工作業になります。  
   - [60% 竹製ケース（パームレスト一体型）](https://shop.yushakobo.jp/products/a0700bp-01)  
   Lekipon様より[ご報告](https://twitter.com/lekipon/status/1439607642431754250)をいただきました。  
   Dropで販売されている[NPKC 60% WOODEN WRIST REST KEYBOARD CASE](https://drop.com/buy/npkc-60-percent-wooden-wrist-rest-keyboard-case)も同じ形状で、干渉すると思われます。
