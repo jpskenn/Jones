@@ -37,6 +37,6 @@ SW_Push,SW_LSPC2.25u1,MX_Alps_Hybrid:MXOnly-2.25U-Hotswap-guide,
 Rotary_Encoder_Switch,"SW_RE1,SW_RE2",locallib:RotaryEncoder_Alps_EC11K-Switch_Vertical_H20mm,
 SW_Push,"SW_narrowRALT1.25u1,SW_ROPT1.25u1,SW_RALT1.25u1,SW_LALT1.25u1,SW_CTL1.25u1,SW_LWIN1.25u1,SW_BS1.25u1,SW_ENT1.25u1",MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide,
 SW_Push,"SW_narrowRWIN1.25u1,SW_BS1.25u2,SW_ENT1.25u2",MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide-Rotate,
-ATmega32U4-MU,U1,Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm,C45874
+ATmega32U4-MU,U1,Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm,C112161
 24LC64,U2,Package_SO:SO-8_3.9x4.9mm_P1.27mm,C79988
 16MHz,Y1,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,C13738
