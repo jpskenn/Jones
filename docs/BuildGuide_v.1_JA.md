@@ -1649,7 +1649,14 @@ JonesキーボードでDFU (Bootloader)モードにするには、次のよう�
 
 #### ファームウェアのソース
 
-- [develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones/keyboards/jones/v1)
+2021年9月25日現在、QMK本家へのプルリクエストを申請中です。  
+[[keyboard]Add v1 to jones keyboard #14405](https://github.com/qmk/qmk_firmware/pull/14405)
+
+プルリクエストが取り込まれるまでは、僕のQMKからフォークしたリポジトリ  
+[https://github.com/jpskenn/qmk_firmware](https://github.com/jpskenn/qmk_firmware)  
+を使用してください。  
+
+[develop_jones](https://github.com/jpskenn/qmk_firmware/tree/develop_Jones)ブランチの、`keyboards/jones/v1`に関連ファイルが格納されています。
 
 ### 資料：EEPROMを消去して、初期状態に戻す方法
 
