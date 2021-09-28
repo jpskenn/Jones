@@ -4563,7 +4563,7 @@ U 1 1 615B818E
 P 1125 2925
 F 0 "SW_TAB1u1" H 1125 3210 50  0000 C CNN
 F 1 "SW_Push" H 1125 3119 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide" H 1125 3125 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide-4pin" H 1125 3125 50  0001 C CNN
 F 3 "~" H 1125 3125 50  0001 C CNN
 	1    1125 2925
 	1    0    0    -1  

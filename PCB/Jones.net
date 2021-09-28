@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 September 28, Tuesday 06:27:45")
+    (date "2021 September 29, Wednesday 06:11:25")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1955,7 +1955,7 @@
       (tstamp 615879B4))
     (comp (ref SW_TAB1u1)
       (value SW_Push)
-      (footprint MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide)
+      (footprint MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide-4pin)
       (datasheet ~)
       (libsource (lib Switch) (part SW_Push) (description "Push button switch, generic, two pins"))
       (sheetpath (names /) (tstamps /))
