@@ -1,4 +1,4 @@
-19822369311329495
+19824002262229495
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85639,6 +85639,13 @@ LED diameter 3.0mm 2 pins
 2
 locallib
 LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark
+https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+LED RGB NeoPixel Mini
+0
+4
+4
+locallib
+LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark_Bold
 https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
 LED RGB NeoPixel Mini
 0
