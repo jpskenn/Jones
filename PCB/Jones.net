@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kenn/Git/jpskenn/Jones/PCB/Jones.sch)
-    (date "2021 September 30, Thursday 04:56:16")
+    (date "2021 September 30, Thursday 05:19:17")
     (tool "Eeschema (5.1.10-1-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -95,7 +95,7 @@
       (tstamp 5B337B5B))
     (comp (ref D19)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -111,7 +111,7 @@
       (tstamp 5F62131E))
     (comp (ref D68)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -127,7 +127,7 @@
       (tstamp 5F62637E))
     (comp (ref D18)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -143,7 +143,7 @@
       (tstamp 5F62638A))
     (comp (ref D17)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -159,7 +159,7 @@
       (tstamp 5F62D1CC))
     (comp (ref D67)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -175,7 +175,7 @@
       (tstamp 5F62D1D8))
     (comp (ref D16)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -191,7 +191,7 @@
       (tstamp 5F62D1E4))
     (comp (ref D65)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -207,7 +207,7 @@
       (tstamp 5F62D1F0))
     (comp (ref D15)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -223,7 +223,7 @@
       (tstamp 5F633F20))
     (comp (ref D14)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -239,7 +239,7 @@
       (tstamp 5F633F2C))
     (comp (ref D64)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -255,7 +255,7 @@
       (tstamp 5F633F38))
     (comp (ref D63)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -271,7 +271,7 @@
       (tstamp 5F633F44))
     (comp (ref D13)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -287,7 +287,7 @@
       (tstamp 5F639FB6))
     (comp (ref D62)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -303,7 +303,7 @@
       (tstamp 5F639FC2))
     (comp (ref D12)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -319,7 +319,7 @@
       (tstamp 5F65B33F))
     (comp (ref D69)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -335,7 +335,7 @@
       (tstamp 5F65B34B))
     (comp (ref D28)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -351,7 +351,7 @@
       (tstamp 5F65B357))
     (comp (ref D27)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -367,7 +367,7 @@
       (tstamp 5F65B363))
     (comp (ref D78)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -383,7 +383,7 @@
       (tstamp 5F65B36F))
     (comp (ref D26)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -392,7 +392,7 @@
       (tstamp 5F65B375))
     (comp (ref D23)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -401,7 +401,7 @@
       (tstamp 5F65B3C9))
     (comp (ref D61)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -417,7 +417,7 @@
       (tstamp 5F66584B))
     (comp (ref D79)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -433,7 +433,7 @@
       (tstamp 5F665857))
     (comp (ref D38)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -449,7 +449,7 @@
       (tstamp 5F665863))
     (comp (ref D37)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -465,7 +465,7 @@
       (tstamp 5F66586F))
     (comp (ref D87)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -481,7 +481,7 @@
       (tstamp 5F66587B))
     (comp (ref D36)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -490,7 +490,7 @@
       (tstamp 5F665881))
     (comp (ref D32)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -499,7 +499,7 @@
       (tstamp 5F6658D5))
     (comp (ref D71)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -522,7 +522,7 @@
       (tstamp 5F66B9A7))
     (comp (ref D48)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -538,7 +538,7 @@
       (tstamp 5F66B9B3))
     (comp (ref D47)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -554,7 +554,7 @@
       (tstamp 5F66B9BF))
     (comp (ref D97)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -570,7 +570,7 @@
       (tstamp 5F66B9CB))
     (comp (ref D46)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -586,7 +586,7 @@
       (tstamp 5F66B9D7))
     (comp (ref D95)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -595,7 +595,7 @@
       (tstamp 5F66B9DD))
     (comp (ref D41)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -648,7 +648,7 @@
       (tstamp 5F7283A7))
     (comp (ref D49)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -657,7 +657,7 @@
       (tstamp 5F66B9A1))
     (comp (ref D59)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -680,7 +680,7 @@
       (tstamp 5F29DC71))
     (comp (ref D98)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -689,7 +689,7 @@
       (tstamp 5F29DC79))
     (comp (ref D91)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -705,7 +705,7 @@
       (tstamp 5F3CB950))
     (comp (ref D39)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -721,7 +721,7 @@
       (tstamp 5FC283A0))
     (comp (ref D43)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -737,7 +737,7 @@
       (tstamp 5F66BA13))
     (comp (ref D35)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -753,7 +753,7 @@
       (tstamp 5F6658B7))
     (comp (ref D25)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -769,7 +769,7 @@
       (tstamp 5F65B3AB))
     (comp (ref D45)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -785,7 +785,7 @@
       (tstamp 5F66BA07))
     (comp (ref D85)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -801,7 +801,7 @@
       (tstamp 5F6658AB))
     (comp (ref D75)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -817,7 +817,7 @@
       (tstamp 5F65B39F))
     (comp (ref D83)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -833,7 +833,7 @@
       (tstamp 5F66589F))
     (comp (ref D73)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -849,7 +849,7 @@
       (tstamp 5F65B393))
     (comp (ref D93)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -865,7 +865,7 @@
       (tstamp 5F66B9EF))
     (comp (ref D84)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -881,7 +881,7 @@
       (tstamp 5F665893))
     (comp (ref D74)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -897,7 +897,7 @@
       (tstamp 5F65B3B7))
     (comp (ref D24)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -913,7 +913,7 @@
       (tstamp 5F6658C3))
     (comp (ref D34)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -922,7 +922,7 @@
       (tstamp 5F6658C9))
     (comp (ref D94)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -980,7 +980,7 @@
       (tstamp 5F6780D3))
     (comp (ref D96)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -996,7 +996,7 @@
       (tstamp 5F186ADE))
     (comp (ref D51)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1005,7 +1005,7 @@
       (tstamp 5F6C56F6))
     (comp (ref D56)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1028,7 +1028,7 @@
       (tstamp 5F106675))
     (comp (ref D92)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1037,7 +1037,7 @@
       (tstamp 5F10665E))
     (comp (ref D52)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1046,7 +1046,7 @@
       (tstamp 5F678121))
     (comp (ref D53)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1069,7 +1069,7 @@
       (tstamp 5F0A9F06))
     (comp (ref D57)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1099,7 +1099,7 @@
       (tstamp 63083776))
     (comp (ref D0)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1180,7 +1180,7 @@
       (tstamp 617D5088))
     (comp (ref D89)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1217,7 +1217,7 @@
       (tstamp 609B8FD1))
     (comp (ref D9)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1226,7 +1226,7 @@
       (tstamp 5F725688))
     (comp (ref D8)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1235,7 +1235,7 @@
       (tstamp 5FFCEC9E))
     (comp (ref D7)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1244,7 +1244,7 @@
       (tstamp 603AC248))
     (comp (ref D6)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1253,7 +1253,7 @@
       (tstamp 603FC360))
     (comp (ref D4)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1262,7 +1262,7 @@
       (tstamp 604A1A95))
     (comp (ref D3)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1271,7 +1271,7 @@
       (tstamp 604F6C80))
     (comp (ref D2)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1280,7 +1280,7 @@
       (tstamp 6054D24B))
     (comp (ref D1)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1289,7 +1289,7 @@
       (tstamp 60521C0A))
     (comp (ref D5)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1298,7 +1298,7 @@
       (tstamp 6044E0F2))
     (comp (ref D42)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1314,7 +1314,7 @@
       (tstamp 618640F1))
     (comp (ref D11)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1330,7 +1330,7 @@
       (tstamp 61E74F58))
     (comp (ref D21)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1346,7 +1346,7 @@
       (tstamp 62AD0764))
     (comp (ref D22)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1362,7 +1362,7 @@
       (tstamp 62B9C238))
     (comp (ref D30)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1378,7 +1378,7 @@
       (tstamp 62C6D98C))
     (comp (ref D31)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1387,7 +1387,7 @@
       (tstamp 62CB3CFE))
     (comp (ref D33)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1410,7 +1410,7 @@
       (tstamp 62E9DA53))
     (comp (ref D40)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1426,7 +1426,7 @@
       (tstamp 6352BDD0))
     (comp (ref D44)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1519,7 +1519,7 @@
       (tstamp 62CB3D04))
     (comp (ref D50)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
@@ -1939,7 +1939,7 @@
       (tstamp 5F65B333))
     (comp (ref D29)
       (value D)
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint locallib:D_SOD-123_bold_marking)
       (datasheet ~)
       (fields
         (field (name LCSC) C81598))
