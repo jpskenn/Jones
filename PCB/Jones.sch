@@ -629,18 +629,6 @@ F 4 "C81598" H 6525 2225 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D29
-U 1 1 5F65B339
-P 1325 3475
-F 0 "D29" V 1371 3395 50  0000 R CNN
-F 1 "D" V 1280 3395 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 1325 3475 50  0001 C CNN
-F 3 "~" H 1325 3475 50  0001 C CNN
-F 4 "C81598" H 1325 3475 50  0001 C CNN "LCSC"
-	1    1325 3475
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Switch:SW_Push SW_Q1
 U 1 1 5F65B33F
 P 1775 3325
@@ -2485,17 +2473,6 @@ F 4 "C81598" H 8075 1325 50  0001 C CNN "LCSC"
 	1    8075 1325
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_Push SW_TAB1.5u1
-U 1 1 5F65B333
-P 1125 3325
-F 0 "SW_TAB1.5u1" H 1125 3610 50  0000 C CNN
-F 1 "SW_Push" H 1125 3519 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 1125 3525 50  0001 C CNN
-F 3 "~" H 1125 3525 50  0001 C CNN
-	1    1125 3325
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	925  1475 1575 1475
 Connection ~ 925  1475
@@ -2504,11 +2481,8 @@ Wire Wire Line
 	1575 2075 1575 3325
 Wire Wire Line
 	800  2425 1325 2425
-Connection ~ 925  3325
 Wire Wire Line
 	800  3675 1325 3675
-Wire Wire Line
-	925  3325 925  4375
 Connection ~ 925  4375
 Connection ~ 925  4575
 Wire Wire Line
@@ -3791,8 +3765,6 @@ Text GLabel 15700 1975 2    50   Input ~ 0
 MOSI
 Text Notes 14450 3725 0    50   ~ 0
 Audio\nC4,5,6\nB5,6,7
-Wire Wire Line
-	925  2075 925  3325
 Connection ~ 925  2075
 $Comp
 L Switch:SW_Push SW_ESC1
