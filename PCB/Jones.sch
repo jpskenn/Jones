@@ -2149,7 +2149,7 @@ U 1 1 5F5D094E
 P 8275 7075
 F 0 "SW_RALT1.5u1" H 8275 7360 50  0000 C CNN
 F 1 "SW_Push" H 8275 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 8275 7275 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 8275 7275 50  0001 C CNN
 F 3 "~" H 8275 7275 50  0001 C CNN
 	1    8275 7075
 	1    0    0    -1  
@@ -2925,7 +2925,7 @@ Wire Wire Line
 	7425 4625 7425 5825
 Connection ~ 7425 5825
 Wire Wire Line
-	7425 5825 7425 7075
+	7425 5825 7425 6900
 Connection ~ 7825 6175
 Wire Wire Line
 	7825 6175 9125 6175
@@ -2959,7 +2959,7 @@ Connection ~ 8475 7525
 Wire Wire Line
 	8475 7525 9775 7525
 Wire Wire Line
-	8075 5825 8075 6725
+	8075 5825 8075 6550
 Wire Wire Line
 	8725 1475 8725 2075
 Connection ~ 8725 2075
@@ -4578,4 +4578,38 @@ Text GLabel 6325 10575 0    50   Input ~ 0
 pin5
 Text GLabel 6325 10975 0    50   Input ~ 0
 pin9
+$Comp
+L Switch:SW_Push SW_RWIN1.25uSE1
+U 1 1 6202F561
+P 8275 6550
+F 0 "SW_RWIN1.25uSE1" H 8275 6835 50  0000 C CNN
+F 1 "SW_Push" H 8275 6744 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED-Rotate" H 8275 6750 50  0001 C CNN
+F 3 "~" H 8275 6750 50  0001 C CNN
+	1    8275 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 6550 8475 6725
+Connection ~ 8075 6550
+Wire Wire Line
+	8075 6550 8075 6725
+Connection ~ 8475 6725
+$Comp
+L Switch:SW_Push SW_RALT1uSE1
+U 1 1 62099C53
+P 7625 6900
+F 0 "SW_RALT1uSE1" H 7625 7185 50  0000 C CNN
+F 1 "SW_Push" H 7625 7094 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 7625 7100 50  0001 C CNN
+F 3 "~" H 7625 7100 50  0001 C CNN
+	1    7625 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 6900 7825 7075
+Connection ~ 7425 6900
+Wire Wire Line
+	7425 6900 7425 7075
+Connection ~ 7825 7075
 $EndSCHEMATC
