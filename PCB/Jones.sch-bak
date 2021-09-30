@@ -1130,7 +1130,7 @@ U 1 1 5F7267DD
 P 3250 8725
 F 0 "LED1" H 3594 8771 50  0000 L CNN
 F 1 "SK6812MINI" H 3594 8680 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 3300 8425 50  0001 L TNN
+F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark_Bold" H 3300 8425 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3350 8350 50  0001 L TNN
 	1    3250 8725
 	1    0    0    -1  
@@ -1141,7 +1141,7 @@ U 1 1 5F7283A7
 P 3850 8725
 F 0 "LED2" H 4194 8771 50  0000 L CNN
 F 1 "SK6812MINI" H 4194 8680 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 3900 8425 50  0001 L TNN
+F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark_Bold" H 3900 8425 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3950 8350 50  0001 L TNN
 	1    3850 8725
 	1    0    0    -1  
@@ -2024,7 +2024,7 @@ U 1 1 63AABB7E
 P 5675 9325
 F 0 "LED4" H 6019 9371 50  0000 L CNN
 F 1 "SK6812MINI" H 6019 9280 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 5725 9025 50  0001 L TNN
+F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark_Bold" H 5725 9025 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5775 8950 50  0001 L TNN
 	1    5675 9325
 	1    0    0    -1  
@@ -2035,7 +2035,7 @@ U 1 1 63AABB78
 P 5075 9325
 F 0 "LED3" H 5419 9371 50  0000 L CNN
 F 1 "SK6812MINI" H 5419 9280 50  0000 L CNN
-F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark" H 5125 9025 50  0001 L TNN
+F 2 "locallib:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TriangleMark_Bold" H 5125 9025 50  0001 L TNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5175 8950 50  0001 L TNN
 	1    5075 9325
 	1    0    0    -1  
@@ -3380,7 +3380,7 @@ Wire Wire Line
 	7175 6275 8475 6275
 Connection ~ 3275 7075
 Wire Wire Line
-	2875 5825 2875 6900
+	2875 5825 2875 6725
 Wire Wire Line
 	6525 7425 7825 7425
 $Comp
@@ -4015,7 +4015,7 @@ F 3 "~" H 9975 11100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4175 5825 4175 6900
+	4175 5825 4175 6375
 Connection ~ 6775 6900
 Wire Wire Line
 	6775 6900 6775 7075
@@ -4410,8 +4410,6 @@ $EndComp
 Wire Wire Line
 	5875 6900 5875 7075
 Connection ~ 5875 7075
-Wire Wire Line
-	2625 7425 5875 7425
 $Comp
 L Connector_Generic:Conn_01x03 LED_STRIP1
 U 1 1 6116C5B2
@@ -4580,4 +4578,73 @@ Connection ~ 1325 3325
 Connection ~ 1325 3125
 Wire Wire Line
 	1325 3125 1325 3325
+$Comp
+L Switch:SW_Push SW_LWIN1.25uSE1
+U 1 1 6158BD01
+P 3075 6725
+F 0 "SW_LWIN1.25uSE1" H 3075 7010 50  0000 C CNN
+F 1 "SW_Push" H 3075 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide-Rotate" H 3075 6925 50  0001 C CNN
+F 3 "~" H 3075 6925 50  0001 C CNN
+	1    3075 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 6900 3275 6725
+Connection ~ 2875 6725
+Wire Wire Line
+	2875 6725 2875 6900
+Connection ~ 3275 6900
+$Comp
+L Device:D D20
+U 1 1 615F2321
+P 3925 7275
+F 0 "D20" V 3971 7195 50  0000 R CNN
+F 1 "D" V 3880 7195 50  0000 R CNN
+F 2 "locallib:D_SOD-123_bold_marking" H 3925 7275 50  0001 C CNN
+F 3 "~" H 3925 7275 50  0001 C CNN
+F 4 "C81598" H 3925 7275 50  0001 C CNN "LCSC"
+	1    3925 7275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_LALT1uSE1
+U 1 1 615F2327
+P 3725 7125
+F 0 "SW_LALT1uSE1" H 3725 7410 50  0000 C CNN
+F 1 "SW_Push" H 3725 7319 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-Hotswap-guide" H 3725 7325 50  0001 C CNN
+F 3 "~" H 3725 7325 50  0001 C CNN
+	1    3725 7125
+	1    0    0    -1  
+$EndComp
+Connection ~ 3925 7425
+Wire Wire Line
+	3925 7425 5875 7425
+Wire Wire Line
+	2625 7425 3925 7425
+Wire Wire Line
+	3525 7125 3525 6375
+Wire Wire Line
+	3525 6375 4175 6375
+Connection ~ 4175 6375
+Wire Wire Line
+	4175 6375 4175 6725
+$Comp
+L Switch:SW_Push SW_LSPC1.25uSE1
+U 1 1 617750B8
+P 4375 6725
+F 0 "SW_LSPC1.25uSE1" H 4375 7010 50  0000 C CNN
+F 1 "SW_Push" H 4375 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide" H 4375 6925 50  0001 C CNN
+F 3 "~" H 4375 6925 50  0001 C CNN
+	1    4375 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 6725 4575 6900
+Connection ~ 4175 6725
+Wire Wire Line
+	4175 6725 4175 6900
+Connection ~ 4575 6900
 $EndSCHEMATC

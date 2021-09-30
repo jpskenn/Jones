@@ -3380,7 +3380,7 @@ Wire Wire Line
 	7175 6275 8475 6275
 Connection ~ 3275 7075
 Wire Wire Line
-	2875 5825 2875 6900
+	2875 5825 2875 6725
 Wire Wire Line
 	6525 7425 7825 7425
 $Comp
@@ -4015,7 +4015,7 @@ F 3 "~" H 9975 11100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4175 5825 4175 6900
+	4175 5825 4175 6375
 Connection ~ 6775 6900
 Wire Wire Line
 	6775 6900 6775 7075
@@ -4410,8 +4410,6 @@ $EndComp
 Wire Wire Line
 	5875 6900 5875 7075
 Connection ~ 5875 7075
-Wire Wire Line
-	2625 7425 5875 7425
 $Comp
 L Connector_Generic:Conn_01x03 LED_STRIP1
 U 1 1 6116C5B2
@@ -4580,4 +4578,73 @@ Connection ~ 1325 3325
 Connection ~ 1325 3125
 Wire Wire Line
 	1325 3125 1325 3325
+$Comp
+L Switch:SW_Push SW_LWIN1.25uSE1
+U 1 1 6158BD01
+P 3075 6725
+F 0 "SW_LWIN1.25uSE1" H 3075 7010 50  0000 C CNN
+F 1 "SW_Push" H 3075 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide-Rotate" H 3075 6925 50  0001 C CNN
+F 3 "~" H 3075 6925 50  0001 C CNN
+	1    3075 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 6900 3275 6725
+Connection ~ 2875 6725
+Wire Wire Line
+	2875 6725 2875 6900
+Connection ~ 3275 6900
+$Comp
+L Device:D D20
+U 1 1 615F2321
+P 3925 7275
+F 0 "D20" V 3971 7195 50  0000 R CNN
+F 1 "D" V 3880 7195 50  0000 R CNN
+F 2 "locallib:D_SOD-123_bold_marking" H 3925 7275 50  0001 C CNN
+F 3 "~" H 3925 7275 50  0001 C CNN
+F 4 "C81598" H 3925 7275 50  0001 C CNN "LCSC"
+	1    3925 7275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_LALT1uSE1
+U 1 1 615F2327
+P 3725 7125
+F 0 "SW_LALT1uSE1" H 3725 7410 50  0000 C CNN
+F 1 "SW_Push" H 3725 7319 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3725 7325 50  0001 C CNN
+F 3 "~" H 3725 7325 50  0001 C CNN
+	1    3725 7125
+	1    0    0    -1  
+$EndComp
+Connection ~ 3925 7425
+Wire Wire Line
+	3925 7425 5875 7425
+Wire Wire Line
+	2625 7425 3925 7425
+Wire Wire Line
+	3525 7125 3525 6375
+Wire Wire Line
+	3525 6375 4175 6375
+Connection ~ 4175 6375
+Wire Wire Line
+	4175 6375 4175 6725
+$Comp
+L Switch:SW_Push SW_LSPC1.25uSE1
+U 1 1 617750B8
+P 4375 6725
+F 0 "SW_LSPC1.25uSE1" H 4375 7010 50  0000 C CNN
+F 1 "SW_Push" H 4375 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-Hotswap-guide" H 4375 6925 50  0001 C CNN
+F 3 "~" H 4375 6925 50  0001 C CNN
+	1    4375 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 6725 4575 6900
+Connection ~ 4175 6725
+Wire Wire Line
+	4175 6725 4175 6900
+Connection ~ 4575 6900
 $EndSCHEMATC
