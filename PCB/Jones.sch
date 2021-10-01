@@ -4632,4 +4632,69 @@ Wire Wire Line
 Connection ~ 13475 3175
 Wire Wire Line
 	13475 2925 13475 2875
+$Comp
+L Raspberry-PI:Pico U3
+U 1 1 61E8F7DE
+P 11800 3950
+F 0 "U3" H 11800 5165 50  0000 C CNN
+F 1 "Pico" H 11800 5074 50  0000 C CNN
+F 2 "Raspberry-PI:RPi_Pico_TH_no_NPTH_SWD_less_Silk" V 11800 3950 50  0001 C CNN
+F 3 "" H 11800 3950 50  0001 C CNN
+	1    11800 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11100 3000 0    50   Input ~ 0
+pin0
+Text GLabel 11100 3100 0    50   Input ~ 0
+pin1
+Text GLabel 11100 3300 0    50   Input ~ 0
+pin2
+Text GLabel 11100 3400 0    50   Input ~ 0
+pin3
+Text GLabel 11100 3500 0    50   Input ~ 0
+pin4
+Text GLabel 11100 3900 0    50   Input ~ 0
+pin7
+Text GLabel 11100 4000 0    50   Input ~ 0
+pin8
+Text GLabel 11100 3800 0    50   Input ~ 0
+pin6
+Text GLabel 11100 3600 0    50   Input ~ 0
+pin5
+Text GLabel 11100 4100 0    50   Input ~ 0
+pin9
+NoConn ~ 12500 3000
+NoConn ~ 12500 3100
+NoConn ~ 12500 3200
+NoConn ~ 12500 3300
+NoConn ~ 12500 3400
+NoConn ~ 12500 3500
+NoConn ~ 12500 3600
+NoConn ~ 12500 3700
+NoConn ~ 12500 3800
+NoConn ~ 12500 3900
+NoConn ~ 12500 4000
+NoConn ~ 12500 4100
+NoConn ~ 13550 3250
+NoConn ~ 12500 4200
+NoConn ~ 12500 4300
+NoConn ~ 12500 4400
+NoConn ~ 12500 4500
+NoConn ~ 12500 4600
+NoConn ~ 12500 4700
+NoConn ~ 12500 4800
+NoConn ~ 12500 4900
+NoConn ~ 11100 4200
+NoConn ~ 11100 3700
+NoConn ~ 11100 3200
+NoConn ~ 11100 4700
+NoConn ~ 11100 4300
+NoConn ~ 11100 4400
+NoConn ~ 11100 4500
+NoConn ~ 11100 4600
+NoConn ~ 11100 4800
+NoConn ~ 11100 4900
+NoConn ~ 11700 5100
+NoConn ~ 11800 5100
+NoConn ~ 11900 5100
 $EndSCHEMATC
