@@ -288,7 +288,6 @@ F 3 "" H 14625 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14625 1450 14625 1575
-NoConn ~ 14125 2475
 $Comp
 L power:+5V #PWR011
 U 1 1 5DC2F453
@@ -4612,4 +4611,25 @@ Connection ~ 7425 6900
 Wire Wire Line
 	7425 6900 7425 7075
 Connection ~ 7825 7075
+Text GLabel 14125 2475 0    50   Input ~ 0
+AREF
+Text GLabel 13475 2875 1    50   Input ~ 0
+AREF
+$Comp
+L Device:C_Small C8
+U 1 1 61617E40
+P 13475 3025
+F 0 "C8" H 13485 3095 50  0000 L CNN
+F 1 "0.1uF" H 13485 2945 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13475 3025 50  0001 C CNN
+F 3 "" H 13475 3025 50  0001 C CNN
+F 4 "C49678" H 13475 3025 50  0001 C CNN "LCSC"
+	1    13475 3025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13475 3125 13475 3175
+Connection ~ 13475 3175
+Wire Wire Line
+	13475 2925 13475 2875
 $EndSCHEMATC
