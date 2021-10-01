@@ -2149,7 +2149,7 @@ U 1 1 5F5D094E
 P 8275 7075
 F 0 "SW_RALT1.5u1" H 8275 7360 50  0000 C CNN
 F 1 "SW_Push" H 8275 7269 50  0000 C CNN
-F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide" H 8275 7275 50  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.5U-Hotswap-guide-Rotate" H 8275 7275 50  0001 C CNN
 F 3 "~" H 8275 7275 50  0001 C CNN
 	1    8275 7075
 	1    0    0    -1  
@@ -2925,7 +2925,7 @@ Wire Wire Line
 	7425 4625 7425 5825
 Connection ~ 7425 5825
 Wire Wire Line
-	7425 5825 7425 7075
+	7425 5825 7425 6900
 Connection ~ 7825 6175
 Wire Wire Line
 	7825 6175 9125 6175
@@ -2959,7 +2959,7 @@ Connection ~ 8475 7525
 Wire Wire Line
 	8475 7525 9775 7525
 Wire Wire Line
-	8075 5825 8075 6725
+	8075 5825 8075 6550
 Wire Wire Line
 	8725 1475 8725 2075
 Connection ~ 8725 2075
@@ -3380,7 +3380,7 @@ Wire Wire Line
 	7175 6275 8475 6275
 Connection ~ 3275 7075
 Wire Wire Line
-	2875 5825 2875 6900
+	2875 5825 2875 6725
 Wire Wire Line
 	6525 7425 7825 7425
 $Comp
@@ -3495,237 +3495,27 @@ Text GLabel 9575 9075 0    50   Input ~ 0
 SCL
 Text GLabel 9575 8975 0    50   Input ~ 0
 SDA
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P0
-U 1 1 60A4B967
-P 10625 2425
-F 0 "EXT_P0" H 10705 2467 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 2376 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 2425 50  0001 C CNN
-F 3 "~" H 10625 2425 50  0001 C CNN
-	1    10625 2425
-	1    0    0    -1  
-$EndComp
-Connection ~ 10425 2425
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P5
-U 1 1 60A4CD39
-P 10625 2525
-F 0 "EXT_P5" H 10705 2567 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 2476 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 2525 50  0001 C CNN
-F 3 "~" H 10625 2525 50  0001 C CNN
-	1    10625 2525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10425 2525 9775 2525
 Connection ~ 9775 2525
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P1
-U 1 1 60AB0114
-P 10625 3675
-F 0 "EXT_P1" H 10705 3717 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 3626 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 3675 50  0001 C CNN
-F 3 "~" H 10625 3675 50  0001 C CNN
-	1    10625 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P6
-U 1 1 60AB011A
-P 10625 3775
-F 0 "EXT_P6" H 10705 3817 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 3726 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 3775 50  0001 C CNN
-F 3 "~" H 10625 3775 50  0001 C CNN
-	1    10625 3775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10425 3775 9775 3775
 Connection ~ 9775 3775
 Wire Wire Line
 	9125 3675 10425 3675
 Connection ~ 9125 3675
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P2
-U 1 1 60B78AB4
-P 10625 4925
-F 0 "EXT_P2" H 10705 4967 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 4876 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 4925 50  0001 C CNN
-F 3 "~" H 10625 4925 50  0001 C CNN
-	1    10625 4925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P7
-U 1 1 60B78ABA
-P 10625 5025
-F 0 "EXT_P7" H 10705 5067 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 4976 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 5025 50  0001 C CNN
-F 3 "~" H 10625 5025 50  0001 C CNN
-	1    10625 5025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9775 5025 10425 5025
 Connection ~ 9775 5025
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P3
-U 1 1 60C0E797
-P 10625 6175
-F 0 "EXT_P3" H 10705 6217 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 6126 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 6175 50  0001 C CNN
-F 3 "~" H 10625 6175 50  0001 C CNN
-	1    10625 6175
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P8
-U 1 1 60C0E79D
-P 10625 6275
-F 0 "EXT_P8" H 10705 6317 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 6226 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 6275 50  0001 C CNN
-F 3 "~" H 10625 6275 50  0001 C CNN
-	1    10625 6275
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10425 6275 9775 6275
 Connection ~ 9775 6275
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P4
-U 1 1 60C7253E
-P 10625 7425
-F 0 "EXT_P4" H 10705 7467 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 7376 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 7425 50  0001 C CNN
-F 3 "~" H 10625 7425 50  0001 C CNN
-	1    10625 7425
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_P9
-U 1 1 60C72544
-P 10625 7525
-F 0 "EXT_P9" H 10705 7567 50  0000 L CNN
-F 1 "Conn_01x01" H 10705 7476 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10625 7525 50  0001 C CNN
-F 3 "~" H 10625 7525 50  0001 C CNN
-	1    10625 7525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10425 7525 9775 7525
 Connection ~ 9775 7525
 Wire Wire Line
 	925  7075 925  7625
 Connection ~ 925  7075
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP8
-U 1 1 60DD63ED
-P 2225 7825
-F 0 "EXT_DP8" V 2097 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 2188 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2225 7825 50  0001 C CNN
-F 3 "~" H 2225 7825 50  0001 C CNN
-	1    2225 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP4
-U 1 1 60E07EE7
-P 2875 7825
-F 0 "EXT_DP4" V 2747 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 2838 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2875 7825 50  0001 C CNN
-F 3 "~" H 2875 7825 50  0001 C CNN
-	1    2875 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP0
-U 1 1 60E7FA4E
-P 4175 7825
-F 0 "EXT_DP0" V 4047 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 4138 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4175 7825 50  0001 C CNN
-F 3 "~" H 4175 7825 50  0001 C CNN
-	1    4175 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP6
-U 1 1 60EB18EB
-P 5475 7825
-F 0 "EXT_DP6" V 5347 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 5438 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5475 7825 50  0001 C CNN
-F 3 "~" H 5475 7825 50  0001 C CNN
-	1    5475 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP5
-U 1 1 60EE36D9
-P 6125 7825
-F 0 "EXT_DP5" V 5997 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 6088 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6125 7825 50  0001 C CNN
-F 3 "~" H 6125 7825 50  0001 C CNN
-	1    6125 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP2
-U 1 1 60F1572E
-P 6775 7825
-F 0 "EXT_DP2" V 6647 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 6738 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6775 7825 50  0001 C CNN
-F 3 "~" H 6775 7825 50  0001 C CNN
-	1    6775 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP3
-U 1 1 60F4752D
-P 8075 7825
-F 0 "EXT_DP3" V 7947 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 8038 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8075 7825 50  0001 C CNN
-F 3 "~" H 8075 7825 50  0001 C CNN
-	1    8075 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP7
-U 1 1 60F795D2
-P 8725 7825
-F 0 "EXT_DP7" V 8597 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 8688 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8725 7825 50  0001 C CNN
-F 3 "~" H 8725 7825 50  0001 C CNN
-	1    8725 7825
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP1
-U 1 1 60FAB664
-P 10025 7825
-F 0 "EXT_DP1" V 9897 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 9988 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10025 7825 50  0001 C CNN
-F 3 "~" H 10025 7825 50  0001 C CNN
-	1    10025 7825
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10025 7075 10025 7625
 Connection ~ 10025 7075
@@ -4015,7 +3805,7 @@ F 3 "~" H 9975 11100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4175 5825 4175 6900
+	4175 5825 4175 6375
 Connection ~ 6775 6900
 Wire Wire Line
 	6775 6900 6775 7075
@@ -4410,8 +4200,6 @@ $EndComp
 Wire Wire Line
 	5875 6900 5875 7075
 Connection ~ 5875 7075
-Wire Wire Line
-	2625 7425 5875 7425
 $Comp
 L Connector_Generic:Conn_01x03 LED_STRIP1
 U 1 1 6116C5B2
@@ -4483,17 +4271,6 @@ Wire Wire Line
 Wire Wire Line
 	8475 4225 8475 4400
 Connection ~ 8475 4400
-$Comp
-L Connector_Generic:Conn_01x01 EXT_DP9
-U 1 1 60CD6E89
-P 925 7825
-F 0 "EXT_DP9" V 797 7905 50  0000 L CNN
-F 1 "Conn_01x01" V 888 7905 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 925 7825 50  0001 C CNN
-F 3 "~" H 925 7825 50  0001 C CNN
-	1    925  7825
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	14625 1575 14725 1575
 Wire Wire Line
@@ -4580,4 +4357,259 @@ Connection ~ 1325 3325
 Connection ~ 1325 3125
 Wire Wire Line
 	1325 3125 1325 3325
+$Comp
+L Switch:SW_Push SW_LWIN1.25uSE1
+U 1 1 6158BD01
+P 3075 6725
+F 0 "SW_LWIN1.25uSE1" H 3075 7010 50  0000 C CNN
+F 1 "SW_Push" H 3075 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 3075 6925 50  0001 C CNN
+F 3 "~" H 3075 6925 50  0001 C CNN
+	1    3075 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 6900 3275 6725
+Connection ~ 2875 6725
+Wire Wire Line
+	2875 6725 2875 6900
+Connection ~ 3275 6900
+$Comp
+L Device:D D20
+U 1 1 615F2321
+P 3925 7275
+F 0 "D20" V 3971 7195 50  0000 R CNN
+F 1 "D" V 3880 7195 50  0000 R CNN
+F 2 "locallib:D_SOD-123_bold_marking" H 3925 7275 50  0001 C CNN
+F 3 "~" H 3925 7275 50  0001 C CNN
+F 4 "C81598" H 3925 7275 50  0001 C CNN "LCSC"
+	1    3925 7275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW_LALT1uSE1
+U 1 1 615F2327
+P 3725 7125
+F 0 "SW_LALT1uSE1" H 3725 7410 50  0000 C CNN
+F 1 "SW_Push" H 3725 7319 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 3725 7325 50  0001 C CNN
+F 3 "~" H 3725 7325 50  0001 C CNN
+	1    3725 7125
+	1    0    0    -1  
+$EndComp
+Connection ~ 3925 7425
+Wire Wire Line
+	3925 7425 5875 7425
+Wire Wire Line
+	2625 7425 3925 7425
+Wire Wire Line
+	3525 7125 3525 6375
+Wire Wire Line
+	3525 6375 4175 6375
+Connection ~ 4175 6375
+Wire Wire Line
+	4175 6375 4175 6725
+$Comp
+L Switch:SW_Push SW_LSPC1.25uSE1
+U 1 1 617750B8
+P 4375 6725
+F 0 "SW_LSPC1.25uSE1" H 4375 7010 50  0000 C CNN
+F 1 "SW_Push" H 4375 6919 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED" H 4375 6925 50  0001 C CNN
+F 3 "~" H 4375 6925 50  0001 C CNN
+	1    4375 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 6725 4575 6900
+Connection ~ 4175 6725
+Wire Wire Line
+	4175 6725 4175 6900
+Connection ~ 4575 6900
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP8
+U 1 1 60DD63ED
+P 2225 7825
+F 0 "EXT_DP8" V 2097 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 2188 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2225 7825 50  0001 C CNN
+F 3 "~" H 2225 7825 50  0001 C CNN
+	1    2225 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP4
+U 1 1 60E07EE7
+P 2875 7825
+F 0 "EXT_DP4" V 2747 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 2838 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2875 7825 50  0001 C CNN
+F 3 "~" H 2875 7825 50  0001 C CNN
+	1    2875 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP0
+U 1 1 60E7FA4E
+P 4175 7825
+F 0 "EXT_DP0" V 4047 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 4138 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4175 7825 50  0001 C CNN
+F 3 "~" H 4175 7825 50  0001 C CNN
+	1    4175 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP6
+U 1 1 60EB18EB
+P 5475 7825
+F 0 "EXT_DP6" V 5347 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 5438 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5475 7825 50  0001 C CNN
+F 3 "~" H 5475 7825 50  0001 C CNN
+	1    5475 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP5
+U 1 1 60EE36D9
+P 6125 7825
+F 0 "EXT_DP5" V 5997 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 6088 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6125 7825 50  0001 C CNN
+F 3 "~" H 6125 7825 50  0001 C CNN
+	1    6125 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP2
+U 1 1 60F1572E
+P 6775 7825
+F 0 "EXT_DP2" V 6647 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 6738 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6775 7825 50  0001 C CNN
+F 3 "~" H 6775 7825 50  0001 C CNN
+	1    6775 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP3
+U 1 1 60F4752D
+P 8075 7825
+F 0 "EXT_DP3" V 7947 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 8038 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8075 7825 50  0001 C CNN
+F 3 "~" H 8075 7825 50  0001 C CNN
+	1    8075 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP7
+U 1 1 60F795D2
+P 8725 7825
+F 0 "EXT_DP7" V 8597 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 8688 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8725 7825 50  0001 C CNN
+F 3 "~" H 8725 7825 50  0001 C CNN
+	1    8725 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP1
+U 1 1 60FAB664
+P 10025 7825
+F 0 "EXT_DP1" V 9897 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 9988 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 10025 7825 50  0001 C CNN
+F 3 "~" H 10025 7825 50  0001 C CNN
+	1    10025 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 EXT_DP9
+U 1 1 60CD6E89
+P 925 7825
+F 0 "EXT_DP9" V 797 7905 50  0000 L CNN
+F 1 "Conn_01x01" V 888 7905 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 925 7825 50  0001 C CNN
+F 3 "~" H 925 7825 50  0001 C CNN
+	1    925  7825
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 61BEA744
+P 5725 10775
+F 0 "J4" H 5805 10817 50  0000 L CNN
+F 1 "Conn_01x05" H 5805 10726 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5725 10775 50  0001 C CNN
+F 3 "~" H 5725 10775 50  0001 C CNN
+	1    5725 10775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 61BECD00
+P 6525 10775
+F 0 "J6" H 6605 10817 50  0000 L CNN
+F 1 "Conn_01x05" H 6605 10726 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6525 10775 50  0001 C CNN
+F 3 "~" H 6525 10775 50  0001 C CNN
+	1    6525 10775
+	1    0    0    -1  
+$EndComp
+Text GLabel 5525 10575 0    50   Input ~ 0
+pin0
+Text GLabel 5525 10675 0    50   Input ~ 0
+pin1
+Text GLabel 5525 10775 0    50   Input ~ 0
+pin2
+Text GLabel 5525 10875 0    50   Input ~ 0
+pin3
+Text GLabel 5525 10975 0    50   Input ~ 0
+pin4
+Text GLabel 6325 10775 0    50   Input ~ 0
+pin7
+Text GLabel 6325 10875 0    50   Input ~ 0
+pin8
+Text GLabel 6325 10675 0    50   Input ~ 0
+pin6
+Text GLabel 6325 10575 0    50   Input ~ 0
+pin5
+Text GLabel 6325 10975 0    50   Input ~ 0
+pin9
+$Comp
+L Switch:SW_Push SW_RWIN1.25uSE1
+U 1 1 6202F561
+P 8275 6550
+F 0 "SW_RWIN1.25uSE1" H 8275 6835 50  0000 C CNN
+F 1 "SW_Push" H 8275 6744 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1.25U-NoLED-Rotate" H 8275 6750 50  0001 C CNN
+F 3 "~" H 8275 6750 50  0001 C CNN
+	1    8275 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8475 6550 8475 6725
+Connection ~ 8075 6550
+Wire Wire Line
+	8075 6550 8075 6725
+Connection ~ 8475 6725
+$Comp
+L Switch:SW_Push SW_RALT1uSE1
+U 1 1 62099C53
+P 7625 6900
+F 0 "SW_RALT1uSE1" H 7625 7185 50  0000 C CNN
+F 1 "SW_Push" H 7625 7094 50  0000 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U-NoLED" H 7625 7100 50  0001 C CNN
+F 3 "~" H 7625 7100 50  0001 C CNN
+	1    7625 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 6900 7825 7075
+Connection ~ 7425 6900
+Wire Wire Line
+	7425 6900 7425 7075
+Connection ~ 7825 7075
 $EndSCHEMATC

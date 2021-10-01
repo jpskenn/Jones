@@ -1,4 +1,4 @@
-19824002262229495
+19827268356122495
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -58065,6 +58065,13 @@ MXOnly-1.25U-NoLED
 2
 2
 MX_Alps_Hybrid
+MXOnly-1.25U-NoLED-Rotate
+
+
+0
+2
+2
+MX_Alps_Hybrid
 MXOnly-1.75U
 
 
@@ -58136,6 +58143,13 @@ MXOnly-1U-Hotswap-guide
 2
 MX_Alps_Hybrid
 MXOnly-1U-Hotswap-guide-4pin
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MXOnly-1U-Hotswap-guide-pad-midified
 
 
 0
