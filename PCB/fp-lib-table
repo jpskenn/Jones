@@ -4,4 +4,5 @@
   (lib (name Housings_DFN_QFN)(type KiCad)(uri ${KIPRJMOD}/Housings_DFN_QFN.pretty)(options "")(descr ""))
   (lib (name Jones.local)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
   (lib (name USB4085-GF-A)(type KiCad)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3)(options "")(descr ""))
+  (lib (name lib_PICO)(type KiCad)(uri ${KIPRJMOD}/lib_PICO/MCU_RaspberryPi_and_Boards.pretty)(options "")(descr ""))
 )
