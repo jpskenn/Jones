@@ -5,4 +5,5 @@
   (lib (name USB4085-GF-A)(type Legacy)(uri ${KIPRJMOD}/USB4085-GF-A_REVA-3/USB4085-GF-A_REVA.lib)(options "")(descr ""))
   (lib (name lib_PICO)(type Legacy)(uri ${KIPRJMOD}/lib_PICO/MCU_RaspberryPi_and_Boards.lib)(options "")(descr ""))
   (lib (name lib_LED)(type Legacy)(uri ${KIPRJMOD}/lib_LED/kbd.lib)(options "")(descr ""))
+  (lib (name lib_kbd)(type Legacy)(uri /Users/kenn/Git/swanmatch/keyboard.pretty/kbd.lib)(options "")(descr ""))
 )
