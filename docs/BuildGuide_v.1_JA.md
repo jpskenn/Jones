@@ -110,7 +110,8 @@ Jonesのコンセプトや特徴、ビルド例などについては、[Jones RE
   取り付け確認済みのケースは次の通りです。  
   （これら以外のケースへの取り付けの成功／失敗の報告を募集しております。）
   - [KBDfans TOFU 60% ALUMINUM CASE](https://kbdfans.com/products/kbdfans-tofu-60-aluminum-case)
-  - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/products/pre-order-kbdfans5-transparent-acrylic-cnc-60-case)
+  - [KBDfans 5° FROSTED ACRYLIC CNC 60% CASE](https://kbdfans.com/collections/60-layout-case/products/pre-orderkbdfans-5-60-case)
+  - [KBDfans 5° FIVE DEGREE 60% ALUMINUM CASE](https://kbdfans.com/collections/60-layout-case/products/pre-orderkbdfans-5-60-case)
   - [60% プラスチックケース](https://yushakobo.jp/shop/60-plastic-case/)（簡単な加工が必要）
   - [Jones用ボトムプレート](https://booth.pm/ja/items/3266269)
 
