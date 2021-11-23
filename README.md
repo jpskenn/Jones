@@ -256,6 +256,7 @@ m.teiさんのアレ。
 
 | ビルド例 | 詳細 |
 | --- | :-- |
+| [<img src="./assets/_DSF1073.jpeg" width="300">](./assets/_DSF1073.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: 5° Five Degreee 60% Aluminum, E-Yellow<br>keycaps: DSS Solarlized, DSA Blank Keys, SP Blocker |
 | [<img src="./assets/_DSF0088.jpeg" width="300">](./assets/_DSF0088.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP G20, SP Blocker<br>rotary encoder: EC12E24204A2, knob: K-2605 |
 | [<img src="./assets/_DSF0484.jpeg" width="300">](./assets/_DSF0484.jpeg) | Wideレイアウト 英語配列, カスタムキーキャップ<br>case: Jones用ボトムプレート<br>keycaps: KAT Lucky Jade, SP DSA 2x2 (Block) Key, SP Blocker |
 | [<img src="./assets/_DSF0406.jpeg" width="300">](./assets/_DSF0406.jpeg)| Wideレイアウト 英語配列, 英語104キーキャップ<br>case: TOFU Aluminum, Black<br>keycaps: Qisan PBT Keycaps 108, SP Blocker |
