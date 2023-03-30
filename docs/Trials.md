@@ -2,7 +2,7 @@
 
 試作機の履歴をまとめています。
 
-## v.1 (=v.0.4.2)
+## v.1 (=v.0.4.2), 2021-08-25
 
 - 遊舎工房にて委託販売開始。  
   BOOTHでもボトムプレートのセット品を販売。
@@ -14,7 +14,7 @@
 - Audio用のGPIOピンのメインとサブを入れ替え
 - その他
 
-## v.0.4.1
+## v.0.4.1, 2021-07
 
 - 試作最終型の予定
 - レイアウト調整。最下行から使わないバリエーションを削除。
@@ -27,7 +27,7 @@ v.0.4.1
 Keycap: KAT Lucky Jade, SP DSA 2*2, PIMP MY KEYBOARD Switch Blocker
 Case: Bottom plate kit for Jones
 
-## v.0.4
+## v.0.4, 2021-06
 
 - 世界的な半導体不足により、MCUをATmega32u4-MUから-AUに変更。
 - v.0.2のWideレイアウトを復活させて再編成。
@@ -41,7 +41,7 @@ v.0.4
 Keycap: GMK Pulse, PIMP MY KEYBOARD Switch Blocker
 Case: KBDfans TOFU 60% Aluminum, Black
 
-## v.0.3.2
+## v.0.3.2, 2021-04
 
 - 組み立てやすさを向上。
 - ネジ穴経由で導通する不具合対策
@@ -52,7 +52,7 @@ Jones v.0.3.2
 Keycap: KAT Lucky Jade, PIMP MY KEYBOARD Switch Blocker
 Case: 60% Plastic Case, White
 
-## v.0.3.1
+## v.0.3.1, 2020-11
 
 - v.0.3の課題や不具合解消。
 - オーディオの2音同時発音に対応。
@@ -63,7 +63,7 @@ v.0.3.1
 Keycap: Qisan / Magicforce PBT 108 keycaps
 Case: KBDfans TOFU 60% Aluminum, Black
 
-## v.0.3
+## v.0.3, 2020-10
 
 - [レイアウト変更](http://www.keyboard-layout-editor.com/#/gists/ab35444150ef1aff63ed32bbe2b9a1ef)  
 2U-Wide、Traditionalレイアウトを削除。  
@@ -81,7 +81,7 @@ Jones v.0.3
 Keycap: FILCO Majestouch 交換用カラーキーキャップセット 日本語108キー・かななし・ミルキーブルー  
 Case: 60% Plastic Case, Clear
 
-## v.0.2
+## v.0.2, 2020-08
 
 - レイアウトの試行錯誤を続け、[2U-Wideレイアウト](http://www.keyboard-layout-editor.com/#/gists/3f5424e6560f5de6fa7c19e22f219831)を追加。  
 2U-Wideのホームポジションは肩への負担も減るので気にいっていたが、このレイアウトを覚えると普通のキーボードをまともに打鍵できなくなったため、使用を封印。
@@ -94,7 +94,7 @@ Jones v.0.2
 Keycap: Tai-Hao PBT Backlit The Deep Forest Blue 132 Keys SKU#C22BF301  
 Case: KBDfans TOFU 60% Aluminum, Silver
 
-## v.0.1
+## v.0.1, 2020-07-10
 
 - v.0のレイアウトを元に、[基板に乗せられるレイアウト](http://www.keyboard-layout-editor.com/#/gists/325aaaab8bd5e87bff89b81d67181bea)に調整。  
 - ai03氏の[PCB Designer Guide](https://wiki.ai03.com/books/pcb-design/chapter/pcb-designer-guide)を参考に、基板を設計。  
@@ -105,7 +105,7 @@ Jones v.0.1
 Keycap: Tai-Hao Sakura Michi PBT  
 Case: KBDfans TOFU 60% Aluminum, Black
 
-## v.0
+## v.0, 2020-06-17
 
 試行錯誤の末、2行目と3行目にずれが無いレイアウトが決定。  
 
@@ -115,7 +115,7 @@ KLEで作成したレイアウトを印刷して段ボールに貼り、両面�
 ![Jones v.0](../assets/IMG_1360.jpeg)  
 Jones v.0 モックアップ
 
-## Before v.0
+## Before v.0, 2020-05-27
 
 物理配列について、
 
